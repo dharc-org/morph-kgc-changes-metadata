@@ -20,3 +20,6 @@ __pycache__/
 .DS_Store
 
 *.pyc
+
+src/morph_kgc_changes_metadata_conversions/output_dir/
+src/morph_kgc_changes_metadata_conversions/dataset/

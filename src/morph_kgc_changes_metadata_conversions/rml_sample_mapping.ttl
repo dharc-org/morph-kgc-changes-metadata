@@ -1,0 +1,733 @@
+@prefix aat: <http://vocab.getty.edu/page/aat/> .
+@prefix ex: <https://w3id.org/dharc/ontology/chad-ap/data/example/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://w3id.org/rml/> .
+@prefix morph-kgc: <https://github.com/morph-kgc/morph-kgc/function/built-in.ttl#> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix idlab-fn: <http://example.com/idlab/function/> .
+
+
+
+<#expression_creation>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-expression-creation" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate aat:F28_Expression_Creation ;
+        rr:objectMap [ rr:constant "F28_Expression_Creation" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P9_consists_of ;
+        rr:objectMap [
+            rr:template "ex:{NR}-expression-creation-activity-01" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P32_used_general_technique ;
+        rr:objectMap [
+            rr:template "{o}" ; # Assicurati che non ci siano virgolette qui
+            rr:termType rr:IRI ;
+            rr:termType rr:IRI ;
+            rr:function idlab-fn:convert_to_aat ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_tecnica ;
+                rr:constant "{Tecnica}" ;
+            ] ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lrmoo:R19_created_a_realisation_of ;
+        rr:objectMap [
+            rr:template "ex:{NR}-work" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lrmoo:R17_created ;
+        rr:objectMap [
+            rr:template "ex:{NR}-expression" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P4_has_time-span ;
+        rr:objectMap [
+            rr:template "ex:{Data}" ;
+        ] ;
+    ] .
+
+<#aldrovandi_actor>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:function idlab-fn:normalize_author_name ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_author_name ;
+            rr:constant "{Autore}" ;
+        ] ;
+        rr:template "ex:{s}" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E39_Actor ;
+        rr:objectMap [ rr:constant "crm:E39_Actor" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P70i_is_documented_in ;
+        rr:objectMap [
+            rr:function idlab-fn:extract_documented_in_iri ;
+            rr:parameter [
+                rr:parameter idlab-fn:p_author_name ;
+                rr:constant "{Autore}" ;
+            ] ;
+            rr:template "ex:{o}" ;
+        ] ;
+    ] .
+
+<#expression_creation_activity>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-expression-creation-activity-01" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E7_Activity ;
+        rr:objectMap [ rr:constant "crm:E7_Activity" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P14_carried_out_by ;
+        rr:objectMap [
+            rr:function idlab-fn:normalize_author_name ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_author_name ;
+                rr:constant "{Autore}" ;
+            ] ;
+            rr:template "ex:{o}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:constant "aat:300404387" ;
+        ] ;
+    ] .
+
+<#time_span>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{Data}" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E52_Time-Span ;
+        rr:objectMap [ rr:constant "crm:E52_Time-Span" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P82a_begin_of_the_begin ;
+        rr:objectMap [
+            rr:function idlab-fn:split_year_range_to_dates ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_string_e ;
+                rr:constant "{Data}" ;
+            ] ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_position_e ;
+                rr:constant "start" ;
+            ] ;
+            rr:datatype xsd:dateTime ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P82b_end_of_the_end ;
+        rr:objectMap [
+            rr:function idlab-fn:split_year_range_to_dates ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_string_e ;
+                rr:constant "{Data}" ;
+            ] ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_position_e ;
+                rr:constant "end" ;
+            ] ;
+            rr:datatype xsd:dateTime ;
+        ] ;
+    ] .
+
+<#work_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-work" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a lrmoo:F1_Work ;
+        rr:objectMap [ rr:constant "lrmoo:F1_Work" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P102_has_title ;
+        rr:objectMap [
+            rr:template "ex:{NR}-work-title-01" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P102_has_title ;
+        rr:objectMap [
+            rr:template "ex:{NR}-work-title-02" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lrmoo:R3_is_realised_in ;
+        rr:objectMap [
+            rr:template "ex:{NR}-expression" ;
+        ] ;
+    ] .
+
+<#work_title_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-work-title-01" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E35_Title ;
+        rr:objectMap [ rr:constant "crm:E35_Title" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:constant "aat:300417204" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P190_has_symbolic_content ;
+        rr:objectMap [
+            rr:function idlab-fn:extract_title ;
+            rr:parameter [
+                rr:parameter idlab-fn:p_title_original ;
+                rr:constant "{Titolo originale}" ;
+            ] ;
+            rr:language "it" ;
+        ] ;
+    ] .
+
+<#english_and_exhibition_title_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-work-title-02" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E35_Title ;
+        rr:objectMap [ rr:constant "crm:E35_Title" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:constant "aat:300417207" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P190_has_symbolic_content ;
+        rr:objectMap [
+            rr:constant "{Titolo museale}" ;
+            rr:language "it" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P190_has_symbolic_content ;
+        rr:objectMap [
+            rr:constant "{Titolo @en}" ;
+            rr:language "en" ;
+        ] ;
+    ] .
+
+<#expression_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-expression" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a lrmoo:F2_Expression ;
+        rr:objectMap [ rr:constant "lrmoo:F2_Expression" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P129_is_about ;
+        rr:objectMap [
+            rr:template "ex:{Soggetti}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lrmoo:R4i_is_embodied_in ;
+        rr:objectMap [
+            rr:template "ex:{NR}-manifestation" ;
+        ] ;
+    ] .
+
+<#subject_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{Soggetti}" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E73_Information_Object ;
+        rr:objectMap [ rr:constant "crm:E73_Information_Object" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:constant "aat:300404126" ;
+        ] ;
+    ] .
+
+<#manifestation_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-manifestation" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a lrmoo:F3_Manifestation ;
+        rr:objectMap [ rr:constant "lrmoo:F3_Manifestation" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:function idlab-fn:convert_documentary_type_to_aat ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_documentary_type ;
+                rr:constant "{Tipologia documentaria}" ;
+            ] ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lrmoo:R7i_is_exemplified_by ;
+        rr:objectMap [
+            rr:template "ex:{NR}-item" ;
+        ] ;
+    ] .
+
+<#manifestation_license_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-manifestation-license" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E73_Information_Object ;
+        rr:objectMap [ rr:constant "crm:E73_Information_Object" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:constant "aat:300435434" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P67_refers_to ;
+        rr:objectMap [
+            rr:template "ex:{NR}-manifestation" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P70i_is_documented_in ;
+        rr:objectMap [
+            rr:constant "<http://rightsstatements.org/vocab/InC/1.0/>" ;
+        ] ;
+    ] .
+
+<#opera_parente_work_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:function idlab-fn:normalize_and_suffix ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_name ;
+            rr:constant "{Titolo opera parente}" ;
+        ] ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_suffix ;
+            rr:constant "-work" ;
+        ] ;
+        rr:template "ex:{s}" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a lrmoo:F1_Work ;
+        rr:objectMap [ rr:constant "lrmoo:F1_Work" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lrmoo:R10_has_member ;
+        rr:objectMap [
+            rr:template "ex:{NR}-work" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lrmoo:R3_is_realised_in ;
+        rr:objectMap [
+            rr:function idlab-fn:normalize_and_suffix ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_name ;
+                rr:constant "{Titolo opera parente}" ;
+            ] ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_suffix ;
+                rr:constant "-expression" ;
+            ] ;
+            rr:template "ex:{o}" ;
+        ] ;
+    ] .
+
+<#opera_parente_expression_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:function idlab-fn:normalize_and_suffix ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_name ;
+            rr:constant "{Titolo opera parente}" ;
+        ] ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_suffix ;
+            rr:constant "-expression" ;
+        ] ;
+        rr:template "ex:{s}" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a lrmoo:F2_Expression ;
+        rr:objectMap [ rr:constant "lrmoo:F2_Expression" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lrmoo:R4i_is_embodied_in ;
+        rr:objectMap [
+            rr:function idlab-fn:normalize_and_suffix ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_name ;
+                rr:constant "{Titolo opera parente}" ;
+            ] ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_suffix ;
+                rr:constant "-manifestation" ;
+            ] ;
+            rr:template "ex:{o}" ;
+        ] ;
+    ] .
+
+<#opera_parente_manifestation_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:function idlab-fn:normalize_and_suffix ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_name ;
+            rr:constant "{Titolo opera parente}" ;
+        ] ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_suffix ;
+            rr:constant "-manifestation" ;
+        ] ;
+        rr:template "ex:{s}" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a lrmoo:F3_Manifestation ;
+        rr:objectMap [ rr:constant "lrmoo:F3_Manifestation" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:function idlab-fn:convert_documentary_type_to_aat ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_documentary_type ;
+                rr:constant "{Tipologia opera parente}" ;
+            ] ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate lrmoo:R7i_is_exemplified_by ;
+        rr:objectMap [
+            rr:function idlab-fn:normalize_and_suffix ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_name ;
+                rr:constant "{Titolo opera parente}" ;
+            ] ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_suffix ;
+                rr:constant "-item" ;
+            ] ;
+            rr:template "ex:{o}" ;
+        ] ;
+    ] .
+
+<#opera_parente_item_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:function idlab-fn:normalize_and_suffix ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_name ;
+            rr:constant "{Titolo opera parente}" ;
+        ] ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_suffix ;
+            rr:constant "-item" ;
+        ] ;
+        rr:template "ex:{s}" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a lrmoo:F5_Item ;
+        rr:objectMap [ rr:constant "lrmoo:F5_Item" ] ;
+    ] .
+
+<#item_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:function idlab-fn:normalize_and_suffix ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_name ;
+            rr:constant "{NR}" ;
+        ] ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_suffix ;
+            rr:constant "-item" ;
+        ] ;
+        rr:template "ex:{s}" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a lrmoo:F5_Item ;
+        rr:objectMap [ rr:constant "lrmoo:F5_Item" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P1_is_identified_by ;
+        rr:objectMap [
+            rr:function idlab-fn:normalize_and_suffix ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_name ;
+                rr:constant "{NR}" ;
+            ] ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_suffix ;
+                rr:constant "-item-identifier-01" ;
+            ] ;
+            rr:template "ex:{o}" ;
+        ] ;
+        rr:objectMap [
+            rr:function idlab-fn:normalize_and_suffix ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_name ;
+                rr:constant "{NR}" ;
+            ] ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_suffix ;
+                rr:constant "-item-identifier-02" ;
+            ] ;
+            rr:template "ex:{o}" ;
+        ] ;
+        rr:objectMap [
+            rr:function idlab-fn:normalize_and_suffix ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_name ;
+                rr:constant "{NR}" ;
+            ] ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_suffix ;
+                rr:constant "-item-identifier-03" ;
+            ] ;
+            rr:template "ex:{o}" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P3_has_note ;
+        rr:objectMap [
+            rr:constant "{Didascalia}" ;
+            rr:datatype rdfs:Literal ;
+        ] ;
+    ] .
+
+<#identifier_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:function idlab-fn:normalize_and_suffix ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_name ;
+            rr:constant "{NR}" ;
+        ] ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_suffix ;
+            rr:constant "-item-identifier-01" ;
+        ] ;
+        rr:template "ex:{s}" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E42_Identifier ;
+        rr:objectMap [ rr:constant "crm:E42_Identifier" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:constant "aat:300312355" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P190_has_symbolic_content ;
+        rr:objectMap [
+            rr:constant "{NR}" ;
+            rr:datatype rdfs:Literal ;
+        ] ;
+    ] .
+
+<#identifier_mapping_volume>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-item-identifier-02" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E42_Identifier ;
+        rr:objectMap [ rr:constant "crm:E42_Identifier" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:constant "aat:300445021" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P190_has_symbolic_content ;
+        rr:objectMap [
+            rr:constant "{Volume}" ;
+            rr:datatype rdfs:Literal ;
+        ] ;
+    ] .
+
+<#identifier_mapping_03>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-item-identifier-03" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E42_Identifier ;
+        rr:objectMap [ rr:constant "crm:E42_Identifier" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:constant "aat:300404704" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P190_has_symbolic_content ;
+        rr:objectMap [
+            rr:constant "{Collocazione}" ;
+            rr:datatype rdfs:Literal ;
+        ] ;
+    ] .
+
+<#curation_activity_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:template "ex:{NR}-item-curation" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E7_Activity ;
+        rr:objectMap [ rr:constant "crm:E7_Activity" ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P2_has_type ;
+        rr:objectMap [
+            rr:constant "aat:300054277" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P16_used_specific_object ;
+        rr:objectMap [
+            rr:template "ex:{NR}-item" ;
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate crm:P14_carried_out_by ;
+        rr:objectMap [
+            rr:function idlab-fn:normalize_and_suffix ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_name ;
+                rr:constant "{Ente conservatore}" ;
+            ] ;
+            rr:parameter [
+                rr:parameter idlab-fn:param_suffix ;
+                rr:constant "" ;
+            ] ;
+            rr:template "ex:{o}" ;
+        ] ;
+    ] .
+
+<#bub_actor_mapping>
+    a rml:LogicalSource ;
+    rml:source "sample_input_file.csv" ;
+    rml:referenceFormulation rml:CSV ;
+    rml:iterator "$" ;
+    rr:subjectMap [
+        rr:function idlab-fn:normalize_and_suffix ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_name ;
+            rr:constant "{Ente conservatore}" ;
+        ] ;
+        rr:parameter [
+            rr:parameter idlab-fn:param_suffix ;
+            rr:constant "" ;
+        ] ;
+        rr:template "ex:{s}" ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate a crm:E39_Actor ;
+        rr:objectMap [ rr:constant "crm:E39_Actor" ] ;
+    ] .
