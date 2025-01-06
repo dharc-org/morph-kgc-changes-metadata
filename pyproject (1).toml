@@ -1,0 +1,116 @@
+[tool.poetry]
+name = "morph_kgc_changes_metadata_conversions"
+version = "0.1.0"
+description = "Morph-kgc-based software for converting metadata to RDF, to exploit semantic web technologies in the context of CHANGES (SPOKE 4 - “Virtual technologies for museums and art collections”) digitalization processes"
+authors = ["ariannamorettj <arianna.moretti2@studio.unibo.it>"]
+readme = "README.md"
+packages = [{ include = "morph_kgc_changes_metadata_conversions" }]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+pandas = ">=1.3.0,<2.0.0"
+rdflib = ">=6.1.1, <8.0.0"
+pyoxigraph = ">=0.3.0, <0.4.0"
+ruamel-yaml = ">=0.18.0, <0.19.0"
+jsonpath-python = ">=1.0.6, <2.0.0"
+elementpath = ">=4.0.0, <5.0.0"
+duckdb = ">=0.10.0, <2.0.0"
+falcon = "==3.1.3"
+urllib3 = ">=1.26.14, <1.27.0"
+slugify = ">=0.0.1"
+
+[build-system]
+requires = ["hatchling>=1.11.0", "poetry-core"]
+build-backend = "hatchling.build"
+
+[project]
+name = "morph_kgc_changes_metadata_conversions"
+version = "0.1.0"
+packages = [{ include = "morph_kgc_changes_metadata_conversions" }]
+description = "Morph-kgc-based software for converting metadata to RDF, to exploit semantic web technologies in the context of CHANGES (SPOKE 4 - “Virtual technologies for museums and art collections”) digitalization processes"
+readme = "README.md"
+keywords = ["Morph-KGC", "RDF", "R2RML", "RML", "RML-star", "Knowledge Graph", "Data Integration"]
+authors = [
+  { name = "Julián Arenas-Guerrero", email = "julian.arenas.guerrero@upm.es" },
+  { name = "ariannamorettj", email = "arianna.moretti2@studio.unibo.it" }
+]
+license = "Apache-2.0"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: Science/Research",
+  "Topic :: Software Development :: Pre-processors",
+  "Topic :: Database",
+  "Topic :: Utilities",
+  "Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator"
+]
+requires-python = ">=3.8,<4.0"
+
+[tool.hatch.build.targets.wheel]
+packages = ["morph_kgc_changes_metadata_conversions"]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8.0.0, <9.0.0",
+  "SQLAlchemy>=2.0.0, <3.0.0",
+  "sql-metadata>=2.6.0, <3.0.0",
+  "openpyxl>=3.0.0, <4.0.0",
+  "odfpy>=1.4.1, <2.0.0",
+  "pyarrow>=14.0.0, <16.0.0"
+]
+kafka = ["kafka-python>=2.0.2, <3.0.0"]
+sqlite = [
+  "SQLAlchemy>=2.0.0, <3.0.0",
+  "sql-metadata>=2.6.0, <3.0.0"
+]
+mysql = [
+  "pymysql>=1.1.0, <2.0.0",
+  "cryptography>=42.0.0, <43.0.0",
+  "SQLAlchemy>=2.0.0, <3.0.0",
+  "sql-metadata>=2.6.0, <3.0.0"
+]
+postgresql = [
+  "psycopg[binary]>=3.0.0, <4.0.0",
+  "SQLAlchemy>=2.0.0, <3.0.0",
+  "sql-metadata>=2.6.0, <3.0.0"
+]
+oracle = [
+  "cx-Oracle>=8.3.0, <9.0.0",
+  "SQLAlchemy>=2.0.0, <3.0.0",
+  "sql-metadata>=2.6.0, <3.0.0"
+]
+mssql = [
+  "pymssql>=2.2.7, <3.0.0",
+  "SQLAlchemy>=2.0.0, <3.0.0",
+  "sql-metadata>=2.6.0, <3.0.0"
+]
+excel = [
+  "openpyxl>=3.0.0, <4.0.0",
+  "odfpy>=1.4.1, <2.0.0"
+]
+tabular = ["pyarrow>=14.0.0, <16.0.0"]
+spss = ["pyreadstat>=1.2.0, <2.0.0"]
+kuzu = ["kuzu>=0.4.2, <2.0.0"]
+neo4j = ["neo4j>=5.20.0, <6.0.0"]
+all = [
+  "morph_kgc[kafka]",
+  "morph_kgc[mysql]",
+  "morph_kgc[postgresql]",
+  "morph_kgc[oracle]",
+  "morph_kgc[mssql]",
+  "morph_kgc[excel]",
+  "morph_kgc[tabular]",
+  "morph_kgc[spss]",
+  "morph_kgc[kuzu]",
+  "morph_kgc[neo4j]"
+]

@@ -14,8 +14,7 @@ prefixes:
   morph-kgc: "https://github.com/morph-kgc/morph-kgc/function/built-in.ttl#"
   grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
   idlab-fn: "http://example.com/idlab/function/"
-  idlab-fn-m: "https://w3id.org/imec/idlab/function-mapping#"
-
+  idlab-fn-m: "https://w3id.org/imec/idlab/function-mapping#"   # src/morph_kgc_changes_metadata_conversions/dataset/samples/aldrovandi_sample_input_file.csv
 
 mappings:
   expression_creation:
@@ -29,7 +28,6 @@ mappings:
         - parameter: idlab-fn:param_suffix
           value: "-expression-creation"
       template: "ex:$(s)"
-
     po:
       - [ a, "lrmoo:F28_Expression_Creation" ]
       - p: crm:P9_consists_of
@@ -79,7 +77,7 @@ mappings:
       parameters:
         - parameter: idlab-fn:param_author_name
           value: $(Autore)
-      template: "ex:$(s)"  # Combina il prefisso 'ex:' con il risultato della UDF
+      template: "ex:$(s)" # Combina il prefisso 'ex:' con il risultato della UDF
     po:
       - [ a, "crm:E39_Actor" ]
       - p: crm:P70i_is_documented_in
@@ -128,8 +126,7 @@ mappings:
               value: $(Data)
             - parameter: idlab-fn:param_position_e
               value: "start"
-        # Specifica il tipo di dato xsd:dateTime
-        datatype: xsd:dateTime
+        datatype: xsd:dateTime # Specifica il tipo di dato xsd:dateTime
       - p: crm:P82b_end_of_the_end
         o:
           function: idlab-fn:split_year_range_to_dates
@@ -138,8 +135,7 @@ mappings:
               value: $(Data)
             - parameter: idlab-fn:param_position_e
               value: "end"
-        # Specifica il tipo di dato xsd:dateTime
-        datatype: xsd:dateTime
+        datatype: xsd:dateTime # Specifica il tipo di dato xsd:dateTime
 
   work_mapping:
     sources:
@@ -165,7 +161,7 @@ mappings:
               value: "-work-title-01"
           template: "ex:$(o)"
 
-      - p: crm:P102_has_title
+      - p: crm:P102_has_title  # an original title (aat:300417204) or an exhibition title (aat:300417207)
         o:
           function: idlab-fn:normalize_and_suffix
           parameters:
@@ -185,7 +181,6 @@ mappings:
               value: "-expression"
           template: "ex:$(o)"
 
-  # an original title (aat:300417204) or an exhibition title (aat:300417207)
 
   work_title_mapping:
     sources:
@@ -1010,3 +1005,17 @@ mappings:
 # GESTIONE IDENTIFICATIVI ULAN E VIAF
 # PROPRIETà RECIPROCHE
 # COME SI COLLEGANO GLI ATTORI ALLE ATTIVITà ALLE ENTITà???
+
+
+#ex:32-expression-creation a lrmoo:F28_Expression_Creation ;
+#    crm:P9_consists_of ex:32-expression-creation-activity-01 ;
+#    crm:P32_used_general_technique aat:300054196 ;
+#    lrmoo:R19_created_a_realisation_of ex:32-work ;
+#    lrmoo:R17_created ex:32-expression ;
+#    crm:P4_has_time-span ex:1500-1599 .
+#
+#
+#ex:32-expression-creation-activity-01 a crm:E7_Activity ;
+#    crm:P2_has_type aat:300404387 ;
+#    crm:P14_carried_out_by ex:ulisse-aldrovandi .
+#
