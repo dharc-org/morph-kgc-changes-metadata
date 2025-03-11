@@ -14,6 +14,8 @@ udf_dict = {}
 ########################   BUILT-IN SCALAR FUNCTION DECORATOR   ##############
 ##############################################################################
 
+#TO BE EXTRACTED FROM CONFIG FILE
+prefisso = "https://w3id.org/changes/4/aldrovandi/"
 
 def bif(fun_id, **params):
     """
@@ -623,10 +625,7 @@ def normalize_and_convert_to_iri(str_param):
     str_param = str_param.replace(' ', '-')
     str_param = str_param.strip('-')
     str_param = re.sub(r"-+", "-", str_param)
-    if not str_param.startswith("ex:"):
-        return [f"ex:{str_param}"]
-    else:
-        return [str_param]
+    return str_param
 
 
 
@@ -683,17 +682,37 @@ def generate_sequential_iris(string, id_obj, iris_n):
     fun_id="http://example.com/idlab/function/extract_and_derivate_sub_str",
     string='http://example.com/idlab/function/valParamStr_inputBase',
     string_nd='http://example.com/idlab/function/valParamStr_secondInput',
-    mode='http://example.com/idlab/function/valParamStr_deriveOrExtract')
+    mode='http://example.com/idlab/function/valParamStr_deriveOrExtract',
+    use_prefix = 'http://example.com/idlab/function/use_prefix_opt',
+    suffix = 'http://example.com/idlab/function/sfx')
 
-def extract_and_derivate_strings(string, string_nd, mode):
+def extract_and_derivate_strings(string, string_nd, mode, use_prefix=False, suffix=None):
+    global prefisso
+
+    if not use_prefix:
+        local_prefix = ''
+    else:
+       local_prefix = prefisso
+
+    if not suffix:
+        sfx = ''
+    else:
+        sfx = suffix
+
     mode = mode.lower().strip()
     output_iri = ""
     if mode =="add":
         output_iri = "-".join([string,string_nd])
     elif mode == "remove":
         output_iri = re.sub(string_nd, "", string)
-    return normalize_and_convert_to_iri(output_iri)
+    iri_core = normalize_and_convert_to_iri(output_iri)
+    if type(iri_core) is list:
+        iri_core = str(iri_core).replace("[","").replace("]", "")
+    return str(local_prefix) + iri_core + str(sfx)
 
+
+
+# https://w3id.org/changes/4/aldrovandi/%3Cnr%3E/---/00
 
 
 

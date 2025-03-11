@@ -1,0 +1,524 @@
+PER DATASET PROCESSO:
+- separatore è strettamente virgola
+- se vengono inseriti più valori, la virgola è necessaria.
+- non andare a capo per separare, verrà comunque schiacciato tutto su unica entità
+- gestione delle colonne vuote: il processo non può saltare per questo - VERIFICA IN ALTRO DATASET (?)
+
+URGENTE RISOLVERE PUNTO SOPRA ->RISOLTO
+1) eliminare dinamicamente una regola di mappatura nel caso in cui una colonna sia del tutto vuota, stesso approccio usaato per la divisione in due dataset.
+Una volta prodotti i dati, eliminare i files TMP (SIA YAML CHE CONFIGURAZIONE)
+
+# FARE ATTENZIONE ALL'INSERIMENTO DEI DATI. SEPARATORI, NON USARE VARIANTI DELLO STESSO NOME: COMPORTA LA CREAZIONE DI PIù IRI PER LA STESSA PERSONA
+# EG:
+ex:rachele-manganelli a crm:E21_Person .
+ex:rachele-manganelli-del-fa a crm:E21_Person .
+ex:danieel-ferdani a crm:E21_Person .
+ex:daniele-ferdani a crm:E21_Person .
+
+# SEMBRA NON ESSERE POSSIBILE DERIVARE UN OGGETTO DA UN SOGGETTO : PROVARE ESTENSIONE?
+QUESTO PROBLEMA HA CAUSATO LA NECESSITà DI SCRIVERE SETTE MAPPING SEPARATI PER CIASCUNA DELLE LICENZE, PERCHé NON C'è MODO DI MAPPARE L'OGGETTO GENERATO DINAMICAMENTE ALLA SUA LICENZA.
+APRIRE ISSUE (?)
+
+# tra le richieste bisogna aggiungere che il formato della data da inserire dovrebbe essere YYYY-MM-DD
+# il vecchio normalize_and_suffix va sostituito dappertutto con extract_and_derivate_strings (non elimina i numeri ed è più preciso e versatile perché fa anche la funzione inversa di rimozione della stringa all'occorrenza)
+# scrivere quali sono le accortezze che sono state prese per venire incontro alle esigenze evidenziate dal processo di acquisizione dati (separatori, errori...)
+# inserire un esempio di pulizia per dimostrare come funziona la funzione con i separatori, quali sono i limiti es: 'Instant Meshes-3DF Zephyr', 'MeshLab - InstantMeshes', 'MeshLab-InstantMeshes' solo il secondo verrà correttamente separato, ['Nexcloud, Aton', 'Nextclod, Aton', 'Nextcloud, Aton'] risulteranno come 4 software diversi e non come due
+# I CONDITIONAL STATEMENTS NON DOVREBBERO FUNZIONARE VERO? avrebbe potuto risolvere la generazione dell'oggetto sulla base del soggetto?
+
+
+
+
+
+  # ==================================================================================
+  # 2) MAPPINGS PER LE VARIE FASI DI LAVORAZIONE (ACQUISIZIONE, PROCESSAMENTO, ECC.)
+  # ==================================================================================
+
+  # ---------------------------
+  # ACQUISIZIONE
+  # ---------------------------
+  acquisition_mapping:
+    sources:
+      - "nuovo_dataset.csv~csv"
+    s:
+      function: idlab-fn:normalize_and_suffix
+      parameters:
+        - parameter: idlab-fn:param_name
+          value: $(NR)
+        - parameter: idlab-fn:param_suffix
+          value: "-acquisition"
+      template: "ex:$(s)"
+    po:
+      - [ a, "crmdig:D2_Digitization_Process" ]
+      - p: crmdig:L1_digitized
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(NR)
+            - parameter: idlab-fn:param_suffix
+              value: "-item"
+          template: "ex:$(o)"
+      - p: crm:P11_had_participant
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(ACQUISIZIONE_Istituto_responsabile_acquisizione)
+          template: "ex:$(o)"
+      - p: crm:P14_carried_out_by
+        o:
+          function: idlab-fn:normalize_person_name
+          parameters:
+            - parameter: idlab-fn:param_value
+              value: $(ACQUISIZIONE_Persone_responsabili_acquisizione)
+          template: "ex:$(o)"
+      - p: crm:P32_used_general_technique
+        o:
+          # Se 'ACQUISIZIONE_Tecnica_di_acquisizione' è un valore testuale,
+          # puoi mappare a una stringa o a un vocabolario (es. aat)
+          value: "$(ACQUISIZIONE_Tecnica_di_acquisizione)"
+          datatype: rdfs:Literal
+      - p: crm:P16_used_specific_object
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(ACQUISIZIONE_Strumentazione_di_acquisizione)
+          template: "ex:$(o)"
+      - p: crm:P4_has_time-span
+        o:
+          function: idlab-fn:create_timespan
+          parameters:
+            # Data inizio/fine dell'acquisizione
+            - parameter: idlab-fn:param_start
+              value: $(ACQUISIZIONE_Tempi_di_acquisizione_Data_inizio_(specificare_data_mm-dd))
+            - parameter: idlab-fn:param_end
+              value: $(ACQUISIZIONE_Tempi_di_acquisizione_Data_fine_(specificare_data_mm-dd))
+
+  # ---------------------------
+  # PROCESSAMENTO
+  # ---------------------------
+  processing_mapping:
+    sources:
+      - "nuovo_dataset.csv~csv"
+    s:
+      function: idlab-fn:normalize_and_suffix
+      parameters:
+        - parameter: idlab-fn:param_name
+          value: $(NR)
+        - parameter: idlab-fn:param_suffix
+          value: "-processing"
+      template: "ex:$(s)"
+    po:
+      - [ a, "crmdig:D10_Software_Execution" ]
+      - p: crmdig:L10_had_input
+        o:
+          # Collegamento al modello generato in acquisizione
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(NR)
+            - parameter: idlab-fn:param_suffix
+              value: "-model-00"
+          template: "ex:$(o)"
+      - p: crm:P11_had_participant
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(PROCESSAMENTO_Istituto_responsabile_processamento)
+          template: "ex:$(o)"
+      - p: crm:P14_carried_out_by
+        o:
+          function: idlab-fn:normalize_person_name
+          parameters:
+            - parameter: idlab-fn:param_value
+              value: $(PROCESSAMENTO_Persone_responsabili_processamento)
+          template: "ex:$(o)"
+      - p: crmdig:L23_used_software_or_firmware
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(PROCESSAMENTO_Strumentazione_di_processamento)
+          template: "ex:$(o)"
+      - p: crm:P4_has_time-span
+        o:
+          function: idlab-fn:create_timespan
+          parameters:
+            - parameter: idlab-fn:param_start
+              value: $(PROCESSAMENTO_Tempi_di_processamento_Data_inizio_(specificare_data_mm-dd))
+            - parameter: idlab-fn:param_end
+              value: $(PROCESSAMENTO_Tempi_di_processamento_Data_fine_(specificare_data_mm-dd))
+
+  # ---------------------------
+  # MODELLAZIONE
+  # ---------------------------
+  modeling_mapping:
+    sources:
+      - "nuovo_dataset.csv~csv"
+    s:
+      function: idlab-fn:normalize_and_suffix
+      parameters:
+        - parameter: idlab-fn:param_name
+          value: $(NR)
+        - parameter: idlab-fn:param_suffix
+          value: "-modeling"
+      template: "ex:$(s)"
+    po:
+      - [ a, "crmdig:D10_Software_Execution" ]
+      - p: crm:P11_had_participant
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(MODELLAZIONE_Istituto_responsabile_modellazione)
+          template: "ex:$(o)"
+      - p: crm:P14_carried_out_by
+        o:
+          function: idlab-fn:normalize_person_name
+          parameters:
+            - parameter: idlab-fn:param_value
+              value: $(MODELLAZIONE_Persone_responsabili_modellazione)
+          template: "ex:$(o)"
+      - p: crmdig:L23_used_software_or_firmware
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(MODELLAZIONE_Strumentazione_di_modellazione)
+          template: "ex:$(o)"
+      - p: crm:P4_has_time-span
+        o:
+          function: idlab-fn:create_timespan
+          parameters:
+            - parameter: idlab-fn:param_start
+              value: $(MODELLAZIONE_Tempi_di_modellazione_Data_inizio_(specificare_data_mm-dd))
+            - parameter: idlab-fn:param_end
+              value: $(MODELLAZIONE_Tempi_di_modellazione_Data_fine_(specificare_data_mm-dd))
+
+  # ---------------------------
+  # OTTIMIZZAZIONE
+  # ---------------------------
+  optimisation_mapping:
+    sources:
+      - "nuovo_dataset.csv~csv"
+    s:
+      function: idlab-fn:normalize_and_suffix
+      parameters:
+        - parameter: idlab-fn:param_name
+          value: $(NR)
+        - parameter: idlab-fn:param_suffix
+          value: "-optimisation"
+      template: "ex:$(s)"
+    po:
+      - [ a, "crmdig:D10_Software_Execution" ]
+      - p: crm:P11_had_participant
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(OTTIMIZZAZIONE_Istituto_responsabile_ottimizzazione)
+          template: "ex:$(o)"
+      - p: crm:P14_carried_out_by
+        o:
+          function: idlab-fn:normalize_person_name
+          parameters:
+            - parameter: idlab-fn:param_value
+              value: $(OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione)
+          template: "ex:$(o)"
+      - p: crmdig:L23_used_software_or_firmware
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione)
+          template: "ex:$(o)"
+      - p: crm:P4_has_time-span
+        o:
+          function: idlab-fn:create_timespan
+          parameters:
+            - parameter: idlab-fn:param_start
+              value: $(OTTIMIZZAZIONE_Tempi_di_ottimizzazione_Data_inizio_(specificare_data_mm-dd))
+            - parameter: idlab-fn:param_end
+              value: $(OTTIMIZZAZIONE_Tempi_di_ottimizzazione_Data_fine_(specificare_data_mm-dd))
+
+  # ---------------------------
+  # ESPORTAZIONE
+  # ---------------------------
+  export_mapping:
+    sources:
+      - "nuovo_dataset.csv~csv"
+    s:
+      function: idlab-fn:normalize_and_suffix
+      parameters:
+        - parameter: idlab-fn:param_name
+          value: $(NR)
+        - parameter: idlab-fn:param_suffix
+          value: "-export"
+      template: "ex:$(s)"
+    po:
+      - [ a, "crmdig:D10_Software_Execution" ]
+      - p: crm:P11_had_participant
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(ESPORTAZIONE_Istituto_responsabile_esportazione)
+          template: "ex:$(o)"
+      - p: crm:P14_carried_out_by
+        o:
+          function: idlab-fn:normalize_person_name
+          parameters:
+            - parameter: idlab-fn:param_value
+              value: $(ESPORTAZIONE_Persone_responsabili_esportazione)
+          template: "ex:$(o)"
+      - p: crmdig:L23_used_software_or_firmware
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(ESPORTAZIONE_Strumentazione_di_esportazione)
+          template: "ex:$(o)"
+      - p: crm:P4_has_time-span
+        o:
+          function: idlab-fn:create_timespan
+          parameters:
+            - parameter: idlab-fn:param_start
+              value: $(ESPORTAZIONE_Tempi_di_esportazione_Data_inizio_(specificare_data_mm-dd))
+            - parameter: idlab-fn:param_end
+              value: $(ESPORTAZIONE_Tempi_di_esportazione_Data_fine_(specificare_data_mm-dd))
+
+  # ---------------------------
+  # METADATAZIONE
+  # ---------------------------
+  metadata_mapping:
+    sources:
+      - "nuovo_dataset.csv~csv"
+    s:
+      function: idlab-fn:normalize_and_suffix
+      parameters:
+        - parameter: idlab-fn:param_name
+          value: $(NR)
+        - parameter: idlab-fn:param_suffix
+          value: "-metadata"
+      template: "ex:$(s)"
+    po:
+      - [ a, "crmdig:D10_Software_Execution" ]
+      - p: crm:P11_had_participant
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(METADATAZIONE_Istituto_responsabile_metadatazione)
+          template: "ex:$(o)"
+      - p: crm:P14_carried_out_by
+        o:
+          function: idlab-fn:normalize_person_name
+          parameters:
+            - parameter: idlab-fn:param_value
+              value: $(METADATAZIONE_Persone_responsabili_metadatazione)
+          template: "ex:$(o)"
+      - p: crmdig:L23_used_software_or_firmware
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(METADATAZIONE_Strumentazione_di_metadatazione)
+          template: "ex:$(o)"
+      - p: crm:P4_has_time-span
+        o:
+          function: idlab-fn:create_timespan
+          parameters:
+            - parameter: idlab-fn:param_start
+              value: $(METADATAZIONE_Tempi_di_metadatazione_Data_inizio_(specificare_data_mm-dd))
+            - parameter: idlab-fn:param_end
+              value: $(METADATAZIONE_Tempi_di_metadatazione_Data_fine_(specificare_data_mm-dd))
+
+  # ---------------------------
+  # CARICAMENTO SU ATON
+  # ---------------------------
+  upload_aton_mapping:
+    sources:
+      - "nuovo_dataset.csv~csv"
+    s:
+      function: idlab-fn:normalize_and_suffix
+      parameters:
+        - parameter: idlab-fn:param_name
+          value: $(NR)
+        - parameter: idlab-fn:param_suffix
+          value: "-upload-aton"
+      template: "ex:$(s)"
+    po:
+      - [ a, "crmdig:D10_Software_Execution" ]
+      - p: crm:P11_had_participant
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(CARICAMENTO_SU_ATON_Istituto_responsabile_caricamento)
+          template: "ex:$(o)"
+      - p: crm:P14_carried_out_by
+        o:
+          function: idlab-fn:normalize_person_name
+          parameters:
+            - parameter: idlab-fn:param_value
+              value: $(CARICAMENTO_SU_ATON_Persone_responsabili_caricamento)
+          template: "ex:$(o)"
+      - p: crmdig:L23_used_software_or_firmware
+        o:
+          function: idlab-fn:normalize_and_suffix
+          parameters:
+            - parameter: idlab-fn:param_name
+              value: $(CARICAMENTO_SU_ATON_Strumentazione_di_caricamento)
+          template: "ex:$(o)"
+      - p: crm:P4_has_time-span
+        o:
+          function: idlab-fn:create_timespan
+          parameters:
+            - parameter: idlab-fn:param_start
+              value: $(CARICAMENTO_SU_ATON_Tempi_di_caricamento_Data_inizio_(specificare_data_mm-dd))
+            - parameter: idlab-fn:param_end
+              value: $(CARICAMENTO_SU_ATON_Tempi_di_caricamento_Data_fine_(specificare_data_mm-dd))
+
+  # ==================================================================================
+  # 3) MAPPING PER I TIME-SPAN SPECIFICI (OPZIONALE)
+  # ==================================================================================
+  # Se vuoi creare entità di tipo E52_Time-Span (ex:$(NR)-acquisition-timespan)
+  # e assegnare p82a/p82b, puoi farlo con un mapping dedicato.
+  # In questo esempio, uso una funzione create_timespan nel mapping di ogni processo.
+  # Se preferisci entità distinte, ecco come potresti farlo:
+  # (ATTENZIONE: richiede di definire bene la corrispondenza param_start/param_end)
+  #
+
+
+
+
+
+
+
+'''
+FATTO ----->  ex:unibo-ficlit a crm:E74_Group .
+
+FATTO ----->
+
+            ex:panasonic-dmc-lx100 a crmdig:D8_Digital_Device ;
+                crm:P2_has_type aat:300266792 .
+
+            ex:3df-zephyr a crmdig:D14_Software ;
+                crm:P2_has_type aat:300426696 .
+
+            ex:blender a crmdig:D14_Software ;
+                crm:P2_has_type aat:300426696 .
+
+            ex:instantmeshes a crmdig:D14_Software ;
+                crm:P2_has_type aat:300426696 .
+
+FATTO ----->
+        ex:32-acquisition a crmdig:D2_Digitization_Process ;
+            crmdig:L1_digitized ex:32-item ;
+            crmdig:L11_had_output ex:32-model-00 ;
+            crm:P4_has_time-span ex:32-acquisition-timespan ;
+            crm:P11_had_participant ex:unibo-ficlit ;
+            crm:P14_carried_out_by ex:alice-bordignon ;
+            crm:P32_used_general_technique aat:300391312 ;
+            crm:P16_used_specific_object ex:panasonic-dmc-lx100 .
+
+        ex:32-processing a crmdig:D10_Software_Execution ;
+            crm:P2_has_type aat:300054636 ;
+            crmdig:L10_had_input ex:32-model-00 ;
+            crmdig:L11_had_output ex:32-model-01 ;
+            crm:P4_has_time-span ex:32-processing-timespan ;
+            crm:P11_had_participant ex:unibo-ficlit ;
+            crm:P14_carried_out_by ex:alice-bordignon ;
+            crmdig:L23_used_software_or_firmware ex:3df-zephyr .
+
+        ex:32-modeling a crmdig:D10_Software_Execution ;
+            crm:P2_has_type aat:300391447 ;
+            crmdig:L10_had_input ex:32-model-01 ;
+            crmdig:L11_had_output ex:32-model-02 ;
+            crm:P4_has_time-span ex:32-modeling-timespan ;
+            crm:P11_had_participant ex:unibo-ficlit ;
+            crm:P14_carried_out_by ex:alice-bordignon ;
+            crmdig:L23_used_software_or_firmware ex:blender .
+
+        ex:32-optimisation a crmdig:D10_Software_Execution ;
+            crm:P2_has_type aat:300386427 ;
+            crmdig:L10_had_input ex:32-model-02 ;
+            crmdig:L11_had_output ex:32-model-03 ;
+            crm:P4_has_time-span ex:32-optimisation-timespan ;
+            crm:P11_had_participant ex:unibo-ficlit ;
+            crm:P14_carried_out_by ex:alice-bordignon ;
+            crmdig:L23_used_software_or_firmware ex:instantmeshes, ex:3df-zephyr .
+
+        ex:32-export a crmdig:D10_Software_Execution ;
+            crm:P2_has_type aat:300417260 ;
+            crmdig:L10_had_input ex:32-model-03 ;
+            crmdig:L11_had_output ex:32-model-04 ;
+            crm:P4_has_time-span ex:32-export-timespan ;
+            crm:P11_had_participant ex:unibo-ficlit ;
+            crm:P14_carried_out_by ex:alice-bordignon ;
+            crmdig:L23_used_software_or_firmware ex:blender .
+
+FATTO ----->  ex:alice-bordignon a crm:E21_Person .
+FATTO ----->
+            ex:32-model-00 a crmdig:D9_Data_Object .
+
+            ex:32-model-01 a crmdig:D9_Data_Object .
+
+            ex:32-model-02 a crmdig:D9_Data_Object .
+
+            ex:32-model-03 a crmdig:D9_Data_Object .
+
+            ex:32-model-04 a crmdig:D9_Data_Object .
+
+
+
+FATTO ----->
+            ex:32-model-00-license a crm:E73_Information_Object ;
+                crm:P2_has_type aat:300435434 ;
+                crm:P67_refers_to ex:32-model-00 ;
+                crm:P70i_is_documented_in <https://creativecommons.org/licenses/by-nc/4.0/> .
+
+            ex:32-model-01-license a crm:E73_Information_Object ;
+                crm:P2_has_type aat:300435434 ;
+                crm:P67_refers_to ex:32-model-01 ;
+                crm:P70i_is_documented_in <https://creativecommons.org/licenses/by-nc/4.0/> .
+
+            ex:32-model-02-license a crm:E73_Information_Object ;
+                crm:P2_has_type aat:300435434 ;
+                crm:P67_refers_to ex:32-model-02 ;
+                crm:P70i_is_documented_in <https://creativecommons.org/licenses/by-nc/4.0/> .
+
+            ex:32-model-03-license a crm:E73_Information_Object ;
+                crm:P2_has_type aat:300435434 ;
+                crm:P67_refers_to ex:32-model-03 ;
+                crm:P70i_is_documented_in <https://creativecommons.org/licenses/by-nc/4.0/> .
+
+            ex:32-model-04-license a crm:E73_Information_Object ;
+                crm:P2_has_type aat:300435434 ;
+                crm:P67_refers_to ex:32-model-04 ;
+                crm:P70i_is_documented_in <https://creativecommons.org/licenses/by-nc/4.0/> .
+
+
+FATTO ----->
+            ex:32-acquisition-timespan a crm:E52_Time-Span ;
+                crm:P82a_begin_of_the_begin "2023-05-08T00:00:00Z"^^xsd:dateTime ;
+                crm:P82b_end_of_the_end "2023-05-08T23:59:59Z"^^xsd:dateTime .
+
+            ex:32-processing-timespan a crm:E52_Time-Span ;
+                crm:P82a_begin_of_the_begin "2023-05-10T00:00:00Z"^^xsd:dateTime ;
+                crm:P82b_end_of_the_end "2023-05-10T23:59:59Z"^^xsd:dateTime .
+
+            ex:32-modeling-timespan a crm:E52_Time-Span ;
+                crm:P82a_begin_of_the_begin "2023-05-17T00:00:00Z"^^xsd:dateTime ;
+                crm:P82b_end_of_the_end "2023-05-18T23:59:59Z"^^xsd:dateTime .
+
+            ex:32-optimisation-timespan a crm:E52_Time-Span ;
+                crm:P82a_begin_of_the_begin "2023-05-18T00:00:00Z"^^xsd:dateTime ;
+                crm:P82b_end_of_the_end "2023-05-19T23:59:59Z"^^xsd:dateTime .
+
+            ex:32-export-timespan a crm:E52_Time-Span ;
+                crm:P82a_begin_of_the_begin "2023-05-19T00:00:00Z"^^xsd:dateTime ;
+                crm:P82b_end_of_the_end "2023-05-19T23:59:59Z"^^xsd:dateTime .
+'''

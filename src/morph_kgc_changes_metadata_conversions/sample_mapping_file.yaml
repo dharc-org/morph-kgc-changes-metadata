@@ -21,24 +21,34 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      function: idlab-fn:normalize_and_suffix
+      function: idlab-fn:extract_and_derivate_sub_str
       parameters:
-        - parameter: idlab-fn:param_name
+        - parameter: idlab-fn:valParamStr_inputBase
           value: $(NR)
-        - parameter: idlab-fn:param_suffix
-          value: "-expression-creation"
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valParamStr_secondInput
+          value: "/act"
+        - parameter: idlab-fn:valParamStr_deriveOrExtract
+          value: "add"
+        - parameter: idlab-fn:use_prefix_opt
+          value: "yes"
+        - parameter: idlab-fn:sfx
+          value: ""
     po:
       - [ a, "lrmoo:F28_Expression_Creation" ]
       - p: crm:P9_consists_of
         o:
-          function: idlab-fn:normalize_and_suffix
+          function: idlab-fn:extract_and_derivate_sub_str
           parameters:
-            - parameter: idlab-fn:param_name
+            - parameter: idlab-fn:valParamStr_inputBase
               value: $(NR)
-            - parameter: idlab-fn:param_suffix
-              value: "-expression-creation-activity-01"
-          template: "ex:$(o)"
+            - parameter: idlab-fn:valParamStr_secondInput
+              value: "/act"
+            - parameter: idlab-fn:valParamStr_deriveOrExtract
+              value: "add"
+            - parameter: idlab-fn:use_prefix_opt
+              value: "yes"
+            - parameter: idlab-fn:sfx
+              value: "/00"
 
       - p: crm:P32_used_general_technique
         o:
@@ -242,21 +252,21 @@ mappings:
       template: "ex:$(s)"
 
     po:
-      - [ a, "lrmoo:F2_Expression" ]
-      - p: crm:P129_is_about
-        o:
-          # Passaggio 2: Normalizzare e convertire in IRI
-          - function: idlab-fn:normalize_and_convert_to_iri
-            parameters:
-              - parameter: idlab-fn:valueParams
-                value:
-                  # Passaggio 1: Esplodere i soggetti
-                  function: morph-kgc:string_split_explode
-                  parameters:
-                    - parameter: grel:param_string_sep
-                      value: ";"
-                    - parameter: grel:valueParam
-                      value: $(Soggetti)
+#      - [ a, "lrmoo:F2_Expression" ]
+#      - p: crm:P129_is_about
+#        o:
+#          # Passaggio 2: Normalizzare e convertire in IRI
+#          - function: idlab-fn:normalize_and_convert_to_iri
+#            parameters:
+#              - parameter: idlab-fn:valueParams
+#                value:
+#                  # Passaggio 1: Esplodere i soggetti
+#                  function: morph-kgc:string_split_explode
+#                  parameters:
+#                    - parameter: grel:param_string_sep
+#                      value: ";"
+#                    - parameter: grel:valueParam
+#                      value: $(Soggetti)
 
       - p: lrmoo:R4i_is_embodied_in
         o:
@@ -269,25 +279,25 @@ mappings:
           template: "ex:$(o)"
 
 
-  subject_mapping:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      # Passaggio 2: Normalizzare e convertire in IRI
-      - function: idlab-fn:normalize_and_convert_to_iri
-        parameters:
-          - parameter: idlab-fn:valueParams
-            value:
-            # Passaggio 1: Esplodere i soggetti
-              function: morph-kgc:string_split_explode
-              parameters:
-                - parameter: grel:param_string_sep
-                  value: ";"
-                - parameter: grel:valueParam
-                  value: $(Soggetti)
-    po:
-      - [ a, "crm:E73_Information_Object" ]
-      - ["crm:P2_has_type", "aat:300404126"]
+#  subject_mapping:
+#    sources:
+#      - 'sample_input_file.csv~csv'
+#    s:
+#      # Passaggio 2: Normalizzare e convertire in IRI
+#      - function: idlab-fn:normalize_and_convert_to_iri
+#        parameters:
+#          - parameter: idlab-fn:valueParams
+#            value:
+#            # Passaggio 1: Esplodere i soggetti
+#              function: morph-kgc:string_split_explode
+#              parameters:
+#                - parameter: grel:param_string_sep
+#                  value: ";"
+#                - parameter: grel:valueParam
+#                  value: $(Soggetti)
+#    po:
+#      - [ a, "crm:E73_Information_Object" ]
+#      - ["crm:P2_has_type", "aat:300404126"]
 
 
   manifestation_mapping:
@@ -1003,19 +1013,3 @@ mappings:
       - [ crm:P2_has_type, "aat:300417639" ]
 
 # GESTIONE IDENTIFICATIVI ULAN E VIAF
-# PROPRIETà RECIPROCHE
-# COME SI COLLEGANO GLI ATTORI ALLE ATTIVITà ALLE ENTITà???
-
-
-#ex:32-expression-creation a lrmoo:F28_Expression_Creation ;
-#    crm:P9_consists_of ex:32-expression-creation-activity-01 ;
-#    crm:P32_used_general_technique aat:300054196 ;
-#    lrmoo:R19_created_a_realisation_of ex:32-work ;
-#    lrmoo:R17_created ex:32-expression ;
-#    crm:P4_has_time-span ex:1500-1599 .
-#
-#
-#ex:32-expression-creation-activity-01 a crm:E7_Activity ;
-#    crm:P2_has_type aat:300404387 ;
-#    crm:P14_carried_out_by ex:ulisse-aldrovandi .
-#
