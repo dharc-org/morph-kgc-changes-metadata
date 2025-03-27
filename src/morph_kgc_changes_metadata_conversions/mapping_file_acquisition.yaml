@@ -38,15 +38,20 @@ mappings:
         - parameter: idlab-fn:valueParams
           value:
             # Passaggio 1: Esplodere gruppi responsabili
-            function: morph-kgc:string_split_explode
+            function: idlab-fn:multiple_separator_split_explode
             parameters:
-              - parameter: grel:param_string_sep
-                value: ","
-              - parameter: grel:valueParam
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
                 value: $(ACQUISIZIONE_Istituto_responsabile_acquisizione)
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E74_Group" ]
-
 
   # 1.2 PROCESSAMENTO
   responsible_group_processing:
@@ -59,16 +64,20 @@ mappings:
         - parameter: idlab-fn:valueParams
           value:
             # Passaggio 1: Esplodere gruppi responsabili
-            function: morph-kgc:string_split_explode
+            function: idlab-fn:multiple_separator_split_explode
             parameters:
-              - parameter: grel:param_string_sep
-                value: ","
-              - parameter: grel:valueParam
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
                 value: $(PROCESSAMENTO_Istituto_responsabile_processamento)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E74_Group" ]
-
 
   # 1.3 MODELLAZIONE
   responsible_group_modeling:
@@ -81,13 +90,18 @@ mappings:
         - parameter: idlab-fn:valueParams
           value:
             # Passaggio 1: Esplodere gruppi responsabili
-            function: morph-kgc:string_split_explode
+            function: idlab-fn:multiple_separator_split_explode
             parameters:
-              - parameter: grel:param_string_sep
-                value: ","
-              - parameter: grel:valueParam
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
                 value: $(MODELLAZIONE_Istituto_responsabile_modellazione)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E74_Group" ]
 
@@ -102,16 +116,20 @@ mappings:
         - parameter: idlab-fn:valueParams
           value:
             # Passaggio 1: Esplodere gruppi responsabili
-            function: morph-kgc:string_split_explode
+            function: idlab-fn:multiple_separator_split_explode
             parameters:
-              - parameter: grel:param_string_sep
-                value: ","
-              - parameter: grel:valueParam
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
                 value: $(OTTIMIZZAZIONE_Istituto_responsabile_ottimizzazione)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E74_Group" ]
-
 
   # 1.5 ESPORTAZIONE
   responsible_group_export:
@@ -124,13 +142,18 @@ mappings:
         - parameter: idlab-fn:valueParams
           value:
             # Passaggio 1: Esplodere gruppi responsabili
-            function: morph-kgc:string_split_explode
+            function: idlab-fn:multiple_separator_split_explode
             parameters:
-              - parameter: grel:param_string_sep
-                value: ","
-              - parameter: grel:valueParam
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
                 value: $(ESPORTAZIONE_Istituto_responsabile_esportazione)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E74_Group" ]
 
@@ -145,13 +168,18 @@ mappings:
         - parameter: idlab-fn:valueParams
           value:
             # Passaggio 1: Esplodere gruppi responsabili
-            function: morph-kgc:string_split_explode
+            function: idlab-fn:multiple_separator_split_explode
             parameters:
-              - parameter: grel:param_string_sep
-                value: ","
-              - parameter: grel:valueParam
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
                 value: $(METADATAZIONE_Istituto_responsabile_metadatazione)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E74_Group" ]
 
@@ -166,16 +194,20 @@ mappings:
         - parameter: idlab-fn:valueParams
           value:
             # Passaggio 1: Esplodere gruppi responsabili
-            function: morph-kgc:string_split_explode
+            function: idlab-fn:multiple_separator_split_explode
             parameters:
-              - parameter: grel:param_string_sep
-                value: ","
-              - parameter: grel:valueParam
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
                 value: $(CARICAMENTO_SU_ATON_Istituto_responsabile_caricamento)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E74_Group" ]
-
 
   # ==================================================================================
   # 2) PERSONE responsabili (per ogni fase della digitalizzazione)
@@ -186,18 +218,24 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
+      # Passaggio 2: Normalizzare e convertire in IRI ogni persona responsabile
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(ACQUISIZIONE_Persone_responsabili_acquisizione)
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E21_Person" ]
 
@@ -206,19 +244,24 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
+      # Passaggio 2: Normalizzare e convertire in IRI ogni persona responsabile
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(PROCESSAMENTO_Persone_responsabili_processamento)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E21_Person" ]
 
@@ -227,19 +270,24 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
+      # Passaggio 2: Normalizzare e convertire in IRI ogni persona responsabile
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(MODELLAZIONE_Persone_responsabili_modellazione)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E21_Person" ]
 
@@ -248,19 +296,24 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
+      # Passaggio 2: Normalizzare e convertire in IRI ogni persona responsabile
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E21_Person" ]
 
@@ -269,19 +322,23 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
+      # Passaggio 2: Normalizzare e convertire in IRI ogni persona responsabile
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(ESPORTAZIONE_Persone_responsabili_esportazione)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
     po:
       - [ a, "crm:E21_Person" ]
 
@@ -290,19 +347,24 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
+      # Passaggio 2: Normalizzare e convertire in IRI ogni persona responsabile
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(METADATAZIONE_Persone_responsabili_metadatazione)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crm:E21_Person" ]
 
@@ -311,19 +373,23 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
+      # Passaggio 2: Normalizzare e convertire in IRI ogni persona responsabile
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(CARICAMENTO_SU_ATON_Persone_responsabili_caricamento)
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "acr"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
     po:
       - [ a, "crm:E21_Person" ]
 
@@ -337,223 +403,266 @@ mappings:
     s:
       # Passaggio 2: creare un iri normalizzato per ognuno dei 7 digital object models
       function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valueParams
+        - parameter: idlab-fn:valueNum
           value:
             # Passaggio 1: generare idi sequenziali
             function: idlab-fn:sequential_iris
             parameters:
-              - parameter: idlab-fn:valParamStr
-                value: "model"
-              - parameter: idlab-fn:valParamId
-                value: $(NR)
               - parameter: idlab-fn:number_of_iris
                 value: "7"
-      template: "ex:$(s)"
+        - parameter: idlab-fn:valueType
+          value: "mdl"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
     po:
       - [ a, "crmdig:D9_Data_Object" ]
-
 
   # ==================================================================================
   # 4) licenses for the DIGITAL OBJECTS, same one for each phase
   # ==================================================================================
 
+  # LICENZA MODELLO 00
   digital_objects_models_license_00:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
+      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 00
+      function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
+        - parameter: idlab-fn:valueNum
+          value: "00"
+        - parameter: idlab-fn:valueType
+          value: "lic"
+        - parameter: idlab-fn:valueParams
           value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-model-00-license"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
+      type: iri
+
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
       - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
       - p : crm:P67_refers_to
         o :
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 00 corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "00"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-00"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
+
+  # LICENZA MODELLO 01
   digital_objects_models_license_01:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
+      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 01
+      function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
+        - parameter: idlab-fn:valueNum
+          value: "01"
+        - parameter: idlab-fn:valueType
+          value: "lic"
+        - parameter: idlab-fn:valueParams
           value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-model-01-license"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
+      type: iri
+
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
       - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
       - p : crm:P67_refers_to
         o :
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 01 corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "01"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-01"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
+  # LICENZA MODELLO 02
   digital_objects_models_license_02:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
+      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 02
+      function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
+        - parameter: idlab-fn:valueNum
+          value: "02"
+        - parameter: idlab-fn:valueType
+          value: "lic"
+        - parameter: idlab-fn:valueParams
           value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-model-02-license"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
+      type: iri
+
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
       - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
       - p : crm:P67_refers_to
         o :
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 02 corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "02"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-02"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
-
+  # LICENZA MODELLO 03
   digital_objects_models_license_03:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
+      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 03
+      function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
+        - parameter: idlab-fn:valueNum
+          value: "03"
+        - parameter: idlab-fn:valueType
+          value: "lic"
+        - parameter: idlab-fn:valueParams
           value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-model-03-license"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
+      type: iri
+
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
       - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
       - p : crm:P67_refers_to
         o :
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 03 corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "03"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-03"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
+  # LICENZA MODELLO 04
   digital_objects_models_license_04:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
+      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 04
+      function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
+        - parameter: idlab-fn:valueNum
+          value: "04"
+        - parameter: idlab-fn:valueType
+          value: "lic"
+        - parameter: idlab-fn:valueParams
           value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-model-04-license"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
+      type: iri
+
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
       - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
       - p : crm:P67_refers_to
         o :
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 04 corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "04"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-04"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
+  # LICENZA MODELLO 05
   digital_objects_models_license_05:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
+      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 05
+      function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
+        - parameter: idlab-fn:valueNum
+          value: "05"
+        - parameter: idlab-fn:valueType
+          value: "lic"
+        - parameter: idlab-fn:valueParams
           value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-model-05-license"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
+      type: iri
+
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
       - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
       - p : crm:P67_refers_to
         o :
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 05 corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "05"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-05"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
+  # LICENZA MODELLO 06
   digital_objects_models_license_06:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
+      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 06
+      function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
+        - parameter: idlab-fn:valueNum
+          value: "06"
+        - parameter: idlab-fn:valueType
+          value: "lic"
+        - parameter: idlab-fn:valueParams
           value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-model-06-license"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
+      type: iri
+
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
       - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
       - p : crm:P67_refers_to
         o :
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 06 corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "06"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-06"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
   # ====================
   # 5 : Tempi : nota, non abbiamo usato la funzione date_to_date (built in) perché restituisce una stringa normalizzata della data e non il literal della data.
@@ -562,20 +671,23 @@ mappings:
   # ===================
 
   # 5.1 ACQUISIZIONE
-
   acquisition_timespan_mapping:
-   sources:
-     - "nuovo_dataset.csv~csv"
-   s:
-     function: idlab-fn:extract_and_derivate_sub_str
-     parameters:
-       - parameter: idlab-fn:valParamStr_inputBase
-         value: $(NR)
-       - parameter: idlab-fn:valParamStr_secondInput
-         value: "-acquisition-timespan"
-       - parameter: idlab-fn:valParamStr_deriveOrExtract
-         value: "add"
-   po:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      # Passaggio 2: creare un iri per il timespan di questo step per il model 00
+      function: idlab-fn:normalize_and_convert_to_iri
+
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "00"
+        - parameter: idlab-fn:valueType
+          value: "tsp"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
      - [ a, "crm:E52_Time-Span" ]
      - p: crm:P82a_begin_of_the_begin
        o:
@@ -597,222 +709,239 @@ mappings:
              value: "end"
        datatype: xsd:dateTime
 
-
   # 5.2 PROCESSAMENTO
   processing_timespan_mapping:
     sources:
-      - "nuovo_dataset.csv~csv"
+      - 'sample_input_file.csv~csv'
     s:
-      function: idlab-fn:extract_and_derivate_sub_str
-      parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
-          value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-processing-timespan"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
-    po:
-      - [ a, "crm:E52_Time-Span" ]
-      - p: crm:P82a_begin_of_the_begin
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(PROCESSAMENTO_Tempi_di_processamento_Data_inizio_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "start"
-        datatype: xsd:dateTime
+      # Passaggio 2: creare un iri per il timespan di questo step per il model 01
+      function: idlab-fn:normalize_and_convert_to_iri
 
-      - p: crm:P82b_end_of_the_end
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(PROCESSAMENTO_Tempi_di_processamento_Data_fine_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "end"
-        datatype: xsd:dateTime
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "01"
+        - parameter: idlab-fn:valueType
+          value: "tsp"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
+     - [ a, "crm:E52_Time-Span" ]
+     - p: crm:P82a_begin_of_the_begin
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(PROCESSAMENTO_Tempi_di_processamento_Data_inizio_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "start"
+       datatype: xsd:dateTime
+
+     - p: crm:P82b_end_of_the_end
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(PROCESSAMENTO_Tempi_di_processamento_Data_fine_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "end"
+       datatype: xsd:dateTime
 
   # 5.3 MODELLAZIONE
-
   modeling_timespan_mapping:
     sources:
-      - "nuovo_dataset.csv~csv"
+      - 'sample_input_file.csv~csv'
     s:
-      function: idlab-fn:extract_and_derivate_sub_str
+      # Passaggio 2: creare un iri per il timespan di questo step per il model 02
+      function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
+        - parameter: idlab-fn:valueNum
+          value: "02"
+        - parameter: idlab-fn:valueType
+          value: "tsp"
+        - parameter: idlab-fn:valueParams
           value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-modeling-timespan"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
+      type: iri
+
     po:
-      - [ a, "crm:E52_Time-Span" ]
-      - p: crm:P82a_begin_of_the_begin
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(MODELLAZIONE_Tempi_di_modellazione_Data_inizio_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "start"
-        datatype: xsd:dateTime
+     - [ a, "crm:E52_Time-Span" ]
+     - p: crm:P82a_begin_of_the_begin
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(MODELLAZIONE_Tempi_di_modellazione_Data_inizio_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "start"
+       datatype: xsd:dateTime
 
-      - p: crm:P82b_end_of_the_end
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(MODELLAZIONE_Tempi_di_modellazione_Data_fine_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "end"
-        datatype: xsd:dateTime
-
+     - p: crm:P82b_end_of_the_end
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(MODELLAZIONE_Tempi_di_modellazione_Data_fine_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "end"
+       datatype: xsd:dateTime
 
   # 5.4 OTTIMIZZAZIONE
-
   optimization_timespan_mapping:
     sources:
-      - "nuovo_dataset.csv~csv"
+      - 'sample_input_file.csv~csv'
     s:
-      function: idlab-fn:extract_and_derivate_sub_str
-      parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
-          value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-optimization-timespan"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
-    po:
-      - [ a, "crm:E52_Time-Span" ]
-      - p: crm:P82a_begin_of_the_begin
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(OTTIMIZZAZIONE_Tempi_di_ottimizzazione_Data_inizio_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "start"
-        datatype: xsd:dateTime
+      # Passaggio 2: creare un iri per il timespan di questo step per il model 03
+      function: idlab-fn:normalize_and_convert_to_iri
 
-      - p: crm:P82b_end_of_the_end
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(OTTIMIZZAZIONE_Tempi_di_ottimizzazione_Data_fine_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "end"
-        datatype: xsd:dateTime
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "03"
+        - parameter: idlab-fn:valueType
+          value: "tsp"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
+     - [ a, "crm:E52_Time-Span" ]
+     - p: crm:P82a_begin_of_the_begin
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(OTTIMIZZAZIONE_Tempi_di_ottimizzazione_Data_inizio_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "start"
+       datatype: xsd:dateTime
+
+     - p: crm:P82b_end_of_the_end
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(OTTIMIZZAZIONE_Tempi_di_ottimizzazione_Data_fine_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "end"
+       datatype: xsd:dateTime
 
   # 5.5 ESPORTAZIONE
-
   export_timespan_mapping:
     sources:
-      - "nuovo_dataset.csv~csv"
+      - 'sample_input_file.csv~csv'
     s:
-      function: idlab-fn:extract_and_derivate_sub_str
-      parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
-          value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-export-timespan"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
-    po:
-      - [ a, "crm:E52_Time-Span" ]
-      - p: crm:P82a_begin_of_the_begin
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(ESPORTAZIONE_Tempi_di_esportazione_Data_inizio_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "start"
-        datatype: xsd:dateTime
+      # Passaggio 2: creare un iri per il timespan di questo step per il model 04
+      function: idlab-fn:normalize_and_convert_to_iri
 
-      - p: crm:P82b_end_of_the_end
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(ESPORTAZIONE_Tempi_di_esportazione_Data_fine_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "end"
-        datatype: xsd:dateTime
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "04"
+        - parameter: idlab-fn:valueType
+          value: "tsp"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
+     - [ a, "crm:E52_Time-Span" ]
+     - p: crm:P82a_begin_of_the_begin
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(ESPORTAZIONE_Tempi_di_esportazione_Data_inizio_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "start"
+       datatype: xsd:dateTime
+
+     - p: crm:P82b_end_of_the_end
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(ESPORTAZIONE_Tempi_di_esportazione_Data_fine_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "end"
+       datatype: xsd:dateTime
 
   # 5.6 METADATAZIONE
-
   metadata_timespan_mapping:
     sources:
-      - "nuovo_dataset.csv~csv"
+      - 'sample_input_file.csv~csv'
     s:
-      function: idlab-fn:extract_and_derivate_sub_str
-      parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
-          value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-metadata-timespan"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
-    po:
-      - [ a, "crm:E52_Time-Span" ]
-      - p: crm:P82a_begin_of_the_begin
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(METADATAZIONE_Tempi_di_metadatazione_Data_inizio_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "start"
-        datatype: xsd:dateTime
+      # Passaggio 2: creare un iri per il timespan di questo step per il model 05
+      function: idlab-fn:normalize_and_convert_to_iri
 
-      - p: crm:P82b_end_of_the_end
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(METADATAZIONE_Tempi_di_metadatazione_Data_fine_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "end"
-        datatype: xsd:dateTime
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "05"
+        - parameter: idlab-fn:valueType
+          value: "tsp"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
+     - [ a, "crm:E52_Time-Span" ]
+     - p: crm:P82a_begin_of_the_begin
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(METADATAZIONE_Tempi_di_metadatazione_Data_inizio_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "start"
+       datatype: xsd:dateTime
+
+     - p: crm:P82b_end_of_the_end
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(METADATAZIONE_Tempi_di_metadatazione_Data_fine_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "end"
+       datatype: xsd:dateTime
 
   # 5.7 CARICAMENTO
-
   upload_timespan_mapping:
     sources:
-      - "nuovo_dataset.csv~csv"
+      - 'sample_input_file.csv~csv'
     s:
-      function: idlab-fn:extract_and_derivate_sub_str
-      parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
-          value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-upload-timespan"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
-    po:
-      - [ a, "crm:E52_Time-Span" ]
-      - p: crm:P82a_begin_of_the_begin
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(CARICAMENTO_SU_ATON_Tempi_di_caricamento_Data_inizio_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "start"
-        datatype: xsd:dateTime
+      # Passaggio 2: creare un iri per il timespan di questo step per il model 06
+      function: idlab-fn:normalize_and_convert_to_iri
 
-      - p: crm:P82b_end_of_the_end
-        o:
-          function: idlab-fn:date_to_xsd_datetime
-          parameters:
-            - parameter: idlab-fn:param_string_date
-              value: $(CARICAMENTO_SU_ATON_Tempi_di_caricamento_Data_fine_(specificare_data_mm-dd))
-            - parameter: idlab-fn:param_date_type
-              value: "end"
-        datatype: xsd:dateTime
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "06"
+        - parameter: idlab-fn:valueType
+          value: "tsp"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
+     - [ a, "crm:E52_Time-Span" ]
+     - p: crm:P82a_begin_of_the_begin
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(CARICAMENTO_SU_ATON_Tempi_di_caricamento_Data_inizio_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "start"
+       datatype: xsd:dateTime
+
+     - p: crm:P82b_end_of_the_end
+       o:
+         function: idlab-fn:date_to_xsd_datetime
+         parameters:
+           - parameter: idlab-fn:param_string_date
+             value: $(CARICAMENTO_SU_ATON_Tempi_di_caricamento_Data_fine_(specificare_data_mm-dd))
+           - parameter: idlab-fn:param_date_type
+             value: "end"
+       datatype: xsd:dateTime
 
   # ==================================================
   # 6) TOOLS
@@ -829,13 +958,19 @@ mappings:
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere strumentazioni
+            # Passaggio 1: Esplodere gruppi responsabili
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(ACQUISIZIONE_Strumentazione_di_acquisizione)
+        - parameter: idlab-fn:valueType
+          value: "dev"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crmdig:D8_Digital_Device" ]
       - p: crm:P2_has_type
@@ -844,7 +979,6 @@ mappings:
           parameters:
             - parameter: idlab-fn:acquisition_technique
               value: $(ACQUISIZIONE_Tecnica_di_acquisizione)
-
 
   # 6.2 PROCESSAMENTO
   #PROCESSAMENTO_Strumentazione_di_processamento
@@ -857,13 +991,19 @@ mappings:
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere strumentazioni
+            # Passaggio 1: Esplodere gruppi responsabili
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(PROCESSAMENTO_Strumentazione_di_processamento)
+        - parameter: idlab-fn:valueType
+          value: "sfw"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
@@ -879,13 +1019,19 @@ mappings:
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere strumentazioni
+            # Passaggio 1: Esplodere gruppi responsabili
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(MODELLAZIONE_Strumentazione_di_modellazione)
+        - parameter: idlab-fn:valueType
+          value: "sfw"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
@@ -901,13 +1047,19 @@ mappings:
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere strumentazioni
+            # Passaggio 1: Esplodere gruppi responsabili
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione)
+        - parameter: idlab-fn:valueType
+          value: "sfw"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
@@ -923,13 +1075,19 @@ mappings:
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere strumentazioni
+            # Passaggio 1: Esplodere gruppi responsabili
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(ESPORTAZIONE_Strumentazione_di_esportazione)
+        - parameter: idlab-fn:valueType
+          value: "sfw"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
@@ -945,13 +1103,19 @@ mappings:
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere strumentazioni
+            # Passaggio 1: Esplodere gruppi responsabili
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(METADATAZIONE_Strumentazione_di_metadatazione)
+        - parameter: idlab-fn:valueType
+          value: "sfw"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
@@ -967,13 +1131,19 @@ mappings:
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere strumentazioni
+            # Passaggio 1: Esplodere gruppi responsabili
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
                 value: ";---,--- e ---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(CARICAMENTO_SU_ATON_Strumentazione_di_caricamento)
+        - parameter: idlab-fn:valueType
+          value: "sfw"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
@@ -982,90 +1152,108 @@ mappings:
   # 7) OPERAZIONI
   # ========================================================================
 
+
   # 7.1 ACQUISITION
   acquisition:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
+      # Passaggio 2: creare iri normalizzato per l'azione *, baato sul numero associato allo step nel nostro processo, da 00 a 06
+      function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
+        - parameter: idlab-fn:valueNum
+          value: "00"
+        - parameter: idlab-fn:valueType
+          value: "act"
+        - parameter: idlab-fn:valueParams
           value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-acquisition"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
+      type: iri
+
     po:
       - [ a, "crmdig:D2_Digitization_Process" ]
       - p: crmdig:L1_digitized
-        o:
-          function: idlab-fn:extract_and_derivate_sub_str
+        o :
+          # ricreare l'iri normalizzato del digital object model 05 corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: ""
+            - parameter: idlab-fn:valueType
+              value: "itm"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-item"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crmdig:L11_had_output
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 05 corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "00"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-00"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P4_has_time-span
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "00"
+            - parameter: idlab-fn:valueType
+              value: "tsp"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-acquisition-timespan"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
+
 
       - p: crm:P11_had_participant
         o:
-          # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere gruppi responsabili
-                function: morph-kgc:string_split_explode
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
+                function: idlab-fn:multiple_separator_split_explode
                 parameters:
-                  - parameter: grel:param_string_sep
-                    value: ","
-                  - parameter: grel:valueParam
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
                     value: $(ACQUISIZIONE_Istituto_responsabile_acquisizione)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crm:P14_carried_out_by
         o:
-          # Passaggio 2: normalizzare iri
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere persone responsabili
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(ACQUISIZIONE_Persone_responsabili_acquisizione)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crm:P32_used_general_technique
         o:
-          function: idlab-fn:convert_to_aat
+          function: idlab-fn:assess_aat_tool_type
           parameters:
-            - parameter: idlab-fn:param_tecnica
+            - parameter: idlab-fn:acquisition_technique
               value: $(ACQUISIZIONE_Tecnica_di_acquisizione)
 
       - p: crm:P16_used_specific_object
@@ -1074,94 +1262,115 @@ mappings:
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere strumentazioni
+                # Passaggio 1: Esplodere gruppi responsabili
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(ACQUISIZIONE_Strumentazione_di_acquisizione)
+            - parameter: idlab-fn:valueType
+              value: "dev"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # PROCESSING
+
+  # 7.2   # PROCESSING
   processing:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
+      # Passaggio 2: creare iri normalizzato per l'azione *, baato sul numero associato allo step nel nostro processo, da 00 a 06
+      function: idlab-fn:normalize_and_convert_to_iri
+
       parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
+        - parameter: idlab-fn:valueNum
+          value: "01"
+        - parameter: idlab-fn:valueType
+          value: "act"
+        - parameter: idlab-fn:valueParams
           value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-processing"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
+      type: iri
+
     po:
       - [a, "crmdig:D10_Software_Execution"]
       - ["crm:P2_has_type", "aat:300054636"]
-
       - p: crmdig:L10_had_input
-        o:
-          function: idlab-fn:extract_and_derivate_sub_str
+        o :
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "00"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-00"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crmdig:L11_had_output
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "01"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-01"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P4_has_time-span
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "01"
+            - parameter: idlab-fn:valueType
+              value: "tsp"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-processing-timespan"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P11_had_participant
         o:
-          # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere gruppi responsabili
-                function: morph-kgc:string_split_explode
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
+                function: idlab-fn:multiple_separator_split_explode
                 parameters:
-                  - parameter: grel:param_string_sep
-                    value: ","
-                  - parameter: grel:valueParam
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
                     value: $(PROCESSAMENTO_Istituto_responsabile_processamento)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crm:P14_carried_out_by
         o:
-          # Passaggio 2: normalizzare iri
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere persone responsabili
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(PROCESSAMENTO_Persone_responsabili_processamento)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crmdig:L23_used_software_or_firmware
         o:
@@ -1169,94 +1378,115 @@ mappings:
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere strumentazioni
+                # Passaggio 1: Esplodere gruppi responsabili
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(PROCESSAMENTO_Strumentazione_di_processamento)
+            - parameter: idlab-fn:valueType
+              value: "sfw"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # MODELING
+
+  # 7.3 MODELING
   modeling:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
-      parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
-          value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-modeling"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
-    po:
-      - [ a, "crmdig:D10_Software_Execution" ]
-      - [ "crm:P2_has_type", "aat:300391447" ]
+      # Passaggio 2: creare iri normalizzato per l'azione *, baato sul numero associato allo step nel nostro processo, da 00 a 06
+      function: idlab-fn:normalize_and_convert_to_iri
 
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "02"
+        - parameter: idlab-fn:valueType
+          value: "act"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
+      - [a, "crmdig:D10_Software_Execution"]
+      - [ "crm:P2_has_type", "aat:300391447" ]
       - p: crmdig:L10_had_input
-        o:
-          function: idlab-fn:extract_and_derivate_sub_str
+        o :
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "01"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-01"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crmdig:L11_had_output
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "02"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-02"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P4_has_time-span
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "02"
+            - parameter: idlab-fn:valueType
+              value: "tsp"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-modeling-timespan"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P11_had_participant
         o:
-          # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere gruppi responsabili
-                function: morph-kgc:string_split_explode
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
+                function: idlab-fn:multiple_separator_split_explode
                 parameters:
-                  - parameter: grel:param_string_sep
-                    value: ","
-                  - parameter: grel:valueParam
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
                     value: $(MODELLAZIONE_Istituto_responsabile_modellazione)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crm:P14_carried_out_by
         o:
-          # Passaggio 2: normalizzare iri
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere persone responsabili
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(MODELLAZIONE_Persone_responsabili_modellazione)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crmdig:L23_used_software_or_firmware
         o:
@@ -1264,94 +1494,115 @@ mappings:
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere strumentazioni
+                # Passaggio 1: Esplodere gruppi responsabili
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(MODELLAZIONE_Strumentazione_di_modellazione)
+            - parameter: idlab-fn:valueType
+              value: "sfw"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # OPTIMIZATION
+
+  # 7.4 OPTIMIZATION
   optimization:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
-      parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
-          value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-optimisation"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
-    po:
-      - [ a, "crmdig:D10_Software_Execution" ]
-      - [ "crm:P2_has_type", "aat:300386427" ]
+      # Passaggio 2: creare iri normalizzato per l'azione *, baato sul numero associato allo step nel nostro processo, da 00 a 06
+      function: idlab-fn:normalize_and_convert_to_iri
 
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "03"
+        - parameter: idlab-fn:valueType
+          value: "act"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
+      - [a, "crmdig:D10_Software_Execution"]
+      - [ "crm:P2_has_type", "aat:300386427" ]
       - p: crmdig:L10_had_input
-        o:
-          function: idlab-fn:extract_and_derivate_sub_str
+        o :
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "02"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-02"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crmdig:L11_had_output
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "03"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-03"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P4_has_time-span
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "03"
+            - parameter: idlab-fn:valueType
+              value: "tsp"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-optimisation-timespan"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P11_had_participant
         o:
-          # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere gruppi responsabili
-                function: morph-kgc:string_split_explode
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
+                function: idlab-fn:multiple_separator_split_explode
                 parameters:
-                  - parameter: grel:param_string_sep
-                    value: ","
-                  - parameter: grel:valueParam
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
                     value: $(OTTIMIZZAZIONE_Istituto_responsabile_ottimizzazione)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crm:P14_carried_out_by
         o:
-          # Passaggio 2: normalizzare iri
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere persone responsabili
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crmdig:L23_used_software_or_firmware
         o:
@@ -1359,94 +1610,115 @@ mappings:
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere strumentazioni
+                # Passaggio 1: Esplodere gruppi responsabili
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione)
+            - parameter: idlab-fn:valueType
+              value: "sfw"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # EXPORT
+
+  # 7.5 EXPORT
   export:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
-      parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
-          value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-export"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
-    po:
-      - [ a, "crmdig:D10_Software_Execution" ]
-      - [ "crm:P2_has_type", "aat:300417260" ]
+      # Passaggio 2: creare iri normalizzato per l'azione *, baato sul numero associato allo step nel nostro processo, da 00 a 06
+      function: idlab-fn:normalize_and_convert_to_iri
 
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "04"
+        - parameter: idlab-fn:valueType
+          value: "act"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
+      - [a, "crmdig:D10_Software_Execution"]
+      - [ "crm:P2_has_type", "aat:300417260" ]
       - p: crmdig:L10_had_input
-        o:
-          function: idlab-fn:extract_and_derivate_sub_str
+        o :
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "03"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-03"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crmdig:L11_had_output
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "04"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-04"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P4_has_time-span
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "04"
+            - parameter: idlab-fn:valueType
+              value: "tsp"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-export-timespan"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P11_had_participant
         o:
-          # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere gruppi responsabili
-                function: morph-kgc:string_split_explode
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
+                function: idlab-fn:multiple_separator_split_explode
                 parameters:
-                  - parameter: grel:param_string_sep
-                    value: ","
-                  - parameter: grel:valueParam
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
                     value: $(ESPORTAZIONE_Istituto_responsabile_esportazione)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crm:P14_carried_out_by
         o:
-          # Passaggio 2: normalizzare iri
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere persone responsabili
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(ESPORTAZIONE_Persone_responsabili_esportazione)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crmdig:L23_used_software_or_firmware
         o:
@@ -1454,94 +1726,114 @@ mappings:
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere strumentazioni
+                # Passaggio 1: Esplodere gruppi responsabili
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(ESPORTAZIONE_Strumentazione_di_esportazione)
+            - parameter: idlab-fn:valueType
+              value: "sfw"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # METADATA
+  # 7.5 METADATA
   metadata:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
-      parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
-          value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-metadata"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
-    po:
-      - [ a, "crmdig:D10_Software_Execution" ]
-      - [ "crm:P2_has_type", "aat:300054638" ]
+      # Passaggio 2: creare iri normalizzato per l'azione *, baato sul numero associato allo step nel nostro processo, da 00 a 06
+      function: idlab-fn:normalize_and_convert_to_iri
 
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "05"
+        - parameter: idlab-fn:valueType
+          value: "act"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
+      - [a, "crmdig:D10_Software_Execution"]
+      - [ "crm:P2_has_type", "aat:300417260" ]
       - p: crmdig:L10_had_input
-        o:
-          function: idlab-fn:extract_and_derivate_sub_str
+        o :
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "04"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-04"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crmdig:L11_had_output
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "05"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-05"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P4_has_time-span
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "05"
+            - parameter: idlab-fn:valueType
+              value: "tsp"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-metadata-timespan"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P11_had_participant
         o:
-          # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere gruppi responsabili
-                function: morph-kgc:string_split_explode
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
+                function: idlab-fn:multiple_separator_split_explode
                 parameters:
-                  - parameter: grel:param_string_sep
-                    value: ","
-                  - parameter: grel:valueParam
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
                     value: $(METADATAZIONE_Istituto_responsabile_metadatazione)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crm:P14_carried_out_by
         o:
-          # Passaggio 2: normalizzare iri
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere persone responsabili
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(METADATAZIONE_Persone_responsabili_metadatazione)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crmdig:L23_used_software_or_firmware
         o:
@@ -1549,95 +1841,115 @@ mappings:
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere strumentazioni
+                # Passaggio 1: Esplodere gruppi responsabili
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(METADATAZIONE_Strumentazione_di_metadatazione)
+            - parameter: idlab-fn:valueType
+              value: "sfw"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # UPLOAD
 
+  # 7.6 UPLOAD
   upload:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato la licenza
-      function: idlab-fn:extract_and_derivate_sub_str
-      parameters:
-        - parameter: idlab-fn:valParamStr_inputBase
-          value: $(NR)
-        - parameter: idlab-fn:valParamStr_secondInput
-          value: "-upload"
-        - parameter: idlab-fn:valParamStr_deriveOrExtract
-          value: "add"
-    po:
-      - [ a, "crmdig:D10_Software_Execution" ]
-      - [ "crm:P2_has_type", "aat:300417260" ]
+      # Passaggio 2: creare iri normalizzato per l'azione *, baato sul numero associato allo step nel nostro processo, da 00 a 06
+      function: idlab-fn:normalize_and_convert_to_iri
 
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "06"
+        - parameter: idlab-fn:valueType
+          value: "act"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+
+    po:
+      - [a, "crmdig:D10_Software_Execution"]
+      - [ "crm:P2_has_type", "aat:300417260" ]
       - p: crmdig:L10_had_input
-        o:
-          function: idlab-fn:extract_and_derivate_sub_str
+        o :
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "05"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-05"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crmdig:L11_had_output
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          # ricreare l'iri normalizzato del digital object model 0* corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "06"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-model-06"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P4_has_time-span
         o:
-          function: idlab-fn:extract_and_derivate_sub_str
+          function: idlab-fn:normalize_and_convert_to_iri
           parameters:
-            - parameter: idlab-fn:valParamStr_inputBase
+            - parameter: idlab-fn:valueNum
+              value: "06"
+            - parameter: idlab-fn:valueType
+              value: "tsp"
+            - parameter: idlab-fn:valueParams
               value: $(NR)
-            - parameter: idlab-fn:valParamStr_secondInput
-              value: "-upload-timespan"
-            - parameter: idlab-fn:valParamStr_deriveOrExtract
-              value: "add"
+          type: iri
 
       - p: crm:P11_had_participant
         o:
-          # Passaggio 2: Normalizzare e convertire in IRI ciascun gruppo responsabile
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere gruppi responsabili
-                function: morph-kgc:string_split_explode
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
+                function: idlab-fn:multiple_separator_split_explode
                 parameters:
-                  - parameter: grel:param_string_sep
-                    value: ","
-                  - parameter: grel:valueParam
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
                     value: $(CARICAMENTO_SU_ATON_Istituto_responsabile_caricamento)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crm:P14_carried_out_by
         o:
-          # Passaggio 2: normalizzare iri
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere persone responsabili
+                # Passaggio 1: Esplodere nomi delle persone responsabili, in caso di valori multipli
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(CARICAMENTO_SU_ATON_Persone_responsabili_caricamento)
+            - parameter: idlab-fn:valueType
+              value: "acr"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
       - p: crmdig:L23_used_software_or_firmware
         o:
@@ -1645,12 +1957,64 @@ mappings:
           parameters:
             - parameter: idlab-fn:valueParams
               value:
-                # Passaggio 1: Esplodere strumentazioni
+                # Passaggio 1: Esplodere gruppi responsabili
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     value: ";---,--- e ---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(CARICAMENTO_SU_ATON_Strumentazione_di_caricamento)
+            - parameter: idlab-fn:valueType
+              value: "sfw"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
 
+# AGGIUNTE PER COLLEGARE ELEMENTI GIà ESISTENTI
+  initial_item_link:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      # Ricreare l'IRI normalizzato dell'item iniziale
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: ""
+        - parameter: idlab-fn:valueType
+          value: "itm"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - p: crm:P130i_features_are_also_found_on
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "0x"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
+  existing_object:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      # Ricreare l'IRI normalizzato del digital object model "0x"
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "0x"
+        - parameter: idlab-fn:valueType
+          value: "mdl"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - p: crm:P130_shows_features_of
+        o:
+          value: $(OGGETTO_ESISTENTE)
+          type: iri

@@ -9,13 +9,25 @@ __email__ = ["arenas.guerrero.julian@outlook.com", "arianna.moretti4@unibo.it"]
 bif_dict = {}
 udf_dict = {}
 
+# added for reading configurations
+import configparser
 
 ##############################################################################
 ########################   BUILT-IN SCALAR FUNCTION DECORATOR   ##############
 ##############################################################################
 
-#TO BE EXTRACTED FROM CONFIG FILE
-prefisso = "https://w3id.org/changes/4/aldrovandi/"
+# EXTRACTED FROM CONFIG FILE
+# Percorso del file di configurazione
+config_path = "src/morph_kgc_changes_metadata_conversions/config.ini"
+# Creazione di un oggetto ConfigParser
+config = configparser.ConfigParser()
+# Lettura del file di configurazione
+config.read(config_path)
+
+prefisso = config["CONFIGURATION"]["project_iri_base"]
+versione = config["CONFIGURATION"]["versione"]
+
+
 
 def bif(fun_id, **params):
     """
@@ -615,17 +627,26 @@ def normalize_and_suffix(param_name, suffix):
 
 @udf(
     fun_id='http://example.com/idlab/function/normalize_and_convert_to_iri',
-    str_param='http://example.com/idlab/function/valueParams'
+    str_param='http://example.com/idlab/function/valueParams',
+    type_param='http://example.com/idlab/function/valueType',
+    num_param='http://example.com/idlab/function/valueNum'
 )
-def normalize_and_convert_to_iri(str_param):
+def normalize_and_convert_to_iri(str_param, type_param, num_param):
 
     str_param = str_param.strip().lower()
     str_param = unicodedata.normalize('NFKD', str_param).encode('ascii', 'ignore').decode('ascii')
     str_param = re.sub(r"\s+", " ", str_param)
-    str_param = str_param.replace(' ', '-')
-    str_param = str_param.strip('-')
-    str_param = re.sub(r"-+", "-", str_param)
-    return str_param
+    str_param = str_param.replace(' ', '_')
+    str_param = str_param.replace('.', '_')
+    str_param = str_param.strip('_')
+    str_param = re.sub(r"_+", "_", str_param)
+
+    if num_param == "":
+        to_return = "".join([prefisso, type_param, "/", str_param, "/", versione])
+        return to_return
+    else:
+        to_return = "".join([prefisso, type_param, "/", str_param, "/",num_param,"/", versione])
+        return to_return
 
 
 
@@ -661,11 +682,9 @@ def multi_sep_string_split_explode(string, separators_list_str):
 
 @udf(
     fun_id="http://example.com/idlab/function/sequential_iris",
-    string='http://example.com/idlab/function/valParamStr',
-    id_obj='http://example.com/idlab/function/valParamId',
     iris_n='http://example.com/idlab/function/number_of_iris')
 
-def generate_sequential_iris(string, id_obj, iris_n):
+def generate_sequential_iris(iris_n):
     iris_n =int(iris_n)
     iris_list_result = []
     for n in range(iris_n):
@@ -673,9 +692,8 @@ def generate_sequential_iris(string, id_obj, iris_n):
             n_string = "0" + str(n)
         else:
             n_string = str(n)
-        components_tuple = (id_obj, string, n_string)
-        iris_list_result.append("-".join(components_tuple))
-    return iris_list_result\
+        iris_list_result.append(n_string)
+    return iris_list_result
 
 
 @udf(

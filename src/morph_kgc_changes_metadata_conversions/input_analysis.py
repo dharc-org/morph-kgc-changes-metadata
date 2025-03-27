@@ -106,7 +106,7 @@ def unique_values_from_csv(file_path, column_name):
 # # Esegui la funzione
 # check_relation_and_nr_collegato(csv_file_path)
 
-file_unico_merged = "src/morph_kgc_changes_metadata_conversions/output_dir/acquisizione_aldrovandi_clean_restructured_final_merged.csv"
+file_unico_merged = "src/morph_kgc_changes_metadata_conversions/output_dir/demo_marzo/ready_csv_to_convert/cleaned_aldrovandi_pro(Worksheet).csv"
 
 print("VALORI TROVATI IN ACQUISIZIONE_Istituto_responsabile_acquisizione ", unique_values_from_csv(file_unico_merged, "ACQUISIZIONE_Istituto_responsabile_acquisizione"))
 print("VALORI TROVATI IN PROCESSAMENTO_Istituto_responsabile_processamento ", unique_values_from_csv(file_unico_merged, "PROCESSAMENTO_Istituto_responsabile_processamento"))
