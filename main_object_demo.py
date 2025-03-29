@@ -48,56 +48,133 @@ def compare_column_values(main_csv, secondary_csv, column_name):
         "missing_in_secundary": list(main_values - secondary_values)
     }
 
-# Prepara il nuovo csv preprocessato, senza colonne vuote e senza row disallineate tra i due dataset
+
+import os
+import re
+import datetime
+import pandas as pd
+
+
+def fix_person_name(cell):
+    """
+    Trasforma una stringa contenente uno o più nomi di persona nel formato:
+      Cognome, Nome (eventuale id)  -->  Nome Cognome (eventuale id)
+      I nomi multipli sono separati da ';'
+      Se il nome è interamente racchiuso tra parentesi quadre, lo lascia invariato.
+    """
+    if pd.isna(cell):
+        return cell
+    s = str(cell).strip()
+    if not s:
+        return s
+    # Se la cella contiene più nomi separati da ';'
+    parts = s.split(';')
+    fixed_parts = []
+    # Pattern per nomi nel formato "Cognome, Nome" eventualmente seguito da uno spazio e da id tra parentesi tonde o quadre.
+    pattern = re.compile(r'^\s*([^,]+),\s*([^\(\[]+)(\s*[\(\[].*[\)\]])?\s*$')
+    for part in parts:
+        part = part.strip()
+        # Se il part è già del tipo "[...]", lascialo invariato
+        if part.startswith('[') and part.endswith(']'):
+            fixed_parts.append(part)
+            continue
+        m = pattern.match(part)
+        if m:
+            cognome = m.group(1).strip()
+            nome = m.group(2).strip()
+            id_str = m.group(3) or ""
+            id_str = id_str.strip()
+            # Costruisce "Nome Cognome" e, se presente, aggiunge l'id (con uno spazio prima)
+            if id_str:
+                fixed_parts.append(f"{nome} {cognome} {id_str}")
+            else:
+                fixed_parts.append(f"{nome} {cognome}")
+        else:
+            fixed_parts.append(part)
+    return " ; ".join(fixed_parts)
+
+
+def clean_value(value):
+    if pd.isna(value):  # Gestisce i valori NaN
+        return None
+    value = str(value).strip()  # Rimuove spazi iniziali e finali
+    value = re.sub(r'\s+', ' ', value)  # Sostituisce spazi multipli con uno solo
+    value = re.sub(r'[\s\-_]+', '_', value)  # Sostituisce spazi, "-" e "_" con "_"
+    value = value.lower()
+    return value
+
 def create_ready_csv(csv_filepath, columns_with_no_values, col_name, missing_ids, output_dir):
     """
     Elimina colonne vuote specificate e righe con valori specifici in una colonna,
-    convertendo eventuali date nel formato DD/MM/YYYY in YYYY-MM-DD, poi salva il nuovo CSV.
+    convertendo eventuali date dal formato DD/MM/YYYY in YYYY-MM-DD, applica una
+    trasformazione sulle colonne relative ai nomi di persona, e salva il nuovo CSV.
+
+    Le colonne da correggere sono:
+      "Scopritore", "Autore", "Traduttore", "Disegnatore", "Incisore", "Editore",
+      "Preparatore museale", "Committente"
 
     Args:
-        csv_filepath (str): Percorso del file CSV di input.
+        csv_filepath (str): Il percorso del file CSV di input.
         columns_with_no_values (list): Lista dei nomi delle colonne da rimuovere.
         col_name (str): Nome della colonna su cui filtrare i valori da rimuovere.
         missing_ids (list): Lista dei valori nella colonna col_name da rimuovere.
         output_dir (str): Directory in cui salvare il file CSV modificato.
 
     Returns:
-        str: Percorso del file CSV salvato.
+        str: Il percorso del file CSV salvato.
     """
     # Carica il dataset
     df = pd.read_csv(csv_filepath, encoding='latin1')
 
-    # Funzione di supporto per convertire il formato data
+    # Funzione di supporto per convertire il formato data (DD/MM/YYYY -> YYYY-MM-DD)
     def convert_date(val):
         if isinstance(val, str):
-            # Verifica se il valore corrisponde al formato DD/MM/YYYY
             match = re.fullmatch(r"(\d{2})/(\d{2})/(\d{4})", val)
             if match:
                 day, month, year = match.groups()
                 try:
                     dt = datetime.date(int(year), int(month), int(day))
-                    return dt.isoformat()  # Ritorna YYYY-MM-DD
+                    return dt.isoformat()
                 except Exception:
                     return val
         return val
 
-    # Applica la conversione a ogni cella del DataFrame
+    # Applica la conversione data a ogni cella del DataFrame
     df = df.applymap(convert_date)
 
-    # Rimuovi le colonne specificate (solo se esistono nel dataset)
+    # Rimuovi le colonne specificate (se esistono)
     df = df.drop(columns=[col for col in columns_with_no_values if col in df.columns])
 
-    # Rimuovi le righe dove col_name ha valori in missing_ids
+    # Rimuovi le righe in cui il valore della colonna col_name è presente in missing_ids
     df = df[~df[col_name].astype(str).isin([str(val) for val in missing_ids])]
+
+    # Aggiungi qui la trasformazione dei nomi di persona nelle colonne specificate
+    person_columns = ["Scopritore", "Autore", "Traduttore", "Disegnatore",
+                      "Incisore", "Editore", "Preparatore museale", "Committente"]
+    for col in person_columns:
+        if col in df.columns:
+            df[col] = df[col].apply(fix_person_name)
+
+    # Applica la pulizia dei valori nella colonna "NR collegato"
+    if "NR collegato" in df.columns:
+        df["NR collegato"] = df["NR collegato"].apply(clean_value)
 
     # Crea il nome del nuovo file
     filename = os.path.basename(csv_filepath)
     output_path = os.path.join(output_dir, f"cleaned_{filename}")
 
-    # Salva il nuovo file
-    df.to_csv(output_path, index=False)
+    # Salva il nuovo file CSV
+    df.to_csv(output_path, index=False, encoding='latin1')
 
     return output_path
+
+
+# Esempio di utilizzo:
+# csv_input = "path/to/your/input.csv"
+# columns_to_remove = [ ... ]  # Lista delle colonne vuote da rimuovere
+# missing_ids = [ ... ]  # Lista dei valori da rimuovere dalla colonna col_name
+# ready_csv = create_ready_csv(csv_input, columns_to_remove, "NR", missing_ids, "path/to/output_dir")
+# print(ready_csv)
 
 # Funzione per la pulizia dinamica del file di mapping
 def get_all_values_from_nested_dict(data):
@@ -177,9 +254,9 @@ config = configparser.ConfigParser()
 # Lettura del file di configurazione
 config.read(config_path)
 
-# Accesso al valore di file_path in DataSource2
-csv_file_path = config["DataSource2"]["file_path"]
-coupled_csv_file_path = config["DataSource1"]["file_path"]
+# Accesso al valore di file_path in DataSource1
+csv_file_path = config["DataSource1"]["file_path"]
+coupled_csv_file_path = config["DataSource2"]["file_path"]
 ready_input_dir =  config["DataSource1"]["ready_input_dir"]
 
 columns_with_no_values = []
@@ -213,12 +290,12 @@ config_path_tmp = config_path.split(".ini")[0] + "_tmp" + ".ini"
 # Creazione di un oggetto ConfigParser
 config_tmp = configparser.ConfigParser()
 
-temp_mapping_file = config["DataSource2"]["mappings"]
+temp_mapping_file = config["DataSource1"]["mappings"]
 
 if columns_with_no_values:
     keys_to_remove_from_mapping = []
-    temp_mapping_file = config["DataSource2"]["mappings"].split(".yaml")[0] + "_tmp.yaml"
-    original_mapping_file = config["DataSource2"]["mappings"]
+    temp_mapping_file = config["DataSource1"]["mappings"].split(".yaml")[0] + "_tmp.yaml"
+    original_mapping_file = config["DataSource1"]["mappings"]
 
     with open(original_mapping_file, "r", encoding="utf-8") as f:
         yaml_mod = YAML()
@@ -261,9 +338,9 @@ if columns_with_no_values:
 
 
 # Copia delle sezioni necessarie nel nuovo file
-config_tmp["DataSource2"] = config["DataSource2"]
-config_tmp["DataSource2"]["file_path"] = ready_input
-config_tmp["DataSource2"]["mappings"] = temp_mapping_file
+config_tmp["DataSource1"] = config["DataSource1"]
+config_tmp["DataSource1"]["file_path"] = ready_input
+config_tmp["DataSource1"]["mappings"] = temp_mapping_file
 config_tmp["CONFIGURATION"] = config["CONFIGURATION"]
 base_output_dir = config["CONFIGURATION"]["output_dir"]
 sub_output_dir = os.path.join(base_output_dir, "process_dataset")
@@ -296,7 +373,7 @@ except Exception as e:
 ###############
 
 # file di output e il percorso di output
-output_file = config_tmp["DataSource2"]['output_file']
+output_file = config_tmp["DataSource1"]['output_file']
 #output_dir = config_tmp['CONFIGURATION']['output_dir']
 output_path = os.path.join(sub_output_dir, output_file)
 
@@ -308,7 +385,7 @@ if not isinstance(graph, Graph):
 # mapping YARRRML in dizionario
 yaml = YAML(typ='safe', pure=True)
 
-map_file = config['DataSource2']['mappings']
+map_file = config['DataSource1']['mappings']
 
 with open(map_file, 'r', encoding='utf-8') as file:
     yarrrml_data = yaml.load(file)
@@ -330,8 +407,6 @@ graph.serialize(destination=output_path, format=serialization)
 
 
 
-
-
 # CORREZIONE (POSTPROCESSING)
 
 # grafo per caricare rdf
@@ -347,14 +422,9 @@ with open(output_path, 'r') as f:
 output_file_path = output_path.split(".")[0] + "_corretto.ttl"
 
 # estrazione prefissi
-def extract_prefixes(text, supplementary_dict):
-    are_there_missing_prefixes = False
+def extract_prefixes(text):
     prfx = re.findall(r'@prefix\s([^\s:]+:)\s', text)
-    supplementary_prefixes = [x for x in supplementary_dict.keys() if x not in prfx]
-    if supplementary_prefixes:
-        are_there_missing_prefixes = True
-    prfx = prfx + supplementary_prefixes
-    return prfx, are_there_missing_prefixes
+    return prfx
 
 # regex generata sui prefissi
 def generate_prefix_regex(prefixes):
@@ -363,15 +433,11 @@ def generate_prefix_regex(prefixes):
     regex_pattern = rf'"({prefix_pattern})[^"]*"'
     return regex_pattern
 
-# rimuovere parentesi angolari
+# rimuovere le parentesi angolari da URI
 def remove_angular_brackets(uri):
-    return uri.strip('<>')
+    return uri.strip('<>')# Funzione per rimuovere le parentesi angolari dalle URI
 
-# rimuovere le virgolette
-def remove_apices(string):
-    return string.strip('"')
-
-# rimuovere apici da uri delimitati da parentesi angolari
+# rimuovere le parentesi angolari da URI
 def remove_angular_apices_add_angular_brackets(uri):
     uri = remove_apices(uri)
     if uri.startswith("<") and uri.endswith(">"):
@@ -383,250 +449,61 @@ def remove_angular_apices_add_angular_brackets(uri):
     else:
         return "<"+uri+">"
 
+# rimuovere le virgolette da URI
+def remove_apices(string):
+    return string.strip('"')
 
-def determine_first_phase(csv_path):
-    """
-    Per ogni riga del CSV in cui il campo "OGGETTO_ESISTENTE" NON è vuoto,
-    identifica la prima fase svolta. Le fasi sono definite in ordine:
-
-      - ACQUISIZIONE: "00"
-      - PROCESSAMENTO: "01"
-      - MODELLAZIONE: "02"
-      - OTTIMIZZAZIONE: "03"
-      - ESPORTAZIONE: "04"
-      - METADATAZIONE: "05"
-      - CARICAMENTO: "06"
-
-    Per ogni fase si considerano tutte le colonne il cui nome inizia con il nome
-    della fase (ignorando il case). Se tutte le colonne di una fase sono vuote,
-    quella fase non è stata svolta. La prima fase in cui almeno un valore è presente
-    viene considerata come la prima fase svolta.
-
-    Restituisce un dizionario in cui:
-      - le chiavi sono i valori della colonna "NR" (come stringhe)
-      - i valori sono il codice numerico (stringa) della prima fase svolta.
-
-    Esempio di output: {"26": "01", "27a": "02", ...}
-    """
-    # Leggi il CSV (modifica l'encoding se necessario)
-    df = pd.read_csv(csv_path, encoding="latin1")
-
-    # Filtra solo le righe in cui "OGGETTO_ESISTENTE" non è nullo e non è vuoto
-    df = df[df["OGGETTO_ESISTENTE"].notnull()]
-    df = df[df["OGGETTO_ESISTENTE"].astype(str).str.strip() != ""]
-
-    # Definizione delle fasi (nome, codice)
-    phases = [
-        ("ACQUISIZIONE", "00"),
-        ("PROCESSAMENTO", "01"),
-        ("MODELLAZIONE", "02"),
-        ("OTTIMIZZAZIONE", "03"),
-        ("ESPORTAZIONE", "04"),
-        ("METADATAZIONE", "05"),
-        ("CARICAMENTO", "06")
-    ]
-
-    first_phase_dict = {}
-
-    # Itera sulle righe filtrate
-    for _, row in df.iterrows():
-        nr = str(row["NR"]).strip()
-        # Controlla le fasi in ordine
-        for phase_name, phase_code in phases:
-            # Trova tutte le colonne che iniziano per il nome della fase (case-insensitive)
-            phase_columns = [col for col in df.columns if col.upper().startswith(phase_name.upper())]
-            if not phase_columns:
-                continue  # Se non ci sono colonne per quella fase, passa alla successiva
-            # Estrai i valori relativi a queste colonne per la riga corrente, rimuovendo spazi
-            values = row[phase_columns].apply(lambda x: "" if pd.isna(x) else str(x).strip())
-            # Se almeno un valore non è vuoto, considera questa fase come la prima svolta
-            if any(values != ""):
-                first_phase_dict[nr] = phase_code
-                break  # Passa alla riga successiva una volta trovata la prima fase svolta
-
-    return first_phase_dict
-
-
-def process_rdf_data(data, extract_prefixes, supl_dict, csv_input):
-    """
-    Processa i dati RDF in forma testuale, sostituendo URI malformati e gestendo i prefissi mancanti.
-
-    Inoltre:
-      - Prima di ulteriori post-elaborazioni, rimuove dal grafo tutte le triple che hanno
-        come soggetto o oggetto un IRI relativo a un'entità (NR) la cui parte fase (in formato a due cifre)
-        è inferiore al valore della prima fase svolta (determinata dal CSV).
-      - Sostituisce tutte le occorrenze di IRIs con placeholder "0x" (es. <.../mdl/{id}/0x/{version}>)
-        con l'IRI reale avente il valore numerico (a due cifre) più basso per quello {id} e {version}.
-      - Per le triple con predicato crm:P130_shows_features_of, converte l'oggetto (se URI) in minuscolo.
-
-    Parameters:
-      - data (str): I dati RDF in formato testuale.
-      - extract_prefixes (function): Funzione per estrarre i prefissi e verificare se mancano.
-      - supl_dict (dict): Dizionario contenente le righe di prefissi da aggiungere se mancanti.
-      - csv_input (str): Il percorso del CSV di input, per determinare la prima fase svolta.
-
-    Returns:
-      - str: I dati RDF processati.
-    """
-    # --- Sostituzioni testuali di base ---
-    prefixes, missing = extract_prefixes(data, supl_dict)
+# processare rdf in forma testuale
+def process_rdf_data(data):
+    prefixes = extract_prefixes(data)
     regex_pattern = generate_prefix_regex(prefixes)
     string_pattern = re.compile(regex_pattern)
-    uri_pattern = re.compile(r'<(?!http|https)([^>]+)>')
-    bad_form_uri_pattern = re.compile(r'(?:["]<?)(https?:\/\/[^\s"\'<>\\]]+)(?:>["]|[\">?])')
-    bad_form_uri_pattern_url_extra = re.compile(r'"(<(https?:\/\/[^>]+)>)"')
 
+    # matches = re.finditer(regex_pattern, data, re.MULTILINE)
+    # matches_found = []
+    # for matchNum, match in enumerate(matches, start=1):
+    #     matches_found.append("{match}".format(matchNum=matchNum, start=match.start(), end=match.end(), match=match.group()))
+    #     print("Match {matchNum} was found at {start}-{end}: {match}".format(matchNum=matchNum, start=match.start(),
+    #                                                                         end=match.end(), match=match.group()))
+    # print("matches_found", matches_found)
+
+    # regex x trovare URI
+    uri_pattern = re.compile(r'<(?!http|https)([^>]+)>')
+    bad_form_uri_pattern = re.compile(r"(?:[\"]<?)(https?:\/\/[^\s\"'<>\]]+)(?:>[\"]|[\">?])")
+
+    # sostituzione uri con parentesi angolari con uri senza
     def replace_uri(match):
         return remove_angular_brackets(match.group(0))
 
+    # sostituzione uri tra virgolette con uri in parentesi angolari
     def replace_badform_uri(match):
         return remove_angular_apices_add_angular_brackets(match.group(0))
 
+    # sostituzione uri con virgolette con uri senza
     def replace_str(match):
         return remove_apices(match.group(0))
 
+    # regex per sostituire tutti URI
     processed_data = uri_pattern.sub(replace_uri, data)
+
+    # regex per sostituire tutti URI
     processed_data = string_pattern.sub(replace_str, processed_data)
+
+    # regex per sostituire URI badformed
     processed_data = bad_form_uri_pattern.sub(replace_badform_uri, processed_data)
-    processed_data = bad_form_uri_pattern_url_extra.sub(replace_str, processed_data)
 
-    if missing:
-        lines = processed_data.splitlines()
-        lines = [line for line in lines if "@prefix" not in line]
-        supl_lines = [value for key, value in supl_dict.items()]
-        processed_data = "\n".join(supl_lines + lines)
 
-    def enclose_bare_urls(text):
-        pattern = re.compile(r'(?<!<)(https?://[^\s<>"]+)(?!>)', re.IGNORECASE)
-        return pattern.sub(r'<\1>', text)
-
-    processed_data = enclose_bare_urls(processed_data)
-
-    # --- Carica il testo RDF processato in un grafo rdflib ---
-    g = Graph()
-    g.parse(data=processed_data, format="turtle")
-
-    # --- STEP PRELIMINARE: Rimuovi dal grafo le triple relative a entità con fase inferiore ---
-    # Determina il dizionario delle prime fasi svolte dal CSV
-    first_phase_dict = determine_first_phase(csv_input)
-    # print("First phase dictionary:", first_phase_dict)
-
-    # Pattern per riconoscere IRIs con struttura: https://w3id.org/changes/4/aldrovandi/(itm|lic|mdl)/{NR}/{phase}/{version}
-    pattern_phase = re.compile(r"^https://w3id.org/changes/4/aldrovandi/(?:itm|lic|mdl)/([^/]+)/(\d{2})/([^/]+)$")
-
-    for triple in list(g.triples((None, None, None))):
-        s, p, o = triple
-        remove_triple = False
-        # Verifica il soggetto
-        if isinstance(s, URIRef):
-            m = pattern_phase.match(str(s))
-            if m:
-                nr = m.group(1)
-                phase_str = m.group(2)
-                if nr in first_phase_dict:
-                    if int(phase_str) < int(first_phase_dict[nr]):
-                        remove_triple = True
-        # Verifica l'oggetto se non già deciso
-        if not remove_triple and isinstance(o, URIRef):
-            m = pattern_phase.match(str(o))
-            if m:
-                nr = m.group(1)
-                phase_str = m.group(2)
-                if nr in first_phase_dict:
-                    if int(phase_str) < int(first_phase_dict[nr]):
-                        remove_triple = True
-        if remove_triple:
-            g.remove(triple)
-            # print(f"Removed triple: {s} {p} {o}")
-
-    # --- Sostituzione dei placeholder "0x" nei soggetti ---
-    pattern_placeholder = re.compile(r"^https://w3id.org/changes/4/aldrovandi/mdl/([^/]+)/0x/([^/]+)$")
-    for s in list(g.subjects()):
-        s_str = str(s)
-        m = pattern_placeholder.match(s_str)
-        if m:
-            id_part = m.group(1)
-            version = m.group(2)
-            numeric_pattern = re.compile(
-                rf"^https://w3id.org/changes/4/aldrovandi/mdl/{re.escape(id_part)}/(\d{{2}})/{re.escape(version)}$"
-            )
-            numeric_values = []
-            for term in g.all_nodes():
-                if isinstance(term, URIRef):
-                    term_str = str(term)
-                    m_num = numeric_pattern.match(term_str)
-                    if m_num:
-                        try:
-                            num_val = int(m_num.group(1))
-                            numeric_values.append(num_val)
-                        except ValueError:
-                            continue
-            if numeric_values:
-                min_val = min(numeric_values)
-                new_s_str = f"https://w3id.org/changes/4/aldrovandi/mdl/{id_part}/{min_val:02d}/{version}"
-                new_s = URIRef(new_s_str)
-                for p, o in list(g.predicate_objects(subject=s)):
-                    g.remove((s, p, o))
-                    g.add((new_s, p, o))
-                # print(f"Replaced subject {s_str} with {new_s_str}")
-
-    # --- Sostituzione dei placeholder "0x" negli oggetti ---
-    for o in list(g.objects()):
-        o_str = str(o)
-        m = pattern_placeholder.match(o_str)
-        if m:
-            id_part = m.group(1)
-            version = m.group(2)
-            numeric_pattern = re.compile(
-                rf"^https://w3id.org/changes/4/aldrovandi/mdl/{re.escape(id_part)}/(\d{{2}})/{re.escape(version)}$"
-            )
-            numeric_values = []
-            for term in g.all_nodes():
-                if isinstance(term, URIRef):
-                    term_str = str(term)
-                    m_num = numeric_pattern.match(term_str)
-                    if m_num:
-                        try:
-                            num_val = int(m_num.group(1))
-                            numeric_values.append(num_val)
-                        except ValueError:
-                            continue
-            if numeric_values:
-                min_val = min(numeric_values)
-                new_o_str = f"https://w3id.org/changes/4/aldrovandi/mdl/{id_part}/{min_val:02d}/{version}"
-                new_o = URIRef(new_o_str)
-                for s, p in list(g.subject_predicates(object=o)):
-                    g.remove((s, p, o))
-                    g.add((s, p, new_o))
-                # print(f"Replaced object {o_str} with {new_o_str}")
-
-    # --- Lowercase per oggetti di crm:P130_shows_features_of ---
-    crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-    for s, p, o in list(g.triples((None, crm.P130_shows_features_of, None))):
-        if isinstance(o, URIRef):
-            lower_o_str = str(o).lower()
-            if lower_o_str != str(o):
-                new_o = URIRef(lower_o_str)
-                g.remove((s, p, o))
-                g.add((s, p, new_o))
-                # print(f"Lowercased object for predicate crm:P130_shows_features_of: {str(o)} -> {lower_o_str}")
-
-    processed_data = g.serialize(format="turtle")
     return processed_data
 
+# esecuzione trasformazione
+processed_data = process_rdf_data(data)
 
-# --- Esecuzione della trasformazione e scrittura del file finale ---
-# Ipotizziamo che:
-# - "data" sia il testo RDF iniziale,
-# - "extract_prefixes" e "prefixes_dict_from_yaml" siano già definiti,
-# - "csv_input" sia il percorso del CSV da cui determinare la prima fase.
-processed_data = process_rdf_data(data, extract_prefixes, prefixes_dict_from_yaml, ready_input)
+# stampa dati RDF trasformati
+# print(processed_data)
 
+# scrittura su file di dati RDF trasformati
 with open(output_file_path, 'w') as f:
     f.write(processed_data)
 
 if os.path.exists(config_path_tmp):
     os.remove(config_path_tmp)
-
-if temp_mapping_file != config["DataSource2"]["mappings"] and os.path.exists(temp_mapping_file):
-    os.remove(temp_mapping_file)

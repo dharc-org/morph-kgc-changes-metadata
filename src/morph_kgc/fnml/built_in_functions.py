@@ -312,61 +312,110 @@ def convert_date_to_xsd_datetime(date_str, date_type):
         return f'{date_str}T00:00:00Z'
 
 
+import re
+
+
+def pad_year(year_str):
+    """
+    Converte l'anno in intero e lo formatta a 4 cifre.
+    Se l'anno è 0, lo considera come -1 (1 a.C. in notazione astronomica).
+    Se l'anno (in valore assoluto) non è compreso tra 1 e 9999, restituisce None.
+    """
+    try:
+        y = int(year_str)
+    except ValueError:
+        return None
+    if y == 0:
+        y = -1  # 1 a.C.
+    if abs(y) < 1 or abs(y) > 9999:
+        return None
+    if y < 0:
+        return '-' + str(abs(y)).zfill(4)
+    else:
+        return str(y).zfill(4)
+
+
 @udf(
     fun_id="http://example.com/idlab/function/split_year_range_to_dates",
     string="http://example.com/idlab/function/param_string_e",
     position="http://example.com/idlab/function/param_position_e"
 )
-
 def split_year_range_to_dates(string, position):
-    # strip + clean extra whitespace from input string
-    string = string.strip()
+    """
+    Processa una stringa che rappresenta un intervallo di anni (o un singolo anno)
+    e restituisce una data in formato ISO8601 (xsd:dateTime) corrispondente all'inizio
+    o alla fine dell'anno.
 
-    if "-" in string:
-        # split string at hyphen: separate start/end years
-        years = re.split(r"\s*-\s*", string)
-    else:
-        # if only one year, it's both start and end year
-        years = []
-        year_start = string
-        year_end = string
-        years.append(year_start)
-        years.append(year_end)
+    La stringa in input può essere nel formato:
+      "YYYY-YYYY" oppure "YYYY" (o con anni BC, ad esempio "-100 - -50"),
+    con spazi arbitrari intorno al trattino.
 
-    # validate input format (YYYY-YYYY)
-    if len(years) != 2:
+    Questa funzione:
+      - rimuove spazi extra e normalizza il separatore,
+      - usa una regex per catturare il primo anno (con segno opzionale) e, se presente, il secondo,
+      - "pada" ciascun anno a quattro cifre;
+      - se l'anno risultante è negativo (BC) o fuori dal range 0001–9999, restituisce None,
+      - altrimenti restituisce una stringa ISO8601 corrispondente all'inizio o alla fine dell'anno.
+
+    Esempi:
+      "1400 - 1520"  ->  start: "1400-01-01T00:00:00Z", end: "1520-12-31T23:59:59Z"
+      "- 0-99"       ->  restituisce None (perché l'anno sarebbe BC)
+      "1482"         ->  start: "1482-01-01T00:00:00Z", end: "1482-12-31T23:59:59Z"
+
+    Se il formato non è riconosciuto, restituisce None.
+    """
+    if not string:
         return None
-        # raise ValueError("Expected a year range in the format 'YYYY-YYYY'")
 
-    # whether to return the start or end year date
+    # Rimuove spazi all'inizio e alla fine e normalizza il separatore (rimuove spazi attorno al trattino)
+    string = string.strip()
+    string = re.sub(r'\s*-\s*', '-', string)
+
+    # Usa una regex per catturare il primo anno (con segno opzionale) e, opzionalmente, il secondo anno
+    m = re.match(r'^([-]?\d+)(?:-([-]?\d+))?$', string)
+    if not m:
+        return None
+    year_start, year_end = m.groups()
+    if year_end is None:
+        year_end = year_start
+
+    # Applica la "paddatura" e il controllo di range
+    year_start = pad_year(year_start)
+    year_end = pad_year(year_end)
+    if year_start is None or year_end is None:
+        return None  # Se uno degli anni non è valido, restituisce None
+
+    # Se uno degli anni è negativo (BC), non lo supportiamo: restituisci None
+    if year_start.startswith('-') or year_end.startswith('-'):
+        return None
+
     if position.lower() == 'start':
-        return years[0] + '-01-01T00:00:00Z'  # start of the year
+        return f"{year_start}-01-01T00:00:00Z"
     elif position.lower() == 'end':
-        return years[1] + '-12-31T23:59:59Z'  # end of the year
+        return f"{year_end}-12-31T23:59:59Z"
     else:
         raise ValueError("Expected 'start' or 'end' for 'position' parameter")
 
-
-def convert_date_to_xsd_datetime(date_str: str) -> str:
-    """
-    Converte una data nel formato 'YYYY-MM-DD'
-    in un literal RDF di tipo xsd:dateTime,
-    con ora fissa '00:00:00Z'.
-
-    Esempio:
-      Input:  '2023-04-17'
-      Output: '"2023-04-17T00:00:00Z"^^xsd:dateTime'
-    """
-
-    # Verifica la validità del formato,
-    # solleverà ValueError se la data non è valida
-    try:
-        datetime.datetime.strptime(date_str, "%Y-%m-%d")
-    except ValueError:
-        raise ValueError(f"Formato data non valido (atteso YYYY-MM-DD): {date_str}")
-
-    # Se la data è valida, costruisce la stringa secondo lo schema desiderato
-    return f"\"{date_str}T00:00:00Z\"^^xsd:dateTime"
+# def convert_date_to_xsd_datetime(date_str: str) -> str:
+#     """
+#     Converte una data nel formato 'YYYY-MM-DD'
+#     in un literal RDF di tipo xsd:dateTime,
+#     con ora fissa '00:00:00Z'.
+#
+#     Esempio:
+#       Input:  '2023-04-17'
+#       Output: '"2023-04-17T00:00:00Z"^^xsd:dateTime'
+#     """
+#
+#     # Verifica la validità del formato,
+#     # solleverà ValueError se la data non è valida
+#     try:
+#         datetime.datetime.strptime(date_str, "%Y-%m-%d")
+#     except ValueError:
+#         raise ValueError(f"Formato data non valido (atteso YYYY-MM-DD): {date_str}")
+#
+#     # Se la data è valida, costruisce la stringa secondo lo schema desiderato
+#     return f"\"{date_str}T00:00:00Z\"^^xsd:dateTime"
 
 
 @udf(
@@ -457,11 +506,11 @@ def extract_documented_in_iri(param_author_name=None):
     """
     if param_author_name is None:
         return None
-
+    param_author_name = param_author_name.lower()
     # Pattern VIAF
-    viaf_pattern = r'\(VIAF:(\d+)\)'
+    viaf_pattern = r'\(viaf:(\d+)\)'
     # Pattern ULAN
-    ulan_pattern = r'\(ULAN:(\d+)\)'
+    ulan_pattern = r'\(ulan:(\d+)\)'
 
     # extracts ID VIAF
     viaf_match = re.search(viaf_pattern, param_author_name)
@@ -501,7 +550,7 @@ def extract_title(param_title_original=None):
         title = match.group(1).strip()
         return title
 
-    return None
+    return param_title_original
 
 
 @udf(
@@ -629,40 +678,55 @@ def normalize_and_suffix(param_name, suffix):
     fun_id='http://example.com/idlab/function/normalize_and_convert_to_iri',
     str_param='http://example.com/idlab/function/valueParams',
     type_param='http://example.com/idlab/function/valueType',
-    num_param='http://example.com/idlab/function/valueNum'
+    num_param='http://example.com/idlab/function/valueNum',
+    parent_param='http://example.com/idlab/function/valueParent'
 )
-def normalize_and_convert_to_iri(str_param, type_param, num_param):
+
+def normalize_and_convert_to_iri(str_param, type_param, num_param, parent_param=None):
+    # Rimuovi tutto ciò che è compreso tra parentesi tonde o quadre, inclusi gli stessi
+    str_param = re.sub(r"[\(\[].*?[\)\]]", "", str_param)
 
     str_param = str_param.strip().lower()
     str_param = unicodedata.normalize('NFKD', str_param).encode('ascii', 'ignore').decode('ascii')
     str_param = re.sub(r"\s+", " ", str_param)
     str_param = str_param.replace(' ', '_')
+    str_param = str_param.replace('"', '')
     str_param = str_param.replace('.', '_')
     str_param = str_param.strip('_')
     str_param = re.sub(r"_+", "_", str_param)
-
-    if num_param == "":
-        to_return = "".join([prefisso, type_param, "/", str_param, "/", versione])
-        return to_return
+    if not parent_param:
+        if num_param == "":
+            to_return = "".join([prefisso, type_param, "/", str_param, "/", versione])
+            return to_return
+        else:
+            to_return = "".join([prefisso, type_param, "/", str_param, "/", num_param, "/", versione])
+            return to_return
     else:
-        to_return = "".join([prefisso, type_param, "/", str_param, "/",num_param,"/", versione])
-        return to_return
+        if num_param == "":
+            to_return = "".join([prefisso, type_param, "/", str_param,"_parent", "/", versione])
+            return to_return
+        else:
+            to_return = "".join([prefisso, type_param, "/", str_param,"_parent", "/", num_param, "/", versione])
+            return to_return
+
 
 
 
 @udf(
-    fun_id="http://example.com/idlab/function/conditional_normalize_and_suffix",
-    numero_collegato="http://example.com/idlab/function/numero_collegato",
-    suffisso="http://example.com/idlab/function/suffisso",
+    fun_id="http://example.com/idlab/function/conditional_normalize_and_convert_to_iri",
+    str_param='http://example.com/idlab/function/valueParams',
+    type_param='http://example.com/idlab/function/valueType',
+    num_param='http://example.com/idlab/function/valueNum',
     relazione="http://example.com/idlab/function/relazione",
-    relazione_target="http://example.com/idlab/function/relazione_target"
+    relazione_target="http://example.com/idlab/function/relazione_target",
+    parent_param='http://example.com/idlab/function/valueParent'
 )
-def conditional_normalize_and_suffix(numero_collegato, suffisso, relazione, relazione_target):
+def conditional_normalize_and_suffix(str_param, type_param, num_param, relazione, relazione_target, parent_param=None):
     # Se la relazione non è uguale a relazione_target, restituisce None
-    if relazione.strip() != relazione_target.strip():
+    if relazione.strip().lower() != relazione_target.strip().lower():
         return None
     # Altrimenti normalizza numero_collegato e suffisso, e li unisce
-    norm_iri = normalize_and_suffix(numero_collegato, suffisso)
+    norm_iri = normalize_and_convert_to_iri(str_param, type_param, num_param)
 
     return norm_iri
 

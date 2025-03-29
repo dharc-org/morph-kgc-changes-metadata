@@ -5,7 +5,7 @@ import re
 
 def unique_values_from_csv(file_path, column_name):
     # csv to dataframe
-    df = pd.read_csv(file_path)
+    df = pd.read_csv(file_path, encoding="latin1")
 
     # does column name exist in dataframe
     if column_name not in df.columns:
@@ -17,6 +17,7 @@ def unique_values_from_csv(file_path, column_name):
     # stor unique values in a list
     unique_values_sorted = sorted(unique_values)
 
+    print(unique_values_sorted)
     return unique_values_sorted
 
 
@@ -70,70 +71,75 @@ def unique_values_from_csv(file_path, column_name):
 #                 languages.add(language)
 #
 #     return languages
-#
-# file_path = 'src/morph_kgc_changes_metadata_conversions/metadata_aldrovandi.csv'
-# column_name = 'Titolo originale'
-# languages_set = extract_languages_from_titles(file_path, column_name)
-# print("Linguaggi trovati:", languages_set)
-#
-#
-# def extract_docu_types(file_path, column_name):
-#     docu_types = set()
-#
-#     with open(file_path, 'r', encoding='utf-8') as csvfile:
-#         reader = csv.DictReader(csvfile)
-#         for row in reader:
-#             title = row[column_name].strip()
-#             docu_types.add(title)
-#
-#     return docu_types
-#
-# file_path = 'src/morph_kgc_changes_metadata_conversions/metadata_aldrovandi.csv'
-# column_name = 'Tipologia documentaria'
-# column_name2 = 'Tipologia opera parente'
-#
-# td_set2 = extract_docu_types(file_path, column_name2)
-# td_set1 = extract_docu_types(file_path, column_name)
-# print("docu_types_column_name2 trovati:", td_set2)
-# print("docu_types_column_name1 trovati:", td_set1)
-#
-# print("in Tipologia opera parente but not in Tipologia documentaria", [x for x in td_set2 if x not in td_set1])
-# print("in Tipologia documentaria but not in Tipologia opera parente", [x for x in td_set2 if x not in td_set1])
-#
-# # Percorso al file CSV
-# csv_file_path = 'src/morph_kgc_changes_metadata_conversions/metadata_aldrovandi.csv'
-#
-# # Esegui la funzione
-# check_relation_and_nr_collegato(csv_file_path)
 
-file_unico_merged = "src/morph_kgc_changes_metadata_conversions/output_dir/demo_marzo/ready_csv_to_convert/cleaned_aldrovandi_pro(Worksheet).csv"
+if __name__ == '__main__':
 
-print("VALORI TROVATI IN ACQUISIZIONE_Istituto_responsabile_acquisizione ", unique_values_from_csv(file_unico_merged, "ACQUISIZIONE_Istituto_responsabile_acquisizione"))
-print("VALORI TROVATI IN PROCESSAMENTO_Istituto_responsabile_processamento ", unique_values_from_csv(file_unico_merged, "PROCESSAMENTO_Istituto_responsabile_processamento"))
-print("VALORI TROVATI IN MODELLAZIONE_Istituto_responsabile_modellazione ", unique_values_from_csv(file_unico_merged, "MODELLAZIONE_Istituto_responsabile_modellazione"))
-print("VALORI TROVATI IN OTTIMIZZAZIONE_Istituto_responsabile_ottimizzazione ", unique_values_from_csv(file_unico_merged, "OTTIMIZZAZIONE_Istituto_responsabile_ottimizzazione"))
-print("VALORI TROVATI IN ESPORTAZIONE_Istituto_responsabile_esportazione ", unique_values_from_csv(file_unico_merged, "ESPORTAZIONE_Istituto_responsabile_esportazione"))
-print("VALORI TROVATI IN METADATAZIONE_Istituto_responsabile_metadatazione ", unique_values_from_csv(file_unico_merged, "METADATAZIONE_Istituto_responsabile_metadatazione"))
-print("VALORI TROVATI IN CARICAMENTO_SU_ATON_Istituto_responsabile_caricamento ", unique_values_from_csv(file_unico_merged, "CARICAMENTO_SU_ATON_Istituto_responsabile_caricamento"))
+    # file_path = 'src/morph_kgc_changes_metadata_conversions/metadata_aldrovandi.csv'
+    # column_name = 'Titolo originale'
+    # languages_set = extract_languages_from_titles(file_path, column_name)
+    # print("Linguaggi trovati:", languages_set)
+    #
+    #
+    # def extract_docu_types(file_path, column_name):
+    #     docu_types = set()
+    #
+    #     with open(file_path, 'r', encoding='utf-8') as csvfile:
+    #         reader = csv.DictReader(csvfile)
+    #         for row in reader:
+    #             title = row[column_name].strip()
+    #             docu_types.add(title)
+    #
+    #     return docu_types
+    #
+    # file_path = 'src/morph_kgc_changes_metadata_conversions/metadata_aldrovandi.csv'
+    # column_name = 'Tipologia documentaria'
+    # column_name2 = 'Tipologia opera parente'
+    #
+    # td_set2 = extract_docu_types(file_path, column_name2)
+    # td_set1 = extract_docu_types(file_path, column_name)
+    # print("docu_types_column_name2 trovati:", td_set2)
+    # print("docu_types_column_name1 trovati:", td_set1)
+    #
+    # print("in Tipologia opera parente but not in Tipologia documentaria", [x for x in td_set2 if x not in td_set1])
+    # print("in Tipologia documentaria but not in Tipologia opera parente", [x for x in td_set2 if x not in td_set1])
+    #
+    # # Percorso al file CSV
+    # csv_file_path = 'src/morph_kgc_changes_metadata_conversions/metadata_aldrovandi.csv'
+    #
+    # # Esegui la funzione
+    # check_relation_and_nr_collegato(csv_file_path)
 
-print("VALORI TROVATI IN ACQUISIZIONE_Persone_responsabili_acquisizione", unique_values_from_csv(file_unico_merged, "ACQUISIZIONE_Persone_responsabili_acquisizione"))
-print("VALORI TROVATI IN PROCESSAMENTO_Persone_responsabili_processamento", unique_values_from_csv(file_unico_merged, "PROCESSAMENTO_Persone_responsabili_processamento"))
-print("VALORI TROVATI IN MODELLAZIONE_Persone_responsabili_modellazione", unique_values_from_csv(file_unico_merged, "MODELLAZIONE_Persone_responsabili_modellazione"))
-print("VALORI TROVATI IN OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione ", unique_values_from_csv(file_unico_merged, "OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione"))
-print("VALORI TROVATI IN ESPORTAZIONE_Persone_responsabili_esportazione ", unique_values_from_csv(file_unico_merged, "ESPORTAZIONE_Persone_responsabili_esportazione"))
-print("VALORI TROVATI IN METADATAZIONE_Persone_responsabili_metadatazione ", unique_values_from_csv(file_unico_merged, "METADATAZIONE_Persone_responsabili_metadatazione"))
-print("VALORI TROVATI IN CARICAMENTO_SU_ATON_Persone_responsabili_caricamento", unique_values_from_csv(file_unico_merged, "CARICAMENTO_SU_ATON_Persone_responsabili_caricamento"))
+    #file_unico_merged = "src/morph_kgc_changes_metadata_conversions/output_dir/demo_marzo/ready_csv_to_convert/cleaned_aldrovandi_pro(Worksheet).csv"
 
-print("VALORI TROVATI IN ACQUISIZIONE_Strumentazione_di_acquisizione", unique_values_from_csv(file_unico_merged, "ACQUISIZIONE_Strumentazione_di_acquisizione"))
-print("VALORI TROVATI IN PROCESSAMENTO_Strumentazione_di_processamento", unique_values_from_csv(file_unico_merged, "PROCESSAMENTO_Strumentazione_di_processamento"))
-print("VALORI TROVATI IN MODELLAZIONE_Strumentazione_di_modellazione", unique_values_from_csv(file_unico_merged, "MODELLAZIONE_Strumentazione_di_modellazione"))
-print("VALORI TROVATI IN OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione", unique_values_from_csv(file_unico_merged, "OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione"))
-print("VALORI TROVATI IN ESPORTAZIONE_Strumentazione_di_esportazione", unique_values_from_csv(file_unico_merged, "ESPORTAZIONE_Strumentazione_di_esportazione"))
-print("VALORI TROVATI IN METADATAZIONE_Strumentazione_di_metadatazione", unique_values_from_csv(file_unico_merged, "METADATAZIONE_Strumentazione_di_metadatazione"))
-print("VALORI TROVATI IN CARICAMENTO_SU_ATON_Strumentazione_di_caricamento", unique_values_from_csv(file_unico_merged, "CARICAMENTO_SU_ATON_Strumentazione_di_caricamento"))
-
-print("VALORI TROVATI IN ACQUISIZIONE_Tecnica_di_acquisizione", unique_values_from_csv(file_unico_merged, "ACQUISIZIONE_Tecnica_di_acquisizione"))
-
-
-contributors_columns = ["ACQUISIZIONE_Persone_responsabili_acquisizione", "PROCESSAMENTO_Persone_responsabili_processamento", "MODELLAZIONE_Persone_responsabili_modellazione", "OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione","ESPORTAZIONE_Persone_responsabili_esportazione","METADATAZIONE_Persone_responsabili_metadatazione", "CARICAMENTO_SU_ATON_Persone_responsabili_caricamento"]
-
+    file_unico_merged = "src/morph_kgc_changes_metadata_conversions/dataset/worksheets_ald_finali/aldrovandi_obj(Worksheet).csv"
+    column_name = 'Data'
+    unique_values_from_csv(file_unico_merged, column_name)
+    # print("VALORI TROVATI IN ACQUISIZIONE_Istituto_responsabile_acquisizione ", unique_values_from_csv(file_unico_merged, "ACQUISIZIONE_Istituto_responsabile_acquisizione"))
+    # print("VALORI TROVATI IN PROCESSAMENTO_Istituto_responsabile_processamento ", unique_values_from_csv(file_unico_merged, "PROCESSAMENTO_Istituto_responsabile_processamento"))
+    # print("VALORI TROVATI IN MODELLAZIONE_Istituto_responsabile_modellazione ", unique_values_from_csv(file_unico_merged, "MODELLAZIONE_Istituto_responsabile_modellazione"))
+    # print("VALORI TROVATI IN OTTIMIZZAZIONE_Istituto_responsabile_ottimizzazione ", unique_values_from_csv(file_unico_merged, "OTTIMIZZAZIONE_Istituto_responsabile_ottimizzazione"))
+    # print("VALORI TROVATI IN ESPORTAZIONE_Istituto_responsabile_esportazione ", unique_values_from_csv(file_unico_merged, "ESPORTAZIONE_Istituto_responsabile_esportazione"))
+    # print("VALORI TROVATI IN METADATAZIONE_Istituto_responsabile_metadatazione ", unique_values_from_csv(file_unico_merged, "METADATAZIONE_Istituto_responsabile_metadatazione"))
+    # print("VALORI TROVATI IN CARICAMENTO_SU_ATON_Istituto_responsabile_caricamento ", unique_values_from_csv(file_unico_merged, "CARICAMENTO_SU_ATON_Istituto_responsabile_caricamento"))
+    #
+    # print("VALORI TROVATI IN ACQUISIZIONE_Persone_responsabili_acquisizione", unique_values_from_csv(file_unico_merged, "ACQUISIZIONE_Persone_responsabili_acquisizione"))
+    # print("VALORI TROVATI IN PROCESSAMENTO_Persone_responsabili_processamento", unique_values_from_csv(file_unico_merged, "PROCESSAMENTO_Persone_responsabili_processamento"))
+    # print("VALORI TROVATI IN MODELLAZIONE_Persone_responsabili_modellazione", unique_values_from_csv(file_unico_merged, "MODELLAZIONE_Persone_responsabili_modellazione"))
+    # print("VALORI TROVATI IN OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione ", unique_values_from_csv(file_unico_merged, "OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione"))
+    # print("VALORI TROVATI IN ESPORTAZIONE_Persone_responsabili_esportazione ", unique_values_from_csv(file_unico_merged, "ESPORTAZIONE_Persone_responsabili_esportazione"))
+    # print("VALORI TROVATI IN METADATAZIONE_Persone_responsabili_metadatazione ", unique_values_from_csv(file_unico_merged, "METADATAZIONE_Persone_responsabili_metadatazione"))
+    # print("VALORI TROVATI IN CARICAMENTO_SU_ATON_Persone_responsabili_caricamento", unique_values_from_csv(file_unico_merged, "CARICAMENTO_SU_ATON_Persone_responsabili_caricamento"))
+    #
+    # print("VALORI TROVATI IN ACQUISIZIONE_Strumentazione_di_acquisizione", unique_values_from_csv(file_unico_merged, "ACQUISIZIONE_Strumentazione_di_acquisizione"))
+    # print("VALORI TROVATI IN PROCESSAMENTO_Strumentazione_di_processamento", unique_values_from_csv(file_unico_merged, "PROCESSAMENTO_Strumentazione_di_processamento"))
+    # print("VALORI TROVATI IN MODELLAZIONE_Strumentazione_di_modellazione", unique_values_from_csv(file_unico_merged, "MODELLAZIONE_Strumentazione_di_modellazione"))
+    # print("VALORI TROVATI IN OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione", unique_values_from_csv(file_unico_merged, "OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione"))
+    # print("VALORI TROVATI IN ESPORTAZIONE_Strumentazione_di_esportazione", unique_values_from_csv(file_unico_merged, "ESPORTAZIONE_Strumentazione_di_esportazione"))
+    # print("VALORI TROVATI IN METADATAZIONE_Strumentazione_di_metadatazione", unique_values_from_csv(file_unico_merged, "METADATAZIONE_Strumentazione_di_metadatazione"))
+    # print("VALORI TROVATI IN CARICAMENTO_SU_ATON_Strumentazione_di_caricamento", unique_values_from_csv(file_unico_merged, "CARICAMENTO_SU_ATON_Strumentazione_di_caricamento"))
+    #
+    # print("VALORI TROVATI IN ACQUISIZIONE_Tecnica_di_acquisizione", unique_values_from_csv(file_unico_merged, "ACQUISIZIONE_Tecnica_di_acquisizione"))
+    #
+    #
+    # contributors_columns = ["ACQUISIZIONE_Persone_responsabili_acquisizione", "PROCESSAMENTO_Persone_responsabili_processamento", "MODELLAZIONE_Persone_responsabili_modellazione", "OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione","ESPORTAZIONE_Persone_responsabili_esportazione","METADATAZIONE_Persone_responsabili_metadatazione", "CARICAMENTO_SU_ATON_Persone_responsabili_caricamento"]
+    #

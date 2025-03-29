@@ -630,6 +630,58 @@ mappings:
               value: $(NR)
           type: iri
 
+  # Modello 06 - x collegamento con link aton
+  digital_objects_model_06:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      # Passaggio 2: creare un iri normalizzato 'object model 06
+      function: idlab-fn:normalize_and_convert_to_iri
+
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "06"
+        - parameter: idlab-fn:valueType
+          value: "mdl"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - p : crm:P1_is_identified_by
+        o :
+          # ricreare l'iri normalizzato del digital object model 06 corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "dg00"
+            - parameter: idlab-fn:valueType
+              value: "idf"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
+  # ID PER MODELLO ATON
+  identifier_dg00:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "dg00"
+        - parameter: idlab-fn:valueType
+          value: "idf"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - [ a, "crm:E42_Identifier" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          value: $(LINK)
+          datatype: rdfs:Literal
+
+
   # LICENZA MODELLO 06
   digital_objects_models_license_06:
     sources:
@@ -1178,7 +1230,7 @@ mappings:
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueNum
-              value: ""
+              value: "ob00"
             - parameter: idlab-fn:valueType
               value: "itm"
             - parameter: idlab-fn:valueParams
@@ -1980,13 +2032,14 @@ mappings:
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueNum
-          value: ""
+          value: "ob00"
         - parameter: idlab-fn:valueType
           value: "itm"
         - parameter: idlab-fn:valueParams
           value: $(NR)
       type: iri
     po:
+      - [ a, "lrmoo:F5_Item" ]
       - p: crm:P130i_features_are_also_found_on
         o:
           function: idlab-fn:normalize_and_convert_to_iri
