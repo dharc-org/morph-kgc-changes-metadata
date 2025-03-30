@@ -500,7 +500,7 @@ def normalize_author_name(author_name):
 )
 def extract_documented_in_iri(param_author_name=None):
     """
-    Extracts the VIAF or ULAN ID from the author's string and constructs the corresponding IRI.
+    Extracts the VIAF, ORCID or ULAN ID from the author's string and constructs the corresponding IRI.
     :param param_author_name: The string containing the author's name and the VIAF or ULAN ID.
     :return: The IRI corresponding to the VIAF or ULAN ID.
     """
@@ -511,6 +511,9 @@ def extract_documented_in_iri(param_author_name=None):
     viaf_pattern = r'\(viaf:(\d+)\)'
     # Pattern ULAN
     ulan_pattern = r'\(ulan:(\d+)\)'
+
+    # Pattern ORCID
+    orcid_pattern = r'\(orcid:(\d+)\)'
 
     # extracts ID VIAF
     viaf_match = re.search(viaf_pattern, param_author_name)
@@ -523,6 +526,13 @@ def extract_documented_in_iri(param_author_name=None):
     if ulan_match:
         ulan_id = ulan_match.group(1)
         return f"http://vocab.getty.edu/page/ulan/{ulan_id}"
+
+    # extracts ID ORCID
+    orcid_match = re.search(orcid_pattern, param_author_name)
+    if orcid_match:
+        orcid_id = orcid_match.group(1)
+        return f"https://orcid.org/{orcid_id}"
+
 
     # return None if no ID was found
     return None
