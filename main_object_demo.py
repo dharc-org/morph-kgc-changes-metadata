@@ -274,15 +274,20 @@ else:
 ready_input = create_ready_csv(csv_file_path, columns_with_no_values, "NR", missing_ids, ready_input_dir)
 
 
-df = pd.read_csv(ready_input, delimiter=',', quotechar='"', encoding='latin1')
+df = pd.read_csv(ready_input, encoding='latin1')
 
-# NaN sostituiti con stringhe vuote
+# 1. sostituisci tutti i caratteri di spaziatura (TAB, CR, LF) con un singolo spazio
+df.columns = df.columns.str.replace(r'\s+', ' ', regex=True)
+
+# 2. elimina spazi a inizio/fine
+df.columns = df.columns.str.strip()
+
+# 3. rimuovi doppi spazi rimasti
+df.columns = df.columns.str.replace('  ', ' ', regex=False)
+
 df = df.fillna('')
-
-# tutte le colonne in stringa
 df = df.applymap(lambda x: str(x) if pd.notna(x) else '')
-
-df.to_csv(ready_input, index=False, quoting=1, encoding='latin1')
+df.to_csv(ready_input, index=False, quoting=1, encoding='utf-8')
 
 #  MODO PER INVISIBILIZZARE IL DATASET NON RICHIESTO (LEGGE CONFIGURAZIONI GENERALI, CREA UN FILE DI APPOGGIO CON LE INFO NECESSARIE E CANCELLA LE ALTRE POI CANCELLA IL FILE)
 config_path_tmp = config_path.split(".ini")[0] + "_tmp" + ".ini"
@@ -343,7 +348,7 @@ config_tmp["DataSource1"]["file_path"] = ready_input
 config_tmp["DataSource1"]["mappings"] = temp_mapping_file
 config_tmp["CONFIGURATION"] = config["CONFIGURATION"]
 base_output_dir = config["CONFIGURATION"]["output_dir"]
-sub_output_dir = os.path.join(base_output_dir, "process_dataset")
+sub_output_dir = os.path.join(base_output_dir, "object_dataset")
 config_tmp["CONFIGURATION"]["output_dir"] = sub_output_dir
 
 # Leggi il CSV senza specificare colonne per mantenere le intestazioni originali

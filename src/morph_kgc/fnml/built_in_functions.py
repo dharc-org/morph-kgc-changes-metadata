@@ -525,7 +525,7 @@ def extract_documented_in_iri(param_author_name=None):
     ulan_match = re.search(ulan_pattern, param_author_name)
     if ulan_match:
         ulan_id = ulan_match.group(1)
-        return f"http://vocab.getty.edu/page/ulan/{ulan_id}"
+        return f"http://vocab.getty.edu/ulan/{ulan_id}"
 
     # extracts ID ORCID
     orcid_match = re.search(orcid_pattern, param_author_name)

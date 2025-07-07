@@ -1,0 +1,16 @@
+{
+  "NR": "Code",
+  "Collocazione_fisica": "Physical_Location",
+  "Didascalia": "Caption",
+  "Riproduzione_digitale": "Digital_Reproduction",
+  "Tipologia_documentaria": "Document_Type",
+  "Tecnica": "Technique",
+  "Soggetti": "Subjects",
+  "Titolo_museale": "Museum_Title",
+  "Titolo_@en": "Title_EN",
+  "Data": "Date",
+  "Autore": "Author",
+  "Collezione": "Collection",
+  "Ente_conservatore": "Conserving_Institution",
+  "Luogo_conservazione": "Conservation_Location"
+}

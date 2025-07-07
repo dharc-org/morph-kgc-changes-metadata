@@ -1,72 +1,149 @@
 import pandas as pd
-import json
 import os
-
-# Carica i CSV in DataFrame (sostituisci 'tabella1.csv' e 'tabella2.csv' con i nomi dei tuoi file)
-df1 = pd.read_csv('src/morph_kgc_changes_metadata_conversions/dataset/worksheets_ald_finali/aldrovandi_obj(Worksheet).csv', encoding='latin1')
-df2 = pd.read_csv('src/morph_kgc_changes_metadata_conversions/dataset/worksheets_ald_finali/aldrovandi_pro(Worksheet).csv', encoding='latin1')
-
-# Estrai la colonna "nr" (rimuovendo eventuali valori mancanti)
-nr1 = df1['NR'].dropna().tolist()
-nr2 = df2['NR'].dropna().tolist()
-
-# Trova i valori presenti in tabella1 che non sono in tabella2
-missing_in_table2 = set(nr1) - set(nr2)
-# Trova i valori presenti in tabella2 che non sono in tabella1
-missing_in_table1 = set(nr2) - set(nr1)
-
-print("Valori 'nr' in OBJ non presenti in PRO:", missing_in_table2)
-print("Valori 'nr' in PRO non presenti in OBJ:", missing_in_table1)
-
-
+import re
+import json
 from pprint import pprint
 
-# Leggi la tabella CSV (adatta il percorso e l'encoding se necessario)
-df = pd.read_csv('src/morph_kgc_changes_metadata_conversions/dataset/worksheets_ald_finali/aldrovandi_obj(Worksheet).csv', encoding='latin1')
+# Funzione di pulizia per i valori NR
+def clean_value(value):
+    if pd.isna(value):
+        return None
+    value = str(value).strip()              # Rimuove spazi iniziali e finali
+    value = re.sub(r'\s+', ' ', value)        # Sostituisce spazi multipli con uno solo
+    value = re.sub(r'[\s\-_]+', '_', value)   # Sostituisce spazi, "-" e "_" con "_"
+    value = value.lower()
+    return value
 
-# Lista dei valori da cercare nella colonna "NR"
-lista_valori = [x for x in missing_in_table2]
+# Costanti per costruire gli IRI
+iri_str_pt1 = "<https://w3id.org/changes/4/aldrovandi/itm/"
+iri_str_pt2 = "/ob00/1>"
 
-# Filtra le righe in cui il valore di "NR" è presente nella lista
-df_filtrato = df[df['NR'].isin(lista_valori)]
+# Percorsi dei dataset (APRILE)
+path_obj = 'src/morph_kgc_changes_metadata_conversions/output_dir/demo_april/input/aldrovandi_obj(Worksheet).csv'
+path_pro = 'src/morph_kgc_changes_metadata_conversions/output_dir/demo_april/input/aldrovandi_pro(Worksheet) (1).csv'
 
-# Crea un dizionario: chiave = valore "NR", valore = valore corrispondente in "Didascalia"
-dizionario = dict(zip(df_filtrato['NR'], df_filtrato['Didascalia']))
+# Cartella dei CSV delle stanze (ATON dataset)
+stanza_dir = '/Users/ariannamorettj/Desktop/dati_marcello'
 
-# Stampa il dizionario in maniera formattata
-pprint(dizionario)
+# Cartella di output per il JSON finale
+output_dir = 'src/morph_kgc_changes_metadata_conversions/output_dir/demo_april/output'
 
+# --- PARTE 1: Confronto tra dataset OBJ e PRO ---
 
-### GENERAZIONE DEGLI IRI X ATON https://w3id/changes/4/aldrovandi/<<<ID>>>/mdl/07
+# Carica i dataset OBJ e PRO
+df_obj = pd.read_csv(path_obj, encoding='latin1')
+df_pro = pd.read_csv(path_pro, encoding='latin1')
 
-iri_str_pt1 = "<https://w3id/changes/4/aldrovandi/"
-iri_str_pt2 = "/mdl/06>"
-df2 = pd.read_csv('src/morph_kgc_changes_metadata_conversions/dataset/worksheets_ald_finali/aldrovandi_pro(Worksheet).csv', encoding='latin1')
-output_dir = "src/morph_kgc_changes_metadata_conversions/output_dir/demo_marzo/iri"
+# Estrai la colonna "NR" (come stringhe, non pulite)
+nr_obj = df_obj['NR'].dropna().astype(str).tolist()
+nr_pro = df_pro['NR'].dropna().astype(str).tolist()
 
+# Trova gli ID presenti in OBJ ma non in PRO e viceversa
+missing_in_pro = set(nr_obj) - set(nr_pro)
+missing_in_obj = set(nr_pro) - set(nr_obj)
 
-# Crea il dizionario per il JSON
-dizionario = {}
-for idx, row in df2.iterrows():
-    nr = str(row["NR"])            # Assicurati che "NR" sia trattato come stringa
-    didascalia = row["DIDASCALIA"]   # Assicurati del nome esatto della colonna
-    iri = iri_str_pt1 + nr + iri_str_pt2
-    dizionario[nr] = {"iri": iri, "DIDASCALIA": didascalia}
+print("Valori 'NR' in OBJ non presenti in PRO:")
+pprint(missing_in_pro)
+print("\nValori 'NR' in PRO non presenti in OBJ:")
+pprint(missing_in_obj)
 
-# Salva il dizionario in un file JSON
-json_filepath = os.path.join(output_dir, "output.json")
-with open(json_filepath, "w", encoding="utf-8") as json_file:
-    json.dump(dizionario, json_file, indent=4, ensure_ascii=False)
+# Lista completa degli ID presenti in PRO (raw)
+nr_pro_ids = set(nr_pro)
+print("\nLista completa degli ID (NR) presenti in PRO:")
+pprint(nr_pro_ids)
 
-# Crea un DataFrame per il CSV con le colonne IRI, NR, Didascalia
-df_csv = pd.DataFrame({
-    "IRI": [iri_str_pt1 + str(nr) + iri_str_pt2 for nr in df2["NR"]],
-    "NR": df2["NR"],
-    "DIDASCALIA": df2["DIDASCALIA"]
-})
+# --- PARTE 2: Raccolta dati dai CSV delle stanze (ATON dataset) ---
+# Insieme per raccogliere i NR (puliti) dai file delle stanze
+all_cleaned_from_stanze = set()
 
-# Salva il DataFrame in un file CSV
-csv_filepath = os.path.join(output_dir, "output.csv")
-df_csv.to_csv(csv_filepath, index=False, encoding="utf-8")
+# Dizionario per i CSV delle stanze:
+# chiave = numero stanza (estratto dal nome del file)
+# valore = dizionario in cui:
+#         - le chiavi sono i valori "NR" raw (così come appaiono nel CSV)
+#         - i valori sono gli IRI, costruiti usando la versione pulita del NR
+dizionario_stanze = {}
 
-print("File generati nella cartella:", output_dir)
+for filename in os.listdir(stanza_dir):
+    if filename.endswith('.csv'):
+        # Esempio: ALDROVANDI_tracking-rototraslazione(STANZA 1).csv
+        match = re.search(r'\(STANZA\s*(\d+)\)', filename.upper())
+        if match:
+            stanza_num = match.group(1)
+            filepath = os.path.join(stanza_dir, filename)
+            df_stanza = pd.read_csv(filepath, encoding='latin1')
+            stanza_dict = {}
+            for _, row in df_stanza.iterrows():
+                raw_nr = row.get("NR")
+                if raw_nr is not None:
+                    raw_nr = str(raw_nr).strip()
+                    cleaned_nr = clean_value(raw_nr)
+                    if cleaned_nr is not None:
+                        all_cleaned_from_stanze.add(cleaned_nr)
+                        iri = iri_str_pt1 + cleaned_nr + iri_str_pt2
+                        # Usa il valore raw come chiave
+                        stanza_dict[raw_nr] = iri
+            dizionario_stanze[stanza_num] = stanza_dict
+
+# --- PARTE 3: Confronto tra NR in PRO e dati dalle stanze ---
+# Calcola l'insieme degli ID PRO in versione pulita
+cleaned_pro_ids = {clean_value(nr) for nr in nr_pro_ids if clean_value(nr) is not None}
+
+# Extra: NR presenti nei CSV delle stanze (puliti) ma non in PRO
+extra_in_rooms = all_cleaned_from_stanze - cleaned_pro_ids
+print("\nValori (puliti) di NR presenti nei CSV delle stanze NON presenti in PRO:")
+pprint(extra_in_rooms)
+
+# Extra: NR presenti in PRO ma non trovati in nessun CSV delle stanze
+missing_in_rooms = cleaned_pro_ids - all_cleaned_from_stanze
+print("\nValori (puliti) di NR in PRO NON trovati nei CSV delle stanze:")
+pprint(missing_in_rooms)
+
+# --- PARTE 4: Riorganizzazione degli extra provenienti dal CSV delle stanze ---
+# Questi extra rappresentano gli ID che sono presenti nei CSV (ATON dataset) ma non in PROCESS.
+# Li salviamo in extra_not_in_PROCESS_dataset.
+extra_not_in_PROCESS_dataset = {}
+
+for room, room_dict in dizionario_stanze.items():
+    keys_to_remove = []
+    for raw_nr, iri in room_dict.items():
+        cleaned = clean_value(raw_nr)
+        if cleaned not in cleaned_pro_ids:
+            keys_to_remove.append(raw_nr)
+            if room not in extra_not_in_PROCESS_dataset:
+                extra_not_in_PROCESS_dataset[room] = {}
+            extra_not_in_PROCESS_dataset[room][raw_nr] = {
+                "iri": iri,
+                "room": room
+            }
+    for key in keys_to_remove:
+        del room_dict[key]
+
+# --- PARTE 5: Extra per gli ID in PROCESS non trovati nei CSV delle stanze ---
+# Questi extra rappresentano gli ID (puliti) che sono presenti nel PROCESS dataset
+# ma non sono stati trovati nei CSV (ATON dataset).
+extra_not_in_ATON_dataset = {}
+for nr in missing_in_rooms:
+    extra_not_in_ATON_dataset[nr] = {
+        "iri": iri_str_pt1 + nr + iri_str_pt2,
+        "room": "not_found"
+    }
+
+# --- PARTE 6: Costruzione del dizionario finale e salvataggio in JSON ---
+# Il dizionario finale conterrà:
+#   - le stanze (con i loro NR, chiave raw, filtrati per quelli presenti anche in PROCESS)
+#   - una sezione "extra" con due chiavi:
+#         "extra_not_in_ATON_dataset": extra provenienti dal PROCESS dataset (ID in PRO non trovati nei CSV)
+#         "extra_not_in_PROCESS_dataset": extra provenienti dai CSV delle stanze (ID presenti nei CSV ma non in PROCESS)
+dizionario_finale = dict(dizionario_stanze)  # copia dei dizionari per ciascuna stanza
+dizionario_finale["extra"] = {
+    "extra_not_in_ATON_dataset": extra_not_in_ATON_dataset,
+    "extra_not_in_PROCESS_dataset": extra_not_in_PROCESS_dataset
+}
+
+os.makedirs(output_dir, exist_ok=True)
+json_output_path = os.path.join(output_dir, 'output_stanze.json')
+
+with open(json_output_path, 'w', encoding='utf-8') as f:
+    json.dump(dizionario_finale, f, indent=4, ensure_ascii=False)
+
+print(f"\n✅ Dizionario finale salvato in: {json_output_path}")
