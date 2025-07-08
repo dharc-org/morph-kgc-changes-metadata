@@ -480,6 +480,54 @@ mappings:
     po:
       - [ a, "crm:E73_Information_Object" ]
       - ["crm:P2_has_type", "aat:300404126"]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(Soggetti)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+
+  appellations:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(Soggetti)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(Soggetti)
 
   manifestation:
     sources:

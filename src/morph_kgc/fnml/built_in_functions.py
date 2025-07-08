@@ -685,17 +685,11 @@ def normalize_and_suffix(param_name, suffix):
 
 
 @udf(
-    fun_id='http://example.com/idlab/function/normalize_and_convert_to_iri',
-    str_param='http://example.com/idlab/function/valueParams',
-    type_param='http://example.com/idlab/function/valueType',
-    num_param='http://example.com/idlab/function/valueNum',
-    parent_param='http://example.com/idlab/function/valueParent'
+    fun_id='http://example.com/idlab/function/normalize_str_param',
+    str_param='http://example.com/idlab/function/valParam'
 )
-
-def normalize_and_convert_to_iri(str_param, type_param, num_param, parent_param=None):
-    # Rimuovi tutto ciò che è compreso tra parentesi tonde o quadre, inclusi gli stessi
+def normalize_str_param(str_param):
     str_param = re.sub(r"[\(\[].*?[\)\]]", "", str_param)
-
     str_param = str_param.strip().lower()
     str_param = unicodedata.normalize('NFKD', str_param).encode('ascii', 'ignore').decode('ascii')
     str_param = re.sub(r"\s+", " ", str_param)
@@ -704,6 +698,20 @@ def normalize_and_convert_to_iri(str_param, type_param, num_param, parent_param=
     str_param = str_param.replace('.', '_')
     str_param = str_param.strip('_')
     str_param = re.sub(r"_+", "_", str_param)
+    return str_param
+
+
+@udf(
+    fun_id='http://example.com/idlab/function/normalize_and_convert_to_iri',
+    str_param='http://example.com/idlab/function/valueParams',
+    type_param='http://example.com/idlab/function/valueType',
+    num_param='http://example.com/idlab/function/valueNum',
+    parent_param='http://example.com/idlab/function/valueParent'
+)
+def normalize_and_convert_to_iri(str_param, type_param, num_param, parent_param=None):
+    # Rimuovi tutto ciò che è compreso tra parentesi tonde o quadre, inclusi gli stessi
+    str_param = normalize_str_param(str_param)
+
     if not parent_param:
         if num_param == "":
             to_return = "".join([prefisso, type_param, "/", str_param, "/", versione])
@@ -743,7 +751,8 @@ def conditional_normalize_and_suffix(str_param, type_param, num_param, relazione
 @udf(
     fun_id="http://example.com/idlab/function/multiple_separator_split_explode",
     string='http://example.com/idlab/function/valParam',
-    separators_list_str='http://example.com/idlab/function/list_param_string_sep')
+    separators_list_str='http://example.com/idlab/function/list_param_string_sep'
+    )
 
 def multi_sep_string_split_explode(string, separators_list_str):
     separators_list = separators_list_str.split("---")

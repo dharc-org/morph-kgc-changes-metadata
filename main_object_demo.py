@@ -3,6 +3,7 @@ import pandas as pd
 from src.morph_kgc.__init__ import materialize
 import configparser
 from rdflib import Graph, Namespace, URIRef, BNode, Literal
+from src.morph_kgc.fnml.built_in_functions import normalize_str_param
 import os
 from ruamel.yaml import YAML
 import re
@@ -418,97 +419,128 @@ graph.serialize(destination=output_path, format=serialization)
 g = Graph()
 g.parse(output_path)
 
+# ELIMINAZIONE OGGETTI NON APPAIATI CON SOGGETTI
 
-# lettura RDF come stringa
-with open(output_path, 'r') as f:
+def pair_subject_object(first_ver_graph: Graph, properties_list: list) -> Graph:
+    '''
+    1) leggere il grafo,
+    2) identificare le triple con quei predicati della lista,
+    3) verificare se la struttura della tripla rientra in una di queste due condizioni:
+        a) soggetto è un iri e finisce con una struttura che finisce con "/sub/<string_variable>/<version_number>"  + predicate è crm:P1_is_identified_by + oggetto ha struttura "/apl/<string_variable>/<version_number>"
+        b) soggetto è un iri e finisce con una struttura che finisce con "/apl/<string_variable>/<version_number>" + predicate è crm:P190_has_symbolic_content + oggetto è una stringa.
+    4) nel caso a), identificare le <string_variable> di soggetto e oggetto e verificare che siano uguali. Nel caso in cui non fosse così, eliminare la tripla dal grafo. Nel caso b) identificare la <string_variable> del soggetto e verificare se è uguale al valore dell'oggetto stringa, normalizzato con la funzione normalize_str_param(str_param) importata dal file src/morph_kgc/fnml/built_in_functions.py. Se i due valori non sono uguali, eliminare la tripla.
+    5) ritornare il grafo corretto
+    '''
+    triples_to_remove = []
+
+    for s, p, o in first_ver_graph:
+        pred = str(p)
+
+        if pred not in properties_list:
+            continue
+
+        subj_str = str(s)
+        obj_str = str(o)
+
+        # ----- CASO A -----
+        if pred == "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by":
+            sub_match = re.match(r".*/sub/([^/]+)/\d+$", subj_str)
+            obj_match = re.match(r".*/apl/([^/]+)/\d+$", obj_str)
+            if sub_match and obj_match:
+                sub_value = sub_match.group(1)
+                obj_value = obj_match.group(1)
+                if sub_value != obj_value:
+                    triples_to_remove.append((s, p, o))
+
+        # ----- CASO B -----
+        elif pred == "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content":
+            sub_match = re.match(r".*/apl/([^/]+)/\d+$", subj_str)
+            if sub_match and isinstance(o, Literal):
+                sub_value = sub_match.group(1)
+                normalized_obj_value = normalize_str_param(str(o))
+                if sub_value != normalized_obj_value:
+                    triples_to_remove.append((s, p, o))
+
+    for triple in triples_to_remove:
+        first_ver_graph.remove(triple)
+
+    return first_ver_graph
+
+
+properties_in_triples_to_clean = [
+    "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+    "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content"
+]
+
+# Applica la pulizia sul grafo
+g_clean = pair_subject_object(g, properties_in_triples_to_clean)
+
+# Scrivi su file il grafo corretto in TTL
+output_file_path = output_path.split(".")[0] + "_corretto.ttl"
+g_clean.serialize(destination=output_file_path, format="turtle")
+
+# Lettura RDF corretto come stringa
+with open(output_file_path, 'r') as f:
     data = f.read()
 
-# path del file di output
-output_file_path = output_path.split(".")[0] + "_corretto.ttl"
+# --- Tutto il resto rimane invariato ---
 
-# estrazione prefissi
 def extract_prefixes(text):
     prfx = re.findall(r'@prefix\s([^\s:]+:)\s', text)
     return prfx
 
-# regex generata sui prefissi
 def generate_prefix_regex(prefixes):
     prefix_pattern = "|".join(re.escape(prefix) for prefix in prefixes)
-    # pattern per match per ogni stringa tra virgolette che inizi per uno dei prefissi
     regex_pattern = rf'"({prefix_pattern})[^"]*"'
     return regex_pattern
 
-# rimuovere le parentesi angolari da URI
 def remove_angular_brackets(uri):
-    return uri.strip('<>')# Funzione per rimuovere le parentesi angolari dalle URI
+    return uri.strip('<>')
 
-# rimuovere le parentesi angolari da URI
+def remove_apices(string):
+    return string.strip('"')
+
 def remove_angular_apices_add_angular_brackets(uri):
     uri = remove_apices(uri)
     if uri.startswith("<") and uri.endswith(">"):
         return uri
     elif uri.startswith("<") and not uri.endswith(">"):
-        return uri +">"
+        return uri + ">"
     elif not uri.startswith("<") and uri.endswith(">"):
-        return "<"+uri
+        return "<" + uri
     else:
-        return "<"+uri+">"
+        return "<" + uri + ">"
 
-# rimuovere le virgolette da URI
-def remove_apices(string):
-    return string.strip('"')
-
-# processare rdf in forma testuale
 def process_rdf_data(data):
     prefixes = extract_prefixes(data)
     regex_pattern = generate_prefix_regex(prefixes)
     string_pattern = re.compile(regex_pattern)
 
-    # matches = re.finditer(regex_pattern, data, re.MULTILINE)
-    # matches_found = []
-    # for matchNum, match in enumerate(matches, start=1):
-    #     matches_found.append("{match}".format(matchNum=matchNum, start=match.start(), end=match.end(), match=match.group()))
-    #     print("Match {matchNum} was found at {start}-{end}: {match}".format(matchNum=matchNum, start=match.start(),
-    #                                                                         end=match.end(), match=match.group()))
-    # print("matches_found", matches_found)
-
-    # regex x trovare URI
     uri_pattern = re.compile(r'<(?!http|https)([^>]+)>')
     bad_form_uri_pattern = re.compile(r"(?:[\"]<?)(https?:\/\/[^\s\"'<>\]]+)(?:>[\"]|[\">?])")
 
-    # sostituzione uri con parentesi angolari con uri senza
     def replace_uri(match):
         return remove_angular_brackets(match.group(0))
 
-    # sostituzione uri tra virgolette con uri in parentesi angolari
     def replace_badform_uri(match):
         return remove_angular_apices_add_angular_brackets(match.group(0))
 
-    # sostituzione uri con virgolette con uri senza
     def replace_str(match):
         return remove_apices(match.group(0))
 
-    # regex per sostituire tutti URI
     processed_data = uri_pattern.sub(replace_uri, data)
-
-    # regex per sostituire tutti URI
     processed_data = string_pattern.sub(replace_str, processed_data)
-
-    # regex per sostituire URI badformed
     processed_data = bad_form_uri_pattern.sub(replace_badform_uri, processed_data)
-
 
     return processed_data
 
-# esecuzione trasformazione
+# Esecuzione postprocessing testuale
 processed_data = process_rdf_data(data)
 
-# stampa dati RDF trasformati
-# print(processed_data)
-
-# scrittura su file di dati RDF trasformati
+# Scrittura su file del risultato finale
 with open(output_file_path, 'w') as f:
     f.write(processed_data)
 
+# Rimozione file temporaneo config
 if os.path.exists(config_path_tmp):
     os.remove(config_path_tmp)
