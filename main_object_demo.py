@@ -444,10 +444,10 @@ def pair_subject_object(first_ver_graph: Graph, properties_list: list) -> Graph:
 
         # ----- CASO A -----
         if pred == "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by":
-            sub_match = re.match(r".*/sub/([^/]+)/\d+$", subj_str)
+            sub_match = re.match(r".*/(sub|acr|col)/([^/]+)/\d+$", subj_str)
             obj_match = re.match(r".*/apl/([^/]+)/\d+$", obj_str)
             if sub_match and obj_match:
-                sub_value = sub_match.group(1)
+                sub_value = sub_match.group(2)
                 obj_value = obj_match.group(1)
                 if sub_value != obj_value:
                     triples_to_remove.append((s, p, o))
