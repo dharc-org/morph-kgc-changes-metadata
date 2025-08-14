@@ -709,24 +709,26 @@ def normalize_str_param(str_param):
     parent_param='http://example.com/idlab/function/valueParent'
 )
 def normalize_and_convert_to_iri(str_param, type_param, num_param, parent_param=None):
-    # Rimuovi tutto ciò che è compreso tra parentesi tonde o quadre, inclusi gli stessi
+    # Pulizia stringa
     str_param = normalize_str_param(str_param)
+
+    # Normalizzazione num_param → due cifre se numerico
+    if num_param != "":
+        try:
+            num_param = f"{int(num_param):02d}"
+        except ValueError:
+            pass
 
     if not parent_param:
         if num_param == "":
-            to_return = "".join([prefisso, type_param, "/", str_param, "/", versione])
-            return to_return
+            return "".join([prefisso, type_param, "/", str_param, "/", versione])
         else:
-            to_return = "".join([prefisso, type_param, "/", str_param, "/", num_param, "/", versione])
-            return to_return
+            return "".join([prefisso, type_param, "/", str_param, "/", num_param, "/", versione])
     else:
         if num_param == "":
-            to_return = "".join([prefisso, type_param, "/", str_param,"_parent", "/", versione])
-            return to_return
+            return "".join([prefisso, type_param, "/", str_param, "_parent", "/", versione])
         else:
-            to_return = "".join([prefisso, type_param, "/", str_param,"_parent", "/", num_param, "/", versione])
-            return to_return
-
+            return "".join([prefisso, type_param, "/", str_param, "_parent", "/", num_param, "/", versione])
 
 
 
@@ -778,6 +780,22 @@ def generate_sequential_iris(iris_n):
         iris_list_result.append(n_string)
     return iris_list_result
 
+@udf(
+    fun_id="http://example.com/idlab/function/digital_model_label",
+    idx="http://example.com/idlab/function/idx",
+    nr="http://example.com/idlab/function/nr",
+)
+def digital_model_label(idx, nr):
+    """
+    Ritorna 'Modello Digitale <idx> oggetto <nr>'.
+    """
+    s_idx = str(idx).strip()
+    if s_idx.isdigit():
+        s_idx = f"{int(s_idx):02d}"
+    else:
+        s_idx = s_idx.zfill(2)
+    s_nr = str(nr).strip()
+    return f"Modello Digitale {s_idx} oggetto {s_nr}"
 
 @udf(
     fun_id="http://example.com/idlab/function/extract_and_derivate_sub_str",

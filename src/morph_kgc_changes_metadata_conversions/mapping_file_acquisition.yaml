@@ -52,6 +52,55 @@ mappings:
 
     po:
       - [ a, "crm:E74_Group" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ';---,--- e ---\n--- + --- - ---\r'
+                  - parameter: idlab-fn:valParam
+                    value: $(ACQUISIZIONE_Istituto_responsabile_acquisizione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 1.1 appellation
+  appellation_responsible_group_acquisition:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(ACQUISIZIONE_Istituto_responsabile_acquisizione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(ACQUISIZIONE_Istituto_responsabile_acquisizione)
+
 
   # 1.2 PROCESSAMENTO
   responsible_group_processing:
@@ -78,6 +127,54 @@ mappings:
 
     po:
       - [ a, "crm:E74_Group" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ';---,--- e ---\n--- + --- - ---\r'
+                  - parameter: idlab-fn:valParam
+                    value: $(PROCESSAMENTO_Istituto_responsabile_processamento)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 1.2 appellation
+  appellation_responsible_group_processing:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(PROCESSAMENTO_Istituto_responsabile_processamento)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(PROCESSAMENTO_Istituto_responsabile_processamento)
 
   # 1.3 MODELLAZIONE
   responsible_group_modeling:
@@ -104,6 +201,54 @@ mappings:
 
     po:
       - [ a, "crm:E74_Group" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ';---,--- e ---\n--- + --- - ---\r'
+                  - parameter: idlab-fn:valParam
+                    value: $(MODELLAZIONE_Istituto_responsabile_modellazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 1.3 appellation
+  appellation_responsible_group_modeling:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(MODELLAZIONE_Istituto_responsabile_modellazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(MODELLAZIONE_Istituto_responsabile_modellazione)
 
   # 1.4 OTTIMIZZAZIONE
   responsible_group_optimization:
@@ -130,6 +275,55 @@ mappings:
 
     po:
       - [ a, "crm:E74_Group" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ';---,--- e ---\n--- + --- - ---\r'
+                  - parameter: idlab-fn:valParam
+                    value: $(OTTIMIZZAZIONE_Istituto_responsabile_ottimizzazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 1.4 appellation
+  appellation_responsible_group_optimization:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(OTTIMIZZAZIONE_Istituto_responsabile_ottimizzazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(OTTIMIZZAZIONE_Istituto_responsabile_ottimizzazione)
+
 
   # 1.5 ESPORTAZIONE
   responsible_group_export:
@@ -156,6 +350,54 @@ mappings:
 
     po:
       - [ a, "crm:E74_Group" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ';---,--- e ---\n--- + --- - ---\r'
+                  - parameter: idlab-fn:valParam
+                    value: $(ESPORTAZIONE_Istituto_responsabile_esportazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 1.5 appellation
+  appellation_responsible_group_export:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(ESPORTAZIONE_Istituto_responsabile_esportazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(ESPORTAZIONE_Istituto_responsabile_esportazione)
 
   # 1.6 METADATAZIONE
   responsible_group_metadata:
@@ -182,6 +424,55 @@ mappings:
 
     po:
       - [ a, "crm:E74_Group" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ';---,--- e ---\n--- + --- - ---\r'
+                  - parameter: idlab-fn:valParam
+                    value: $(METADATAZIONE_Istituto_responsabile_metadatazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 1.6 appellation
+  appellation_responsible_group_metadata:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(METADATAZIONE_Istituto_responsabile_metadatazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(METADATAZIONE_Istituto_responsabile_metadatazione)
+
 
   # 1.7 CARICAMENTO SU ATON
   responsible_group_upload:
@@ -208,6 +499,54 @@ mappings:
 
     po:
       - [ a, "crm:E74_Group" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ';---,--- e ---\n--- + --- - ---\r'
+                  - parameter: idlab-fn:valParam
+                    value: $(CARICAMENTO_SU_ATON_Istituto_responsabile_caricamento)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 1.7 appellation
+  appellation_responsible_group_upload:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(CARICAMENTO_SU_ATON_Istituto_responsabile_caricamento)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(CARICAMENTO_SU_ATON_Istituto_responsabile_caricamento)
 
   # ==================================================================================
   # 2) PERSONE responsabili (per ogni fase della digitalizzazione)
@@ -238,6 +577,55 @@ mappings:
 
     po:
       - [ a, "crm:E21_Person" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(ACQUISIZIONE_Persone_responsabili_acquisizione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+
+  # 2.1 appellation
+  appellation_responsible_people_acquisition:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(ACQUISIZIONE_Persone_responsabili_acquisizione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(ACQUISIZIONE_Persone_responsabili_acquisizione)
 
   # 2.2 PROCESSING
   responsible_people_processing:
@@ -264,6 +652,54 @@ mappings:
 
     po:
       - [ a, "crm:E21_Person" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(PROCESSAMENTO_Persone_responsabili_processamento)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 2.2 appellation
+  appellation_responsible_people_processing:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(PROCESSAMENTO_Persone_responsabili_processamento)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(PROCESSAMENTO_Persone_responsabili_processamento)
 
   # 2.3 MODELLAZIONE
   responsible_people_modeling:
@@ -290,6 +726,54 @@ mappings:
 
     po:
       - [ a, "crm:E21_Person" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(MODELLAZIONE_Persone_responsabili_modellazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 2.3 appellation
+  appellation_responsible_people_modeling:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(MODELLAZIONE_Persone_responsabili_modellazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(MODELLAZIONE_Persone_responsabili_modellazione)
 
   # 2.4 OTTIMIZZAZIONE
   responsible_people_optimization:
@@ -316,6 +800,56 @@ mappings:
 
     po:
       - [ a, "crm:E21_Person" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+
+  # 2.4 appellation
+  appellation_responsible_people_optimization:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(OTTIMIZZAZIONE_Persone_responsabili_ottimizzazione)
+
 
   # 2.5 ESPORTAZIONE
   responsible_people_export:
@@ -341,6 +875,54 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E21_Person" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(ESPORTAZIONE_Persone_responsabili_esportazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 2.5 appellation
+  appellation_responsible_people_export:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(ESPORTAZIONE_Persone_responsabili_esportazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(ESPORTAZIONE_Persone_responsabili_esportazione)
 
   # 2.6 METADATAZIONE
   responsible_people_metadata:
@@ -367,6 +949,55 @@ mappings:
 
     po:
       - [ a, "crm:E21_Person" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(METADATAZIONE_Persone_responsabili_metadatazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  # 2.6 appellation
+  appellation_responsible_people_metadata:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(METADATAZIONE_Persone_responsabili_metadatazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(METADATAZIONE_Persone_responsabili_metadatazione)
+
 
   # 2.7 UPLOAD
   responsible_people_upload:
@@ -392,22 +1023,71 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E21_Person" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(CARICAMENTO_SU_ATON_Persone_responsabili_caricamento)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+
+  # 2.7 appellation
+  appellation_responsible_people_upload:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(CARICAMENTO_SU_ATON_Persone_responsabili_caricamento)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(CARICAMENTO_SU_ATON_Persone_responsabili_caricamento)
 
   # ==================================================================================
   # 3) DIGITAL OBJECTS (MODELS, one for each phase)
   # ==================================================================================
 
+  # (1) D9 + P1 nello stesso mapping (come fai già)
   digital_objects_models:
     sources:
       - 'sample_input_file.csv~csv'
     s:
       # Passaggio 2: creare un iri normalizzato per ognuno dei 7 digital object models
       function: idlab-fn:normalize_and_convert_to_iri
-
       parameters:
         - parameter: idlab-fn:valueNum
           value:
-            # Passaggio 1: generare idi sequenziali
+            # Passaggio 1: generare id sequenziali
             function: idlab-fn:sequential_iris
             parameters:
               - parameter: idlab-fn:number_of_iris
@@ -417,22 +1097,70 @@ mappings:
         - parameter: idlab-fn:valueParams
           value: $(NR)
       type: iri
-
     po:
       - [ a, "crmdig:D9_Data_Object" ]
+      - p: crm:P1_is_identified_by
+        o:
+          # IRI dell'appellation corrispondente (stessa sequenza 7)
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value:
+                function: idlab-fn:sequential_iris
+                parameters:
+                  - parameter: idlab-fn:number_of_iris
+                    value: "7"
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
+  # (2) E41 + P190 con UDF (stessa sequential_iris, niente separatori)
+  appellation_digital_objects_models:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value:
+            function: idlab-fn:sequential_iris
+            parameters:
+              - parameter: idlab-fn:number_of_iris
+                value: "7"
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:digital_model_label
+          parameters:
+            # usa la STESSA logica per l'indice del modello
+            - parameter: idlab-fn:idx
+              value:
+                function: idlab-fn:sequential_iris
+                parameters:
+                  - parameter: idlab-fn:number_of_iris
+                    value: "7"
+            # e lo stesso NR della riga
+            - parameter: idlab-fn:nr
+              value: $(NR)
 
   # ==================================================================================
   # 4) licenses for the DIGITAL OBJECTS, same one for each phase
   # ==================================================================================
 
-  # LICENZA MODELLO 00
+# LICENZA MODELLO 00
   digital_objects_models_license_00:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 00
       function: idlab-fn:normalize_and_convert_to_iri
-
       parameters:
         - parameter: idlab-fn:valueNum
           value: "00"
@@ -441,14 +1169,12 @@ mappings:
         - parameter: idlab-fn:valueParams
           value: $(NR)
       type: iri
-
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
-      - p : crm:P67_refers_to
-        o :
-          # ricreare l'iri normalizzato del digital object model 00 corrispondente
+      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
+      - p: crm:P67_refers_to
+        o:
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueNum
@@ -458,6 +1184,38 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "00"
+            - parameter: idlab-fn:valueType
+              value: "apl-lic"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
+  # APPELLATION LICENZA MODELLO 00
+  appellation_digital_objects_models_license_00:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "00"
+        - parameter: idlab-fn:valueType
+          value: "apl-lic"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          value: "by-nc 4.0"
+          datatype: rdfs:Literal
 
 
   # LICENZA MODELLO 01
@@ -465,9 +1223,7 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 01
       function: idlab-fn:normalize_and_convert_to_iri
-
       parameters:
         - parameter: idlab-fn:valueNum
           value: "01"
@@ -476,14 +1232,12 @@ mappings:
         - parameter: idlab-fn:valueParams
           value: $(NR)
       type: iri
-
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
-      - p : crm:P67_refers_to
-        o :
-          # ricreare l'iri normalizzato del digital object model 01 corrispondente
+      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
+      - p: crm:P67_refers_to
+        o:
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueNum
@@ -493,15 +1247,46 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "01"
+            - parameter: idlab-fn:valueType
+              value: "apl-lic"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
+  # APPELLATION LICENZA MODELLO 01
+  appellation_digital_objects_models_license_01:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "01"
+        - parameter: idlab-fn:valueType
+          value: "apl-lic"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          value: "by-nc 4.0"
+          datatype: rdfs:Literal
+
 
   # LICENZA MODELLO 02
   digital_objects_models_license_02:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 02
       function: idlab-fn:normalize_and_convert_to_iri
-
       parameters:
         - parameter: idlab-fn:valueNum
           value: "02"
@@ -510,14 +1295,12 @@ mappings:
         - parameter: idlab-fn:valueParams
           value: $(NR)
       type: iri
-
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
-      - p : crm:P67_refers_to
-        o :
-          # ricreare l'iri normalizzato del digital object model 02 corrispondente
+      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
+      - p: crm:P67_refers_to
+        o:
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueNum
@@ -527,15 +1310,45 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "02"
+            - parameter: idlab-fn:valueType
+              value: "apl-lic"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
+  # APPELLATION LICENZA MODELLO 02
+  appellation_digital_objects_models_license_02:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "02"
+        - parameter: idlab-fn:valueType
+          value: "apl-lic"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          value: "by-nc 4.0"
+          datatype: rdfs:Literal
 
   # LICENZA MODELLO 03
   digital_objects_models_license_03:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 03
       function: idlab-fn:normalize_and_convert_to_iri
-
       parameters:
         - parameter: idlab-fn:valueNum
           value: "03"
@@ -544,14 +1357,12 @@ mappings:
         - parameter: idlab-fn:valueParams
           value: $(NR)
       type: iri
-
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
-      - p : crm:P67_refers_to
-        o :
-          # ricreare l'iri normalizzato del digital object model 03 corrispondente
+      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
+      - p: crm:P67_refers_to
+        o:
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueNum
@@ -561,15 +1372,46 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "03"
+            - parameter: idlab-fn:valueType
+              value: "apl-lic"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
+  # APPELLATION LICENZA MODELLO 03
+  appellation_digital_objects_models_license_03:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "03"
+        - parameter: idlab-fn:valueType
+          value: "apl-lic"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          value: "by-nc 4.0"
+          datatype: rdfs:Literal
+
 
   # LICENZA MODELLO 04
   digital_objects_models_license_04:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 04
       function: idlab-fn:normalize_and_convert_to_iri
-
       parameters:
         - parameter: idlab-fn:valueNum
           value: "04"
@@ -578,14 +1420,12 @@ mappings:
         - parameter: idlab-fn:valueParams
           value: $(NR)
       type: iri
-
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
-      - p : crm:P67_refers_to
-        o :
-          # ricreare l'iri normalizzato del digital object model 04 corrispondente
+      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
+      - p: crm:P67_refers_to
+        o:
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueNum
@@ -595,15 +1435,45 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "04"
+            - parameter: idlab-fn:valueType
+              value: "apl-lic"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
+  # APPELLATION LICENZA MODELLO 04
+  appellation_digital_objects_models_license_04:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "04"
+        - parameter: idlab-fn:valueType
+          value: "apl-lic"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          value: "by-nc 4.0"
+          datatype: rdfs:Literal
 
   # LICENZA MODELLO 05
   digital_objects_models_license_05:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 05
       function: idlab-fn:normalize_and_convert_to_iri
-
       parameters:
         - parameter: idlab-fn:valueNum
           value: "05"
@@ -612,14 +1482,12 @@ mappings:
         - parameter: idlab-fn:valueParams
           value: $(NR)
       type: iri
-
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
-      - p : crm:P67_refers_to
-        o :
-          # ricreare l'iri normalizzato del digital object model 05 corrispondente
+      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
+      - p: crm:P67_refers_to
+        o:
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueNum
@@ -629,56 +1497,37 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
-
-  # Modello 06 - x collegamento con link aton
-  digital_objects_model_06:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      # Passaggio 2: creare un iri normalizzato 'object model 06
-      function: idlab-fn:normalize_and_convert_to_iri
-
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "06"
-        - parameter: idlab-fn:valueType
-          value: "mdl"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - p : crm:P1_is_identified_by
-        o :
-          # ricreare l'iri normalizzato del digital object model 06 corrispondente
+      - p: crm:P1_is_identified_by
+        o:
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueNum
-              value: "dg00"
+              value: "05"
             - parameter: idlab-fn:valueType
-              value: "idf"
+              value: "apl-lic"
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
 
-  # ID PER MODELLO ATON
-  identifier_dg00:
+  # APPELLATION LICENZA MODELLO 05
+  appellation_digital_objects_models_license_05:
     sources:
       - 'sample_input_file.csv~csv'
     s:
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueNum
-          value: "dg00"
+          value: "05"
         - parameter: idlab-fn:valueType
-          value: "idf"
+          value: "apl-lic"
         - parameter: idlab-fn:valueParams
           value: $(NR)
       type: iri
     po:
-      - [ a, "crm:E42_Identifier" ]
+      - [ a, "crm:E41_Appellation" ]
       - p: crm:P190_has_symbolic_content
         o:
-          value: $(LINK)
+          value: "by-nc 4.0"
           datatype: rdfs:Literal
 
 
@@ -687,9 +1536,7 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato per la licenza dell'object model 06
       function: idlab-fn:normalize_and_convert_to_iri
-
       parameters:
         - parameter: idlab-fn:valueNum
           value: "06"
@@ -698,14 +1545,12 @@ mappings:
         - parameter: idlab-fn:valueParams
           value: $(NR)
       type: iri
-
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>"]
-      - p : crm:P67_refers_to
-        o :
-          # ricreare l'iri normalizzato del digital object model 06 corrispondente
+      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
+      - p: crm:P67_refers_to
+        o:
           function: idlab-fn:normalize_and_convert_to_iri
           parameters:
             - parameter: idlab-fn:valueNum
@@ -715,8 +1560,41 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "06"
+            - parameter: idlab-fn:valueType
+              value: "apl-lic"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
 
-  # ====================
+  # APPELLATION LICENZA MODELLO 06
+  appellation_digital_objects_models_license_06:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "06"
+        - parameter: idlab-fn:valueType
+          value: "apl-lic"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          value: "by-nc 4.0"
+          datatype: rdfs:Literal
+
+
+    # ====================
   # 5 : Tempi : nota, non abbiamo usato la funzione date_to_date (built in) perché restituisce una stringa normalizzata della data e non il literal della data.
     # differisce anche dalla gestione delle date nell'altro dataset perché sono molto meno recenti e strutturate diversamente
     # obiettivo: uniformare e generalizzare
@@ -1001,6 +1879,7 @@ mappings:
 
   # 6.1 ACQUISIZIONE
   #ACQUISIZIONE_Strumentazione_di_acquisizione
+
   acquisition_tools:
     sources:
       - 'sample_input_file.csv~csv'
@@ -1022,7 +1901,6 @@ mappings:
         - parameter: idlab-fn:valueNum
           value: ""
       type: iri
-
     po:
       - [ a, "crmdig:D8_Digital_Device" ]
       - p: crm:P2_has_type
@@ -1031,19 +1909,65 @@ mappings:
           parameters:
             - parameter: idlab-fn:acquisition_technique
               value: $(ACQUISIZIONE_Tecnica_di_acquisizione)
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(ACQUISIZIONE_Strumentazione_di_acquisizione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # 6.2 PROCESSAMENTO
-  #PROCESSAMENTO_Strumentazione_di_processamento
-  processing_tools:
+  # 6.1.1 ACQUISIZIONE - Appellation Digital Device
+  appellation_acquisition_tools:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ogni Strumentazione_di_*
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(ACQUISIZIONE_Strumentazione_di_acquisizione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(ACQUISIZIONE_Strumentazione_di_acquisizione)
+
+
+  # 6.2 PROCESSAMENTO
+  processing_tools:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
@@ -1055,23 +1979,66 @@ mappings:
         - parameter: idlab-fn:valueNum
           value: ""
       type: iri
-
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(PROCESSAMENTO_Strumentazione_di_processamento)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # 6.3 MODELLAZIONE
-  #MODELLAZIONE_Strumentazione_di_modellazione
-  modelling_tools:
+  appellation_processing_tools:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ogni Strumentazione_di_*
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(PROCESSAMENTO_Strumentazione_di_processamento)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(PROCESSAMENTO_Strumentazione_di_processamento)
+
+  # 6.3 MODELLAZIONE
+  modelling_tools:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
@@ -1083,23 +2050,66 @@ mappings:
         - parameter: idlab-fn:valueNum
           value: ""
       type: iri
-
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(MODELLAZIONE_Strumentazione_di_modellazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # 6.4 OTTIMIZZAZIONE
-  #OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione
-  optimization_tools:
+  appellation_modelling_tools:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ogni Strumentazione_di_*
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(MODELLAZIONE_Strumentazione_di_modellazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(MODELLAZIONE_Strumentazione_di_modellazione)
+
+  # 6.4 OTTIMIZZAZIONE
+  optimization_tools:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
@@ -1111,23 +2121,66 @@ mappings:
         - parameter: idlab-fn:valueNum
           value: ""
       type: iri
-
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # 6.5 ESPORTAZIONE
-  #ESPORTAZIONE_Strumentazione_di_esportazione
-  export_tools:
+  appellation_optimization_tools:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ogni Strumentazione_di_*
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(OTTIMIZZAZIONE_Strumentazione_di_ottimizzazione)
+
+  # 6.5 ESPORTAZIONE
+  export_tools:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
@@ -1139,23 +2192,66 @@ mappings:
         - parameter: idlab-fn:valueNum
           value: ""
       type: iri
-
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(ESPORTAZIONE_Strumentazione_di_esportazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # 6.6 METADATAZIONE
-  #METADATAZIONE_Strumentazione_di_metadatazione
-  metadata_tools:
+  appellation_export_tools:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ogni Strumentazione_di_*
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(ESPORTAZIONE_Strumentazione_di_esportazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(ESPORTAZIONE_Strumentazione_di_esportazione)
+
+  # 6.6 METADATAZIONE
+  metadata_tools:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
@@ -1167,23 +2263,66 @@ mappings:
         - parameter: idlab-fn:valueNum
           value: ""
       type: iri
-
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(METADATAZIONE_Strumentazione_di_metadatazione)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
 
-  # 6.7 CARICAMENT0
-  #CARICAMENTO_SU_ATON_Strumentazione_di_caricamento
-  upload_tools:
+  appellation_metadata_tools:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ogni Strumentazione_di_*
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(METADATAZIONE_Strumentazione_di_metadatazione)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(METADATAZIONE_Strumentazione_di_metadatazione)
+
+  # 6.7 CARICAMENTO
+  upload_tools:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
@@ -1195,10 +2334,56 @@ mappings:
         - parameter: idlab-fn:valueNum
           value: ""
       type: iri
-
     po:
       - [ a, "crmdig:D14_Software" ]
       - [ "crm:P2_has_type", "aat:300426696" ]
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueParams
+              value:
+                function: idlab-fn:multiple_separator_split_explode
+                parameters:
+                  - parameter: idlab-fn:list_param_string_sep
+                    value: ";---,--- e ---\n--- + --- - ---\r"
+                  - parameter: idlab-fn:valParam
+                    value: $(CARICAMENTO_SU_ATON_Strumentazione_di_caricamento)
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueNum
+              value: ""
+          type: iri
+
+  appellation_upload_tools:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valParam
+                value: $(CARICAMENTO_SU_ATON_Strumentazione_di_caricamento)
+        - parameter: idlab-fn:valueType
+          value: "apl"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri
+    po:
+      - [ a, "crm:E41_Appellation" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:multiple_separator_split_explode
+          parameters:
+            - parameter: idlab-fn:list_param_string_sep
+              value: ";---,--- e ---\n--- + --- - ---\r"
+            - parameter: idlab-fn:valParam
+              value: $(CARICAMENTO_SU_ATON_Strumentazione_di_caricamento)
 
   # ========================================================================
   # 7) OPERAZIONI

@@ -383,6 +383,142 @@ def remove_angular_apices_add_angular_brackets(uri):
     else:
         return "<"+uri+">"
 
+def pair_subject_object(graph, properties=None):
+    """
+    Rimuove triple con P1_is_identified_by o P190_has_symbolic_content
+    incoerenti, ma conserva:
+      - Actor-like:  .../(sub|acr|col)/<val>/<n>  ↔  .../apl/<val>/<n>
+      - DigitalDevice: .../dev/<val>/<n>         ↔  .../apl/<val>/<n>
+      - Software: .../sfw/<val>/<n>              ↔  .../apl/<val>/<n>
+      - Modello:  .../mdl/<nr>/<idx>/<n>         ↔  .../apl/<nr>/<idx>/<n>,
+                 literal: "Modello Digitale <idx> oggetto <nr>"
+      - Licenze modello: literal tipo "by-nc 4.0"/"cc by ..." anche se l’IRI è .../apl/<nr>/<idx>/<n>
+      - Licenze modello con IRI .../apl-lic/<nr>/<idx>/<n>
+      - Licenze (lic/<nr>/<idx>/<n>) ↔ apl-lic/<nr>/<idx>/<n>
+    """
+    def norm_text(s: str) -> str:
+        s = str(s)
+        s = s.replace("_", " ").replace("-", " ")
+        s = re.sub(r"\s+", " ", s)
+        return s.strip().lower()
+
+    ACTOR_SUBJ_RE   = re.compile(r".*/(sub|acr|col)/([^/]+)/\d+$")
+    DEV_SUBJ_RE     = re.compile(r".*/dev/([^/]+)/\d+$")
+    SFW_SUBJ_RE     = re.compile(r".*/sfw/([^/]+)/\d+$")
+    APL_VAL_RE      = re.compile(r".*/apl/([^/]+)/\d+$")
+
+    MDL_SUBJ_RE     = re.compile(r".*/mdl/(?P<nr>[^/]+)/(?P<idx>\d{2})/\d+$")
+    APL_MDL_RE      = re.compile(r".*/apl/(?P<nr>[^/]+)/(?P<idx>\d{2})/\d+$")
+    LIC_SUBJ_RE     = re.compile(r".*/lic/(?P<nr>[^/]+)/(?P<idx>\d{2})/\d+$")
+    APL_LIC_MDL_RE  = re.compile(r".*/apl-lic/(?P<nr>[^/]+)/(?P<idx>\d{2})/\d+$")
+
+    MDL_LIT_RE      = re.compile(
+        r"^\s*Modello\s+Digitale\s+(?P<idx>\d{2})\s+oggetto\s+(?P<nr>.+?)\s*$",
+        flags=re.IGNORECASE
+    )
+
+    triples_to_remove = []
+
+    for s, p, o in graph.triples((None, None, None)):
+        pred = str(p)
+        subj_str = str(s)
+
+        # ===== P1_is_identified_by =====
+        if pred == "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by":
+            m_obj_apl = APL_VAL_RE.match(str(o)) or APL_LIC_MDL_RE.match(str(o))
+
+            m_sub_actor = ACTOR_SUBJ_RE.match(subj_str)
+            if m_sub_actor and m_obj_apl:
+                if norm_text(m_sub_actor.group(2)) != norm_text(m_obj_apl.group(1)):
+                    triples_to_remove.append((s, p, o))
+                continue
+
+            m_sub_dev = DEV_SUBJ_RE.match(subj_str)
+            if m_sub_dev and m_obj_apl:
+                if norm_text(m_sub_dev.group(1)) != norm_text(m_obj_apl.group(1)):
+                    triples_to_remove.append((s, p, o))
+                continue
+
+            m_sub_sfw = SFW_SUBJ_RE.match(subj_str)
+            if m_sub_sfw and m_obj_apl:
+                if norm_text(m_sub_sfw.group(1)) != norm_text(m_obj_apl.group(1)):
+                    triples_to_remove.append((s, p, o))
+                continue
+
+            m_sub_mdl = MDL_SUBJ_RE.match(subj_str)
+            m_obj_apl_mdl = APL_MDL_RE.match(str(o)) or APL_LIC_MDL_RE.match(str(o))
+            if m_sub_mdl and m_obj_apl_mdl:
+                if (m_sub_mdl.group("nr") != m_obj_apl_mdl.group("nr") or
+                    m_sub_mdl.group("idx") != m_obj_apl_mdl.group("idx")):
+                    triples_to_remove.append((s, p, o))
+                continue
+
+            # Licenze (lic ↔ apl-lic)
+            m_sub_lic = LIC_SUBJ_RE.match(subj_str)
+            m_obj_apl_lic = APL_LIC_MDL_RE.match(str(o))
+            if m_sub_lic and m_obj_apl_lic:
+                if (m_sub_lic.group("nr") != m_obj_apl_lic.group("nr") or
+                    m_sub_lic.group("idx") != m_obj_apl_lic.group("idx")):
+                    triples_to_remove.append((s, p, o))
+                continue
+
+            triples_to_remove.append((s, p, o))
+            continue
+
+        # ===== P190_has_symbolic_content =====
+        if pred == "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content":
+            if not isinstance(o, Literal):
+                triples_to_remove.append((s, p, o))
+                continue
+
+            lit_norm = norm_text(str(o))
+
+            # Modelli con apl/<nr>/<idx>/<n>
+            m_apl_mdl = APL_MDL_RE.match(subj_str)
+            if m_apl_mdl:
+                if (lit_norm.startswith("by nc") or
+                    lit_norm.startswith("by nc sa") or
+                    lit_norm.startswith("cc by")):
+                    continue  # tieni la tripla di licenza
+
+                m_lit = MDL_LIT_RE.match(str(o))
+                if not m_lit:
+                    triples_to_remove.append((s, p, o))
+                else:
+                    if (m_lit.group("nr").strip() != m_apl_mdl.group("nr") or
+                        f"{int(m_lit.group('idx')):02d}" != m_apl_mdl.group("idx")):
+                        triples_to_remove.append((s, p, o))
+                continue
+
+            # Modelli con apl-lic/<nr>/<idx>/<n> (solo licenze)
+            m_apl_lic_mdl = APL_LIC_MDL_RE.match(subj_str)
+            if m_apl_lic_mdl:
+                if (lit_norm.startswith("by nc") or
+                    lit_norm.startswith("by nc sa") or
+                    lit_norm.startswith("cc by")):
+                    continue  # tieni la tripla di licenza
+                triples_to_remove.append((s, p, o))
+                continue
+
+            # Appellation "generiche" apl/<val>/<n>
+            m_apl_val = APL_VAL_RE.match(subj_str)
+            if m_apl_val:
+                iri_val_norm = norm_text(m_apl_val.group(1))
+                if (lit_norm.startswith("by nc") or
+                    lit_norm.startswith("by nc sa") or
+                    lit_norm.startswith("cc by")):
+                    continue
+                if lit_norm != iri_val_norm:
+                    triples_to_remove.append((s, p, o))
+                continue
+
+            triples_to_remove.append((s, p, o))
+            continue
+
+    for triple in triples_to_remove:
+        graph.remove(triple)
+
+    return graph
 
 def determine_first_phase(csv_path):
     """
@@ -610,6 +746,14 @@ def process_rdf_data(data, extract_prefixes, supl_dict, csv_input):
                 g.remove((s, p, o))
                 g.add((s, p, new_o))
                 # print(f"Lowercased object for predicate crm:P130_shows_features_of: {str(o)} -> {lower_o_str}")
+
+    # --- Pulizia appellations come nel dataset oggetto ---
+    properties_in_triples_to_clean = [
+        "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+        "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content"
+    ]
+
+    g = pair_subject_object(g, properties_in_triples_to_clean)
 
     processed_data = g.serialize(format="turtle")
     return processed_data
