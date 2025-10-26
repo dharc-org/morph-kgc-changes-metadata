@@ -8,6 +8,7 @@ import os
 from ruamel.yaml import YAML
 import re
 import datetime
+from perf_monitor import PerfMonitor
 
 
 # Trova eventuali colonne vuote nel csv
@@ -169,14 +170,6 @@ def create_ready_csv(csv_filepath, columns_with_no_values, col_name, missing_ids
 
     return output_path
 
-
-# Esempio di utilizzo:
-# csv_input = "path/to/your/input.csv"
-# columns_to_remove = [ ... ]  # Lista delle colonne vuote da rimuovere
-# missing_ids = [ ... ]  # Lista dei valori da rimuovere dalla colonna col_name
-# ready_csv = create_ready_csv(csv_input, columns_to_remove, "NR", missing_ids, "path/to/output_dir")
-# print(ready_csv)
-
 # Funzione per la pulizia dinamica del file di mapping
 def get_all_values_from_nested_dict(data):
     """
@@ -255,6 +248,13 @@ config = configparser.ConfigParser()
 # Lettura del file di configurazione
 config.read(config_path)
 
+# --- PERF MONITOR: setup dal config.ini ---
+monitor_base = config["CONFIGURATION"].get("monitor_report", "results/monitor")
+os.makedirs(monitor_base, exist_ok=True)
+REPORT_PATH = os.path.join(monitor_base, "perf_report.json")
+RUN_KEY = "objects"
+
+
 # Accesso al valore di file_path in DataSource1
 csv_file_path = config["DataSource1"]["file_path"]
 coupled_csv_file_path = config["DataSource2"]["file_path"]
@@ -306,7 +306,7 @@ if columns_with_no_values:
     with open(original_mapping_file, "r", encoding="utf-8") as f:
         yaml_mod = YAML()
         original_data_dict = yaml_mod.load(f)
-        # Ora 'data_dict' è un dizionario Python che rispecchia la struttura del file YAML
+        # 'data_dict' = dizionario che rispecchia la struttura del file YAML
         mapping_keys_simplified_dict = get_all_values_from_nested_dict(original_data_dict["mappings"])
 
         for k, v in mapping_keys_simplified_dict.items():
@@ -333,8 +333,7 @@ if columns_with_no_values:
         yaml_tmp.default_flow_style = False
 
         # per disabilitare il riordino delle chiavi (sort)
-        yaml_tmp.sort_base_mapping_type = False  # A partire da ruamel.yaml 0.17+
-        # Oppure, per versioni meno recenti: yaml_tmp.representer.sort_dicts = False
+        yaml_tmp.sort_base_mapping_type = False
 
         # Consenti caratteri Unicode
         yaml_tmp.allow_unicode = True
@@ -371,10 +370,44 @@ with open(config_path_tmp, "w") as file:
 
 # materializzazione del grafo per questo dataset. (capire se sdoppiare le configurazioni o se aggiungere parametri o se cambiare i nomi in postprocessing)
 try:
+    # --- PERF MONITOR: start timer/memory ---
+    mon = PerfMonitor(label="objects")
+    mon.__enter__()
     graph = materialize(config_path_tmp)
+
 except Exception as e:
     print(f"Errore durante la materializzazione: {e}")
 
+# --- PERF MONITOR: stop timer/memory ---
+mon.__exit__(None, None, None)
+
+# --- PERF MONITOR: calcolo metriche e update JSON ---
+# rows_processed: numero di righe dell'input "ready" effettivamente usato
+try:
+    rows_processed = len(pd.read_csv(ready_input, encoding='latin1'))
+except Exception:
+    rows_processed = None
+
+# iri_generated: conteggio IRI dal grafo restituito da materialize (se disponibile)
+try:
+    iris_generated = mon.count_iris_from_graph(graph, mode="subjects_unique") if isinstance(graph, Graph) else None
+except Exception:
+    iris_generated = None
+
+results = mon.report(rows_processed, iris_generated)
+
+# Scrivi/aggiorna la sezione del JSON condiviso per questo run
+PerfMonitor.update_json_report(
+    REPORT_PATH,
+    run_key=RUN_KEY,
+    results=results,
+    extra_fields={
+        "config_used": config_path_tmp,
+        "ready_input": ready_input,
+        "output_dir": config["CONFIGURATION"].get("output_dir"),
+        "report_dir": monitor_base,
+    }
+)
 
 ###############
 
@@ -482,8 +515,6 @@ g_clean.serialize(destination=output_file_path, format="turtle")
 # Lettura RDF corretto come stringa
 with open(output_file_path, 'r') as f:
     data = f.read()
-
-# --- Tutto il resto rimane invariato ---
 
 def extract_prefixes(text):
     prfx = re.findall(r'@prefix\s([^\s:]+:)\s', text)

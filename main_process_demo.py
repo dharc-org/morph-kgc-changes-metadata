@@ -7,6 +7,8 @@ import os
 from ruamel.yaml import YAML
 import re
 import datetime
+from perf_monitor import PerfMonitor
+
 
 
 # Trova eventuali colonne vuote nel csv
@@ -177,6 +179,13 @@ config = configparser.ConfigParser()
 # Lettura del file di configurazione
 config.read(config_path)
 
+# --- PERF MONITOR: setup dal config.ini ---
+monitor_base = config["CONFIGURATION"].get("monitor_report", "results/monitor")  # es: "results/monitor"
+os.makedirs(monitor_base, exist_ok=True)
+REPORT_PATH = os.path.join(monitor_base, "perf_report.json")
+RUN_KEY = "process"
+
+
 # Accesso al valore di file_path in DataSource2
 csv_file_path = config["DataSource2"]["file_path"]
 coupled_csv_file_path = config["DataSource1"]["file_path"]
@@ -250,8 +259,7 @@ if columns_with_no_values:
         yaml_tmp.default_flow_style = False
 
         # per disabilitare il riordino delle chiavi (sort)
-        yaml_tmp.sort_base_mapping_type = False  # A partire da ruamel.yaml 0.17+
-        # Oppure, per versioni meno recenti: yaml_tmp.representer.sort_dicts = False
+        yaml_tmp.sort_base_mapping_type = False
 
         # Consenti caratteri Unicode
         yaml_tmp.allow_unicode = True
@@ -288,16 +296,52 @@ with open(config_path_tmp, "w") as file:
 
 # materializzazione del grafo per questo dataset. (capire se sdoppiare le configurazioni o se aggiungere parametri o se cambiare i nomi in postprocessing)
 try:
+    # --- PERF MONITOR: start timer/memory ---
+    mon = PerfMonitor(label="process")
+    mon.__enter__()
     graph = materialize(config_path_tmp)
+
 except Exception as e:
     print(f"Errore durante la materializzazione: {e}")
+
+# --- PERF MONITOR: stop timer/memory ---
+mon.__exit__(None, None, None)
+
+# --- PERF MONITOR: calcolo metriche e update JSON ---
+# rows_processed: numero di righe dell'input "ready" effettivamente usato
+try:
+    rows_processed = len(pd.read_csv(ready_input, encoding='latin1'))
+except Exception:
+    rows_processed = None
+
+# iri_generated: conteggio IRI dal grafo restituito da materialize (se disponibile)
+try:
+    iris_generated = mon.count_iris_from_graph(graph, mode="subjects_unique") if isinstance(graph, Graph) else None
+except Exception:
+    iris_generated = None
+
+# N.B. la tua versione di report non accetta keyword args: usa chiamata posizionale
+results = mon.report(rows_processed, iris_generated)
+
+# Scrivi/aggiorna la sezione del JSON condiviso per questo run
+PerfMonitor.update_json_report(
+    REPORT_PATH,
+    run_key=RUN_KEY,
+    results=results,
+    extra_fields={
+        "config_used": config_path_tmp,
+        "ready_input": ready_input,
+        "output_dir": config["CONFIGURATION"].get("output_dir"),
+        "report_dir": monitor_base,
+    }
+)
+
 
 
 ###############
 
 # file di output e il percorso di output
 output_file = config_tmp["DataSource2"]['output_file']
-#output_dir = config_tmp['CONFIGURATION']['output_dir']
 output_path = os.path.join(sub_output_dir, output_file)
 
 
@@ -759,11 +803,6 @@ def process_rdf_data(data, extract_prefixes, supl_dict, csv_input):
     return processed_data
 
 
-# --- Esecuzione della trasformazione e scrittura del file finale ---
-# Ipotizziamo che:
-# - "data" sia il testo RDF iniziale,
-# - "extract_prefixes" e "prefixes_dict_from_yaml" siano già definiti,
-# - "csv_input" sia il percorso del CSV da cui determinare la prima fase.
 processed_data = process_rdf_data(data, extract_prefixes, prefixes_dict_from_yaml, ready_input)
 
 with open(output_file_path, 'w') as f:

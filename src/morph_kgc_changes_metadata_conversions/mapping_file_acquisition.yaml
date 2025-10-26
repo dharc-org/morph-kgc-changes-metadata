@@ -1,5 +1,5 @@
 prefixes:
-  aat: "http://vocab.getty.edu/page/aat/"
+  aat: "http://vocab.getty.edu/aat/"
   ex: "https://w3id.org/dharc/ontology/chad-ap/data/example/"
   crm: "http://www.cidoc-crm.org/cidoc-crm/"
   crmdig: "http://www.ics.forth.gr/isl/CRMdig/"
