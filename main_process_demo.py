@@ -1,5 +1,4 @@
 import pandas as pd
-# import morph_kgc
 from src.morph_kgc.__init__ import materialize
 import configparser
 from rdflib import Graph, Namespace, URIRef, BNode, Literal
@@ -9,6 +8,33 @@ import re
 import datetime
 from perf_monitor import PerfMonitor
 
+def read_csv_safely(path):
+    try:
+        return pd.read_csv(path, encoding='utf-8')
+    except UnicodeDecodeError:
+        return pd.read_csv(path, encoding='latin1')
+
+def sanitize_whitespace_df(df: pd.DataFrame) -> pd.DataFrame:
+    """Trim testa/coda e rimozione di \t \r \n da TUTTE le celle stringa (vectorized)."""
+    obj = df.select_dtypes(include="object").columns
+    if len(obj):
+        df[obj] = (
+            df[obj]
+            .replace({r'[\t\r\n]+': ' '}, regex=True)
+            .apply(lambda col: col.str.strip())
+        )
+    return df
+
+def sanitize_url_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Individua colonne con URL e rimuove spazi/<> attaccati: '< https://.. >' -> 'https://..'
+    """
+    url_cols = [c for c in df.columns if df[c].astype(str).str.contains(r'https?://', na=False).any()]
+    for c in url_cols:
+        s = df[c].astype(str)
+        s = s.str.replace(r'^\s*<?\s*(https?://[^\s<>]+)\s*>?\s*$', r'\1', regex=True).str.strip()
+        df[c] = s
+    return df
 
 
 # Trova eventuali colonne vuote nel csv
@@ -22,9 +48,8 @@ def get_empty_column_names(csv_path):
     Returns:
         list: Una lista di stringhe che rappresentano i nomi delle colonne vuote.
     """
-    df = pd.read_csv(csv_path, encoding='latin1')
-    empty_columns = [col for col in df.columns if col.strip() == ""]
-    return empty_columns
+    df = read_csv_safely(csv_path)
+    return [col for col in df.columns if col.strip() == ""]
 
 # verifica se ci sono degli ID mancanti
 def compare_column_values(main_csv, secondary_csv, column_name):
@@ -39,8 +64,8 @@ def compare_column_values(main_csv, secondary_csv, column_name):
     Returns:
         dict: Dizionario con chiavi "missing_in_main" e "missing_in_secundary".
     """
-    main_df = pd.read_csv(main_csv, encoding='latin1')
-    secondary_df = pd.read_csv(secondary_csv, encoding='latin1')
+    main_df = read_csv_safely(main_csv)
+    secondary_df = read_csv_safely(secondary_csv)
 
     main_values = set(main_df[column_name].dropna().astype(str).str.strip())
     secondary_values = set(secondary_df[column_name].dropna().astype(str).str.strip())
@@ -54,51 +79,67 @@ def compare_column_values(main_csv, secondary_csv, column_name):
 def create_ready_csv(csv_filepath, columns_with_no_values, col_name, missing_ids, output_dir):
     """
     Elimina colonne vuote specificate e righe con valori specifici in una colonna,
-    convertendo eventuali date nel formato DD/MM/YYYY in YYYY-MM-DD, poi salva il nuovo CSV.
-
-    Args:
-        csv_filepath (str): Percorso del file CSV di input.
-        columns_with_no_values (list): Lista dei nomi delle colonne da rimuovere.
-        col_name (str): Nome della colonna su cui filtrare i valori da rimuovere.
-        missing_ids (list): Lista dei valori nella colonna col_name da rimuovere.
-        output_dir (str): Directory in cui salvare il file CSV modificato.
-
-    Returns:
-        str: Percorso del file CSV salvato.
+    convertendo eventuali date al formato ISO YYYY-MM-DD, poi salva il nuovo CSV.
     """
-    # Carica il dataset
-    df = pd.read_csv(csv_filepath, encoding='latin1')
+    df = read_csv_safely(csv_filepath)
 
-    # Funzione di supporto per convertire il formato data
     def convert_date(val):
-        if isinstance(val, str):
-            # Verifica se il valore corrisponde al formato DD/MM/YYYY
-            match = re.fullmatch(r"(\d{2})/(\d{2})/(\d{4})", val)
-            if match:
-                day, month, year = match.groups()
-                try:
-                    dt = datetime.date(int(year), int(month), int(day))
-                    return dt.isoformat()  # Ritorna YYYY-MM-DD
-                except Exception:
-                    return val
-        return val
+        if not isinstance(val, str):
+            return val
+        s = val.strip()
+        if not s:
+            return s
 
-    # Applica la conversione a ogni cella del DataFrame
-    df = df.applymap(convert_date)
+        # già ISO YYYY-MM-DD ?
+        m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", s)
+        if m:
+            return s
 
-    # Rimuovi le colonne specificate (solo se esistono nel dataset)
+        # DD/MM/YYYY o MM/DD/YYYY
+        m = re.fullmatch(r"(\d{2})/(\d{2})/(\d{4})", s)
+        if m:
+            a, b, year = m.groups()
+            d1, d2 = int(a), int(b)
+            if d1 > 12 and d2 <= 12:
+                day, month = d1, d2  # DD/MM/YYYY
+            elif d2 > 12 and d1 <= 12:
+                day, month = d2, d1  # MM/DD/YYYY
+            else:
+                day, month = d1, d2  # default: DD/MM/YYYY
+            try:
+                return datetime.date(int(year), int(month), int(day)).isoformat()
+            except ValueError:
+                return s
+
+        for fmt in ("%d-%m-%Y", "%m-%d-%Y", "%Y/%m/%d"):
+            try:
+                return datetime.datetime.strptime(s, fmt).date().isoformat()
+            except Exception:
+                pass
+
+        return s
+
+    # Applicazioni
+    df = df.apply(lambda col: col.map(convert_date))
     df = df.drop(columns=[col for col in columns_with_no_values if col in df.columns])
-
-    # Rimuovi le righe dove col_name ha valori in missing_ids
     df = df[~df[col_name].astype(str).isin([str(val) for val in missing_ids])]
 
-    # Crea il nome del nuovo file
+    # Sanitizzazione uniforme
+    df = sanitize_whitespace_df(df)
+    df = sanitize_url_columns(df)
+
+    # Normalizza intestazioni
+    df.columns = df.columns.str.replace(r'\s+', ' ', regex=True).str.strip()
+    df.columns = df.columns.str.replace('  ', ' ', regex=False)
+
+    # Cast stringhe coerente
+    df = df.fillna('')
+    df = df.apply(lambda col: col.map(lambda x: str(x) if pd.notna(x) else ''))
+
+    # Output sempre utf-8
     filename = os.path.basename(csv_filepath)
     output_path = os.path.join(output_dir, f"cleaned_{filename}")
-
-    # Salva il nuovo file
-    df.to_csv(output_path, index=False)
-
+    df.to_csv(output_path, index=False, quoting=1, encoding='utf-8')
     return output_path
 
 # Funzione per la pulizia dinamica del file di mapping
@@ -205,16 +246,12 @@ else:
 
 ready_input = create_ready_csv(csv_file_path, columns_with_no_values, "NR", missing_ids, ready_input_dir)
 
-
-df = pd.read_csv(ready_input, delimiter=',', quotechar='"', encoding='latin1')
-
-# NaN sostituiti con stringhe vuote
+df = read_csv_safely(ready_input)
 df = df.fillna('')
-
-# tutte le colonne in stringa
-df = df.applymap(lambda x: str(x) if pd.notna(x) else '')
-
-df.to_csv(ready_input, index=False, quoting=1, encoding='latin1')
+df = sanitize_whitespace_df(df)
+df = sanitize_url_columns(df)
+df = df.apply(lambda col: col.map(lambda x: str(x) if pd.notna(x) else ''))
+df.to_csv(ready_input, index=False, quoting=1, encoding='utf-8')
 
 #  MODO PER INVISIBILIZZARE IL DATASET NON RICHIESTO (LEGGE CONFIGURAZIONI GENERALI, CREA UN FILE DI APPOGGIO CON LE INFO NECESSARIE E CANCELLA LE ALTRE POI CANCELLA IL FILE)
 config_path_tmp = config_path.split(".ini")[0] + "_tmp" + ".ini"
@@ -277,14 +314,11 @@ base_output_dir = config["CONFIGURATION"]["output_dir"]
 sub_output_dir = os.path.join(base_output_dir, "process_dataset")
 config_tmp["CONFIGURATION"]["output_dir"] = sub_output_dir
 
-# Leggi il CSV senza specificare colonne per mantenere le intestazioni originali
-df = pd.read_csv(ready_input, encoding='latin1')
-# Rimuovi tutti i caratteri di a capo (\n) dalle intestazioni delle colonne
+df = read_csv_safely(ready_input)
 df.columns = [col.replace('\n', ' ') for col in df.columns]
 df.columns = [col.replace('  ', ' ') for col in df.columns]
 df = df.fillna('')
-df = df.applymap(lambda x: str(x) if pd.notna(x) else '')
-# Sovrascrivi il file CSV con i nuovi nomi delle colonne
+df = df.apply(lambda col: col.map(lambda x: str(x) if pd.notna(x) else ''))
 df.to_csv(ready_input, index=False, quoting=1, encoding='utf-8')
 
 if not os.path.exists(sub_output_dir):
@@ -295,24 +329,30 @@ with open(config_path_tmp, "w") as file:
     config_tmp.write(file)
 
 # materializzazione del grafo per questo dataset. (capire se sdoppiare le configurazioni o se aggiungere parametri o se cambiare i nomi in postprocessing)
-try:
-    # --- PERF MONITOR: start timer/memory ---
-    mon = PerfMonitor(label="process")
-    mon.__enter__()
-    graph = materialize(config_path_tmp)
 
-except Exception as e:
-    print(f"Errore durante la materializzazione: {e}")
+graph = None
+with PerfMonitor(label="process") as mon:
+    try:
+        graph = materialize(config_path_tmp)
+    except Exception as e:
+        print(f"Errore durante la materializzazione: {e}")
 
-# --- PERF MONITOR: stop timer/memory ---
-mon.__exit__(None, None, None)
+if not isinstance(graph, Graph):
+    # cleanup temporanei anche in caso di errore
+    if os.path.exists(config_path_tmp):
+        os.remove(config_path_tmp)
+    if temp_mapping_file != config["DataSource2"]["mappings"] and os.path.exists(temp_mapping_file):
+        os.remove(temp_mapping_file)
+    raise SystemExit(1)
+
 
 # --- PERF MONITOR: calcolo metriche e update JSON ---
-# rows_processed: numero di righe dell'input "ready" effettivamente usato
+# rows_processed: numero di righe dell'input ready usato
 try:
-    rows_processed = len(pd.read_csv(ready_input, encoding='latin1'))
+    rows_processed = len(read_csv_safely(ready_input))
 except Exception:
     rows_processed = None
+
 
 # iri_generated: conteggio IRI dal grafo restituito da materialize (se disponibile)
 try:
@@ -352,7 +392,7 @@ if not isinstance(graph, Graph):
 # mapping YARRRML in dizionario
 yaml = YAML(typ='safe', pure=True)
 
-map_file = config['DataSource2']['mappings']
+map_file = temp_mapping_file
 
 with open(map_file, 'r', encoding='utf-8') as file:
     yarrrml_data = yaml.load(file)

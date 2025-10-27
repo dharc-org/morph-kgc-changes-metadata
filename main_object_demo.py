@@ -1,5 +1,4 @@
 import pandas as pd
-# import morph_kgc
 from src.morph_kgc.__init__ import materialize
 import configparser
 from rdflib import Graph, Namespace, URIRef, BNode, Literal
@@ -10,8 +9,33 @@ import re
 import datetime
 from perf_monitor import PerfMonitor
 
+def read_csv_safely(path):
+    try:
+        return pd.read_csv(path, encoding='utf-8')
+    except UnicodeDecodeError:
+        return pd.read_csv(path, encoding='latin1')
 
-# Trova eventuali colonne vuote nel csv
+def sanitize_whitespace_df(df: pd.DataFrame) -> pd.DataFrame:
+    """Trim testa/coda e rimozione di \t \r \n da TUTTE le celle stringa (vectorized)."""
+    obj = df.select_dtypes(include="object").columns
+    if len(obj):
+        df[obj] = (
+            df[obj]
+            .replace({r'[\t\r\n]+': ' '}, regex=True)
+            .apply(lambda col: col.str.strip())
+        )
+    return df
+
+
+def sanitize_url_columns(df: pd.DataFrame) -> pd.DataFrame:
+    url_cols = [c for c in df.columns if df[c].astype(str).str.contains(r'https?://', na=False).any()]
+    for c in url_cols:
+        s = df[c].astype(str)
+        s = s.str.replace(r'^\s*<?\s*(https?://[^\s<>]+)\s*>?\s*$', r'\1', regex=True).str.strip()
+        df[c] = s
+    return df
+
+# Trova colonne vuote nel csv
 def get_empty_column_names(csv_path):
     """
     Legge un file CSV e restituisce una lista con i nomi delle colonne vuote (senza intestazione).
@@ -22,11 +46,11 @@ def get_empty_column_names(csv_path):
     Returns:
         list: Una lista di stringhe che rappresentano i nomi delle colonne vuote.
     """
-    df = pd.read_csv(csv_path, encoding='latin1')
+    df = read_csv_safely(csv_path)
     empty_columns = [col for col in df.columns if col.strip() == ""]
     return empty_columns
 
-# verifica se ci sono degli ID mancanti
+# verifica ID mancanti
 def compare_column_values(main_csv, secondary_csv, column_name):
     """
     Confronta i valori di una colonna specificata tra due file CSV.
@@ -39,8 +63,8 @@ def compare_column_values(main_csv, secondary_csv, column_name):
     Returns:
         dict: Dizionario con chiavi "missing_in_main" e "missing_in_secundary".
     """
-    main_df = pd.read_csv(main_csv, encoding='latin1')
-    secondary_df = pd.read_csv(secondary_csv, encoding='latin1')
+    main_df = read_csv_safely(main_csv)
+    secondary_df = read_csv_safely(secondary_csv)
 
     main_values = set(main_df[column_name].dropna().astype(str).str.strip())
     secondary_values = set(secondary_df[column_name].dropna().astype(str).str.strip())
@@ -50,11 +74,6 @@ def compare_column_values(main_csv, secondary_csv, column_name):
         "missing_in_secundary": list(main_values - secondary_values)
     }
 
-
-import os
-import re
-import datetime
-import pandas as pd
 
 
 def fix_person_name(cell):
@@ -76,7 +95,7 @@ def fix_person_name(cell):
     pattern = re.compile(r'^\s*([^,]+),\s*([^\(\[]+)(\s*[\(\[].*[\)\]])?\s*$')
     for part in parts:
         part = part.strip()
-        # Se il part è già del tipo "[...]", lascialo invariato
+        # Se il part è già del tipo "[...]", invariato
         if part.startswith('[') and part.endswith(']'):
             fixed_parts.append(part)
             continue
@@ -126,7 +145,7 @@ def create_ready_csv(csv_filepath, columns_with_no_values, col_name, missing_ids
         str: Il percorso del file CSV salvato.
     """
     # Carica il dataset
-    df = pd.read_csv(csv_filepath, encoding='latin1')
+    df = read_csv_safely(csv_filepath)
 
     # Funzione di supporto per convertire il formato data (DD/MM/YYYY -> YYYY-MM-DD)
     def convert_date(val):
@@ -142,15 +161,15 @@ def create_ready_csv(csv_filepath, columns_with_no_values, col_name, missing_ids
         return val
 
     # Applica la conversione data a ogni cella del DataFrame
-    df = df.applymap(convert_date)
+    df = df.apply(lambda col: col.map(convert_date))
 
-    # Rimuovi le colonne specificate (se esistono)
+    # Rimuove le colonne specificate (se esistono)
     df = df.drop(columns=[col for col in columns_with_no_values if col in df.columns])
 
-    # Rimuovi le righe in cui il valore della colonna col_name è presente in missing_ids
+    # Rimuove le righe in cui il valore della colonna col_name è presente in missing_ids
     df = df[~df[col_name].astype(str).isin([str(val) for val in missing_ids])]
 
-    # Aggiungi qui la trasformazione dei nomi di persona nelle colonne specificate
+    # Aggiunge trasformazione nomi di persona nelle colonne specificate
     person_columns = ["Scopritore", "Autore", "Traduttore", "Disegnatore",
                       "Incisore", "Editore", "Preparatore museale", "Committente"]
     for col in person_columns:
@@ -161,12 +180,16 @@ def create_ready_csv(csv_filepath, columns_with_no_values, col_name, missing_ids
     if "NR collegato" in df.columns:
         df["NR collegato"] = df["NR collegato"].apply(clean_value)
 
+    #  sanitize PRE-MATERIALIZZAZIONE
+    df = sanitize_whitespace_df(df)
+    df = sanitize_url_columns(df)
+
     # Crea il nome del nuovo file
     filename = os.path.basename(csv_filepath)
     output_path = os.path.join(output_dir, f"cleaned_{filename}")
 
-    # Salva il nuovo file CSV
-    df.to_csv(output_path, index=False, encoding='latin1')
+    # Salvataggio il nuovo file CSV
+    df.to_csv(output_path, index=False, encoding='utf-8')
 
     return output_path
 
@@ -209,7 +232,7 @@ def get_all_values_from_nested_dict(data):
     """
     result = {}
     for top_key, subdict in data.items():
-        # Usa la funzione di supporto per "flattenare" tutti i valori
+        # Usa la funzione di supporto
         flattened_values = get_all_values(subdict)
         result[top_key] = flattened_values
     return result
@@ -275,7 +298,7 @@ else:
 ready_input = create_ready_csv(csv_file_path, columns_with_no_values, "NR", missing_ids, ready_input_dir)
 
 
-df = pd.read_csv(ready_input, encoding='latin1')
+df = read_csv_safely(ready_input)
 
 # 1. sostituisci tutti i caratteri di spaziatura (TAB, CR, LF) con un singolo spazio
 df.columns = df.columns.str.replace(r'\s+', ' ', regex=True)
@@ -287,10 +310,12 @@ df.columns = df.columns.str.strip()
 df.columns = df.columns.str.replace('  ', ' ', regex=False)
 
 df = df.fillna('')
-df = df.applymap(lambda x: str(x) if pd.notna(x) else '')
+df = sanitize_whitespace_df(df)
+df = sanitize_url_columns(df)
+df = df.apply(lambda col: col.map(lambda x: str(x) if pd.notna(x) else ''))
 df.to_csv(ready_input, index=False, quoting=1, encoding='utf-8')
 
-#  MODO PER INVISIBILIZZARE IL DATASET NON RICHIESTO (LEGGE CONFIGURAZIONI GENERALI, CREA UN FILE DI APPOGGIO CON LE INFO NECESSARIE E CANCELLA LE ALTRE POI CANCELLA IL FILE)
+#INVISIBILIZZARE IL DATASET NON RICHIESTO (LEGGE CONFIGURAZIONI GENERALI, CREA UN FILE DI APPOGGIO CON LE INFO NECESSARIE E CANCELLA LE ALTRE POI CANCELLA IL FILE)
 config_path_tmp = config_path.split(".ini")[0] + "_tmp" + ".ini"
 
 # Creazione di un oggetto ConfigParser
@@ -352,12 +377,12 @@ sub_output_dir = os.path.join(base_output_dir, "object_dataset")
 config_tmp["CONFIGURATION"]["output_dir"] = sub_output_dir
 
 # Leggi il CSV senza specificare colonne per mantenere le intestazioni originali
-df = pd.read_csv(ready_input, encoding='latin1')
+df = read_csv_safely(ready_input)
 # Rimuovi tutti i caratteri di a capo (\n) dalle intestazioni delle colonne
 df.columns = [col.replace('\n', ' ') for col in df.columns]
 df.columns = [col.replace('  ', ' ') for col in df.columns]
 df = df.fillna('')
-df = df.applymap(lambda x: str(x) if pd.notna(x) else '')
+df = df.apply(lambda col: col.map(lambda x: str(x) if pd.notna(x) else ''))
 # Sovrascrivi il file CSV con i nuovi nomi delle colonne
 df.to_csv(ready_input, index=False, quoting=1, encoding='utf-8')
 
@@ -368,31 +393,35 @@ if not os.path.exists(sub_output_dir):
 with open(config_path_tmp, "w") as file:
     config_tmp.write(file)
 
-# materializzazione del grafo per questo dataset. (capire se sdoppiare le configurazioni o se aggiungere parametri o se cambiare i nomi in postprocessing)
-try:
-    # --- PERF MONITOR: start timer/memory ---
-    mon = PerfMonitor(label="objects")
-    mon.__enter__()
-    graph = materialize(config_path_tmp)
+# materializzazione del grafo con monitor in context manager
+graph = None
+with PerfMonitor(label="objects") as mon:
+    try:
+        graph = materialize(config_path_tmp)
+    except Exception as e:
+        print(f"Errore durante la materializzazione: {e}")
 
-except Exception as e:
-    print(f"Errore durante la materializzazione: {e}")
-
-# --- PERF MONITOR: stop timer/memory ---
-mon.__exit__(None, None, None)
-
-# --- PERF MONITOR: calcolo metriche e update JSON ---
+if not isinstance(graph, Graph):
+    # cleanup temporanei anche in caso di errore
+    if os.path.exists(config_path_tmp): os.remove(config_path_tmp)
+    if temp_mapping_file != config["DataSource1"]["mappings"] and os.path.exists(temp_mapping_file):
+        os.remove(temp_mapping_file)
+    raise SystemExit(1)
 # rows_processed: numero di righe dell'input "ready" effettivamente usato
 try:
-    rows_processed = len(pd.read_csv(ready_input, encoding='latin1'))
+    rows_processed = len(read_csv_safely(ready_input))
 except Exception:
     rows_processed = None
 
+# --- PERF MONITOR: calcolo metriche e update JSON ---
+# rows_processed: numero di righe dell'input "ready" effettivamente usato
+
 # iri_generated: conteggio IRI dal grafo restituito da materialize (se disponibile)
 try:
-    iris_generated = mon.count_iris_from_graph(graph, mode="subjects_unique") if isinstance(graph, Graph) else None
+    iris_generated = mon.count_iris_from_graph(graph, mode="subjects_unique")
 except Exception:
     iris_generated = None
+
 
 results = mon.report(rows_processed, iris_generated)
 
@@ -413,7 +442,6 @@ PerfMonitor.update_json_report(
 
 # file di output e il percorso di output
 output_file = config_tmp["DataSource1"]['output_file']
-#output_dir = config_tmp['CONFIGURATION']['output_dir']
 output_path = os.path.join(sub_output_dir, output_file)
 
 
@@ -424,7 +452,7 @@ if not isinstance(graph, Graph):
 # mapping YARRRML in dizionario
 yaml = YAML(typ='safe', pure=True)
 
-map_file = config['DataSource1']['mappings']
+map_file = temp_mapping_file
 
 with open(map_file, 'r', encoding='utf-8') as file:
     yarrrml_data = yaml.load(file)
@@ -433,7 +461,6 @@ with open(map_file, 'r', encoding='utf-8') as file:
 prefixes = yarrrml_data.get('prefixes', {})
 prefixes_dict_from_yaml = dict()
 for prefix, uri in prefixes.items():
-    # @prefix aat: <http://vocab.getty.edu/page/aat/> .
     prefix_for_output_format = re.sub('http', '<http',  uri)
     prefix_for_output_format = prefix_for_output_format+"> ."
     prefixes_dict_from_yaml[prefix] = f'@prefix {prefix}: {prefix_for_output_format}'
@@ -562,6 +589,7 @@ def process_rdf_data(data):
     processed_data = uri_pattern.sub(replace_uri, data)
     processed_data = string_pattern.sub(replace_str, processed_data)
     processed_data = bad_form_uri_pattern.sub(replace_badform_uri, processed_data)
+    processed_data = re.sub(r'(?<!<)(https?://[^\s<>"]+)(?!>)', r'<\1>', processed_data)
 
     return processed_data
 
@@ -575,3 +603,6 @@ with open(output_file_path, 'w') as f:
 # Rimozione file temporaneo config
 if os.path.exists(config_path_tmp):
     os.remove(config_path_tmp)
+
+if temp_mapping_file != config["DataSource1"]["mappings"] and os.path.exists(temp_mapping_file):
+    os.remove(temp_mapping_file)

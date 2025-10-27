@@ -837,7 +837,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/30/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/30/ob08/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_della_aa12accademia_dei_fisiocritici_di_siena/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_dellaccademia_dei_fisiocritici_di_siena/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/30/ob00/1> ;
     crm:P2_has_type aat:300054277 .
 
@@ -1003,7 +1003,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/39/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/39/ob08/1> a crm:E7_Activity ;
-    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_di_anatomia_patologica_e_teratologia_veterinaria_a_aa12alessandrini_-_ercolania_aa12/1> ;
+    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_di_anatomia_patologica_e_teratologia_veterinaria_alessandrini_-_ercolani/1> ;
     crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/39/ob00/1> ;
     crm:P2_has_type aat:300054277 .
@@ -1207,7 +1207,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/49/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/49/ob08/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_aa12_di_roma/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_di_roma/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/49/ob00/1> ;
     crm:P2_has_type aat:300054277 .
 
@@ -1243,7 +1243,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/50/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/50/ob08/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_aa12_di_roma/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_di_roma/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/50/ob00/1> ;
     crm:P2_has_type aat:300054277 .
 
@@ -1261,7 +1261,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/51/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/51/ob08/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_aa12_di_roma/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_di_roma/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/51/ob00/1> ;
     crm:P2_has_type aat:300054277 .
 
@@ -1861,7 +1861,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/90/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/90/ob08/1> a crm:E7_Activity ;
-    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneoa_aa12/1> ;
+    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneo/1> ;
     crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/90/ob00/1> ;
     crm:P2_has_type aat:300054277 .
@@ -1880,7 +1880,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/91/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/91/ob08/1> a crm:E7_Activity ;
-    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneoa_aa12/1> ;
+    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneo/1> ;
     crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/91/ob00/1> ;
     crm:P2_has_type aat:300054277 .
@@ -1898,7 +1898,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/92/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/92/ob08/1> a crm:E7_Activity ;
-    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneoa_aa12/1> ;
+    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneo/1> ;
     crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/92/ob00/1> ;
     crm:P2_has_type aat:300054277 .
@@ -1916,7 +1916,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/93/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/93/ob08/1> a crm:E7_Activity ;
-    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneoa_aa12/1> ;
+    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneo/1> ;
     crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/93/ob00/1> ;
     crm:P2_has_type aat:300054277 .
@@ -1935,7 +1935,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/94/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/94/ob08/1> a crm:E7_Activity ;
-    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneoa_aa12/1> ;
+    crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneo/1> ;
     crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/94/ob00/1> ;
     crm:P2_has_type aat:300054277 .
@@ -6195,9 +6195,9 @@
     crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mnf/vetrina_8_basso_3/ob00/1> ;
     crm:P70i_is_documented_in <http://rightsstatements.org/vocab/InC/1.0/> .
 
-<https://w3id.org/changes/4/aldrovandi/plc/alcala_aa12_de_henares/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/alcala_aa12_de_henares/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/miguel_de_egua_aa12a/1> .
+<https://w3id.org/changes/4/aldrovandi/plc/alcala_de_henares/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/alcala_de_henares/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/miguel_de_eguia/1> .
 
 <https://w3id.org/changes/4/aldrovandi/plc/anversa/1> a crm:E53_Place ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/anversa/1> ;
@@ -6230,7 +6230,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/plc/parigi/1> a crm:E53_Place ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/parigi/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/benoa_aa12t_pra_aa12vost/1>,
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/benoit_prevost/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/gilles_corrozet/1> .
 
 <https://w3id.org/changes/4/aldrovandi/plc/pisa/1> a crm:E53_Place ;
@@ -7506,8 +7506,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/john_latham/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/69237380> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/josa_aa12_de_acosta/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/josa_aa12_de_acosta/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/jose_de_acosta/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/jose_de_acosta/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/2465365> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/joseph_gaertner/1> a crm:E39_Actor ;
@@ -7552,20 +7552,20 @@
 <https://w3id.org/changes/4/aldrovandi/acr/naturaliter/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/naturaliter/1> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/nicola_aa12s_monardes/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/nicola_aa12s_monardes/1> ;
-    crm:P70i_is_documented_in <http://viaf.org/viaf/100203985> .
-
 <https://w3id.org/changes/4/aldrovandi/acr/nicolaes_berchem/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/nicolaes_berchem/1> ;
     crm:P70i_is_documented_in <http://vocab.getty.edu/ulan/500010297> .
+
+<https://w3id.org/changes/4/aldrovandi/acr/nicolas_monardes/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/nicolas_monardes/1> ;
+    crm:P70i_is_documented_in <http://viaf.org/viaf/100203985> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/pablo_de_la_llave/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/pablo_de_la_llave/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/6044314> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/philipp_ludwig_statius_ma_aa12ller/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/philipp_ludwig_statius_ma_aa12ller/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/philipp_ludwig_statius_muller/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/philipp_ludwig_statius_muller/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/18096264> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/pierre-joseph_bonnaterre/1> a crm:E39_Actor ;
@@ -7631,7 +7631,7 @@
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/10/ob01/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/josa_aa12_de_acosta/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/jose_de_acosta/1> ;
     crm:P2_has_type aat:300404387 .
 
 <https://w3id.org/changes/4/aldrovandi/act/10/ob02/1> a crm:E7_Activity ;
@@ -7870,7 +7870,7 @@
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/11/ob01/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/nicola_aa12s_monardes/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/nicolas_monardes/1> ;
     crm:P2_has_type aat:300404387 .
 
 <https://w3id.org/changes/4/aldrovandi/act/11/ob02/1> a crm:E7_Activity ;
@@ -8084,7 +8084,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/12/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/13/ob01/1> a crm:E7_Activity ;
@@ -8128,7 +8128,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/14/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/15/ob01/1> a crm:E7_Activity ;
@@ -8172,7 +8172,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/16/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/17/ob01/1> a crm:E7_Activity ;
@@ -8194,7 +8194,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/17/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/philipp_ludwig_statius_ma_aa12ller/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/philipp_ludwig_statius_muller/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/18/ob01/1> a crm:E7_Activity ;
@@ -8216,7 +8216,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/18/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/19/ob01/1> a crm:E7_Activity ;
@@ -8238,7 +8238,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/19/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/2/ob01/1> a crm:E7_Activity ;
@@ -8261,7 +8261,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/2/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/20/ob01/1> a crm:E7_Activity ;
@@ -8419,7 +8419,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/27a/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/27b/ob01/1> a crm:E7_Activity ;
@@ -8442,7 +8442,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/27b/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/27c/ob01/1> a crm:E7_Activity ;
@@ -8465,7 +8465,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/27c/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/27d/ob01/1> a crm:E7_Activity ;
@@ -8488,7 +8488,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/27d/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1>,
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/joseph_gaertner/1> ;
     crm:P2_has_type aat:300404386 .
 
@@ -8512,7 +8512,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/27e/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/27f/ob01/1> a crm:E7_Activity ;
@@ -8535,7 +8535,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/27f/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/28/ob01/1> a crm:E7_Activity ;
@@ -8717,7 +8717,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/34/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/35/ob01/1> a crm:E7_Activity ;
@@ -8753,7 +8753,7 @@
     crm:P2_has_type aat:300053225 .
 
 <https://w3id.org/changes/4/aldrovandi/act/36/ob04/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/nicola_aa12_tebaldini/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/nicolo_tebaldini/1> ;
     crm:P2_has_type aat:300054686 .
 
 <https://w3id.org/changes/4/aldrovandi/act/36/ob05/1> a crm:E7_Activity ;
@@ -8828,7 +8828,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/39/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/4/ob01/1> a crm:E7_Activity ;
@@ -8873,7 +8873,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/40/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/41/ob01/1> a crm:E7_Activity ;
@@ -9291,7 +9291,7 @@
     crm:P2_has_type aat:300053225 .
 
 <https://w3id.org/changes/4/aldrovandi/act/63/ob04/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/benoa_aa12t_pra_aa12vost/1>,
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/benoit_prevost/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/gilles_corrozet/1> ;
     crm:P2_has_type aat:300054686 .
 
@@ -9416,7 +9416,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74a/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74b/ob01/1> a crm:E7_Activity ;
@@ -9439,7 +9439,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74b/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74c/ob01/1> a crm:E7_Activity ;
@@ -9462,7 +9462,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74c/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74d/ob01/1> a crm:E7_Activity ;
@@ -9485,7 +9485,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74d/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74e/ob01/1> a crm:E7_Activity ;
@@ -9508,7 +9508,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74e/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/75/ob01/1> a crm:E7_Activity ;
@@ -9576,7 +9576,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/77/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/78/ob01/1> a crm:E7_Activity ;
@@ -9853,7 +9853,7 @@
     crm:P2_has_type aat:300053225 .
 
 <https://w3id.org/changes/4/aldrovandi/act/9/ob04/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/miguel_de_egua_aa12a/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/miguel_de_eguia/1> ;
     crm:P2_has_type aat:300054686 .
 
 <https://w3id.org/changes/4/aldrovandi/act/9/ob05/1> a crm:E7_Activity ;
@@ -10296,7 +10296,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/b_alto_destra_3/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/b_alto_sinistra_1/ob01/1> a crm:E7_Activity ;
@@ -12218,7 +12218,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_4_alto_s_12/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_4_alto_s_13/ob01/1> a crm:E7_Activity ;
@@ -12240,7 +12240,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_4_alto_s_13/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_4_alto_s_2/ob01/1> a crm:E7_Activity ;
@@ -12325,7 +12325,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_4_alto_s_5/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_4_alto_s_6/ob01/1> a crm:E7_Activity ;
@@ -12347,7 +12347,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_4_alto_s_6/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_4_alto_s_7/ob01/1> a crm:E7_Activity ;
@@ -12684,7 +12684,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_6_alto_s_1/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_6_alto_s_2/ob01/1> a crm:E7_Activity ;
@@ -12832,7 +12832,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_7_alto_n_1/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_7_alto_n_1_t/ob01/1> a crm:E7_Activity ;
@@ -12875,7 +12875,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_7_alto_n_2/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_7_alto_s_1/ob01/1> a crm:E7_Activity ;
@@ -12939,7 +12939,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_7_alto_s_2/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_7_alto_s_3/ob01/1> a crm:E7_Activity ;
@@ -12961,7 +12961,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_7_alto_s_3/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_7_alto_s_3_t/ob01/1> a crm:E7_Activity ;
@@ -13089,7 +13089,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_8_alto_n_2/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_8_alto_n_3/ob01/1> a crm:E7_Activity ;
@@ -13174,7 +13174,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_8_alto_s_1/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_8_alto_s_1_t/ob01/1> a crm:E7_Activity ;
@@ -13260,7 +13260,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_8_alto_s_3/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_8_alto_s_3_t/ob01/1> a crm:E7_Activity ;
@@ -13435,25 +13435,25 @@
     crm:P190_has_symbolic_content "Accademia Carrara" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/adonide/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Adonide" .
+    crm:P190_has_symbolic_content "Adonide [Adonis]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/adriaen_collaert/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Adriaen Collaert (ulan:500021205)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/africa/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Africa" .
+    crm:P190_has_symbolic_content "Africa [Africa]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/agostino_carracci/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Agostino Carracci (ulan:500115349)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/albero/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Albero" .
+    crm:P190_has_symbolic_content "Albero [Tree]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/albertus_seba/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Albertus Seba (viaf:5113867)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/alcala_aa12_de_henares/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "AlcalÃ¯Â¿Â½ De Henares" .
+<https://w3id.org/changes/4/aldrovandi/apl/alcala_de_henares/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Alcalà De Henares" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/aldo_manuzio/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Aldo Manuzio (viaf:96325760)" .
@@ -13462,16 +13462,16 @@
     crm:P190_has_symbolic_content "Alfonso Ii D'este (viaf:27142287)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/allegoria/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Allegoria" .
+    crm:P190_has_symbolic_content "Allegoria [Allegory]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/america/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "America" .
+    crm:P190_has_symbolic_content "America [America]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/amsterdam/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Amsterdam" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/anatomia/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Anatomia" .
+    crm:P190_has_symbolic_content "Anatomia [Anatomy]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/andreas_vesalius/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Andreas Vesalius (viaf:51696979)" .
@@ -13480,13 +13480,13 @@
     crm:P190_has_symbolic_content "Angelo Manzoni (viaf:89245820)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/antennaria/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Antennaria" .
+    crm:P190_has_symbolic_content "Antennaria [Pussytoes]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/antica_manifattura_robert_brendel_e_figli/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Antica Manifattura Robert Brendel E Figli" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/antilope/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Antilope" .
+    crm:P190_has_symbolic_content "Antilope [Antelope]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/antonio_muzzi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Antonio Muzzi (ulan:500094135)" .
@@ -13495,7 +13495,7 @@
     crm:P190_has_symbolic_content "Anversa" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ape/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ape" .
+    crm:P190_has_symbolic_content "Ape [Bee]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/archivio_di_stato_di_bologna/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Archivio Di Stato Di Bologna" .
@@ -13504,22 +13504,22 @@
     crm:P190_has_symbolic_content "Aristotele (ulan:500259120)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/armadillo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Armadillo" .
+    crm:P190_has_symbolic_content "Armadillo [Armadillo]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/asia/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Asia" .
+    crm:P190_has_symbolic_content "Asia [Asia]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/aulus_persius_flaccus/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Aulus Persius Flaccus (viaf:100198157)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/bacello/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bacello" .
+    crm:P190_has_symbolic_content "Bacello [Pod]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/baldo_angelo_abati/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Baldo Angelo Abati (viaf:189070892)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/balena/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Balena" .
+    crm:P190_has_symbolic_content "Balena [Whale]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/bartolomeo_ragusi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Bartolomeo Ragusi (viaf:161572299)" .
@@ -13528,10 +13528,10 @@
     crm:P190_has_symbolic_content "Basilea" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/basilisco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Basilisco" .
+    crm:P190_has_symbolic_content "Basilisco [Basilisk]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/bastone/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bastone" .
+    crm:P190_has_symbolic_content "Bastone [Staff]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/battista_agnese/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Battista Agnese (ulan:500048088)" .
@@ -13542,8 +13542,8 @@
 <https://w3id.org/changes/4/aldrovandi/apl/bengt_anders_euphrase?n/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Bengt Anders Euphrase?n (viaf:120776829)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/benoa_aa12t_pra_aa12vost/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "BenoÃ¯Â¿Â½t PrÃ¯Â¿Â½vost (viaf:49333645)" .
+<https://w3id.org/changes/4/aldrovandi/apl/benoit_prevost/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Benoît Prévost (viaf:49333645)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/bergamo/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Bergamo" .
@@ -13561,19 +13561,19 @@
     crm:P190_has_symbolic_content "Biblioteca Di Matematica" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/biologia/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Biologia" .
+    crm:P190_has_symbolic_content "Biologia [Biology]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/botanica/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Botanica" .
+    crm:P190_has_symbolic_content "Botanica [Botany]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/botroidi/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Botroidi" .
+    crm:P190_has_symbolic_content "Botroidi [Botryoids]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/bovino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bovino" .
+    crm:P190_has_symbolic_content "Bovino [Bovine]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/braccio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Braccio" .
+    crm:P190_has_symbolic_content "Braccio [Arm]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/british_museum/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "British Museum" .
@@ -13582,19 +13582,19 @@
     crm:P190_has_symbolic_content "Bub" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/busto/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Busto" .
+    crm:P190_has_symbolic_content "Busto [Torso]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/calcoli_renali/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Calcoli Renali" .
+    crm:P190_has_symbolic_content "Calcoli Renali [Kidney Stones]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/calendario_azteco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Calendario Azteco" .
+    crm:P190_has_symbolic_content "Calendario Azteco [Aztec Calendar]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/camaleonte/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Camaleonte" .
+    crm:P190_has_symbolic_content "Camaleonte [Chameleon]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/camedrio_alpino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Camedrio Alpino" .
+    crm:P190_has_symbolic_content "Camedrio Alpino [Alpine Germander]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/camillo_ranzani/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Camillo Ranzani (viaf:13055229)" .
@@ -13603,13 +13603,13 @@
     crm:P190_has_symbolic_content "Cancelli" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/capra/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Capra" .
+    crm:P190_has_symbolic_content "Capra [Goat]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/caprone/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Caprone" .
+    crm:P190_has_symbolic_content "Caprone [Billy Goat]" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/carl_von_linna_aa12/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Carl Von LinnÃ¯Â¿Â½ (viaf:34594730)" .
+<https://w3id.org/changes/4/aldrovandi/apl/carl_von_linne/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Carl Von Linné (viaf:34594730)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/carlo_antonio_manzolini/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Carlo Antonio Manzolini" .
@@ -13621,16 +13621,16 @@
     crm:P190_has_symbolic_content "Caserta" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/castoro/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Castoro" .
+    crm:P190_has_symbolic_content "Castoro [Beaver]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cavallo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Cavallo" .
+    crm:P190_has_symbolic_content "Cavallo [Horse]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/centrina/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Centrina" .
+    crm:P190_has_symbolic_content "Centrina [Spiny Dogfish]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cervo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Cervo" .
+    crm:P190_has_symbolic_content "Cervo [Deer]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/christiaan_hendrik_persoon/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Christiaan Hendrik Persoon (viaf:73908138)" .
@@ -13639,28 +13639,26 @@
     crm:P190_has_symbolic_content "Christophe Plantin (viaf:120696841)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ciclope/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ciclope" .
+    crm:P190_has_symbolic_content "Ciclope [Cyclops]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cigno/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Cigno" .
+    crm:P190_has_symbolic_content "Cigno [Swan]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cinocefalo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Cinocefalo" .
+    crm:P190_has_symbolic_content "Cinocefalo [Cynocephalus]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/clemente_susini/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Clemente Susini (viaf:41419242)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/coccodrillo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Coccodrillo" .
+    crm:P190_has_symbolic_content "Coccodrillo [Crocodile]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/collezione_cospi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Collezione Cospi" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/collezione_delle_cere_anatomiche_luigi_cattaneo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Collezione Delle Cere Anatomiche \"luigi Cattaneo\"" .
-
-<https://w3id.org/changes/4/aldrovandi/apl/collezione_delle_cere_anatomiche_luigi_cattaneoa_aa12/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Collezione Delle Cere Anatomiche \"luigi CattaneoÃ¯Â¿Â½" .
+    crm:P190_has_symbolic_content "Collezione Delle Cere Anatomiche \"luigi Cattaneo\"",
+        "Collezione Delle Cere Anatomiche \"luigi Cattaneo" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_comparata/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Collezione Di Anatomia Comparata" .
@@ -13671,8 +13669,8 @@
 <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_patologica_e_teratologia_veterinaria/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Collezione Di Anatomia Patologica E Teratologia Veterinaria" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_patologica_e_teratologia_veterinaria_a_aa12alessandrini_-_ercolania_aa12/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Collezione Di Anatomia Patologica E Teratologia Veterinaria Ã¯Â¿Â½alessandrini - ErcolaniÃ¯Â¿Â½" .
+<https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_patologica_e_teratologia_veterinaria_alessandrini_-_ercolani/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Collezione Di Anatomia Patologica E Teratologia Veterinaria alessandrini - Ercolani" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_antropologia/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Collezione Di Antropologia" .
@@ -13696,16 +13694,16 @@
     crm:P190_has_symbolic_content "Collezione Ulisse Aldrovandi" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/coralli/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Coralli" .
+    crm:P190_has_symbolic_content "Coralli [Corals]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/corna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Corna" .
+    crm:P190_has_symbolic_content "Corna [Horns]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/crostaceo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Crostaceo" .
+    crm:P190_has_symbolic_content "Crostaceo [Crustacean]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cusco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Cusco" .
+    crm:P190_has_symbolic_content "Cusco [Cusco]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/david_geyer/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "David Geyer (viaf:35241248)" .
@@ -13714,13 +13712,13 @@
     crm:P190_has_symbolic_content "Davide Domenici (viaf:20000053)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/delfino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Delfino" .
+    crm:P190_has_symbolic_content "Delfino [Dolphin]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/dente/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Dente" .
+    crm:P190_has_symbolic_content "Dente [Tooth]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/dio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Dio" .
+    crm:P190_has_symbolic_content "Dio [God]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/dioscorides_pedanius/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Dioscorides Pedanius (viaf:78822798)" .
@@ -13729,46 +13727,46 @@
     crm:P190_has_symbolic_content "Dipartimento Di Scienze Biomediche E Neuromotorie Di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/divinazione/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Divinazione" .
+    crm:P190_has_symbolic_content "Divinazione [Divination]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/donna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Donna" .
+    crm:P190_has_symbolic_content "Donna [Woman]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/drago/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Drago" .
+    crm:P190_has_symbolic_content "Drago [Dragon]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/e?tienne_geoffroy-saint-hilaire/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "E?tienne Geoffroy-saint-hilaire (viaf:39377694)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/elefante/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Elefante" .
+    crm:P190_has_symbolic_content "Elefante [Elephant]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/equipaggiamento/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Equipaggiamento" .
+    crm:P190_has_symbolic_content "Equipaggiamento [Equipment]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/erbe/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Erbe" .
+    crm:P190_has_symbolic_content "Erbe [Herbs]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/erbe_medicinali/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Erbe Medicinali" .
+    crm:P190_has_symbolic_content "Erbe Medicinali [Medicinal Herbs]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ermafrodita/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ermafrodita" .
+    crm:P190_has_symbolic_content "Ermafrodita [Hermaphrodite]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/europa/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Europa" .
+    crm:P190_has_symbolic_content "Europa [Europe]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fabrizio/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Fabrizio" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fagiano/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fagiano" .
+    crm:P190_has_symbolic_content "Fagiano [Pheasant]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/falso/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Falso" .
+    crm:P190_has_symbolic_content "Falso [Fake]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fauna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fauna" .
+    crm:P190_has_symbolic_content "Fauna [Fauna]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/federico_torresano/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Federico Torresano (viaf:29921615)" .
@@ -13780,16 +13778,16 @@
     crm:P190_has_symbolic_content "Ferdinando De' Medici (ulan:500339079)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/feto/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Feto" .
+    crm:P190_has_symbolic_content "Feto [Fetus]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/filippo_giunta/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Filippo Giunta (viaf:79080779)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fior_di_stecco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fior Di Stecco" .
+    crm:P190_has_symbolic_content "Fior Di Stecco [Mezereon]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fiore/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fiore" .
+    crm:P190_has_symbolic_content "Fiore [Flower]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/firenze/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Firenze" .
@@ -13798,16 +13796,16 @@
     crm:P190_has_symbolic_content "Fisica E Informatica Di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/flora/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Flora" .
+    crm:P190_has_symbolic_content "Flora [Flora]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fondo_storico_bertoloni/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Fondo Storico Bertoloni" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fortuna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fortuna" .
+    crm:P190_has_symbolic_content "Fortuna [Fortune]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fotografia/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fotografia" .
+    crm:P190_has_symbolic_content "Fotografia [Photography]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/francesco_calzolari/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Francesco Calzolari (viaf:52741381)" .
@@ -13828,7 +13826,7 @@
     crm:P190_has_symbolic_content "Galleria Borghese" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/gamba/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Gamba" .
+    crm:P190_has_symbolic_content "Gamba [Leg]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/gaspare_bindoni/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Gaspare Bindoni (viaf:99884281)" .
@@ -13837,7 +13835,7 @@
     crm:P190_has_symbolic_content "Gaspare Tagliacozzi (viaf:59436362)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/gazzella/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Gazzella" .
+    crm:P190_has_symbolic_content "Gazzella [Gazelle]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/geologiche_e_ambientali/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Geologiche E Ambientali" .
@@ -13849,7 +13847,7 @@
     crm:P190_has_symbolic_content "Georg August Goldfuss (viaf:44642581)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/geroglifici/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Geroglifici" .
+    crm:P190_has_symbolic_content "Geroglifici [Hieroglyphs]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/giacomo_mascardi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Giacomo Mascardi (viaf:11893599)" .
@@ -13858,10 +13856,10 @@
     crm:P190_has_symbolic_content "Giacomo Zanoni (viaf:100212301)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/giaguaro/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Giaguaro" .
+    crm:P190_has_symbolic_content "Giaguaro [Jaguar]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/giglio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Giglio" .
+    crm:P190_has_symbolic_content "Giglio [Lily]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/gilles_corrozet/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Gilles Corrozet (viaf:39386621)" .
@@ -13888,7 +13886,7 @@
     crm:P190_has_symbolic_content "Giovanni Tacuino (viaf:100177277)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/girasole/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Girasole" .
+    crm:P190_has_symbolic_content "Girasole [Sunflower]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/girolamo_porro/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Girolamo Porro (viaf:73994407)" .
@@ -13897,7 +13895,7 @@
     crm:P190_has_symbolic_content "Girolamo Scoto (viaf:13137489)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/giunco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Giunco" .
+    crm:P190_has_symbolic_content "Giunco [Rush]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/giuseppe_astorri/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Giuseppe Astorri" .
@@ -13912,19 +13910,19 @@
     crm:P190_has_symbolic_content "Giuseppe Picotti" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/graminacee/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Graminacee" .
+    crm:P190_has_symbolic_content "Graminacee [Grasses]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/granchio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Granchio" .
+    crm:P190_has_symbolic_content "Granchio [Crab]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/grazioso_benincasa/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Grazioso Benincasa (ulan:500114874)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/grecia/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Grecia" .
+    crm:P190_has_symbolic_content "Grecia [Greece]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/gufo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Gufo" .
+    crm:P190_has_symbolic_content "Gufo [Owl]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/henri-marie_ducrotay_de_blainville/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Henri-marie Ducrotay De Blainville (viaf:76391064)" .
@@ -13936,22 +13934,22 @@
     crm:P190_has_symbolic_content "Hieronymus Froben (viaf:32319505)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/iguana/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Iguana" .
+    crm:P190_has_symbolic_content "Iguana [Iguana]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/intestino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Intestino" .
+    crm:P190_has_symbolic_content "Intestino [Intestine]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ippolito_salviani/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Ippolito Salviani (viaf:5271279)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ippopotamo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ippopotamo" .
+    crm:P190_has_symbolic_content "Ippopotamo [Hippopotamus]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/iscrizione_araba/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Iscrizione Araba" .
+    crm:P190_has_symbolic_content "Iscrizione Araba [Arabic Inscription]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/isole/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Isole" .
+    crm:P190_has_symbolic_content "Isole [Islands]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/jacopo_tosi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Jacopo Tosi" .
@@ -13995,8 +13993,8 @@
 <https://w3id.org/changes/4/aldrovandi/apl/john_stafford/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "John Stafford" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/josa_aa12_de_acosta/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "JosÃ¯Â¿Â½ De Acosta (viaf:2465365)" .
+<https://w3id.org/changes/4/aldrovandi/apl/jose_de_acosta/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "José De Acosta (viaf:2465365)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/joseph_gaertner/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Joseph Gaertner (viaf:36987534)" .
@@ -14017,7 +14015,7 @@
     crm:P190_has_symbolic_content "Lelio Dalla Volpe (viaf:229161781)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/leone/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Leone" .
+    crm:P190_has_symbolic_content "Leone [Lion]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/leopoldo_marco_antonio_caldani/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Leopoldo Marco Antonio Caldani (viaf:46775522)" .
@@ -14026,10 +14024,10 @@
     crm:P190_has_symbolic_content "Lidio Cipriani (viaf:51784159)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/lino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Lino" .
+    crm:P190_has_symbolic_content "Lino [Flax]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/lofoforo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Lofoforo" .
+    crm:P190_has_symbolic_content "Lofoforo [Lophophore]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/londra/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Londra" .
@@ -14041,7 +14039,7 @@
     crm:P190_has_symbolic_content "Luca Giordano (ulan:500115457)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/lucertola/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Lucertola" .
+    crm:P190_has_symbolic_content "Lucertola [Lizard]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ludovico_foresti/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Ludovico Foresti" .
@@ -14053,22 +14051,22 @@
     crm:P190_has_symbolic_content "Luigi Ferdinando Marsili (viaf:27075563)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/luigi_galvani/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Luigi Galvani" .
+    crm:P190_has_symbolic_content "Luigi Galvani [Luigi Galvani]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/lumaca/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Lumaca" .
+    crm:P190_has_symbolic_content "Lumaca [Snail]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/luna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Luna" .
+    crm:P190_has_symbolic_content "Luna [Moon]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/macchina_elettrostatica/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Macchina Elettrostatica" .
+    crm:P190_has_symbolic_content "Macchina Elettrostatica [Electrostatic Machine]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mammut/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Mammut" .
+    crm:P190_has_symbolic_content "Mammut [Mammoth]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mar_mediterraneo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Mar Mediterraneo" .
+    crm:P190_has_symbolic_content "Mar Mediterraneo [Mediterranean Sea]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/marcello_malpighi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Marcello Malpighi (viaf:85044)" .
@@ -14077,31 +14075,31 @@
     crm:P190_has_symbolic_content "Marco Antonio Bernia (viaf:64188928)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/maschera/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Maschera" .
+    crm:P190_has_symbolic_content "Maschera [Mask]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/materiale_elettrico/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Materiale Elettrico" .
+    crm:P190_has_symbolic_content "Materiale Elettrico [Electric Material]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/medicina/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Medicina" .
+    crm:P190_has_symbolic_content "Medicina [Medicine]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mercanti/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Mercanti" .
+    crm:P190_has_symbolic_content "Mercanti [Merchants]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mercurio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Mercurio" .
+    crm:P190_has_symbolic_content "Mercurio [Mercury]" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/miguel_de_egua_aa12a/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Miguel De EguÃ¯Â¿Â½a (viaf:99748920)" .
+<https://w3id.org/changes/4/aldrovandi/apl/miguel_de_eguia/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Miguel De Eguía (viaf:99748920)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mollusco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Mollusco" .
+    crm:P190_has_symbolic_content "Mollusco [Mollusk]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/monocolo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Monocolo" .
+    crm:P190_has_symbolic_content "Monocolo [One-eyed]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mostro/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Mostro" .
+    crm:P190_has_symbolic_content "Mostro [Monster]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/museo_civico_archeologico_di_bologna/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Museo Civico Archeologico Di Bologna" .
@@ -14109,74 +14107,74 @@
 <https://w3id.org/changes/4/aldrovandi/apl/museo_civico_medievale_di_bologna/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Museo Civico Medievale Di Bologna" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/museo_delle_civilta_aa12_di_roma/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Museo Delle CiviltÃ¯Â¿Â½ Di Roma" .
+<https://w3id.org/changes/4/aldrovandi/apl/museo_delle_civilta_di_roma/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Museo Delle Civiltà Di Roma" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/museo_di_palazzo_poggi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Museo Di Palazzo Poggi" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/museo_di_storia_naturale_della_aa12accademia_dei_fisiocritici_di_siena/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Museo Di Storia Naturale DellÃ¯Â¿Â½accademia Dei Fisiocritici Di Siena" .
+<https://w3id.org/changes/4/aldrovandi/apl/museo_di_storia_naturale_dellaccademia_dei_fisiocritici_di_siena/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Museo Di Storia Naturale Dellaccademia Dei Fisiocritici Di Siena" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/museo_di_storia_naturale_di_verona/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Museo Di Storia Naturale Di Verona" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/narciso/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Narciso" .
+    crm:P190_has_symbolic_content "Narciso [Narcissus]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/narvalo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Narvalo" .
+    crm:P190_has_symbolic_content "Narvalo [Narwhal]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/naso/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Naso" .
+    crm:P190_has_symbolic_content "Naso [Nose]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/nathanael_gottfried_leske/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Nathanael Gottfried Leske (viaf:5359394)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/nativi/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Nativi" .
+    crm:P190_has_symbolic_content "Nativi [Natives]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/naturaliter/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Naturaliter" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/nautilio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Nautilio" .
+    crm:P190_has_symbolic_content "Nautilio [Nautilus]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/neolitico/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Neolitico" .
+    crm:P190_has_symbolic_content "Neolitico [Neolithic]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/neonato/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Neonato" .
+    crm:P190_has_symbolic_content "Neonato [Newborn]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/new_york/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "New York" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/nicola_aa12_tebaldini/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "NicolÃ¯Â¿Â½ Tebaldini (viaf:203106596)" .
-
-<https://w3id.org/changes/4/aldrovandi/apl/nicola_aa12s_monardes/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "NicolÃ¯Â¿Â½s Monardes (viaf:100203985)" .
-
 <https://w3id.org/changes/4/aldrovandi/apl/nicolaes_berchem/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Nicolaes Berchem (ulan:500010297)" .
+
+<https://w3id.org/changes/4/aldrovandi/apl/nicolas_monardes/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Nicolás Monardes (viaf:100203985)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/nicolaus_episcopius/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Nicolaus Episcopius (viaf:100388966)" .
 
+<https://w3id.org/changes/4/aldrovandi/apl/nicolo_tebaldini/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Nicolò Tebaldini (viaf:203106596)" .
+
 <https://w3id.org/changes/4/aldrovandi/apl/nido/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Nido" .
+    crm:P190_has_symbolic_content "Nido [Nest]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/noce_di_cocco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Noce Di Cocco" .
+    crm:P190_has_symbolic_content "Noce Di Cocco [Coconut]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/occhi/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Occhi" .
+    crm:P190_has_symbolic_content "Occhi [Eyes]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/officina_janssonio-waesbergiana/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Officina Janssonio-waesbergiana (viaf:122386779)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/orto_botanico/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Orto Botanico" .
+    crm:P190_has_symbolic_content "Orto Botanico [Botanical Garden]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/orto_botanico_ed_erbario_di_bologna/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Orto Botanico Ed Erbario Di Bologna" .
@@ -14188,49 +14186,49 @@
     crm:P190_has_symbolic_content "Pablo De La Llave (viaf:6044314)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/palma/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Palma" .
+    crm:P190_has_symbolic_content "Palma [Palm]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pappagallo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pappagallo" .
+    crm:P190_has_symbolic_content "Pappagallo [Parrot]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/parigi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Parigi" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pellagra/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pellagra" .
+    crm:P190_has_symbolic_content "Pellagra [Pellagra]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pendolino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pendolino" .
+    crm:P190_has_symbolic_content "Pendolino [Penduline Tit]" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/pera_aa12/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "PerÃ¯Â¿Â½" .
+<https://w3id.org/changes/4/aldrovandi/apl/peru/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Perù [Peru]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce" .
+    crm:P190_has_symbolic_content "Pesce [Fish]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_cane/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Cane" .
+    crm:P190_has_symbolic_content "Pesce Cane [Dogfish]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_chitarra/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Chitarra" .
+    crm:P190_has_symbolic_content "Pesce Chitarra [Guitarfish]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_palla/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Palla" .
+    crm:P190_has_symbolic_content "Pesce Palla [Pufferfish]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_sega/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Sega" .
+    crm:P190_has_symbolic_content "Pesce Sega [Sawfish]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_spada/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Spada" .
+    crm:P190_has_symbolic_content "Pesce Spada [Swordfish]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_volante/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Volante" .
+    crm:P190_has_symbolic_content "Pesce Volante [Flying Fish]" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/philipp_ludwig_statius_ma_aa12ller/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Philipp Ludwig Statius MÃ¯Â¿Â½ller (viaf:18096264)" .
+<https://w3id.org/changes/4/aldrovandi/apl/philipp_ludwig_statius_muller/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Philipp Ludwig Statius Müller (viaf:18096264)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pianta/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pianta" .
+    crm:P190_has_symbolic_content "Pianta [Plant]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pierre-joseph_bonnaterre/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Pierre-joseph Bonnaterre (viaf:56729257)" .
@@ -14248,91 +14246,91 @@
     crm:P190_has_symbolic_content "Pisa" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/polifemo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Polifemo" .
+    crm:P190_has_symbolic_content "Polifemo [Polyphemus]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pollo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pollo" .
+    crm:P190_has_symbolic_content "Pollo [Chicken]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/polpo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Polpo" .
+    crm:P190_has_symbolic_content "Polpo [Octopus]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pomodoro/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pomodoro" .
+    crm:P190_has_symbolic_content "Pomodoro [Tomato]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/primula/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Primula" .
+    crm:P190_has_symbolic_content "Primula [Primrose]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/publius_ovidius_naso/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Publius Ovidius Naso (viaf:88342447)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pulcino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pulcino" .
+    crm:P190_has_symbolic_content "Pulcino [Chick]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/quetzal/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Quetzal" .
+    crm:P190_has_symbolic_content "Quetzal [Quetzal]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/raffaelo_riario/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Raffaelo Riario (viaf:25474452)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rana_pescatrice/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Rana Pescatrice" .
+    crm:P190_has_symbolic_content "Rana Pescatrice [Anglerfish]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/reggia_di_caserta/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Reggia Di Caserta" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/religione/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Religione" .
+    crm:P190_has_symbolic_content "Religione [Religion]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/residenza_del_principe-vescovo_von_greiffenclau/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Residenza Del Principe-vescovo Von Greiffenclau" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rettile/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Rettile" .
+    crm:P190_has_symbolic_content "Rettile [Reptile]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/riccio_di_mare/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Riccio Di Mare" .
+    crm:P190_has_symbolic_content "Riccio Di Mare [Sea Urchin]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rijksmuseum/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Rijksmuseum" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rinoceronte/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Rinoceronte" .
+    crm:P190_has_symbolic_content "Rinoceronte [Rhinoceros]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/roma/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Roma" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rospo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Rospo" .
+    crm:P190_has_symbolic_content "Rospo [Toad]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rudolf_martin/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Rudolf Martin (viaf:57414035)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ruota_idraulica/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ruota Idraulica" .
+    crm:P190_has_symbolic_content "Ruota Idraulica [Water Wheel]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rutgert_christoffel_alberts/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Rutgert Christoffel Alberts (viaf:380159474187327661769)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/scarabeo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Scarabeo" .
+    crm:P190_has_symbolic_content "Scarabeo [Beetle]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/scazzone_marino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Scazzone Marino" .
+    crm:P190_has_symbolic_content "Scazzone Marino [Marine Sculpin]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/scheletro/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Scheletro" .
+    crm:P190_has_symbolic_content "Scheletro [Skeleton]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/scorpione/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Scorpione" .
+    crm:P190_has_symbolic_content "Scorpione [Scorpion]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/seme/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Seme" .
+    crm:P190_has_symbolic_content "Seme [Seed]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/serapide/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Serapide" .
+    crm:P190_has_symbolic_content "Serapide [Serapis]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/serpente/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Serpente" .
+    crm:P190_has_symbolic_content "Serpente [Snake]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/siena/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Siena" .
@@ -14341,94 +14339,94 @@
     crm:P190_has_symbolic_content "Sistema Museale Di Ateneo Di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/smeriglio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Smeriglio" .
+    crm:P190_has_symbolic_content "Smeriglio [Porbeagle]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/sorcio_di_mare/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Sorcio Di Mare" .
+    crm:P190_has_symbolic_content "Sorcio Di Mare [Sea Mouse]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/speronella/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Speronella" .
+    crm:P190_has_symbolic_content "Speronella [Larkspur]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/squalo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Squalo" .
+    crm:P190_has_symbolic_content "Squalo [Shark]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/squalo_martello/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Squalo Martello" .
+    crm:P190_has_symbolic_content "Squalo Martello [Hammerhead Shark]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/stamperia_del_seminario/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Stamperia Del Seminario" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/struzzo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Struzzo" .
+    crm:P190_has_symbolic_content "Struzzo [Ostrich]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tacchino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Tacchino" .
+    crm:P190_has_symbolic_content "Tacchino [Turkey]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tarsizio_riviera/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Tarsizio Riviera (viaf:263904234)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tartaruga/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Tartaruga" .
+    crm:P190_has_symbolic_content "Tartaruga [Turtle]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/teofrasto/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Teofrasto (viaf:265397758)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/terra/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Terra" .
+    crm:P190_has_symbolic_content "Terra [Earth]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/testa/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Testa" .
+    crm:P190_has_symbolic_content "Testa [Head]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/testamento/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Testamento" .
+    crm:P190_has_symbolic_content "Testamento [Testament]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/the_metropolitan_museum_of_art/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "The Metropolitan Museum Of Art" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tigre/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Tigre" .
+    crm:P190_has_symbolic_content "Tigre [Tiger]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/timoteo_refati/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Timoteo Refati" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/triboide/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Triboide" .
+    crm:P190_has_symbolic_content "Triboide [Trilobite]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/trono/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Trono" .
+    crm:P190_has_symbolic_content "Trono [Throne]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tucano/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Tucano" .
+    crm:P190_has_symbolic_content "Tucano [Toucan]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tulipano/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Tulipano" .
+    crm:P190_has_symbolic_content "Tulipano [Tulip]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/uccello/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Uccello" .
+    crm:P190_has_symbolic_content "Uccello [Bird]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/umano/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Umano" .
+    crm:P190_has_symbolic_content "Umano [Human]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/unicorno/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Unicorno" .
+    crm:P190_has_symbolic_content "Unicorno [Unicorn]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/uova/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Uova" .
+    crm:P190_has_symbolic_content "Uova [Eggs]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/uovo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Uovo" .
+    crm:P190_has_symbolic_content "Uovo [Egg]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/urbino/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Urbino" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ushabti/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ushabti" .
+    crm:P190_has_symbolic_content "Ushabti [Ushabti]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/vaccino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Vaccino" .
+    crm:P190_has_symbolic_content "Vaccino [Vaccine]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/vaiolo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Vaiolo" .
+    crm:P190_has_symbolic_content "Vaiolo [Smallpox]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/venezia/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Venezia" .
@@ -14440,16 +14438,16 @@
     crm:P190_has_symbolic_content "Vienna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/vipera/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Vipera" .
+    crm:P190_has_symbolic_content "Vipera [Viper]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/vitello/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Vitello" .
+    crm:P190_has_symbolic_content "Vitello [Calf]" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/wa_aa12rzburg/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "WÃ¯Â¿Â½rzburg" .
+<https://w3id.org/changes/4/aldrovandi/apl/wurzburg/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Würzburg" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/yacatecuhtli/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Yacatecuhtli" .
+    crm:P190_has_symbolic_content "Yacatecuhtli [Yacatecuhtli]" .
 
 <https://w3id.org/changes/4/aldrovandi/col/collezione_cospi/1> a crm:E24_Physical_Human-Made_Thing ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_cospi/1> ;
@@ -14459,8 +14457,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_patologica_e_teratologia_veterinaria/1> ;
     crm:P2_has_type aat:300025976 .
 
-<https://w3id.org/changes/4/aldrovandi/col/collezione_di_anatomia_patologica_e_teratologia_veterinaria_a_aa12alessandrini_-_ercolania_aa12/1> a crm:E24_Physical_Human-Made_Thing ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_patologica_e_teratologia_veterinaria_a_aa12alessandrini_-_ercolania_aa12/1> ;
+<https://w3id.org/changes/4/aldrovandi/col/collezione_di_anatomia_patologica_e_teratologia_veterinaria_alessandrini_-_ercolani/1> a crm:E24_Physical_Human-Made_Thing ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_patologica_e_teratologia_veterinaria_alessandrini_-_ercolani/1> ;
     crm:P2_has_type aat:300025976 .
 
 <https://w3id.org/changes/4/aldrovandi/col/collezione_di_luigi_calori/1> a crm:E24_Physical_Human-Made_Thing ;
@@ -16810,7 +16808,7 @@
     crm:P2_has_type aat:300312355 .
 
 <https://w3id.org/changes/4/aldrovandi/idf/v2_5/ob02/1> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content "GemÃ¯Â¿Â½ldegalerie, 2800"^^rdfs:Literal ;
+    crm:P190_has_symbolic_content "Gemäldegalerie, 2800"^^rdfs:Literal ;
     crm:P2_has_type aat:300404704 .
 
 <https://w3id.org/changes/4/aldrovandi/idf/v2_6/ob00/1> a crm:E42_Identifier ;
@@ -20294,7 +20292,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/plc/siena/1> a crm:E53_Place ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/siena/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_della_aa12accademia_dei_fisiocritici_di_siena/1> .
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_dellaccademia_dei_fisiocritici_di_siena/1> .
 
 <https://w3id.org/changes/4/aldrovandi/plc/verona/1> a crm:E53_Place ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/verona/1> ;
@@ -20304,8 +20302,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/vienna/1> ;
     crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/kunsthistorisches_museum/1> .
 
-<https://w3id.org/changes/4/aldrovandi/plc/wa_aa12rzburg/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/wa_aa12rzburg/1> ;
+<https://w3id.org/changes/4/aldrovandi/plc/wurzburg/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/wurzburg/1> ;
     crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/residenza_del_principe-vescovo_von_greiffenclau/1> .
 
 <https://w3id.org/changes/4/aldrovandi/sub/adonide/1> a crm:E73_Information_Object ;
@@ -20596,8 +20594,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/pellagra/1> ;
     crm:P2_has_type aat:300404126 .
 
-<https://w3id.org/changes/4/aldrovandi/sub/pera_aa12/1> a crm:E73_Information_Object ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/pera_aa12/1> ;
+<https://w3id.org/changes/4/aldrovandi/sub/peru/1> a crm:E73_Information_Object ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/peru/1> ;
     crm:P2_has_type aat:300404126 .
 
 <https://w3id.org/changes/4/aldrovandi/sub/pesce_cane/1> a crm:E73_Information_Object ;
@@ -21614,7 +21612,7 @@
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/104/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Compasso A Branche Ricurve Con EstremitÃ¯Â¿Â½ Arrotondate"@it ;
+    crm:P190_has_symbolic_content "Compasso A Branche Ricurve Con Estremità Arrotondate"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/104/ob02/1> a crm:E35_Title ;
@@ -21629,7 +21627,7 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/105/ob02/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Skulls From Luigi CaloriÃ¯Â¿Â½s Collection"@en ;
+    crm:P190_has_symbolic_content "Skulls From Luigi Caloris Collection"@en ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/106/ob00/1> a crm:E35_Title ;
@@ -21645,11 +21643,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/107/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Studio SullÃ¯Â¿Â½encefalo Di Un Africano"@it ;
+    crm:P190_has_symbolic_content "Studio Sullencefalo Di Un Africano"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/107/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Studio SullÃ¯Â¿Â½encefalo Di Un Africano"@it ;
+    crm:P190_has_symbolic_content "Studio Sullencefalo Di Un Africano"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/107/ob02/1> a crm:E35_Title ;
@@ -21834,11 +21832,11 @@
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/17/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Ramphastos Toco (statius MÃ¯Â¿Â½ller, 1776)"@it ;
+    crm:P190_has_symbolic_content "Ramphastos Toco (statius Müller, 1776)"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/17/ob02/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Toco Toucan (statius MÃ¯Â¿Â½ller, 1776)"@en ;
+    crm:P190_has_symbolic_content "Toco Toucan (statius Müller, 1776)"@en ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/18/ob00/1> a crm:E35_Title ;
@@ -21911,11 +21909,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/24/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Mappa DellÃ¯Â¿Â½orto Botanico Di Padova"@it ;
+    crm:P190_has_symbolic_content "Mappa Dellorto Botanico Di Padova"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/24/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Mappa DellÃ¯Â¿Â½orto Botanico Di Padova"@it ;
+    crm:P190_has_symbolic_content "Mappa Dellorto Botanico Di Padova"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/24/ob02/1> a crm:E35_Title ;
@@ -21923,11 +21921,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/25/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Mappa DellÃ¯Â¿Â½orto Botanico Di Bologna"@it ;
+    crm:P190_has_symbolic_content "Mappa Dellorto Botanico Di Bologna"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/25/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Mappa DellÃ¯Â¿Â½orto Botanico Di Bologna"@it ;
+    crm:P190_has_symbolic_content "Mappa Dellorto Botanico Di Bologna"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/25/ob02/1> a crm:E35_Title ;
@@ -21964,7 +21962,7 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/27b/ob02/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "PheasantÃ¯Â¿Â½s Eye"@en ;
+    crm:P190_has_symbolic_content "Pheasants Eye"@en ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/27c/ob00/1> a crm:E35_Title ;
@@ -22654,7 +22652,7 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/86/ob02/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "HorsesÃ¯Â¿Â½ Heads"@en ;
+    crm:P190_has_symbolic_content "Horses Heads"@en ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/87/ob00/1> a crm:E35_Title ;
@@ -22716,11 +22714,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/91/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Modello In Cera Raffigurante LÃ¯Â¿Â½organo Della Vista"@it ;
+    crm:P190_has_symbolic_content "Modello In Cera Raffigurante Lorgano Della Vista"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/91/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Modello In Cera Raffigurante LÃ¯Â¿Â½organo Della Vista"@it ;
+    crm:P190_has_symbolic_content "Modello In Cera Raffigurante Lorgano Della Vista"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/91/ob02/1> a crm:E35_Title ;
@@ -22751,11 +22749,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/94/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Preparazione In Cera DellÃ¯Â¿Â½arto Inferiore"@it ;
+    crm:P190_has_symbolic_content "Preparazione In Cera Dellarto Inferiore"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/94/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Preparazione In Cera DellÃ¯Â¿Â½arto Inferiore"@it ;
+    crm:P190_has_symbolic_content "Preparazione In Cera Dellarto Inferiore"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/94/ob02/1> a crm:E35_Title ;
@@ -22828,7 +22826,7 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_centro/ob02/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Ulisse AldrovandiÃ¯Â¿Â½s Will"@en ;
+    crm:P190_has_symbolic_content "Ulisse Aldrovandis Will"@en ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_1/ob00/1> a crm:E35_Title ;
@@ -23136,11 +23134,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_1/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Figura Allegorica Che Rappresenta LÃ¯Â¿Â½america"@it ;
+    crm:P190_has_symbolic_content "Figura Allegorica Che Rappresenta Lamerica"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_1/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Figura Allegorica Che Rappresenta LÃ¯Â¿Â½america"@it ;
+    crm:P190_has_symbolic_content "Figura Allegorica Che Rappresenta Lamerica"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_1/ob02/1> a crm:E35_Title ;
@@ -23160,11 +23158,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_2/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria DellÃ¯Â¿Â½america"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_2/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria DellÃ¯Â¿Â½america"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_2/ob02/1> a crm:E35_Title ;
@@ -23172,11 +23170,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_3/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "America. Dettaglio DellÃ¯Â¿Â½allegoria Dei Pianeti E Dei Continenti"@it ;
+    crm:P190_has_symbolic_content "America. Dettaglio Dellallegoria Dei Pianeti E Dei Continenti"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_3/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "America. Dettaglio DellÃ¯Â¿Â½allegoria Dei Pianeti E Dei Continenti"@it ;
+    crm:P190_has_symbolic_content "America. Dettaglio Dellallegoria Dei Pianeti E Dei Continenti"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_3/ob02/1> a crm:E35_Title ;
@@ -23220,11 +23218,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_7/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria DellÃ¯Â¿Â½america"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_7/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria DellÃ¯Â¿Â½america"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_7/ob02/1> a crm:E35_Title ;
@@ -23244,11 +23242,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_9/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria DellÃ¯Â¿Â½america"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_9/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria DellÃ¯Â¿Â½america"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_9/ob02/1> a crm:E35_Title ;
@@ -23270,7 +23268,7 @@
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "BambÃ¯Â¿Â½ Lavorato"@it ;
+    crm:P190_has_symbolic_content "Bambù Lavorato"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2/ob02/1> a crm:E35_Title ;
@@ -23281,7 +23279,7 @@
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2_t/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Tavoletta Con BambÃ¯Â¿Â½"@it ;
+    crm:P190_has_symbolic_content "Tavoletta Con Bambù"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2_t/ob02/1> a crm:E35_Title ;
@@ -23314,11 +23312,11 @@
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_1/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Statuetta Ushabti In FaÃ¯Â¿Â½ence"@it ;
+    crm:P190_has_symbolic_content "Statuetta Ushabti In Faïence"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_1/ob02/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Ushabti Statuette In FaÃ¯Â¿Â½ence"@en ;
+    crm:P190_has_symbolic_content "Ushabti Statuette In Faïence"@en ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_10/ob00/1> a crm:E35_Title ;
@@ -23435,7 +23433,7 @@
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Gemma In Agata Con Maschera Della Commedia DellÃ¯Â¿Â½arte"@it ;
+    crm:P190_has_symbolic_content "Gemma In Agata Con Maschera Della Commedia Dellarte"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob02/1> a crm:E35_Title ;
@@ -23446,7 +23444,7 @@
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_6/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Gemma In Agata Con Maschera Della Commedia DellÃ¯Â¿Â½arte"@it ;
+    crm:P190_has_symbolic_content "Gemma In Agata Con Maschera Della Commedia Dellarte"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_6/ob02/1> a crm:E35_Title ;
@@ -24565,8 +24563,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/bartolomeo_ragusi/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/161572299> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/benoa_aa12t_pra_aa12vost/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/benoa_aa12t_pra_aa12vost/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/benoit_prevost/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/benoit_prevost/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/39386621> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/bernardo_basa/1> a crm:E39_Actor ;
@@ -24683,29 +24681,29 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/lelio_dalla_volpe/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/229161781> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/miguel_de_egua_aa12a/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/miguel_de_egua_aa12a/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/miguel_de_eguia/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/miguel_de_eguia/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/99748920> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/museo_civico_archeologico_di_bologna/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/museo_civico_archeologico_di_bologna/1> ;
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_della_aa12accademia_dei_fisiocritici_di_siena/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/museo_di_storia_naturale_della_aa12accademia_dei_fisiocritici_di_siena/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_dellaccademia_dei_fisiocritici_di_siena/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/museo_di_storia_naturale_dellaccademia_dei_fisiocritici_di_siena/1> ;
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/siena/1> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_di_verona/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/museo_di_storia_naturale_di_verona/1> ;
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/verona/1> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/nicola_aa12_tebaldini/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/nicola_aa12_tebaldini/1> ;
-    crm:P70i_is_documented_in <http://viaf.org/viaf/203106596> .
-
 <https://w3id.org/changes/4/aldrovandi/acr/nicolaus_episcopius/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/nicolaus_episcopius/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/32319505> .
+
+<https://w3id.org/changes/4/aldrovandi/acr/nicolo_tebaldini/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/nicolo_tebaldini/1> ;
+    crm:P70i_is_documented_in <http://viaf.org/viaf/203106596> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/officina_janssonio-waesbergiana/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/officina_janssonio-waesbergiana/1> ;
@@ -24717,7 +24715,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/acr/residenza_del_principe-vescovo_von_greiffenclau/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/residenza_del_principe-vescovo_von_greiffenclau/1> ;
-    crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/wa_aa12rzburg/1> .
+    crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/wurzburg/1> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/rutgert_christoffel_alberts/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/rutgert_christoffel_alberts/1> ;
@@ -24727,15 +24725,12 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/stamperia_del_seminario/1> .
 
 <https://w3id.org/changes/4/aldrovandi/apl/padova/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Padova" .
+    crm:P190_has_symbolic_content "Padova",
+        "Padova [Padua]" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ulisse_aldrovandi/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ulisse Aldrovandi",
-        "Ulisse Aldrovandi (viaf:100190422)" .
-
-<https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneo/1> a crm:E24_Physical_Human-Made_Thing ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_delle_cere_anatomiche_luigi_cattaneo/1> ;
-    crm:P2_has_type aat:300025976 .
+    crm:P190_has_symbolic_content "Ulisse Aldrovandi (viaf:100190422)",
+        "Ulisse Aldrovandi [Ulisse Aldrovandi]" .
 
 <https://w3id.org/changes/4/aldrovandi/col/collezione_di_anatomia_comparata/1> a crm:E24_Physical_Human-Made_Thing ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_comparata/1> ;
@@ -25147,7 +25142,7 @@
     lrmoo:R4i_is_embodied_in <https://w3id.org/changes/4/aldrovandi/mnf/8/ob00/1> ;
     crm:P129_is_about <https://w3id.org/changes/4/aldrovandi/sub/america/1>,
         <https://w3id.org/changes/4/aldrovandi/sub/cusco/1>,
-        <https://w3id.org/changes/4/aldrovandi/sub/pera_aa12/1> .
+        <https://w3id.org/changes/4/aldrovandi/sub/peru/1> .
 
 <https://w3id.org/changes/4/aldrovandi/exp/81/ob00/1> a lrmoo:F2_Expression ;
     lrmoo:R4i_is_embodied_in <https://w3id.org/changes/4/aldrovandi/mnf/81/ob00/1> ;
@@ -26526,6 +26521,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/mnf/vetrina_1_alto_s_14/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_s_14/ob00/1> ;
+    crm:P130i_features_are_also_found_on <https://catalogo.sma.unibo.it/it/29/ricerca/detailiccd/5952/> ;
     crm:P2_has_type aat:300117127 .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/vetrina_1_alto_s_15/ob00/1> a lrmoo:F3_Manifestation ;
@@ -26961,7 +26957,7 @@
     crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/galleria_borghese/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/giacomo_mascardi/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/ippolito_salviani/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_aa12_di_roma/1> .
+        <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_di_roma/1> .
 
 <https://w3id.org/changes/4/aldrovandi/sub/africa/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/africa/1> ;
@@ -28733,7 +28729,8 @@
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/new_york/1> .
 
 <https://w3id.org/changes/4/aldrovandi/apl/bologna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bologna" .
+    crm:P190_has_symbolic_content "Bologna",
+        "Bologna [Bologna]" .
 
 <https://w3id.org/changes/4/aldrovandi/col/fondo_storico_bertoloni/1> a crm:E24_Physical_Human-Made_Thing ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/fondo_storico_bertoloni/1> ;
@@ -28750,28 +28747,28 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/10/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/10/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/10/ob02/1> ;
-    crm:P3_has_note "JosÃ¯Â¿Â½ De Acosta Historia Naturale, E Morale Delle Indie Venezia, Bernardo Basa, 1596 Bub, A.m.rr.i.33"^^rdfs:Literal ;
+    crm:P3_has_note "Josè De Acosta Historia Naturale, E Morale Delle Indie Venezia, Bernardo Basa, 1596 Bub, A.m.rr.i.33"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/100/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/100/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/100/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/100/ob02/1> ;
-    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Sardo Maschio Living Masks, Sardinian Male Lidio Cipriani Sec. Xx Ã¯Â¿Â½ 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Sardo Maschio Living Masks, Sardinian Male Lidio Cipriani Sec. Xx  20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/101/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/101/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/101/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/101/ob02/1> ;
-    crm:P3_has_note "Calco In Gesso Di Capo Tasmaniano (oceania) Plaster Model Of A Tasmanian Chief M. Eydoux Sec. Xx Ã¯Â¿Â½ 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Calco In Gesso Di Capo Tasmaniano (oceania) Plaster Model Of A Tasmanian Chief M. Eydoux Sec. Xx  20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/102/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/102/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/102/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/102/ob02/1> ;
-    crm:P3_has_note "Calco In Gesso Di Donna Dschagga (kenia) Plaster Model Of A Dschagga Woman (kenia) M. Eydoux Sec. Xx Ã¯Â¿Â½ 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Calco In Gesso Di Donna Dschagga (kenia) Plaster Model Of A Dschagga Woman (kenia) M. Eydoux Sec. Xx  20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/103/ob00/1> a lrmoo:F5_Item ;
@@ -28785,28 +28782,28 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/104/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/104/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/104/ob02/1> ;
-    crm:P3_has_note "Compasso A Branche Ricurve Con EstremitÃ¯Â¿Â½ Arrotondate Curved Branch Compass With Rounded Ends Inizio Sec. Xx Early 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Compasso A Branche Ricurve Con Estremità Arrotondate Curved Branch Compass With Rounded Ends Inizio Sec. Xx Early 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/105/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/105/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/105/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/105/ob02/1> ;
-    crm:P3_has_note "Crani Dalla Collezione Di Luigi Calori Skulls From Luigi CaloriÃ¯Â¿Â½s Collection Bologna, Dipartimento Di Scienze Biomediche E Neuromotorie"^^rdfs:Literal ;
+    crm:P3_has_note "Crani Dalla Collezione Di Luigi Calori Skulls From Luigi Caloris Collection Bologna, Dipartimento Di Scienze Biomediche E Neuromotorie"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/106/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/106/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/106/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/106/ob02/1> ;
-    crm:P3_has_note "Modello Frenologico In Cera Phrenology Model In Wax Giuseppe Astorri Sec. Xix Ã¯Â¿Â½ 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Modello Frenologico In Cera Phrenology Model In Wax Giuseppe Astorri Sec. Xix  19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/107/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/107/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/107/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/107/ob02/1> ;
-    crm:P3_has_note "Studio SullÃ¯Â¿Â½encefalo Di Un Africano, Di Luigi Calori (modello In Cera) Study On The Encephalon Of An African, By Luigi Calori (wax Model) Sec. Xix - 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Studio Sullencefalo Di Un Africano, Di Luigi Calori (modello In Cera) Study On The Encephalon Of An African, By Luigi Calori (wax Model) Sec. Xix - 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/108/ob00/1> a lrmoo:F5_Item ;
@@ -28834,28 +28831,28 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/110/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/110/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/110/ob02/1> ;
-    crm:P3_has_note "Arietites Sp. Ammonite, LocalitÃ¯Â¿Â½ Indeterminata Ammonite, Undetermined Locality Giurassico Inferiore Ã¯Â¿Â½ Lower Jurassic (190 Ma) Bologna, Collezione Di Geologia \"museo Giovanni Capellini\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Arietites Sp. Ammonite, Località Indeterminata Ammonite, Undetermined Locality Giurassico Inferiore  Lower Jurassic (190 Ma) Bologna, Collezione Di Geologia \"museo Giovanni Capellini\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/111/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/111/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/111/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/111/ob02/1> ;
-    crm:P3_has_note "Cambropallas Telesto (geyer, 1993) Trilobite, Impronta E Controimpronta. Regione Di Erfoud (marocco) Trilobite, Two Halves From The Erfoud Region (morocco) Cambriano Inferiore - Lower Cambrian (540 Ma) Bologna, Collezione Di Geologia Ã¯Â¿Â½museo Giovanni CapelliniÃ¯Â¿Â½, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Cambropallas Telesto (geyer, 1993) Trilobite, Impronta E Controimpronta. Regione Di Erfoud (marocco) Trilobite, Two Halves From The Erfoud Region (morocco) Cambriano Inferiore - Lower Cambrian (540 Ma) Bologna, Collezione Di Geologia museo Giovanni Capellini, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/112/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/112/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/112/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/112/ob02/1> ;
-    crm:P3_has_note "Arctinurus Boltoni (bigsby, 1825) Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia Ã¯Â¿Â½museo Giovanni CapelliniÃ¯Â¿Â½, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Arctinurus Boltoni (bigsby, 1825) Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia museo Giovanni Capellini, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/113/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/113/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/113/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/113/ob02/1> ;
-    crm:P3_has_note "Dalmanites Sp. Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia Ã¯Â¿Â½museo Giovanni CapelliniÃ¯Â¿Â½, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Dalmanites Sp. Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia museo Giovanni Capellini, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/114/ob00/1> a lrmoo:F5_Item ;
@@ -28925,7 +28922,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/17/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/17/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/17/ob02/1> ;
-    crm:P3_has_note "Ramphastos Toco (statius MÃ¯Â¿Â½ller, 1776) Tucano Toco Toco Toucan Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Ramphastos Toco (statius Müller, 1776) Tucano Toco Toco Toucan Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/18/ob00/1> a lrmoo:F5_Item ;
@@ -28946,7 +28943,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/2/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/2/ob02/1> ;
-    crm:P3_has_note "Panthera Leo (linnaeus, 1758) Diorama Con Tre Leoni Tassidermizzati Diorama With Three Taxidermized Lions Manifattura Rowland Ward - Londra, Inizio Sec. Xx Ã¯Â¿Â½ Early 20th Century Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Panthera Leo (linnaeus, 1758) Diorama Con Tre Leoni Tassidermizzati Diorama With Three Taxidermized Lions Manifattura Rowland Ward - Londra, Inizio Sec. Xx  Early 20th Century Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/20/ob00/1> a lrmoo:F5_Item ;
@@ -28974,14 +28971,14 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/24/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/24/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/24/ob02/1> ;
-    crm:P3_has_note "Mappa DellÃ¯Â¿Â½orto Botanico Di Padova Map Of The Botanical Garden In Padua In Giacomo Antonio Cortusi, LÃ¯Â¿Â½horto De I Semplici Di Padoua Venezia, Girolamo Porro, 1591 Bub, A.v.tab.i.c.i.278/5"^^rdfs:Literal ;
+    crm:P3_has_note "Mappa Dellorto Botanico Di Padova Map Of The Botanical Garden In Padua In Giacomo Antonio Cortusi, Lhorto De I Semplici Di Padoua Venezia, Girolamo Porro, 1591 Bub, A.v.tab.i.c.i.278/5"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/25/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/25/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/25/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/25/ob02/1> ;
-    crm:P3_has_note "Mappa DellÃ¯Â¿Â½orto Botanico Di Bologna Map Of The Botanical Garden In Bologna In Giuseppe Monti, Indices Botanici Et Materiae Medicae Bologna, Lelio Dalla Volpe[am6] , 1753 Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Mappa Dellorto Botanico Di Bologna Map Of The Botanical Garden In Bologna In Giuseppe Monti, Indices Botanici Et Materiae Medicae Bologna, Lelio Dalla Volpe[am6] , 1753 Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/26/ob00/1> a lrmoo:F5_Item ;
@@ -29002,7 +28999,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27b/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/27b/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/27b/ob02/1> ;
-    crm:P3_has_note "Adonis Vernalis L. Adonide Gialla PheasantÃ¯Â¿Â½s Eye Erbario Aldrovandi, Vol.12, Carta 192 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Adonis Vernalis L. Adonide Gialla Pheasants Eye Erbario Aldrovandi, Vol.12, Carta 192 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/27c/ob00/1> a lrmoo:F5_Item ;
@@ -29058,7 +29055,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/30/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/30/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/30/ob02/1> ;
-    crm:P3_has_note "Cygnus Olor (gmelin, 1789) Preparato Tassidermizzato Di Cigno Reale Taxidermized Mount Of A Mute Swan Preparatore Fabrizio Cancelli, 1981, Museo Di Storia Naturale DellÃ¯Â¿Â½accademia Dei Fisiocritici Di Siena"^^rdfs:Literal ;
+    crm:P3_has_note "Cygnus Olor (gmelin, 1789) Preparato Tassidermizzato Di Cigno Reale Taxidermized Mount Of A Mute Swan Preparatore Fabrizio Cancelli, 1981, Museo Di Storia Naturale Dellaccademia Dei Fisiocritici Di Siena"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/31/ob00/1> a lrmoo:F5_Item ;
@@ -29100,14 +29097,14 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/36/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/36/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/36/ob02/1> ;
-    crm:P3_has_note "Ciclope Cyclops In Ulisse Aldrovandi, Monstruorum Historia Bologna, NicolÃ¯Â¿Â½ Tebaldini, 1642 Bub, A.iv.h.iii.11/11"^^rdfs:Literal ;
+    crm:P3_has_note "Ciclope Cyclops In Ulisse Aldrovandi, Monstruorum Historia Bologna, Nicolò Tebaldini, 1642 Bub, A.iv.h.iii.11/11"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/37/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/37/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/37/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/37/ob02/1> ;
-    crm:P3_has_note "Tavola [mc10] [am11] Con Monocolo Table With Ã¯Â¿Â½mono-ocularÃ¯Â¿Â½ Model[am12] Sec. Xviii 18th Century Bologna, Collezione Di Ostetricia, Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Tavola [mc10] [am11] Con Monocolo Table With mono-ocular Model[am12] Sec. Xviii 18th Century Bologna, Collezione Di Ostetricia, Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/38/ob00/1> a lrmoo:F5_Item ;
@@ -29121,7 +29118,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/39/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/39/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/39/ob02/1> ;
-    crm:P3_has_note "Bos Taurus (linnaeus, 1758) Preparato Di Giovane Bovino Con Malformazione Teratologica Taxidermy Mount Of A Young Bovine With Teratologic Malformation Ozzano Dell'emilia, Collezione Di Anatomia Patologica E Teratologia Veterinaria Ã¯Â¿Â½alessandrini - ErcolaniÃ¯Â¿Â½, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Bos Taurus (linnaeus, 1758) Preparato Di Giovane Bovino Con Malformazione Teratologica Taxidermy Mount Of A Young Bovine With Teratologic Malformation Ozzano Dell'emilia, Collezione Di Anatomia Patologica E Teratologia Veterinaria alessandrini - Ercolani, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/4/ob00/1> a lrmoo:F5_Item ;
@@ -29198,7 +29195,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/49/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/49/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/49/ob02/1> ;
-    crm:P3_has_note "Maschera Raffigurante Yacatecuhtli, Patrono Dei Mercanti, Cultura Nahua, Ca. 1350-1521 D.c. Mask Depicting Yacatecuhtli, Patron God Of Merchants, Nahua Culture, Ca. 1350-1521 A.d. Roma, Museo Delle CiviltÃ¯Â¿Â½"^^rdfs:Literal ;
+    crm:P3_has_note "Maschera Raffigurante Yacatecuhtli, Patrono Dei Mercanti, Cultura Nahua, Ca. 1350-1521 D.c. Mask Depicting Yacatecuhtli, Patron God Of Merchants, Nahua Culture, Ca. 1350-1521 A.d. Roma, Museo Delle Civiltà"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/5/ob00/1> a lrmoo:F5_Item ;
@@ -29212,14 +29209,14 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/50/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/50/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/50/ob02/1> ;
-    crm:P3_has_note "Manico Di Coltello Sacrificale In Forma Di Rettile Fantastico Cultura Nahua, Ca. 1350-1521 D.c. Handle Of Sacrificial Knife In The Shape Of A Fantastical Reptile, Nahua Culture Ca. 1350-1521 A.d. Roma, Museo Delle CiviltÃ¯Â¿Â½"^^rdfs:Literal ;
+    crm:P3_has_note "Manico Di Coltello Sacrificale In Forma Di Rettile Fantastico Cultura Nahua, Ca. 1350-1521 D.c. Handle Of Sacrificial Knife In The Shape Of A Fantastical Reptile, Nahua Culture Ca. 1350-1521 A.d. Roma, Museo Delle Civiltà"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/51/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/51/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/51/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/51/ob02/1> ;
-    crm:P3_has_note "Manico Di Coltello Sacrificale In Forma Di Figura Umana Cultura Nahua, Ca. 1350-1521 D.c. Human-shaped Handle Of Sacrificial Knife, Nahua Culture Ca. 1350-1521 A.d. Roma, Museo Delle CiviltÃ¯Â¿Â½"^^rdfs:Literal ;
+    crm:P3_has_note "Manico Di Coltello Sacrificale In Forma Di Figura Umana Cultura Nahua, Ca. 1350-1521 D.c. Human-shaped Handle Of Sacrificial Knife, Nahua Culture Ca. 1350-1521 A.d. Roma, Museo Delle Civiltà"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/52/ob00/1> a lrmoo:F5_Item ;
@@ -29268,7 +29265,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/63/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/63/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/63/ob02/1> ;
-    crm:P3_has_note "Gufo Owl In Pierre Belon, LÃ¯Â¿Â½histoire De La Nature Des Oiseaux, Parigi, Gilles Corrozet E Benoit Prevost, 1555 Bub, A.iv.h.i.57"^^rdfs:Literal ;
+    crm:P3_has_note "Gufo Owl In Pierre Belon, Lhistoire De La Nature Des Oiseaux, Parigi, Gilles Corrozet E Benoit Prevost, 1555 Bub, A.iv.h.i.57"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/64/ob00/1> a lrmoo:F5_Item ;
@@ -29359,7 +29356,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/78/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/78/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/78/ob02/1> ;
-    crm:P3_has_note "Nautilio Gioiellato In Jacopo Tosi, Testacei, CioÃ¯Â¿Â½ Nicchi Chioccioe E Conchiglie Sec. Xvii Bub, Ms. 4312, Carta 17"^^rdfs:Literal ;
+    crm:P3_has_note "Nautilio Gioiellato In Jacopo Tosi, Testacei, Cioè Nicchi Chioccioe E Conchiglie Sec. Xvii Bub, Ms. 4312, Carta 17"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/79/ob00/1> a lrmoo:F5_Item ;
@@ -29387,7 +29384,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/82/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/82/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/82/ob02/1> ;
-    crm:P3_has_note "Cornua Arietis Speciosa Caprone Billy Goat In Luigi Ferdinando Marsili, Danubius Pannonico-mysicus,lÃ¯Â¿Â½aia, Alberts Rutgert Christoffel, 1726 Bub, A.m.b.i.23/6"^^rdfs:Literal ;
+    crm:P3_has_note "Cornua Arietis Speciosa Caprone Billy Goat In Luigi Ferdinando Marsili, Danubius Pannonico-mysicus,laia, Alberts Rutgert Christoffel, 1726 Bub, A.m.b.i.23/6"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/83/ob00/1> a lrmoo:F5_Item ;
@@ -29415,21 +29412,21 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/86/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/86/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/86/ob02/1> ;
-    crm:P3_has_note "Teste Di Cavallo HorsesÃ¯Â¿Â½ Heads In Carlo Ruini, De LÃ¯Â¿Â½anatomia E DellÃ¯Â¿Â½infirmitÃ¯Â¿Â½ Del Cavallo Bologna, Giovanni Rossi Eredi, 1598 Bub, A.iv.e.ii.12"^^rdfs:Literal ;
+    crm:P3_has_note "Teste Di Cavallo Horses Heads In Carlo Ruini, De Lanatomia E Dellinfirmità Del Cavallo Bologna, Giovanni Rossi Eredi, 1598 Bub, A.iv.e.ii.12"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/87/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/87/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/87/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/87/ob02/1> ;
-    crm:P3_has_note "Feto Bovino, Intestino Intestine Of A Bovine Foetus Sec. Xix Ã¯Â¿Â½ 19th Century Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Feto Bovino, Intestino Intestine Of A Bovine Foetus Sec. Xix  19th Century Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/88/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/88/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/88/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/88/ob02/1> ;
-    crm:P3_has_note "Elefante, Intestino Crasso Elephant, Large Intestine Sec. Xix Ã¯Â¿Â½ 19th Century[am3] Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Elefante, Intestino Crasso Elephant, Large Intestine Sec. Xix  19th Century[am3] Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/89/ob00/1> a lrmoo:F5_Item ;
@@ -29443,21 +29440,21 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/9/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/9/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/9/ob02/1> ;
-    crm:P3_has_note "Pietro Martire DÃ¯Â¿Â½anghiera De Orbo Novo AlcalÃ¯Â¿Â½ De Henares, De Eguia Miguel, 1530 Bub, A.m.c.v.2"^^rdfs:Literal ;
+    crm:P3_has_note "Pietro Martire Danghiera De Orbo Novo Alcalà De Henares, De Eguia Miguel, 1530 Bub, A.m.c.v.2"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/90/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/90/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/90/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/90/ob02/1> ;
-    crm:P3_has_note "Modello In Cera Di Diverse Rappresentazioni Di Patologie Oculari Wax Model Of Different Eye Pahtologies Bologna, Collezione Delle Cere Anatomiche \"luigi CattaneoÃ¯Â¿Â½, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Modello In Cera Di Diverse Rappresentazioni Di Patologie Oculari Wax Model Of Different Eye Pahtologies Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/91/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/91/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/91/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/91/ob02/1> ;
-    crm:P3_has_note "Modello In Cera Raffigurante LÃ¯Â¿Â½organo Della Vista Wax Model Of The Sensory Organ For Sight Clemente Susini Sec. Xviii Ã¯Â¿Â½ 18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Modello In Cera Raffigurante Lorgano Della Vista Wax Model Of The Sensory Organ For Sight Clemente Susini Sec. Xviii  18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/92/ob00/1> a lrmoo:F5_Item ;
@@ -29471,14 +29468,14 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/93/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/93/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/93/ob02/1> ;
-    crm:P3_has_note "Busto Di Donna Con La Pellagra Bust Of A Woman With Pellagra Giuseppe Astorri, Sec. Xix Ã¯Â¿Â½ 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Busto Di Donna Con La Pellagra Bust Of A Woman With Pellagra Giuseppe Astorri, Sec. Xix  19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/94/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/94/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/94/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/94/ob02/1> ;
-    crm:P3_has_note "Preparazione In Cera DellÃ¯Â¿Â½arto Inferiore Wax Model Of Lower Limb Clemente Susini, Sec. Xviii Ã¯Â¿Â½ 18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Preparazione In Cera Dellarto Inferiore Wax Model Of Lower Limb Clemente Susini, Sec. Xviii  18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/95/ob00/1> a lrmoo:F5_Item ;
@@ -29506,21 +29503,21 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/98/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/98/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/98/ob02/1> ;
-    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente. Da Sinistra A Destra: Boscimano Ai-hum Maschio, Boscimano Kung Femmina, Boscimano Ai-hum Femmina Living Masks. From Left To Right: Ai-hum Male, Kung Female, Ai-hum Female Lidio Cipriani Sec. Xx Ã¯Â¿Â½ 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente. Da Sinistra A Destra: Boscimano Ai-hum Maschio, Boscimano Kung Femmina, Boscimano Ai-hum Femmina Living Masks. From Left To Right: Ai-hum Male, Kung Female, Ai-hum Female Lidio Cipriani Sec. Xx  20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/99/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/99/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/99/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/99/ob02/1> ;
-    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Cinese Maschio Living Masks, Chinese Male Lidio Cipriani, Sec. Xx Ã¯Â¿Â½ 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Cinese Maschio Living Masks, Chinese Male Lidio Cipriani, Sec. Xx  20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/a_alto_centro/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob02/1> ;
-    crm:P3_has_note "Testamento Di Ulisse Aldrovandi Ulisse AldrovandiÃ¯Â¿Â½s Will Carlo Antonio Manzolini, 6/1, Prot. Testamenti 1592-1608, Cc. 81v-90r. Archivio Di Stato Di Bologna, Archivio Notarile"^^rdfs:Literal ;
+    crm:P3_has_note "Testamento Di Ulisse Aldrovandi Ulisse Aldrovandis Will Carlo Antonio Manzolini, 6/1, Prot. Testamenti 1592-1608, Cc. 81v-90r. Archivio Di Stato Di Bologna, Archivio Notarile"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/a_alto_sinistra_1/ob00/1> a lrmoo:F5_Item ;
@@ -29713,7 +29710,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob02/1> ;
-    crm:P3_has_note "Giovanni Domenico Tiepolo Figura Allegorica Che Rappresenta LÃ¯Â¿Â½america Allegorical Figure Representing America Sec. Xviii 18th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
+    crm:P3_has_note "Giovanni Domenico Tiepolo Figura Allegorica Che Rappresenta Lamerica Allegorical Figure Representing America Sec. Xviii 18th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/v2_10/ob00/1> a lrmoo:F5_Item ;
@@ -29727,28 +29724,28 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob02/1> ;
-    crm:P3_has_note "Nicolaes Berchem Allegoria DellÃ¯Â¿Â½america Allegory Of America Seconda MetÃ¯Â¿Â½ Sec. Xvii - Second Half 17th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
+    crm:P3_has_note "Nicolaes Berchem Allegoria Dellamerica Allegory Of America Seconda Metà Sec. Xvii - Second Half 17th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/v2_3/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob02/1> ;
-    crm:P3_has_note "Giambattista Tiepolo America. Dettaglio DellÃ¯Â¿Â½allegoria Dei Pianeti E Dei Continenti America. Detail Of Allegory Of The Planets And Continents 1751-1753 Residenza Di WÃ¯Â¿Â½rzburg (germania). Foto Scala, Firenze"^^rdfs:Literal ;
+    crm:P3_has_note "Giambattista Tiepolo America. Dettaglio Dellallegoria Dei Pianeti E Dei Continenti America. Detail Of Allegory Of The Planets And Continents 1751-1753 Residenza Di Würzburg (germania). Foto Scala, Firenze"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/v2_4/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_4/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_4/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_4/ob02/1> ;
-    crm:P3_has_note "John Stafford America (serie: I Quattro Continenti) America (series: The Four Continents) 1630 Londra, The British Museum. Ã¯Â¿Â½ The Trustees Of The British Museum."^^rdfs:Literal ;
+    crm:P3_has_note "John Stafford America (serie: I Quattro Continenti) America (series: The Four Continents) 1630 Londra, The British Museum. © The Trustees Of The British Museum."^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/v2_5/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_5/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_5/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_5/ob02/1> ;
-    crm:P3_has_note "Ferdinand Van Kessel America 1691 Vienna, Kunsthistorisches Museum. Ã¯Â¿Â½ Khm-museumsverband"^^rdfs:Literal ;
+    crm:P3_has_note "Ferdinand Van Kessel America 1691 Vienna, Kunsthistorisches Museum. © Khm-museumsverband"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/v2_6/ob00/1> a lrmoo:F5_Item ;
@@ -29762,7 +29759,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob02/1> ;
-    crm:P3_has_note "Luca Giordano Allegoria DellÃ¯Â¿Â½america Allegory Of America 1702-1705 Reggia Di Caserta Su Concessione Del Ministero Della Cultura"^^rdfs:Literal ;
+    crm:P3_has_note "Luca Giordano Allegoria Dellamerica Allegory Of America 1702-1705 Reggia Di Caserta Su Concessione Del Ministero Della Cultura"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/v2_8/ob00/1> a lrmoo:F5_Item ;
@@ -29776,7 +29773,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob02/1> ;
-    crm:P3_has_note "Jan Caspar Philips Allegoria DellÃ¯Â¿Â½america Allegory Of America 1766 Amsterdam, Rijksmuseum"^^rdfs:Literal ;
+    crm:P3_has_note "Jan Caspar Philips Allegoria Dellamerica Allegory Of America 1766 Amsterdam, Rijksmuseum"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_n_1/ob00/1> a lrmoo:F5_Item ;
@@ -29790,14 +29787,14 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_n_2/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_n_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_n_2/ob02/1> ;
-    crm:P3_has_note "BambÃ¯Â¿Â½ Lavorato Hand-carved Bamboo"^^rdfs:Literal ;
+    crm:P3_has_note "Bambù Lavorato Hand-carved Bamboo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_n_2_t/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_n_2_t/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_n_2_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_n_2_t/ob02/1> ;
-    crm:P3_has_note "Tavoletta Con BambÃ¯Â¿Â½"^^rdfs:Literal ;
+    crm:P3_has_note "Tavoletta Con Bambù"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> ;
     crm:P62_depicts <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_n_-_2/ob00/1> .
 
@@ -29820,7 +29817,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_1/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_1/ob02/1> ;
-    crm:P3_has_note "Statuetta Ushabti In FaÃ¯Â¿Â½ence Ushabti Statuette In FaÃ¯Â¿Â½ence Epoca Tarda Late Period"^^rdfs:Literal ;
+    crm:P3_has_note "Statuetta Ushabti In Faïence Ushabti Statuette In Faïence Epoca Tarda Late Period"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_s_10/ob00/1> a lrmoo:F5_Item ;
@@ -29883,21 +29880,21 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_3/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_3/ob02/1> ;
-    crm:P3_has_note "Scarabeo In Stile Egizio In Pietra Dura Bianca Egyptian Style Scarab In Hard White Stone EtÃ¯Â¿Â½ Moderna (?) Modern Era (?)"^^rdfs:Literal ;
+    crm:P3_has_note "Scarabeo In Stile Egizio In Pietra Dura Bianca Egyptian Style Scarab In Hard White Stone Età Moderna (?) Modern Era (?)"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_s_4/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_4/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_4/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_4/ob02/1> ;
-    crm:P3_has_note "Gemma In Agata Con Capra Presso Albero Agate Gem With A Goat Next To A Tree MetÃ¯Â¿Â½ Sec. I A.c. Mid 1st Century B.c."^^rdfs:Literal ;
+    crm:P3_has_note "Gemma In Agata Con Capra Presso Albero Agate Gem With A Goat Next To A Tree Metà Sec. I A.c. Mid 1st Century B.c."^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_s_5/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_5/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_5/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_5/ob02/1> ;
-    crm:P3_has_note "Gemma In Agata Con Maschera Della Commedia DellÃ¯Â¿Â½arte Agate Gem With Comedy Of Art Mask MetÃ¯Â¿Â½ Sec. I A.c. Mid 1st Century B.c."^^rdfs:Literal ;
+    crm:P3_has_note "Gemma In Agata Con Maschera Della Commedia Dellarte Agate Gem With Comedy Of Art Mask Metà Sec. I A.c. Mid 1st Century B.c."^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_s_6/ob00/1> a lrmoo:F5_Item ;
@@ -30690,8 +30687,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/geologiche_e_ambientali/1> ;
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_aa12_di_roma/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/museo_delle_civilta_aa12_di_roma/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_di_roma/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/museo_delle_civilta_di_roma/1> ;
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/roma/1> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/rijksmuseum/1> a crm:E39_Actor ;
@@ -30716,10 +30713,6 @@
 
 <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel_e_figli/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/antica_manifattura_robert_brendel_e_figli/1> .
-
-<https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneoa_aa12/1> a crm:E24_Physical_Human-Made_Thing ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_delle_cere_anatomiche_luigi_cattaneoa_aa12/1> ;
-    crm:P2_has_type aat:300025976 .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_2_basso/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_2_basso/ob00/1>,
@@ -30777,6 +30770,10 @@
 <https://w3id.org/changes/4/aldrovandi/sub/mostro/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/mostro/1> ;
     crm:P2_has_type aat:300404126 .
+
+<https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneo/1> a crm:E24_Physical_Human-Made_Thing ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_delle_cere_anatomiche_luigi_cattaneo/1> ;
+    crm:P2_has_type aat:300025976 .
 
 <https://w3id.org/changes/4/aldrovandi/col/collezione_di_antropologia/1> a crm:E24_Physical_Human-Made_Thing ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_antropologia/1> ;
@@ -30854,7 +30851,7 @@
         <https://w3id.org/changes/4/aldrovandi/acr/museo_civico_archeologico_di_bologna/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/museo_civico_medievale_di_bologna/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/museo_di_palazzo_poggi/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/nicola_aa12_tebaldini/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/nicolo_tebaldini/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/orto_botanico_ed_erbario_di_bologna/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> .
 
@@ -30928,8 +30925,8 @@
         <https://w3id.org/changes/4/aldrovandi/itm/v2_8/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/itm/v2_9/ob00/1> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/carl_von_linna_aa12/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/carl_von_linna_aa12/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/carl_von_linne/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/carl_von_linne/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/34594730> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> a crm:E39_Actor ;
