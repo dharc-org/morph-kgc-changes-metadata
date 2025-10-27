@@ -107,6 +107,7 @@ def main():
     )
     ap.add_argument("--object-script", default="main_object_demo.py", help="Script di materializzazione oggetti")
     ap.add_argument("--process-script", default="main_process_demo.py", help="Script di materializzazione processo")
+    ap.add_argument("--quality-script", default="run_quality_threat_model.py", help="Script di quality threat model")
     args = ap.parse_args()
 
     # Lettura configurazioni e costruzione dei path deterministici
@@ -124,7 +125,19 @@ def main():
     merged_out = args.merged_out or os.path.join(out_dir, "merged_graph_output.ttl")
     merge_graphs(ttl1, ttl2, merged_out, fmt_in="turtle", fmt_out="turtle")
 
-    # Aggiornamento riepilogo complessivo
+    print(f"[orchestrator] Avvio quality threat model su: {merged_out}")
+    res = subprocess.run(
+        [sys.executable, args.quality_script, "--config", args.config],
+        stdout=sys.stdout,
+        stderr=sys.stderr
+    )
+    if res.returncode != 0:
+        print(f"[orchestrator] Quality threat model ha segnalato anomalie (exit {res.returncode}).", file=sys.stderr)
+    else:
+        print("[orchestrator] Quality threat model completato.")
+
+
+    # riepilogo complessivo
     print(f"[orchestrator] Aggiornamento riepilogo complessivo in: {report_path}")
     data = PerfMonitor.add_overall_summary(report_path, overall_key="overall")
 

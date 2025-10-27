@@ -1,28 +1,28 @@
 {
   "created_at": "2025-10-26T22:01:30+01:00",
-  "updated_at": "2025-10-26T22:39:09+01:00",
+  "updated_at": "2025-10-27T01:50:43+01:00",
   "runs": {
     "objects": {
-      "elapsed_time_s": 4.125440583000454,
-      "peak_rss_mb": 186.6875,
+      "elapsed_time_s": 4.074896541000271,
+      "peak_rss_mb": 183.875,
       "rows_processed": 267,
       "iri_generated": 7688,
-      "materialisation_time_per_1000_rows_s": 15.451088325844397,
-      "iri_rate_per_s": 1863.5585327975994,
-      "timestamp": "2025-10-26T22:37:02+01:00",
+      "materialisation_time_per_1000_rows_s": 15.261784797753824,
+      "iri_rate_per_s": 1886.6736670847636,
+      "timestamp": "2025-10-27T01:48:30+01:00",
       "config_used": "src/morph_kgc_changes_metadata_conversions/config_tmp.ini",
       "ready_input": "src/morph_kgc_changes_metadata_conversions/dataset/worksheets_ald_finali/demo_may_25/ready_to_convert/cleaned_aldrovandi_obj(Worksheet).csv",
       "output_dir": "results",
       "report_dir": "results/monitor"
     },
     "process": {
-      "elapsed_time_s": 7.136212916000659,
-      "peak_rss_mb": 275.0,
+      "elapsed_time_s": 6.761587749999308,
+      "peak_rss_mb": 279.875,
       "rows_processed": 270,
       "iri_generated": 11112,
-      "materialisation_time_per_1000_rows_s": 26.430418207409847,
-      "iri_rate_per_s": 1557.1284280328744,
-      "timestamp": "2025-10-26T22:37:26+01:00",
+      "materialisation_time_per_1000_rows_s": 25.042917592590026,
+      "iri_rate_per_s": 1643.4009896567768,
+      "timestamp": "2025-10-27T01:48:51+01:00",
       "config_used": "src/morph_kgc_changes_metadata_conversions/config_tmp.ini",
       "ready_input": "src/morph_kgc_changes_metadata_conversions/dataset/worksheets_ald_finali/demo_may_25/ready_to_convert/cleaned_aldrovandi_pro(Worksheet).csv",
       "output_dir": "results",
@@ -30,13 +30,13 @@
     }
   },
   "overall": {
-    "elapsed_time_s": 11.261653499001113,
-    "peak_rss_mb": 275.0,
+    "elapsed_time_s": 10.836484290999579,
+    "peak_rss_mb": 279.875,
     "rows_processed": 537,
     "iri_generated": 18800,
-    "materialisation_time_per_1000_rows_s": 20.971421785849373,
-    "iri_rate_per_s": 1669.3818542425872,
-    "timestamp": "2025-10-26T22:39:09+01:00",
+    "materialisation_time_per_1000_rows_s": 20.1796727951575,
+    "iri_rate_per_s": 1734.880012294638,
+    "timestamp": "2025-10-27T01:50:43+01:00",
     "runs_count": 2
   }
 }
