@@ -96,6 +96,81 @@ class TestGraphQuality(unittest.TestCase):
             "1852-12-31T23:59:59Z", XSD.dateTime
         )
 
+    # tutti i valori di mapping_tipologia compaiono come oggetto di crm:P2_has_type ---
+    def test_mapping_tipologia_values_present_as_P2_objects(self):
+        aat = Namespace("http://vocab.getty.edu/aat/")
+        mapping_tipologia = {
+            '': None,
+            'Bottiglia': 'aat:300045627',
+            'Volume a stampa': 'aat:300265632',
+            'Volume manoscritto': 'aat:300403970',
+            'Vaso': 'aat:300132254',
+            'Stampa': 'aat:300041273',
+            'Xilografia': 'aat:300041405',
+            'Maschera': 'aat:300138758',
+            "Opera d'arte": 'aat:300191086',
+            'Sonaglio': 'aat:300041933',
+            'Strumento tecnico': 'aat:300122241',
+            'Carta nautica': 'aat:300028309',
+            'Ascia': 'aat:300420536',
+            'Arco Scaricatore': 'aat:300433476',
+            'Artefatto': 'aat:300117127',
+            'Medaglia': 'aat:300046025',
+            'Manico di coltello': 'aat:300024928',
+            'Erbario': 'aat:300440768',
+            'Diorama': 'aat:300047762',
+            'Tavola manoscritta': 'aat:300028569',
+            'Collana': 'aat:300046001',
+            'Manoscritto miniato': 'aat:300265483',
+            'Dipinto': 'aat:300033618',
+            'Codice manoscritto': 'aat:300224200',
+            'Statua': 'aat:300047600',
+            'Gemma': 'aat:300011172',
+            'Compasso': 'aat:300022488',
+            'Mappa': 'aat:300028094',
+            #'Video': 'aat:300028682',
+            'Macchina elettrostatica': 'aat:300425064',
+            'Calco': 'aat:300024814',
+            'Modello': 'aat:300047753',
+            'Lampada': 'aat:300037592',
+            'Microscopio': 'aat:300024594',
+            'Specimen': 'aat:300235576',
+            'Pendente': 'aat:300422994',
+            'Serie di stampe': 'aat:300189634',
+            'Serie di volumi a stampa': 'aat:300027349',
+            'Serie di dipinti': 'aat:300226836',
+            'Incunabolo': 'aat:300055021',
+            'Serie di affreschi': 'aat:300184300',
+            'Atlante nautico': 'aat:300137376',
+            'Codice Manoscritto': 'aat:300224200'
+        }
+
+        # Prendi solo i valori AAT non nulli e unici
+        values = {v for v in mapping_tipologia.values() if v}
+        missing = []
+
+        for curie in values:
+            prefix, local = curie.split(":", 1)
+            # Al momento abbiamo solo 'aat:', ma manteniamo la logica estendibile
+            if prefix == "aat":
+                uri = aat[local]
+            else:
+                # fallback: prova ad espandere tramite namespace manager (se mai servisse)
+                try:
+                    ns_uri = self.g.namespace_manager.store.namespace(prefix)
+                    uri = URIRef(ns_uri + local) if ns_uri else URIRef(curie)
+                except Exception:
+                    uri = URIRef(curie)
+
+            # esiste almeno un triple che usa questo tipo come oggetto di P2_has_type?
+            found = any(self.g.triples((None, self.crm.P2_has_type, uri)))
+            if not found:
+                missing.append(curie)
+
+        self.assertFalse(
+            missing,
+            msg=f"I seguenti valori di mapping_tipologia non compaiono come oggetto di crm:P2_has_type: {missing}"
+        )
 
 
 if __name__ == '__main__':

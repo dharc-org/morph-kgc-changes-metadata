@@ -562,6 +562,7 @@ def extract_title(param_title_original=None):
 def convert_documentary_type_to_aat(documentary_type):
     """
     Mappa la tipologia documentaria al suo corrispondente codice Getty AAT.
+    Confronto case-insensitive e con normalizzazione degli spazi interni.
     Non ritorna nulla se il campo è vuoto o non è una stringa.
 
     :param documentary_type: La tipologia documentaria.
@@ -571,11 +572,14 @@ def convert_documentary_type_to_aat(documentary_type):
     if not isinstance(documentary_type, str):
         return None
 
-    # remove spaces at beginning and end + adjust internal spaces
-    documentary_type = " ".join(documentary_type.strip().split())
+    # normalizza: trim, spazi multipli -> singolo, case-insensitive (casefold)
+    def _norm(s: str) -> str:
+        return " ".join(s.strip().split()).casefold()
 
-    # None if the field is empty
-    if not documentary_type:
+    norm_input = _norm(documentary_type)
+
+    # None if the field is empty after normalization
+    if not norm_input:
         return None
 
     # mapping for primary source and parent source documentary type
@@ -621,11 +625,18 @@ def convert_documentary_type_to_aat(documentary_type):
         'Serie di dipinti': 'aat:300226836',
         'Incunabolo': 'aat:300055021',
         'Serie di affreschi': 'aat:300184300',
-        'Atlante nautico': 'aat:300137376'
+        'Atlante nautico': 'aat:300137376',
+        'Codice Manoscritto': 'aat:300224200'
     }
 
-    # return AAT correspondig code, None if no mapping is found
-    return mapping_tipologia.get(documentary_type, None)
+    # costruisci un mapping normalizzato (case-insensitive, spazi normalizzati)
+    normalized_mapping = {
+        _norm(k): v for k, v in mapping_tipologia.items()
+        if isinstance(k, str) and k.strip()  # esclude la chiave vuota
+    }
+
+    # return AAT corresponding code, None if no mapping is found
+    return normalized_mapping.get(norm_input, None)
 
 
 @udf(

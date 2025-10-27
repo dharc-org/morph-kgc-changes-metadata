@@ -19213,7 +19213,8 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/117_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/11_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/11_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/11_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/12_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/12_parent/ob00/1> .
@@ -19249,16 +19250,20 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/21_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/22_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/22_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/22_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/24_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/24_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/24_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/25_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/25_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/25_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/26_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/26_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/26_parent/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/27a_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/27a_parent/ob00/1> ;
@@ -19285,10 +19290,12 @@
     crm:P2_has_type "aat:300440768" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/28_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/28_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/28_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/29_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/29_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/29_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/2_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/2_parent/ob00/1> .
@@ -19297,10 +19304,12 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/30_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/31_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/31_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/31_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/32_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/32_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/32_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/33_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/33_parent/ob00/1> .
@@ -19312,19 +19321,22 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/35_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/36_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/36_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/36_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/37_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/37_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/38_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/38_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/38_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/39_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/39_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/3_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/3_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/3_parent/ob00/1> ;
+    crm:P2_has_type "aat:300027349" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/40_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/40_parent/ob00/1> .
@@ -19333,22 +19345,27 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/41_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/42_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/42_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/42_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/43_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/43_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/44_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/44_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/44_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/45_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/45_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/45_parent/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/46_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/46_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/46_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/47_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/47_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/47_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/48_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/48_parent/ob00/1> .
@@ -19367,34 +19384,42 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/51_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/52_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/52_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/52_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/53_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/53_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/54_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/54_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/54_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/57_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/57_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/57_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/5_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/5_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/62_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/62_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/62_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/63_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/63_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/63_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/64_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/64_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/64_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/66_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/66_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/66_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/67_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/67_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/67_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/6_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/6_parent/ob00/1> .
@@ -19418,25 +19443,30 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/75_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/76_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/76_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/76_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/77_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/77_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/78_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/78_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/78_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/79_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/79_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/7_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/7_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/7_parent/ob00/1> ;
+    crm:P2_has_type "aat:300137376" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/81_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/81_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/81_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/82_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/82_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/82_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/83_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/83_parent/ob00/1> .
@@ -19448,7 +19478,8 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/85_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/86_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/86_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/86_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/87_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/87_parent/ob00/1> .
@@ -19460,7 +19491,8 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/89_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/8_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/8_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/8_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/90_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/90_parent/ob00/1> .
@@ -19484,7 +19516,8 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/96_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/97_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/97_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/97_parent/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/98_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/98_parent/ob00/1> .
@@ -19538,10 +19571,12 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/b_basso_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m1_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m1_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m1_parent/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m2_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m2_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m2_parent/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m3_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m3_parent/ob00/1> .
@@ -19583,7 +19618,8 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_10_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/v2_1_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_1_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_1_parent/ob00/1> ;
+    crm:P2_has_type "aat:300184300" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/v2_2_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_2_parent/ob00/1> .
@@ -19592,16 +19628,20 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_3_parent/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/v2_4_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_4_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_4_parent/ob00/1> ;
+    crm:P2_has_type "aat:300189634" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/v2_5_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_5_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_5_parent/ob00/1> ;
+    crm:P2_has_type "aat:300226836" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/v2_6_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_6_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_6_parent/ob00/1> ;
+    crm:P2_has_type "aat:300189634" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/v2_7_parent/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_7_parent/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_7_parent/ob00/1> ;
+    crm:P2_has_type "aat:300226836" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/v2_8_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_8_parent/ob00/1> .
@@ -25937,10 +25977,12 @@
     crm:P62i_is_depicted_by <https://w3id.org/changes/4/aldrovandi/itm/vetrina_8_alto_s_-_3/ob00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/1/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/1/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/1/ob00/1> ;
+    crm:P2_has_type "aat:300028309" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/10/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/10/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/10/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/100/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/100/ob00/1> ;
@@ -26007,14 +26049,16 @@
     crm:P2_has_type "aat:300045627" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/115/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/115/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/115/ob00/1> ;
+    crm:P2_has_type "aat:300425064" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/116/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/116/ob00/1> ;
     crm:P2_has_type "aat:300433476" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/117/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/117/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/117/ob00/1> ;
+    crm:P2_has_type "aat:300122241" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/12/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/12/ob00/1> ;
@@ -26054,7 +26098,8 @@
 
 <https://w3id.org/changes/4/aldrovandi/mnf/20/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/20/ob00/1> ;
-    crm:P130i_features_are_also_found_on <https://editions.pure3d.eu/project/14/edition/1/index.html> .
+    crm:P130i_features_are_also_found_on <https://editions.pure3d.eu/project/14/edition/1/index.html> ;
+    crm:P2_has_type "aat:300224200" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/21/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/21/ob00/1> ;
@@ -26073,7 +26118,8 @@
     crm:P2_has_type "aat:300028094" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/26/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/26/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/26/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/27a/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/27a/ob00/1> ;
@@ -26104,10 +26150,12 @@
     crm:P2_has_type "aat:300041273" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/29/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/29/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/29/ob00/1> ;
+    crm:P2_has_type "aat:300028569" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/3/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/3/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/3/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/30/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/30/ob00/1> ;
@@ -26118,7 +26166,8 @@
     crm:P2_has_type "aat:300041273" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/32/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/32/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/32/ob00/1> ;
+    crm:P2_has_type "aat:300028569" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/33/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/33/ob00/1> ;
@@ -26133,21 +26182,24 @@
     crm:P2_has_type "aat:300047753" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/36/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/36/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/36/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/37/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/37/ob00/1> ;
     crm:P2_has_type "aat:300047753" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/38/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/38/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/38/ob00/1> ;
+    crm:P2_has_type "aat:300028569" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/39/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/39/ob00/1> ;
     crm:P2_has_type "aat:300235576" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/4/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/4/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/4/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/40/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/40/ob00/1> ;
@@ -26159,13 +26211,16 @@
 
 <https://w3id.org/changes/4/aldrovandi/mnf/42/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/42/ob00/1> ;
-    crm:P130i_features_are_also_found_on <http://hdl.handle.net/20.500.14008/78070> .
+    crm:P130i_features_are_also_found_on <http://hdl.handle.net/20.500.14008/78070> ;
+    crm:P2_has_type "aat:300028569" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/43/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/43/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/43/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/44/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/44/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/44/ob00/1> ;
+    crm:P2_has_type "aat:300028569" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/45/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/45/ob00/1> ;
@@ -26192,10 +26247,12 @@
     crm:P2_has_type "aat:300440768" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/50/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/50/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/50/ob00/1> ;
+    crm:P2_has_type "aat:300024928" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/51/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/51/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/51/ob00/1> ;
+    crm:P2_has_type "aat:300024928" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/52/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/52/ob00/1> ;
@@ -26216,7 +26273,8 @@
     crm:P2_has_type "aat:300041273" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/6/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/6/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/6/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/62/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/62/ob00/1> ;
@@ -26239,7 +26297,8 @@
     crm:P2_has_type "aat:300041273" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/7/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/7/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/7/ob00/1> ;
+    crm:P2_has_type "aat:300028309" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/74a/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/74a/ob00/1> ;
@@ -26262,7 +26321,8 @@
     crm:P2_has_type "aat:300047753" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/75/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/75/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/75/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/76/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/76/ob00/1> ;
@@ -26273,20 +26333,24 @@
     crm:P2_has_type "aat:300235576" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/78/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/78/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/78/ob00/1> ;
+    crm:P2_has_type "aat:300265483" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/79/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/79/ob00/1> ;
     crm:P2_has_type "aat:300235576" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/8/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/8/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/8/ob00/1> ;
+    crm:P2_has_type "aat:300028309" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/81/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/81/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/81/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/82/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/82/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/82/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/83/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/83/ob00/1> ;
@@ -26301,7 +26365,8 @@
     crm:P2_has_type "aat:300235576" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/86/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/86/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/86/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/87/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/87/ob00/1> ;
@@ -26316,7 +26381,8 @@
     crm:P2_has_type "aat:300033618" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/9/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/9/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/9/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/90/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/90/ob00/1> ;
@@ -26347,7 +26413,8 @@
     crm:P2_has_type "aat:300024594" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/97/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/97/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/97/ob00/1> ;
+    crm:P2_has_type "aat:300265632" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/98/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/98/ob00/1> ;
@@ -26358,7 +26425,8 @@
     crm:P2_has_type "aat:300047753" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/a_alto_centro/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/a_alto_centro/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/a_alto_centro/ob00/1> ;
+    crm:P2_has_type "aat:300028569" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/a_alto_sinistra_1/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/a_alto_sinistra_1/ob00/1> ;
@@ -26414,29 +26482,37 @@
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m1/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m1/ob00/1> ;
-    crm:P130i_features_are_also_found_on <http://hdl.handle.net/20.500.14008/80967> .
+    crm:P130i_features_are_also_found_on <http://hdl.handle.net/20.500.14008/80967> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m2/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m2/ob00/1> ;
-    crm:P130i_features_are_also_found_on <http://hdl.handle.net/20.500.14008/81548> .
+    crm:P130i_features_are_also_found_on <http://hdl.handle.net/20.500.14008/81548> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m3/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m3/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m3/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m4/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m4/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m4/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m5/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m5/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m5/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m6/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m6/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m6/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m7/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m7/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m7/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/m8/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m8/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/m8/ob00/1> ;
+    crm:P2_has_type "aat:300403970" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/ptb/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/ptb/ob00/1> ;
@@ -26471,7 +26547,8 @@
     crm:P2_has_type "aat:300033618" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/v2_2/ob00/1> a lrmoo:F3_Manifestation ;
-    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_2/ob00/1> .
+    lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_2/ob00/1> ;
+    crm:P2_has_type "aat:300191086" .
 
 <https://w3id.org/changes/4/aldrovandi/mnf/v2_3/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/v2_3/ob00/1> ;
