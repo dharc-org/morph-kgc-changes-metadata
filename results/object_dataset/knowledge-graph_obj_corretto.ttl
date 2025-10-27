@@ -7374,8 +7374,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/benedetto_bordon/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/67854568> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/bengt_anders_euphrase?n/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/bengt_anders_euphrase?n/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/bengt_anders_euphrasen/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/bengt_anders_euphrasen/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/120776829> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/camillo_ranzani/1> a crm:E39_Actor ;
@@ -7404,8 +7404,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/davide_domenici/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/20000053> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/e?tienne_geoffroy-saint-hilaire/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/e?tienne_geoffroy-saint-hilaire/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/etienne_geoffroy-saint-hilaire/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/etienne_geoffroy-saint-hilaire/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/39377694> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/fabrizio/1> a crm:E39_Actor ;
@@ -7866,7 +7866,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/109/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/e?tienne_geoffroy-saint-hilaire/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/etienne_geoffroy-saint-hilaire/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/11/ob01/1> a crm:E7_Activity ;
@@ -13067,7 +13067,7 @@
     crm:P2_has_type aat:300417639 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_8_alto_n_1/ob07/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/bengt_anders_euphrase?n/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/bengt_anders_euphrasen/1> ;
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/vetrina_8_alto_n_2/ob01/1> a crm:E7_Activity ;
@@ -13539,8 +13539,8 @@
 <https://w3id.org/changes/4/aldrovandi/apl/benedetto_bordon/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Benedetto Bordon (viaf:67854568)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/bengt_anders_euphrase?n/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bengt Anders Euphrase?n (viaf:120776829)" .
+<https://w3id.org/changes/4/aldrovandi/apl/bengt_anders_euphrasen/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Bengt Anders Euphrasén (viaf:120776829)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/benoit_prevost/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Benoît Prévost (viaf:49333645)" .
@@ -13658,7 +13658,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/apl/collezione_delle_cere_anatomiche_luigi_cattaneo/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Collezione Delle Cere Anatomiche \"luigi Cattaneo\"",
-        "Collezione Delle Cere Anatomiche \"luigi Cattaneo" .
+        "Collezione Delle Cere Anatomiche \"luigi Cattaneo”" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_comparata/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Collezione Di Anatomia Comparata" .
@@ -13670,7 +13670,7 @@
     crm:P190_has_symbolic_content "Collezione Di Anatomia Patologica E Teratologia Veterinaria" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_patologica_e_teratologia_veterinaria_alessandrini_-_ercolani/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Collezione Di Anatomia Patologica E Teratologia Veterinaria alessandrini - Ercolani" .
+    crm:P190_has_symbolic_content "Collezione Di Anatomia Patologica E Teratologia Veterinaria “alessandrini - Ercolani”" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_antropologia/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Collezione Di Antropologia" .
@@ -13735,9 +13735,6 @@
 <https://w3id.org/changes/4/aldrovandi/apl/drago/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Drago [Dragon]" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/e?tienne_geoffroy-saint-hilaire/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "E?tienne Geoffroy-saint-hilaire (viaf:39377694)" .
-
 <https://w3id.org/changes/4/aldrovandi/apl/elefante/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Elefante [Elephant]" .
 
@@ -13752,6 +13749,9 @@
 
 <https://w3id.org/changes/4/aldrovandi/apl/ermafrodita/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Ermafrodita [Hermaphrodite]" .
+
+<https://w3id.org/changes/4/aldrovandi/apl/etienne_geoffroy-saint-hilaire/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Étienne Geoffroy-saint-hilaire (viaf:39377694)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/europa/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Europa [Europe]" .
@@ -14114,7 +14114,7 @@
     crm:P190_has_symbolic_content "Museo Di Palazzo Poggi" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/museo_di_storia_naturale_dellaccademia_dei_fisiocritici_di_siena/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Museo Di Storia Naturale Dellaccademia Dei Fisiocritici Di Siena" .
+    crm:P190_has_symbolic_content "Museo Di Storia Naturale Dell’accademia Dei Fisiocritici Di Siena" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/museo_di_storia_naturale_di_verona/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Museo Di Storia Naturale Di Verona" .
@@ -20747,446 +20747,456 @@
     crm:P2_has_type aat:300404126 .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/1/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1482-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1482-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1482-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1482-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/10/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1596-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1596-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1596-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1596-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/100/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1962-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1962-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/101/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1999-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1999-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/102/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1999-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1999-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/103/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1930-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1930-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/104/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1930-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1930-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/105/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1807-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1896-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1807-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1896-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/106/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1852-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1852-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/107/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1807-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1896-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1807-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1896-12-31T23:59:59Z"^^xsd:dateTime .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/108/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/108/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y-48000000-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "Y-48000000-12-31"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/109/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1000-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1000-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1000-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1000-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/11/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1579-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1579-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1579-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1579-12-31T23:59:59Z"^^xsd:dateTime .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/110/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/110/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y-190000000-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "Y-190000000-12-31"^^xsd:dateTime .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/111/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/111/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y-540000000-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "Y-540000000-12-31"^^xsd:dateTime .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/112/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/112/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y-420000000-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "Y-420000000-12-31"^^xsd:dateTime .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/113/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/113/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y-420000000-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "Y-420000000-12-31"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/114/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1799-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1799-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/115/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1799-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1799-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/116/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1799-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1799-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/117/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1876-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1953-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1876-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1953-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/12/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1758-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1758-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1758-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1758-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/13/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1832-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1832-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1832-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1832-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/14/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1758-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1758-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1758-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1758-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/15/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1831-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1831-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1831-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1831-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/16/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1758-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1758-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1758-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1758-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/17/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1776-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1776-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1776-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1776-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/18/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1758-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1758-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1758-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1758-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/19/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1757-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1757-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1757-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1757-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/2/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1930-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1930-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/20/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1400-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1520-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1400-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1520-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/21/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1582-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1585-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1582-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1585-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/22/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1586-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1586-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1586-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1586-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/24/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1591-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1591-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1591-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1591-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/25/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1753-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1753-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1753-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1753-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/26/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/27a/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/27b/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/27c/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/27d/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/27e/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/27f/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/28/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1603-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1603-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1603-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1603-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/29/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/3/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1545-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1545-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1545-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1545-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/30/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1981-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1981-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1981-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1981-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/31/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1603-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1603-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1603-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1603-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/32/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/33/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/34/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/35/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1600-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1699-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1600-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1699-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/36/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1642-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1642-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1642-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1642-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/37/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1799-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1799-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/38/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/39/ob00/1> a crm:E52_Time-Span .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/4/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1497-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1497-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1497-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1497-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/40/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1600-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1699-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1600-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1699-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/41/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1728-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1728-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1728-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1728-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/42/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/43/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1511-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1511-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1511-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1511-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/44/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/45/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1543-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1543-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1543-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1543-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/46/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1556-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1556-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1556-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1556-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/47/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1744-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1744-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1744-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1744-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/48/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1630-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1630-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1630-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1630-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/49/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1350-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1521-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1350-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1521-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/5/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1523-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1523-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1523-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1523-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/50/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1350-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1521-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1350-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1521-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/51/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1350-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1521-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1350-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1521-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/52/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1648-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1648-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1648-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1648-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/53/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1350-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1521-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1350-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1521-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/54/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1648-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1648-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1648-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1648-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/57/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1554-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1554-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1554-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1554-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/6/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1519-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1519-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1519-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1519-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/62/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1547-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1547-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1547-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1547-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/63/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1555-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1555-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1555-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1555-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/64/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1536-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1536-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1536-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1536-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/66/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1589-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1589-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1589-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1589-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/67/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1597-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1597-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1597-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1597-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/7/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/74a/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1899-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1899-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/74b/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1899-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1899-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/74c/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1899-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1899-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/74d/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1899-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1899-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/74e/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1899-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1899-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/75/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1675-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1675-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1675-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1675-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/76/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1675-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1675-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1675-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1675-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/77/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "2023-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "2000-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2023-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/78/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1600-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1699-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1600-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1699-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/79/ob00/1> a crm:E52_Time-Span .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/8/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1556-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1556-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1556-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1556-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/81/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1734-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1734-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1734-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1734-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/82/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1726-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1726-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1726-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1726-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/83/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1799-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1799-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/84/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1885-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1885-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1885-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1885-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/85/ob00/1> a crm:E52_Time-Span .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/86/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1598-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1598-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1598-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1598-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/87/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1899-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1899-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/88/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1899-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1899-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/89/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1862-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1862-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1862-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1862-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/9/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1530-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1530-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1530-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1530-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/90/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1899-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1899-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/91/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1799-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1799-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/92/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1822-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1822-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1822-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1822-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/93/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1899-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1899-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/94/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1799-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1799-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/95/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1851-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1851-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1851-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1851-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/96/ob00/1> a crm:E52_Time-Span .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/97/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1801-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1814-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1801-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1814-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/98/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1962-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1962-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/99/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1962-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1962-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/a_alto_centro/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1592-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1608-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1592-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1608-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/a_alto_sinistra_1/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/a_alto_sinistra_2/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1907-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1907-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1907-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1907-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/a_alto_sinistra_3/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/b_alto_centro_1/ob00/1> a crm:E52_Time-Span .
 
@@ -21209,36 +21219,36 @@
 <https://w3id.org/changes/4/aldrovandi/tsp/b_basso/ob00/1> a crm:E52_Time-Span .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/m1/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/m2/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/m3/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/m4/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/m5/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/m6/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/m7/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/m8/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1599-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1500-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1599-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/ptb/ob00/1> a crm:E52_Time-Span .
 
@@ -21251,44 +21261,48 @@
 <https://w3id.org/changes/4/aldrovandi/tsp/ptb_4/ob00/1> a crm:E52_Time-Span .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/s_n/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1881-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1881-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1881-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1881-12-31T23:59:59Z"^^xsd:dateTime .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/v2_1/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/v2_1/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1727-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1804-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/v2_10/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1580-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1580-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1580-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1580-12-31T23:59:59Z"^^xsd:dateTime .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/v2_2/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/v2_2/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1620-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1683-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/v2_3/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1751-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1753-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1751-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1753-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/v2_4/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1630-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1630-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1630-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1630-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/v2_5/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1691-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1691-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1691-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1691-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/v2_6/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1586-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1591-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1586-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1591-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/v2_7/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1702-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1705-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1702-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1705-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/v2_8/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1575-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1610-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1575-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1610-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/v2_9/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "1766-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1766-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "1766-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1766-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_n_1/ob00/1> a crm:E52_Time-Span .
 
@@ -21303,44 +21317,56 @@
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_1/ob00/1> a crm:E52_Time-Span .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_10/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "0200-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "0299-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "0200-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "0299-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_11/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "0200-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "0299-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "0200-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "0299-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_12/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "0700-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "1699-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "0700-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1699-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_13/ob00/1> a crm:E52_Time-Span .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_14/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_14/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y-10000-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "Y-2000-12-31"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_15/ob00/1> a crm:E52_Time-Span .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_16/ob00/1> a crm:E52_Time-Span .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_2/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_2/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y0-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "0099-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_3/ob00/1> a crm:E52_Time-Span .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_4/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_4/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y-99-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "Y0-12-31"^^xsd:dateTime .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_5/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_5/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y-99-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "Y0-12-31"^^xsd:dateTime .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_6/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_6/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y0-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "0099-12-31T23:59:59Z"^^xsd:dateTime .
 
-<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_7/ob00/1> a crm:E52_Time-Span .
+<https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_7/ob00/1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "Y0-01-01"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "0099-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_8/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "0100-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "0199-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "0100-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "0199-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_alto_s_9/ob00/1> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_begin "0100-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "0299-12-31T23:59:59+00:00"^^xsd:dateTime .
+    crm:P82a_begin_of_the_begin "0100-01-01T00:00:00Z"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "0299-12-31T23:59:59Z"^^xsd:dateTime .
 
 <https://w3id.org/changes/4/aldrovandi/tsp/vetrina_1_basso/ob00/1> a crm:E52_Time-Span .
 
@@ -21627,7 +21653,7 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/105/ob02/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Skulls From Luigi Caloris Collection"@en ;
+    crm:P190_has_symbolic_content "Skulls From Luigi Calori’s Collection"@en ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/106/ob00/1> a crm:E35_Title ;
@@ -21643,11 +21669,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/107/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Studio Sullencefalo Di Un Africano"@it ;
+    crm:P190_has_symbolic_content "Studio Sull’encefalo Di Un Africano"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/107/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Studio Sullencefalo Di Un Africano"@it ;
+    crm:P190_has_symbolic_content "Studio Sull’encefalo Di Un Africano"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/107/ob02/1> a crm:E35_Title ;
@@ -21909,11 +21935,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/24/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Mappa Dellorto Botanico Di Padova"@it ;
+    crm:P190_has_symbolic_content "Mappa Dell’orto Botanico Di Padova"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/24/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Mappa Dellorto Botanico Di Padova"@it ;
+    crm:P190_has_symbolic_content "Mappa Dell’orto Botanico Di Padova"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/24/ob02/1> a crm:E35_Title ;
@@ -21921,11 +21947,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/25/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Mappa Dellorto Botanico Di Bologna"@it ;
+    crm:P190_has_symbolic_content "Mappa Dell’orto Botanico Di Bologna"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/25/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Mappa Dellorto Botanico Di Bologna"@it ;
+    crm:P190_has_symbolic_content "Mappa Dell’orto Botanico Di Bologna"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/25/ob02/1> a crm:E35_Title ;
@@ -21962,7 +21988,7 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/27b/ob02/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Pheasants Eye"@en ;
+    crm:P190_has_symbolic_content "Pheasant’s Eye"@en ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/27c/ob00/1> a crm:E35_Title ;
@@ -22652,7 +22678,7 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/86/ob02/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Horses Heads"@en ;
+    crm:P190_has_symbolic_content "Horses’ Heads"@en ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/87/ob00/1> a crm:E35_Title ;
@@ -22714,11 +22740,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/91/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Modello In Cera Raffigurante Lorgano Della Vista"@it ;
+    crm:P190_has_symbolic_content "Modello In Cera Raffigurante L’organo Della Vista"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/91/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Modello In Cera Raffigurante Lorgano Della Vista"@it ;
+    crm:P190_has_symbolic_content "Modello In Cera Raffigurante L’organo Della Vista"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/91/ob02/1> a crm:E35_Title ;
@@ -22749,11 +22775,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/94/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Preparazione In Cera Dellarto Inferiore"@it ;
+    crm:P190_has_symbolic_content "Preparazione In Cera Dell’arto Inferiore"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/94/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Preparazione In Cera Dellarto Inferiore"@it ;
+    crm:P190_has_symbolic_content "Preparazione In Cera Dell’arto Inferiore"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/94/ob02/1> a crm:E35_Title ;
@@ -22826,7 +22852,7 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_centro/ob02/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Ulisse Aldrovandis Will"@en ;
+    crm:P190_has_symbolic_content "Ulisse Aldrovandi’s Will"@en ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_1/ob00/1> a crm:E35_Title ;
@@ -23134,11 +23160,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_1/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Figura Allegorica Che Rappresenta Lamerica"@it ;
+    crm:P190_has_symbolic_content "Figura Allegorica Che Rappresenta L’america"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_1/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Figura Allegorica Che Rappresenta Lamerica"@it ;
+    crm:P190_has_symbolic_content "Figura Allegorica Che Rappresenta L’america"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_1/ob02/1> a crm:E35_Title ;
@@ -23158,11 +23184,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_2/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dell’america"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_2/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dell’america"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_2/ob02/1> a crm:E35_Title ;
@@ -23170,11 +23196,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_3/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "America. Dettaglio Dellallegoria Dei Pianeti E Dei Continenti"@it ;
+    crm:P190_has_symbolic_content "America. Dettaglio Dell’allegoria Dei Pianeti E Dei Continenti"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_3/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "America. Dettaglio Dellallegoria Dei Pianeti E Dei Continenti"@it ;
+    crm:P190_has_symbolic_content "America. Dettaglio Dell’allegoria Dei Pianeti E Dei Continenti"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_3/ob02/1> a crm:E35_Title ;
@@ -23218,11 +23244,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_7/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dell’america"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_7/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dell’america"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_7/ob02/1> a crm:E35_Title ;
@@ -23242,11 +23268,11 @@
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_9/ob00/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dell’america"@it ;
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_9/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Allegoria Dellamerica"@it ;
+    crm:P190_has_symbolic_content "Allegoria Dell’america"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/v2_9/ob02/1> a crm:E35_Title ;
@@ -23433,7 +23459,7 @@
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Gemma In Agata Con Maschera Della Commedia Dellarte"@it ;
+    crm:P190_has_symbolic_content "Gemma In Agata Con Maschera Della Commedia Dell’arte"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob02/1> a crm:E35_Title ;
@@ -23444,7 +23470,7 @@
     crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_6/ob01/1> a crm:E35_Title ;
-    crm:P190_has_symbolic_content "Gemma In Agata Con Maschera Della Commedia Dellarte"@it ;
+    crm:P190_has_symbolic_content "Gemma In Agata Con Maschera Della Commedia Dell’arte"@it ;
     crm:P2_has_type aat:300417207 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_6/ob02/1> a crm:E35_Title ;
@@ -28754,21 +28780,21 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/100/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/100/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/100/ob02/1> ;
-    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Sardo Maschio Living Masks, Sardinian Male Lidio Cipriani Sec. Xx  20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Sardo Maschio Living Masks, Sardinian Male Lidio Cipriani Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/101/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/101/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/101/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/101/ob02/1> ;
-    crm:P3_has_note "Calco In Gesso Di Capo Tasmaniano (oceania) Plaster Model Of A Tasmanian Chief M. Eydoux Sec. Xx  20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Calco In Gesso Di Capo Tasmaniano (oceania) Plaster Model Of A Tasmanian Chief M. Eydoux Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/102/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/102/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/102/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/102/ob02/1> ;
-    crm:P3_has_note "Calco In Gesso Di Donna Dschagga (kenia) Plaster Model Of A Dschagga Woman (kenia) M. Eydoux Sec. Xx  20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Calco In Gesso Di Donna Dschagga (kenia) Plaster Model Of A Dschagga Woman (kenia) M. Eydoux Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/103/ob00/1> a lrmoo:F5_Item ;
@@ -28789,21 +28815,21 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/105/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/105/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/105/ob02/1> ;
-    crm:P3_has_note "Crani Dalla Collezione Di Luigi Calori Skulls From Luigi Caloris Collection Bologna, Dipartimento Di Scienze Biomediche E Neuromotorie"^^rdfs:Literal ;
+    crm:P3_has_note "Crani Dalla Collezione Di Luigi Calori Skulls From Luigi Calori’s Collection Bologna, Dipartimento Di Scienze Biomediche E Neuromotorie"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/106/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/106/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/106/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/106/ob02/1> ;
-    crm:P3_has_note "Modello Frenologico In Cera Phrenology Model In Wax Giuseppe Astorri Sec. Xix  19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Modello Frenologico In Cera Phrenology Model In Wax Giuseppe Astorri Sec. Xix – 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/107/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/107/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/107/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/107/ob02/1> ;
-    crm:P3_has_note "Studio Sullencefalo Di Un Africano, Di Luigi Calori (modello In Cera) Study On The Encephalon Of An African, By Luigi Calori (wax Model) Sec. Xix - 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Studio Sull’encefalo Di Un Africano, Di Luigi Calori (modello In Cera) Study On The Encephalon Of An African, By Luigi Calori (wax Model) Sec. Xix - 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/108/ob00/1> a lrmoo:F5_Item ;
@@ -28831,28 +28857,28 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/110/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/110/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/110/ob02/1> ;
-    crm:P3_has_note "Arietites Sp. Ammonite, Località Indeterminata Ammonite, Undetermined Locality Giurassico Inferiore  Lower Jurassic (190 Ma) Bologna, Collezione Di Geologia \"museo Giovanni Capellini\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Arietites Sp. Ammonite, Località Indeterminata Ammonite, Undetermined Locality Giurassico Inferiore – Lower Jurassic (190 Ma) Bologna, Collezione Di Geologia \"museo Giovanni Capellini\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/111/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/111/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/111/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/111/ob02/1> ;
-    crm:P3_has_note "Cambropallas Telesto (geyer, 1993) Trilobite, Impronta E Controimpronta. Regione Di Erfoud (marocco) Trilobite, Two Halves From The Erfoud Region (morocco) Cambriano Inferiore - Lower Cambrian (540 Ma) Bologna, Collezione Di Geologia museo Giovanni Capellini, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Cambropallas Telesto (geyer, 1993) Trilobite, Impronta E Controimpronta. Regione Di Erfoud (marocco) Trilobite, Two Halves From The Erfoud Region (morocco) Cambriano Inferiore - Lower Cambrian (540 Ma) Bologna, Collezione Di Geologia “museo Giovanni Capellini”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/112/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/112/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/112/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/112/ob02/1> ;
-    crm:P3_has_note "Arctinurus Boltoni (bigsby, 1825) Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia museo Giovanni Capellini, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Arctinurus Boltoni (bigsby, 1825) Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia “museo Giovanni Capellini”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/113/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/113/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/113/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/113/ob02/1> ;
-    crm:P3_has_note "Dalmanites Sp. Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia museo Giovanni Capellini, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Dalmanites Sp. Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia “museo Giovanni Capellini”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/114/ob00/1> a lrmoo:F5_Item ;
@@ -28943,7 +28969,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/2/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/2/ob02/1> ;
-    crm:P3_has_note "Panthera Leo (linnaeus, 1758) Diorama Con Tre Leoni Tassidermizzati Diorama With Three Taxidermized Lions Manifattura Rowland Ward - Londra, Inizio Sec. Xx  Early 20th Century Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Panthera Leo (linnaeus, 1758) Diorama Con Tre Leoni Tassidermizzati Diorama With Three Taxidermized Lions Manifattura Rowland Ward - Londra, Inizio Sec. Xx – Early 20th Century Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/20/ob00/1> a lrmoo:F5_Item ;
@@ -28971,14 +28997,14 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/24/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/24/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/24/ob02/1> ;
-    crm:P3_has_note "Mappa Dellorto Botanico Di Padova Map Of The Botanical Garden In Padua In Giacomo Antonio Cortusi, Lhorto De I Semplici Di Padoua Venezia, Girolamo Porro, 1591 Bub, A.v.tab.i.c.i.278/5"^^rdfs:Literal ;
+    crm:P3_has_note "Mappa Dell’orto Botanico Di Padova Map Of The Botanical Garden In Padua In Giacomo Antonio Cortusi, L’horto De I Semplici Di Padoua Venezia, Girolamo Porro, 1591 Bub, A.v.tab.i.c.i.278/5"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/25/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/25/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/25/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/25/ob02/1> ;
-    crm:P3_has_note "Mappa Dellorto Botanico Di Bologna Map Of The Botanical Garden In Bologna In Giuseppe Monti, Indices Botanici Et Materiae Medicae Bologna, Lelio Dalla Volpe[am6] , 1753 Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Mappa Dell’orto Botanico Di Bologna Map Of The Botanical Garden In Bologna In Giuseppe Monti, Indices Botanici Et Materiae Medicae Bologna, Lelio Dalla Volpe[am6] , 1753 Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/26/ob00/1> a lrmoo:F5_Item ;
@@ -28999,7 +29025,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27b/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/27b/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/27b/ob02/1> ;
-    crm:P3_has_note "Adonis Vernalis L. Adonide Gialla Pheasants Eye Erbario Aldrovandi, Vol.12, Carta 192 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Adonis Vernalis L. Adonide Gialla Pheasant’s Eye Erbario Aldrovandi, Vol.12, Carta 192 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/27c/ob00/1> a lrmoo:F5_Item ;
@@ -29055,7 +29081,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/30/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/30/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/30/ob02/1> ;
-    crm:P3_has_note "Cygnus Olor (gmelin, 1789) Preparato Tassidermizzato Di Cigno Reale Taxidermized Mount Of A Mute Swan Preparatore Fabrizio Cancelli, 1981, Museo Di Storia Naturale Dellaccademia Dei Fisiocritici Di Siena"^^rdfs:Literal ;
+    crm:P3_has_note "Cygnus Olor (gmelin, 1789) Preparato Tassidermizzato Di Cigno Reale Taxidermized Mount Of A Mute Swan Preparatore Fabrizio Cancelli, 1981, Museo Di Storia Naturale Dell’accademia Dei Fisiocritici Di Siena"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/31/ob00/1> a lrmoo:F5_Item ;
@@ -29104,7 +29130,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/37/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/37/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/37/ob02/1> ;
-    crm:P3_has_note "Tavola [mc10] [am11] Con Monocolo Table With mono-ocular Model[am12] Sec. Xviii 18th Century Bologna, Collezione Di Ostetricia, Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Tavola [mc10] [am11] Con Monocolo Table With “mono-ocular” Model[am12] Sec. Xviii 18th Century Bologna, Collezione Di Ostetricia, Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/38/ob00/1> a lrmoo:F5_Item ;
@@ -29118,7 +29144,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/39/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/39/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/39/ob02/1> ;
-    crm:P3_has_note "Bos Taurus (linnaeus, 1758) Preparato Di Giovane Bovino Con Malformazione Teratologica Taxidermy Mount Of A Young Bovine With Teratologic Malformation Ozzano Dell'emilia, Collezione Di Anatomia Patologica E Teratologia Veterinaria alessandrini - Ercolani, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Bos Taurus (linnaeus, 1758) Preparato Di Giovane Bovino Con Malformazione Teratologica Taxidermy Mount Of A Young Bovine With Teratologic Malformation Ozzano Dell'emilia, Collezione Di Anatomia Patologica E Teratologia Veterinaria “alessandrini - Ercolani”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/4/ob00/1> a lrmoo:F5_Item ;
@@ -29265,7 +29291,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/63/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/63/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/63/ob02/1> ;
-    crm:P3_has_note "Gufo Owl In Pierre Belon, Lhistoire De La Nature Des Oiseaux, Parigi, Gilles Corrozet E Benoit Prevost, 1555 Bub, A.iv.h.i.57"^^rdfs:Literal ;
+    crm:P3_has_note "Gufo Owl In Pierre Belon, L’histoire De La Nature Des Oiseaux, Parigi, Gilles Corrozet E Benoit Prevost, 1555 Bub, A.iv.h.i.57"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/64/ob00/1> a lrmoo:F5_Item ;
@@ -29384,7 +29410,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/82/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/82/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/82/ob02/1> ;
-    crm:P3_has_note "Cornua Arietis Speciosa Caprone Billy Goat In Luigi Ferdinando Marsili, Danubius Pannonico-mysicus,laia, Alberts Rutgert Christoffel, 1726 Bub, A.m.b.i.23/6"^^rdfs:Literal ;
+    crm:P3_has_note "Cornua Arietis Speciosa Caprone Billy Goat In Luigi Ferdinando Marsili, Danubius Pannonico-mysicus,l’aia, Alberts Rutgert Christoffel, 1726 Bub, A.m.b.i.23/6"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/83/ob00/1> a lrmoo:F5_Item ;
@@ -29412,21 +29438,21 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/86/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/86/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/86/ob02/1> ;
-    crm:P3_has_note "Teste Di Cavallo Horses Heads In Carlo Ruini, De Lanatomia E Dellinfirmità Del Cavallo Bologna, Giovanni Rossi Eredi, 1598 Bub, A.iv.e.ii.12"^^rdfs:Literal ;
+    crm:P3_has_note "Teste Di Cavallo Horses’ Heads In Carlo Ruini, De L’anatomia E Dell’infirmità Del Cavallo Bologna, Giovanni Rossi Eredi, 1598 Bub, A.iv.e.ii.12"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/87/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/87/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/87/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/87/ob02/1> ;
-    crm:P3_has_note "Feto Bovino, Intestino Intestine Of A Bovine Foetus Sec. Xix  19th Century Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Feto Bovino, Intestino Intestine Of A Bovine Foetus Sec. Xix – 19th Century Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/88/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/88/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/88/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/88/ob02/1> ;
-    crm:P3_has_note "Elefante, Intestino Crasso Elephant, Large Intestine Sec. Xix  19th Century[am3] Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Elefante, Intestino Crasso Elephant, Large Intestine Sec. Xix – 19th Century[am3] Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/89/ob00/1> a lrmoo:F5_Item ;
@@ -29440,21 +29466,21 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/9/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/9/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/9/ob02/1> ;
-    crm:P3_has_note "Pietro Martire Danghiera De Orbo Novo Alcalà De Henares, De Eguia Miguel, 1530 Bub, A.m.c.v.2"^^rdfs:Literal ;
+    crm:P3_has_note "Pietro Martire D’anghiera De Orbo Novo Alcalà De Henares, De Eguia Miguel, 1530 Bub, A.m.c.v.2"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/90/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/90/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/90/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/90/ob02/1> ;
-    crm:P3_has_note "Modello In Cera Di Diverse Rappresentazioni Di Patologie Oculari Wax Model Of Different Eye Pahtologies Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Modello In Cera Di Diverse Rappresentazioni Di Patologie Oculari Wax Model Of Different Eye Pahtologies Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/91/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/91/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/91/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/91/ob02/1> ;
-    crm:P3_has_note "Modello In Cera Raffigurante Lorgano Della Vista Wax Model Of The Sensory Organ For Sight Clemente Susini Sec. Xviii  18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Modello In Cera Raffigurante L’organo Della Vista Wax Model Of The Sensory Organ For Sight Clemente Susini Sec. Xviii – 18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/92/ob00/1> a lrmoo:F5_Item ;
@@ -29468,14 +29494,14 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/93/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/93/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/93/ob02/1> ;
-    crm:P3_has_note "Busto Di Donna Con La Pellagra Bust Of A Woman With Pellagra Giuseppe Astorri, Sec. Xix  19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Busto Di Donna Con La Pellagra Bust Of A Woman With Pellagra Giuseppe Astorri, Sec. Xix – 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/94/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/94/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/94/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/94/ob02/1> ;
-    crm:P3_has_note "Preparazione In Cera Dellarto Inferiore Wax Model Of Lower Limb Clemente Susini, Sec. Xviii  18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Preparazione In Cera Dell’arto Inferiore Wax Model Of Lower Limb Clemente Susini, Sec. Xviii – 18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/95/ob00/1> a lrmoo:F5_Item ;
@@ -29503,21 +29529,21 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/98/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/98/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/98/ob02/1> ;
-    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente. Da Sinistra A Destra: Boscimano Ai-hum Maschio, Boscimano Kung Femmina, Boscimano Ai-hum Femmina Living Masks. From Left To Right: Ai-hum Male, Kung Female, Ai-hum Female Lidio Cipriani Sec. Xx  20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente. Da Sinistra A Destra: Boscimano Ai-hum Maschio, Boscimano Kung Femmina, Boscimano Ai-hum Femmina Living Masks. From Left To Right: Ai-hum Male, Kung Female, Ai-hum Female Lidio Cipriani Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/99/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/99/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/99/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/99/ob02/1> ;
-    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Cinese Maschio Living Masks, Chinese Male Lidio Cipriani, Sec. Xx  20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Cinese Maschio Living Masks, Chinese Male Lidio Cipriani, Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/a_alto_centro/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob02/1> ;
-    crm:P3_has_note "Testamento Di Ulisse Aldrovandi Ulisse Aldrovandis Will Carlo Antonio Manzolini, 6/1, Prot. Testamenti 1592-1608, Cc. 81v-90r. Archivio Di Stato Di Bologna, Archivio Notarile"^^rdfs:Literal ;
+    crm:P3_has_note "Testamento Di Ulisse Aldrovandi Ulisse Aldrovandi’s Will Carlo Antonio Manzolini, 6/1, Prot. Testamenti 1592-1608, Cc. 81v-90r. Archivio Di Stato Di Bologna, Archivio Notarile"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/a_alto_sinistra_1/ob00/1> a lrmoo:F5_Item ;
@@ -29710,7 +29736,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob02/1> ;
-    crm:P3_has_note "Giovanni Domenico Tiepolo Figura Allegorica Che Rappresenta Lamerica Allegorical Figure Representing America Sec. Xviii 18th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
+    crm:P3_has_note "Giovanni Domenico Tiepolo Figura Allegorica Che Rappresenta L’america Allegorical Figure Representing America Sec. Xviii 18th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/v2_10/ob00/1> a lrmoo:F5_Item ;
@@ -29724,14 +29750,14 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob02/1> ;
-    crm:P3_has_note "Nicolaes Berchem Allegoria Dellamerica Allegory Of America Seconda Metà Sec. Xvii - Second Half 17th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
+    crm:P3_has_note "Nicolaes Berchem Allegoria Dell’america Allegory Of America Seconda Metà Sec. Xvii - Second Half 17th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/v2_3/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob02/1> ;
-    crm:P3_has_note "Giambattista Tiepolo America. Dettaglio Dellallegoria Dei Pianeti E Dei Continenti America. Detail Of Allegory Of The Planets And Continents 1751-1753 Residenza Di Würzburg (germania). Foto Scala, Firenze"^^rdfs:Literal ;
+    crm:P3_has_note "Giambattista Tiepolo America. Dettaglio Dell’allegoria Dei Pianeti E Dei Continenti America. Detail Of Allegory Of The Planets And Continents 1751-1753 Residenza Di Würzburg (germania). Foto Scala, Firenze"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/v2_4/ob00/1> a lrmoo:F5_Item ;
@@ -29759,7 +29785,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob02/1> ;
-    crm:P3_has_note "Luca Giordano Allegoria Dellamerica Allegory Of America 1702-1705 Reggia Di Caserta Su Concessione Del Ministero Della Cultura"^^rdfs:Literal ;
+    crm:P3_has_note "Luca Giordano Allegoria Dell’america Allegory Of America 1702-1705 Reggia Di Caserta Su Concessione Del Ministero Della Cultura"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/v2_8/ob00/1> a lrmoo:F5_Item ;
@@ -29773,7 +29799,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob02/1> ;
-    crm:P3_has_note "Jan Caspar Philips Allegoria Dellamerica Allegory Of America 1766 Amsterdam, Rijksmuseum"^^rdfs:Literal ;
+    crm:P3_has_note "Jan Caspar Philips Allegoria Dell’america Allegory Of America 1766 Amsterdam, Rijksmuseum"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_n_1/ob00/1> a lrmoo:F5_Item ;
@@ -29894,7 +29920,7 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_5/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_5/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_s_5/ob02/1> ;
-    crm:P3_has_note "Gemma In Agata Con Maschera Della Commedia Dellarte Agate Gem With Comedy Of Art Mask Metà Sec. I A.c. Mid 1st Century B.c."^^rdfs:Literal ;
+    crm:P3_has_note "Gemma In Agata Con Maschera Della Commedia Dell’arte Agate Gem With Comedy Of Art Mask Metà Sec. I A.c. Mid 1st Century B.c."^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_s_6/ob00/1> a lrmoo:F5_Item ;

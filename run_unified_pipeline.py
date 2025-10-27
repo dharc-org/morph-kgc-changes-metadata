@@ -29,13 +29,95 @@ import configparser
 import os
 import subprocess
 import sys
+import re
 
-from rdflib import Graph
+from rdflib import Graph, Literal, URIRef
+from rdflib.namespace import XSD
 from perf_monitor import PerfMonitor
+
+# --- rdflib: disabilita cast automatico di xsd:dateTime (e opzionalmente xsd:date) ---
+try:
+    from rdflib.term import _toPythonMapping
+    from rdflib.namespace import XSD
+    _toPythonMapping.pop(XSD.dateTime, None)
+    _toPythonMapping.pop(XSD.date, None)  # se comparisse xsd:date
+    print("[INFO] rdflib datetime cast disabled in this process")
+except Exception as e:
+    print(f"[WARN] rdflib datetime cast patch skipped: {e}")
+
 
 DEFAULT_CONFIG = "src/morph_kgc_changes_metadata_conversions/config.ini"
 DEFAULT_REPORT = None  # se None, usa monitor_report/perf_report.json da config.ini
 DEFAULT_MERGED_OUT = None  # se None, usa <output_dir>/merged_graph_output.ttl da config.ini
+
+YEAR4_RE   = re.compile(r"^(?P<y>\d{4})-(?P<m>\d{2})-(?P<d>\d{2})(?:T.*)?$")
+LONG_RE    = re.compile(r"^(?P<y>-?\d{5,})-(?P<m>\d{2})-(?P<d>\d{2})(?:T.*)?$")
+Y_PREFIX   = re.compile(r"^Y-?\d+-\d{2}-\d{2}(?:T.*)?$")
+YEAR0_RE   = re.compile(r"^0000-\d{2}-\d{2}(?:T.*)?$")
+
+CRM_P82A = URIRef("http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin")
+CRM_P82B = URIRef("http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end")
+EDTF_DT  = URIRef("http://id.loc.gov/datatypes/edtf/EDTF")
+
+def _needs_edtf(lex: str) -> bool:
+    """True se la stringa rappresenta un long/negative/anno 0 → serve EDTF."""
+    return (
+        Y_PREFIX.match(lex) is not None or
+        LONG_RE.match(lex) is not None or
+        YEAR0_RE.match(lex) is not None or
+        lex.startswith("-")  # anni negativi formattati senza Y (es. "-0099-01-01")
+    )
+
+def _ensure_t(lex: str, is_begin: bool) -> str:
+    """Aggiunge 'T..Z' se manca; lascia intatta la parte data."""
+    if "T" in lex:
+        return lex
+    time = "00:00:00Z" if is_begin else "23:59:59Z"
+    return f"{lex}T{time}"
+
+def normalize_time_literals(g: Graph) -> int:
+    """
+    Converte:
+      - long/negative/anno 0 → datatype edtf:EDTF (senza T)
+      - anni 0001..9999      → xsd:dateTime con T e Z
+    Ritorna il numero di sostituzioni.
+    """
+    to_fix = []
+    for s, p, o in g.triples((None, None, None)):
+        if p not in (CRM_P82A, CRM_P82B):
+            continue
+        if not isinstance(o, Literal):
+            continue
+        lex = str(o)
+
+        # Caso EDTF: Y..., year a 5+ cifre, anno 0 o negativo
+        if _needs_edtf(lex):
+            # togli eventuale T... (EDTF per giorno completo non richiede l'ora)
+            base = lex.split("T", 1)[0]
+            if o.datatype != EDTF_DT or base != lex:
+                to_fix.append((s, p, o, Literal(base, datatype=EDTF_DT)))
+            continue
+
+        # Caso normale 4 cifre (1..9999): assicurare xsd:dateTime con T
+        m = YEAR4_RE.match(lex)
+        if m:
+            y = int(m.group("y"))
+            if 1 <= y <= 9999:
+                want = _ensure_t(lex.split("T", 1)[0], is_begin=(p == CRM_P82A))
+                if o.datatype != XSD.dateTime or want != lex:
+                    to_fix.append((s, p, o, Literal(want, datatype=XSD.dateTime)))
+            else:
+                # anno 0000 catturato da YEAR4_RE ma non valido → passa al ramo EDTF
+                base = lex.split("T", 1)[0]
+                to_fix.append((s, p, o, Literal(base, datatype=EDTF_DT)))
+        else:
+            # pattern inatteso: non toccare
+            pass
+
+    for s, p, old, new in to_fix:
+        g.remove((s, p, old))
+        g.add((s, p, new))
+    return len(to_fix)
 
 def read_paths_from_config(cfg_path: str):
     cfg = configparser.ConfigParser()
@@ -93,6 +175,12 @@ def merge_graphs(ttl1: str, ttl2: str, merged_out: str, fmt_in: str = "turtle", 
         merged.bind(prefix, uri)
 
     os.makedirs(os.path.dirname(merged_out) or ".", exist_ok=True)
+
+    # bind prefix per leggibilità (opzionale)
+    merged.bind("edtf", "http://id.loc.gov/datatypes/edtf/")
+    fixed = normalize_time_literals(merged)
+    print(f"[orchestrator] Normalizzati {fixed} literal di tempo (xsd:dateTime/edtf:EDTF).")
+
     merged.serialize(destination=merged_out, format=fmt_out)
     print(f"[orchestrator] Grafo unificato scritto in: {merged_out}")
 

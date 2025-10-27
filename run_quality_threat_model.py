@@ -50,6 +50,15 @@ try:
 except Exception:
     requests = None
 
+# --- rdflib: disabilita cast automatico di xsd:dateTime (e opzionalmente xsd:date) ---
+try:
+    from rdflib.term import _toPythonMapping
+    from rdflib.namespace import XSD
+    _toPythonMapping.pop(XSD.dateTime, None)
+    _toPythonMapping.pop(XSD.date, None)  # se comparisse xsd:date
+    print("[INFO] rdflib datetime cast disabled in this process")
+except Exception as e:
+    print(f"[WARN] rdflib datetime cast patch skipped: {e}")
 
 def read_cfg(cfg_path: str) -> Tuple[str, str, dict]:
     """

@@ -279,6 +279,7 @@ def hash_iri(string):
 import re
 import unicodedata
 import datetime
+from edtf import parse_edtf
 
 
 @udf(
@@ -334,6 +335,7 @@ def pad_year(year_str):
     else:
         return str(y).zfill(4)
 
+import re, unicodedata
 
 @udf(
     fun_id="http://example.com/idlab/function/split_year_range_to_dates",
@@ -341,60 +343,50 @@ def pad_year(year_str):
     position="http://example.com/idlab/function/param_position_e"
 )
 def split_year_range_to_dates(string, position):
-    """
-    Processa una stringa che rappresenta un intervallo di anni (o un singolo anno)
-    e restituisce una data in formato ISO8601 (xsd:dateTime) corrispondente all'inizio
-    o alla fine dell'anno.
-
-    La stringa in input può essere nel formato:
-      "YYYY-YYYY" oppure "YYYY" (o con anni BC, ad esempio "-100 - -50"),
-    con spazi arbitrari intorno al trattino.
-
-    Questa funzione:
-      - rimuove spazi extra e normalizza il separatore,
-      - usa una regex per catturare il primo anno (con segno opzionale) e, se presente, il secondo,
-      - "pada" ciascun anno a quattro cifre;
-      - se l'anno risultante è negativo (BC) o fuori dal range 0001–9999, restituisce None,
-      - altrimenti restituisce una stringa ISO8601 corrispondente all'inizio o alla fine dell'anno.
-
-    Esempi:
-      "1400 - 1520"  ->  start: "1400-01-01T00:00:00Z", end: "1520-12-31T23:59:59Z"
-      "- 0-99"       ->  restituisce None (perché l'anno sarebbe BC)
-      "1482"         ->  start: "1482-01-01T00:00:00Z", end: "1482-12-31T23:59:59Z"
-
-    Se il formato non è riconosciuto, restituisce None.
-    """
     if not string:
         return None
 
-    # Rimuove spazi all'inizio e alla fine e normalizza il separatore (rimuove spazi attorno al trattino)
-    string = string.strip()
-    string = re.sub(r'\s*-\s*', '-', string)
-
-    # Usa una regex per catturare il primo anno (con segno opzionale) e, opzionalmente, il secondo anno
-    m = re.match(r'^([-]?\d+)(?:-([-]?\d+))?$', string)
-    if not m:
-        return None
-    year_start, year_end = m.groups()
-    if year_end is None:
-        year_end = year_start
-
-    # Applica la "paddatura" e il controllo di range
-    year_start = pad_year(year_start)
-    year_end = pad_year(year_end)
-    if year_start is None or year_end is None:
-        return None  # Se uno degli anni non è valido, restituisce None
-
-    # Se uno degli anni è negativo (BC), non lo supportiamo: restituisci None
-    if year_start.startswith('-') or year_end.startswith('-'):
+    s = unicodedata.normalize("NFKC", str(string)).strip()
+    s = re.sub(r"[\u2010-\u2015\u2212]+", "-", s)         # unifica i trattini
+    shared = s.lstrip().startswith("-")                   # "-" davanti?
+    core = s.lstrip()[1:].strip() if shared else s
+    core = re.sub(r"\s*-\s*", "-", core)
+    if not core:
         return None
 
-    if position.lower() == 'start':
-        return f"{year_start}-01-01T00:00:00Z"
-    elif position.lower() == 'end':
-        return f"{year_end}-12-31T23:59:59Z"
+    # prendi 1 o 2 numeri
+    if "-" in core:
+        a_str, b_str = core.split("-", 1)
+        try:
+            a, b = int(a_str), int(b_str)
+        except ValueError:
+            return None
+        if shared:
+            a, b = -a, -b
+        start, end = (a, b) if a <= b else (b, a)
     else:
-        raise ValueError("Expected 'start' or 'end' for 'position' parameter")
+        try:
+            y = int(core)
+        except ValueError:
+            return None
+        y = -y if shared else y
+        start = end = y
+
+    # formatter per ciascun estremo (indipendente)
+    def fmt(y: int, m: int, d: int, is_start: bool) -> str:
+        # 1..9999 → ISO xsd:dateTime; 0 o |y|>9999 o y<0 → EDTF long-year "Y±N-MM-DD"
+        if 1 <= y <= 9999:
+            t = "00:00:00Z" if is_start else "23:59:59Z"
+            return f"{y:04d}-{m:02d}-{d:02d}T{t}"
+        return f"Y{y}-{m:02d}-{d:02d}"
+
+    pos = (position or "").strip().lower()
+    if pos == "start":
+        return fmt(start, 1, 1, True)
+    elif pos == "end":
+        return fmt(end, 12, 31, False)
+    else:
+        raise ValueError("Expected 'start' or 'end'")
 
 # def convert_date_to_xsd_datetime(date_str: str) -> str:
 #     """
