@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 '''
+Threat Model and Data Quality Checks
+
 This script was integrated into the codebase to assess the quality of the RDF data just generated (run_quality_threat_model.py).
 Threat Model and Data Quality Checks identify structural and semantic anomalies in the unified RDF graph.
 
@@ -29,6 +31,7 @@ It includes the fields below:
 - details: sampled list (up to 50 items) of cases detected.
 - params: configuration used in executing the quality check  (timeout, link domains, buckets, properties, etc.).
 
+This script is executed after all the other tasks in run_unified_pipeline.py, to assess the quality of the just generated graph.
 '''
 from __future__ import annotations
 import argparse
