@@ -13440,7 +13440,8 @@
     crm:P190_has_symbolic_content "Accademia Carrara" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/adonide/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Adonide [Adonis]" .
+    crm:P190_has_symbolic_content "Adonis"@en,
+        "Adonide"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/adriaen_collaert/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Adriaen Collaert (ulan:500021205)" .
@@ -13470,7 +13471,8 @@
     crm:P190_has_symbolic_content "Angelo Manzoni (viaf:89245820)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/antennaria/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Antennaria [Pussytoes]" .
+    crm:P190_has_symbolic_content "Pussytoes"@en,
+        "Antennaria"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/antica_manifattura_robert_brendel_e_figli/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Antica Manifattura Robert Brendel E Figli" .
@@ -13482,7 +13484,8 @@
     crm:P190_has_symbolic_content "Anversa" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ape/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ape [Bee]" .
+    crm:P190_has_symbolic_content "Bee"@en,
+        "Ape"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/archivio_di_stato_di_bologna/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Archivio Di Stato Di Bologna" .
@@ -13497,7 +13500,8 @@
     crm:P190_has_symbolic_content "Baldo Angelo Abati (viaf:189070892)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/balena/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Balena [Whale]" .
+    crm:P190_has_symbolic_content "Whale"@en,
+        "Balena"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/bartolomeo_ragusi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Bartolomeo Ragusi (viaf:161572299)" .
@@ -13524,13 +13528,16 @@
     crm:P190_has_symbolic_content "Bernardo Basa (viaf:29690263)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/biologia/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Biologia [Biology]" .
+    crm:P190_has_symbolic_content "Biology"@en,
+        "Biologia"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/botroidi/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Botroidi [Botryoids]" .
+    crm:P190_has_symbolic_content "Botryoids"@en,
+        "Botroidi"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/braccio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Braccio [Arm]" .
+    crm:P190_has_symbolic_content "Arm"@en,
+        "Braccio"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/british_museum/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "British Museum" .
@@ -13539,22 +13546,27 @@
     crm:P190_has_symbolic_content "Bub" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/busto/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Busto [Torso]" .
+    crm:P190_has_symbolic_content "Torso"@en,
+        "Busto"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/calcoli_renali/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Calcoli Renali [Kidney Stones]" .
+    crm:P190_has_symbolic_content "Kidney Stones"@en,
+        "Calcoli Renali"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/camaleonte/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Camaleonte [Chameleon]" .
+    crm:P190_has_symbolic_content "Chameleon"@en,
+        "Camaleonte"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/camedrio_alpino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Camedrio Alpino [Alpine Germander]" .
+    crm:P190_has_symbolic_content "Alpine Germander"@en,
+        "Camedrio Alpino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/camillo_ranzani/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Camillo Ranzani (viaf:13055229)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/caprone/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Caprone [Billy Goat]" .
+    crm:P190_has_symbolic_content "Billy Goat"@en,
+        "Caprone"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/carlo_antonio_manzolini/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Carlo Antonio Manzolini" .
@@ -13569,7 +13581,8 @@
     crm:P190_has_symbolic_content "Christophe Plantin (viaf:120696841)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cinocefalo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Cinocefalo [Cynocephalus]" .
+    crm:P190_has_symbolic_content "Cynocephalus"@en,
+        "Cinocefalo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/clemente_susini/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Clemente Susini (viaf:41419242)" .
@@ -13615,10 +13628,12 @@
     crm:P190_has_symbolic_content "Collezione Ulisse Aldrovandi" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/coralli/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Coralli [Corals]" .
+    crm:P190_has_symbolic_content "Corals"@en,
+        "Coralli"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/crostaceo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Crostaceo [Crustacean]" .
+    crm:P190_has_symbolic_content "Crustacean"@en,
+        "Crostaceo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/david_geyer/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "David Geyer (viaf:35241248)" .
@@ -13627,7 +13642,8 @@
     crm:P190_has_symbolic_content "Davide Domenici (viaf:20000053)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/delfino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Delfino [Dolphin]" .
+    crm:P190_has_symbolic_content "Dolphin"@en,
+        "Delfino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/dioscorides_pedanius/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Dioscorides Pedanius (viaf:78822798)" .
@@ -13636,13 +13652,16 @@
     crm:P190_has_symbolic_content "Dipartimento Di Scienze Biomediche E Neuromotorie Di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/drago/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Drago [Dragon]" .
+    crm:P190_has_symbolic_content "Dragon"@en,
+        "Drago"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/erbe_medicinali/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Erbe Medicinali [Medicinal Herbs]" .
+    crm:P190_has_symbolic_content "Medicinal Herbs"@en,
+        "Erbe Medicinali"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ermafrodita/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ermafrodita [Hermaphrodite]" .
+    crm:P190_has_symbolic_content "Hermaphrodite"@en,
+        "Ermafrodita"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/etienne_geoffroy-saint-hilaire/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Étienne Geoffroy-saint-hilaire (viaf:39377694)" .
@@ -13684,7 +13703,8 @@
     crm:P190_has_symbolic_content "Galleria Borghese" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/gamba/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Gamba [Leg]" .
+    crm:P190_has_symbolic_content "Leg"@en,
+        "Gamba"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/gaspare_bindoni/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Gaspare Bindoni (viaf:99884281)" .
@@ -13693,7 +13713,8 @@
     crm:P190_has_symbolic_content "Gaspare Tagliacozzi (viaf:59436362)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/gazzella/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Gazzella [Gazelle]" .
+    crm:P190_has_symbolic_content "Gazelle"@en,
+        "Gazzella"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/georg_agricola/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Georg Agricola (viaf:100164815)" .
@@ -13702,7 +13723,8 @@
     crm:P190_has_symbolic_content "Georg August Goldfuss (viaf:44642581)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/geroglifici/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Geroglifici [Hieroglyphs]" .
+    crm:P190_has_symbolic_content "Hieroglyphs"@en,
+        "Geroglifici"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/giacomo_mascardi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Giacomo Mascardi (viaf:11893599)" .
@@ -13711,7 +13733,8 @@
     crm:P190_has_symbolic_content "Giacomo Zanoni (viaf:100212301)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/giaguaro/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Giaguaro [Jaguar]" .
+    crm:P190_has_symbolic_content "Jaguar"@en,
+        "Giaguaro"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/giorgio_rusconi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Giorgio Rusconi (viaf:36501174)" .
@@ -13729,7 +13752,8 @@
     crm:P190_has_symbolic_content "Giovanni Tacuino (viaf:100177277)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/girasole/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Girasole [Sunflower]" .
+    crm:P190_has_symbolic_content "Sunflower"@en,
+        "Girasole"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/girolamo_porro/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Girolamo Porro (viaf:73994407)" .
@@ -13750,16 +13774,19 @@
     crm:P190_has_symbolic_content "Giuseppe Picotti" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/graminacee/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Graminacee [Grasses]" .
+    crm:P190_has_symbolic_content "Grasses"@en,
+        "Graminacee"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/granchio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Granchio [Crab]" .
+    crm:P190_has_symbolic_content "Crab"@en,
+        "Granchio"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/grazioso_benincasa/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Grazioso Benincasa (ulan:500114874)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/gufo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Gufo [Owl]" .
+    crm:P190_has_symbolic_content "Owl"@en,
+        "Gufo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/henri-marie_ducrotay_de_blainville/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Henri-marie Ducrotay De Blainville (viaf:76391064)" .
@@ -13768,16 +13795,19 @@
     crm:P190_has_symbolic_content "Henri Milne-edwards (viaf:12392989)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/iguana/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Iguana [Iguana]" .
+    crm:P190_has_symbolic_content "Iguana"@en,
+        "Iguana"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ippolito_salviani/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Ippolito Salviani (viaf:5271279)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ippopotamo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ippopotamo [Hippopotamus]" .
+    crm:P190_has_symbolic_content "Hippopotamus"@en,
+        "Ippopotamo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/iscrizione_araba/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Iscrizione Araba [Arabic Inscription]" .
+    crm:P190_has_symbolic_content "Arabic Inscription"@en,
+        "Iscrizione Araba"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/jacopo_tosi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Jacopo Tosi" .
@@ -13834,7 +13864,8 @@
     crm:P190_has_symbolic_content "Lelio Dalla Volpe (viaf:229161781)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/leone/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Leone [Lion]" .
+    crm:P190_has_symbolic_content "Lion"@en,
+        "Leone"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/leopoldo_marco_antonio_caldani/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Leopoldo Marco Antonio Caldani (viaf:46775522)" .
@@ -13843,7 +13874,8 @@
     crm:P190_has_symbolic_content "Lidio Cipriani (viaf:51784159)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/lofoforo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Lofoforo [Lophophore]" .
+    crm:P190_has_symbolic_content "Lophophore"@en,
+        "Lofoforo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/londra/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Londra" .
@@ -13855,7 +13887,8 @@
     crm:P190_has_symbolic_content "Luca Giordano (ulan:500115457)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/lucertola/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Lucertola [Lizard]" .
+    crm:P190_has_symbolic_content "Lizard"@en,
+        "Lucertola"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ludovico_foresti/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Ludovico Foresti" .
@@ -13867,28 +13900,34 @@
     crm:P190_has_symbolic_content "Luigi Ferdinando Marsili (viaf:27075563)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/lumaca/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Lumaca [Snail]" .
+    crm:P190_has_symbolic_content "Snail"@en,
+        "Lumaca"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/luna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Luna [Moon]" .
+    crm:P190_has_symbolic_content "Moon"@en,
+        "Luna"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mammut/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Mammut [Mammoth]" .
+    crm:P190_has_symbolic_content "Mammoth"@en,
+        "Mammut"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/marcello_malpighi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Marcello Malpighi (viaf:85044)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/maschera/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Maschera [Mask]" .
+    crm:P190_has_symbolic_content "Mask"@en,
+        "Maschera"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/materiale_elettrico/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Materiale Elettrico [Electric Material]" .
+    crm:P190_has_symbolic_content "Electric Material"@en,
+        "Materiale Elettrico"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/miguel_de_eguia/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Miguel De Eguía (viaf:99748920)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mollusco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Mollusco [Mollusk]" .
+    crm:P190_has_symbolic_content "Mollusk"@en,
+        "Mollusco"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/museo_civico_archeologico_di_bologna/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Museo Civico Archeologico Di Bologna" .
@@ -13909,10 +13948,12 @@
     crm:P190_has_symbolic_content "Museo Di Storia Naturale Di Verona" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/narciso/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Narciso [Narcissus]" .
+    crm:P190_has_symbolic_content "Narcissus"@en,
+        "Narciso"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/naso/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Naso [Nose]" .
+    crm:P190_has_symbolic_content "Nose"@en,
+        "Naso"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/nathanael_gottfried_leske/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Nathanael Gottfried Leske (viaf:5359394)" .
@@ -13921,10 +13962,12 @@
     crm:P190_has_symbolic_content "Naturaliter" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/nautilio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Nautilio [Nautilus]" .
+    crm:P190_has_symbolic_content "Nautilus"@en,
+        "Nautilio"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/neolitico/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Neolitico [Neolithic]" .
+    crm:P190_has_symbolic_content "Neolithic"@en,
+        "Neolitico"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/new_york/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "New York" .
@@ -13939,10 +13982,12 @@
     crm:P190_has_symbolic_content "Nicolò Tebaldini (viaf:203106596)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/noce_di_cocco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Noce Di Cocco [Coconut]" .
+    crm:P190_has_symbolic_content "Coconut"@en,
+        "Noce Di Cocco"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/occhi/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Occhi [Eyes]" .
+    crm:P190_has_symbolic_content "Eyes"@en,
+        "Occhi"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/officina_janssonio-waesbergiana/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Officina Janssonio-waesbergiana (viaf:122386779)" .
@@ -13957,37 +14002,46 @@
     crm:P190_has_symbolic_content "Pablo De La Llave (viaf:6044314)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/palma/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Palma [Palm]" .
+    crm:P190_has_symbolic_content "Palm"@en,
+        "Palma"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pappagallo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pappagallo [Parrot]" .
+    crm:P190_has_symbolic_content "Parrot"@en,
+        "Pappagallo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/parigi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Parigi" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_cane/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Cane [Dogfish]" .
+    crm:P190_has_symbolic_content "Dogfish"@en,
+        "Pesce Cane"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_chitarra/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Chitarra [Guitarfish]" .
+    crm:P190_has_symbolic_content "Guitarfish"@en,
+        "Pesce Chitarra"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_palla/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Palla [Pufferfish]" .
+    crm:P190_has_symbolic_content "Pufferfish"@en,
+        "Pesce Palla"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_sega/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Sega [Sawfish]" .
+    crm:P190_has_symbolic_content "Sawfish"@en,
+        "Pesce Sega"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_spada/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Spada [Swordfish]" .
+    crm:P190_has_symbolic_content "Swordfish"@en,
+        "Pesce Spada"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce_volante/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pesce Volante [Flying Fish]" .
+    crm:P190_has_symbolic_content "Flying Fish"@en,
+        "Pesce Volante"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/philipp_ludwig_statius_muller/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Philipp Ludwig Statius Müller (viaf:18096264)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pianta/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pianta [Plant]" .
+    crm:P190_has_symbolic_content "Plant"@en,
+        "Pianta"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pierre-joseph_bonnaterre/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Pierre-joseph Bonnaterre (viaf:56729257)" .
@@ -14005,25 +14059,30 @@
     crm:P190_has_symbolic_content "Pisa" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/polifemo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Polifemo [Polyphemus]" .
+    crm:P190_has_symbolic_content "Polyphemus"@en,
+        "Polifemo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/polpo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Polpo [Octopus]" .
+    crm:P190_has_symbolic_content "Octopus"@en,
+        "Polpo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pomodoro/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Pomodoro [Tomato]" .
+    crm:P190_has_symbolic_content "Tomato"@en,
+        "Pomodoro"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/publius_ovidius_naso/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Publius Ovidius Naso (viaf:88342447)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/quetzal/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Quetzal [Quetzal]" .
+    crm:P190_has_symbolic_content "Quetzal"@en,
+        "Quetzal"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/raffaelo_riario/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Raffaelo Riario (viaf:25474452)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rana_pescatrice/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Rana Pescatrice [Anglerfish]" .
+    crm:P190_has_symbolic_content "Anglerfish"@en,
+        "Rana Pescatrice"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/reggia_di_caserta/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Reggia Di Caserta" .
@@ -14032,10 +14091,12 @@
     crm:P190_has_symbolic_content "Residenza Del Principe-vescovo Von Greiffenclau" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rettile/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Rettile [Reptile]" .
+    crm:P190_has_symbolic_content "Reptile"@en,
+        "Rettile"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/riccio_di_mare/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Riccio Di Mare [Sea Urchin]" .
+    crm:P190_has_symbolic_content "Sea Urchin"@en,
+        "Riccio Di Mare"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rijksmuseum/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Rijksmuseum" .
@@ -14044,28 +14105,34 @@
     crm:P190_has_symbolic_content "Roma" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rospo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Rospo [Toad]" .
+    crm:P190_has_symbolic_content "Toad"@en,
+        "Rospo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rudolf_martin/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Rudolf Martin (viaf:57414035)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ruota_idraulica/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ruota Idraulica [Water Wheel]" .
+    crm:P190_has_symbolic_content "Water Wheel"@en,
+        "Ruota Idraulica"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rutgert_christoffel_alberts/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Rutgert Christoffel Alberts (viaf:380159474187327661769)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/scarabeo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Scarabeo [Beetle]" .
+    crm:P190_has_symbolic_content "Beetle"@en,
+        "Scarabeo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/scazzone_marino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Scazzone Marino [Marine Sculpin]" .
+    crm:P190_has_symbolic_content "Marine Sculpin"@en,
+        "Scazzone Marino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/scorpione/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Scorpione [Scorpion]" .
+    crm:P190_has_symbolic_content "Scorpion"@en,
+        "Scorpione"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/serpente/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Serpente [Snake]" .
+    crm:P190_has_symbolic_content "Snake"@en,
+        "Serpente"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/siena/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Siena" .
@@ -14074,40 +14141,49 @@
     crm:P190_has_symbolic_content "Sistema Museale Di Ateneo Di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/smeriglio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Smeriglio [Porbeagle]" .
+    crm:P190_has_symbolic_content "Porbeagle"@en,
+        "Smeriglio"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/sorcio_di_mare/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Sorcio Di Mare [Sea Mouse]" .
+    crm:P190_has_symbolic_content "Sea Mouse"@en,
+        "Sorcio Di Mare"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/speronella/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Speronella [Larkspur]" .
+    crm:P190_has_symbolic_content "Larkspur"@en,
+        "Speronella"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/squalo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Squalo [Shark]" .
+    crm:P190_has_symbolic_content "Shark"@en,
+        "Squalo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/squalo_martello/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Squalo Martello [Hammerhead Shark]" .
+    crm:P190_has_symbolic_content "Hammerhead Shark"@en,
+        "Squalo Martello"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/stamperia_del_seminario/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Stamperia Del Seminario" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tacchino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Tacchino [Turkey]" .
+    crm:P190_has_symbolic_content "Turkey"@en,
+        "Tacchino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tarsizio_riviera/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Tarsizio Riviera (viaf:263904234)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tartaruga/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Tartaruga [Turtle]" .
+    crm:P190_has_symbolic_content "Turtle"@en,
+        "Tartaruga"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/teofrasto/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Teofrasto (viaf:265397758)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/terra/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Terra [Earth]" .
+    crm:P190_has_symbolic_content "Earth"@en,
+        "Terra"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/testamento/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Testamento [Testament]" .
+    crm:P190_has_symbolic_content "Testament"@en,
+        "Testamento"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/the_metropolitan_museum_of_art/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "The Metropolitan Museum Of Art" .
@@ -14116,25 +14192,31 @@
     crm:P190_has_symbolic_content "Timoteo Refati" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/triboide/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Triboide [Trilobite]" .
+    crm:P190_has_symbolic_content "Trilobite"@en,
+        "Triboide"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tucano/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Tucano [Toucan]" .
+    crm:P190_has_symbolic_content "Toucan"@en,
+        "Tucano"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tulipano/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Tulipano [Tulip]" .
+    crm:P190_has_symbolic_content "Tulip"@en,
+        "Tulipano"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/uccello/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Uccello [Bird]" .
+    crm:P190_has_symbolic_content "Bird"@en,
+        "Uccello"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/uovo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Uovo [Egg]" .
+    crm:P190_has_symbolic_content "Egg"@en,
+        "Uovo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/urbino/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Urbino" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ushabti/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ushabti [Ushabti]" .
+    crm:P190_has_symbolic_content "Ushabti"@en,
+        "Ushabti"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/venezia/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Venezia" .
@@ -24571,20 +24653,28 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/stamperia_del_seminario/1> .
 
 <https://w3id.org/changes/4/aldrovandi/apl/albero/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Albero [Tree]",
-        "Capra [Goat]" .
+    crm:P190_has_symbolic_content "Goat"@en,
+        "Tree"@en,
+        "Albero"@it,
+        "Capra"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/bacello/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bacello [Pod]",
-        "Seme [Seed]" .
+    crm:P190_has_symbolic_content "Pod"@en,
+        "Seed"@en,
+        "Bacello"@it,
+        "Seme"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/basilisco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Basilisco [Basilisk]",
-        "Mostro [Monster]" .
+    crm:P190_has_symbolic_content "Basilisk"@en,
+        "Monster"@en,
+        "Basilisco"@it,
+        "Mostro"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/bastone/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bastone [Staff]",
-        "Umano [Human]" .
+    crm:P190_has_symbolic_content "Human"@en,
+        "Staff"@en,
+        "Bastone"@it,
+        "Umano"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/benoit_prevost/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Benoît Prévost (viaf:49333645)",
@@ -24595,8 +24685,10 @@
         "Fisica E Informatica Di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/calendario_azteco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Calendario Azteco [Aztec Calendar]",
-        "Divinazione [Divination]" .
+    crm:P190_has_symbolic_content "Aztec Calendar"@en,
+        "Divination"@en,
+        "Calendario Azteco"@it,
+        "Divinazione"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cancelli/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Cancelli",
@@ -24607,56 +24699,76 @@
         "Joseph Gaertner (viaf:36987534)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/castoro/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Capra [Goat]",
-        "Castoro [Beaver]" .
+    crm:P190_has_symbolic_content "Beaver"@en,
+        "Goat"@en,
+        "Capra"@it,
+        "Castoro"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/christiaan_hendrik_persoon/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Christiaan Hendrik Persoon (viaf:73908138)",
         "Johann Friedrich Gmelin (viaf:3267149296234680670008)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cigno/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Anatomia [Anatomy]",
-        "Cigno [Swan]" .
+    crm:P190_has_symbolic_content "Anatomy"@en,
+        "Swan"@en,
+        "Anatomia"@it,
+        "Cigno"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/divinazione/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Calendario Azteco [Aztec Calendar]",
-        "Divinazione [Divination]" .
+    crm:P190_has_symbolic_content "Aztec Calendar"@en,
+        "Divination"@en,
+        "Calendario Azteco"@it,
+        "Divinazione"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/donna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Donna [Woman]",
-        "Pellagra [Pellagra]" .
+    crm:P190_has_symbolic_content "Pellagra"@en,
+        "Woman"@en,
+        "Donna"@it,
+        "Pellagra"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/equipaggiamento/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Equipaggiamento [Equipment]",
-        "Fotografia [Photography]" .
+    crm:P190_has_symbolic_content "Equipment"@en,
+        "Photography"@en,
+        "Equipaggiamento"@it,
+        "Fotografia"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/erbe/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Botanica [Botany]",
-        "Erbe [Herbs]" .
+    crm:P190_has_symbolic_content "Botany"@en,
+        "Herbs"@en,
+        "Botanica"@it,
+        "Erbe"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fabrizio/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Cancelli",
         "Fabrizio" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fior_di_stecco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fior Di Stecco [Mezereon]",
-        "Fiore [Flower]" .
+    crm:P190_has_symbolic_content "Flower"@en,
+        "Mezereon"@en,
+        "Fior Di Stecco"@it,
+        "Fiore"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fisica_e_informatica_di_bologna/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Biblioteca Di Matematica",
         "Fisica E Informatica Di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fortuna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fortuna [Fortune]",
-        "Mercurio [Mercury]" .
+    crm:P190_has_symbolic_content "Fortune"@en,
+        "Mercury"@en,
+        "Fortuna"@it,
+        "Mercurio"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fotografia/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Equipaggiamento [Equipment]",
-        "Fotografia [Photography]" .
+    crm:P190_has_symbolic_content "Equipment"@en,
+        "Photography"@en,
+        "Equipaggiamento"@it,
+        "Fotografia"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/giglio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fiore [Flower]",
-        "Giglio [Lily]" .
+    crm:P190_has_symbolic_content "Flower"@en,
+        "Lily"@en,
+        "Fiore"@it,
+        "Giglio"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/gilles_corrozet/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Benoît Prévost (viaf:49333645)",
@@ -24671,24 +24783,32 @@
         "John Jeremiah Bigsby (viaf:40160164)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/giunco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fiore [Flower]",
-        "Giunco [Rush]" .
+    crm:P190_has_symbolic_content "Flower"@en,
+        "Rush"@en,
+        "Fiore"@it,
+        "Giunco"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/grecia/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Grecia [Greece]",
-        "Isole [Islands]" .
+    crm:P190_has_symbolic_content "Greece"@en,
+        "Islands"@en,
+        "Grecia"@it,
+        "Isole"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/hieronymus_froben/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Hieronymus Froben (viaf:32319505)",
         "Nicolaus Episcopius (viaf:100388966)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/intestino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Elefante [Elephant]",
-        "Intestino [Intestine]" .
+    crm:P190_has_symbolic_content "Elephant"@en,
+        "Intestine"@en,
+        "Elefante"@it,
+        "Intestino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/isole/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Grecia [Greece]",
-        "Isole [Islands]" .
+    crm:P190_has_symbolic_content "Greece"@en,
+        "Islands"@en,
+        "Grecia"@it,
+        "Isole"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/johann_friedrich_gmelin/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Christiaan Hendrik Persoon (viaf:73908138)",
@@ -24703,96 +24823,137 @@
         "Joseph Gaertner (viaf:36987534)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/lino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fiore [Flower]",
-        "Lino [Flax]" .
+    crm:P190_has_symbolic_content "Flax"@en,
+        "Flower"@en,
+        "Fiore"@it,
+        "Lino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/luigi_galvani/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Luigi Galvani [Luigi Galvani]",
-        "Macchina Elettrostatica [Electrostatic Machine]" .
+    crm:P190_has_symbolic_content "Electrostatic Machine"@en,
+        "Luigi Galvani"@en,
+        "Luigi Galvani"@it,
+        "Macchina Elettrostatica"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/macchina_elettrostatica/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Luigi Galvani [Luigi Galvani]",
-        "Macchina Elettrostatica [Electrostatic Machine]" .
+    crm:P190_has_symbolic_content "Electrostatic Machine"@en,
+        "Luigi Galvani"@en,
+        "Luigi Galvani"@it,
+        "Macchina Elettrostatica"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/marco_antonio_bernia/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Giovanni Battista Ferroni (viaf:99638925)",
         "Marco Antonio Bernia (viaf:64188928)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mercurio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fortuna [Fortune]",
-        "Mercurio [Mercury]" .
+    crm:P190_has_symbolic_content "Fortune"@en,
+        "Mercury"@en,
+        "Fortuna"@it,
+        "Mercurio"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/narvalo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Dente [Tooth]",
-        "Narvalo [Narwhal]" .
+    crm:P190_has_symbolic_content "Narwhal"@en,
+        "Tooth"@en,
+        "Dente"@it,
+        "Narvalo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/nicolaus_episcopius/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Hieronymus Froben (viaf:32319505)",
         "Nicolaus Episcopius (viaf:100388966)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/nido/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Nido [Nest]",
-        "Pendolino [Penduline Tit]" .
+    crm:P190_has_symbolic_content "Nest"@en,
+        "Penduline Tit"@en,
+        "Nido"@it,
+        "Pendolino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pellagra/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Donna [Woman]",
-        "Pellagra [Pellagra]" .
+    crm:P190_has_symbolic_content "Pellagra"@en,
+        "Woman"@en,
+        "Donna"@it,
+        "Pellagra"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pendolino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Nido [Nest]",
-        "Pendolino [Penduline Tit]" .
+    crm:P190_has_symbolic_content "Nest"@en,
+        "Penduline Tit"@en,
+        "Nido"@it,
+        "Pendolino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pesce/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Dente [Tooth]",
-        "Pesce [Fish]" .
+    crm:P190_has_symbolic_content "Fish"@en,
+        "Tooth"@en,
+        "Dente"@it,
+        "Pesce"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/primula/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fiore [Flower]",
-        "Primula [Primrose]" .
+    crm:P190_has_symbolic_content "Flower"@en,
+        "Primrose"@en,
+        "Fiore"@it,
+        "Primula"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pulcino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Anatomia [Anatomy]",
-        "Pulcino [Chick]" .
+    crm:P190_has_symbolic_content "Anatomy"@en,
+        "Chick"@en,
+        "Anatomia"@it,
+        "Pulcino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/seme/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bacello [Pod]",
-        "Seme [Seed]" .
+    crm:P190_has_symbolic_content "Pod"@en,
+        "Seed"@en,
+        "Bacello"@it,
+        "Seme"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/serapide/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Serapide [Serapis]",
-        "Trono [Throne]" .
+    crm:P190_has_symbolic_content "Serapis"@en,
+        "Throne"@en,
+        "Serapide"@it,
+        "Trono"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/struzzo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Struzzo [Ostrich]",
-        "Uova [Eggs]" .
+    crm:P190_has_symbolic_content "Eggs"@en,
+        "Ostrich"@en,
+        "Struzzo"@it,
+        "Uova"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/tigre/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Scheletro [Skeleton]",
-        "Tigre [Tiger]" .
+    crm:P190_has_symbolic_content "Skeleton"@en,
+        "Tiger"@en,
+        "Scheletro"@it,
+        "Tigre"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/trono/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Serapide [Serapis]",
-        "Trono [Throne]" .
+    crm:P190_has_symbolic_content "Serapis"@en,
+        "Throne"@en,
+        "Serapide"@it,
+        "Trono"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ulisse_aldrovandi/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Ulisse Aldrovandi (viaf:100190422)",
-        "Ulisse Aldrovandi [Ulisse Aldrovandi]" .
+        "Ulisse Aldrovandi"@en,
+        "Ulisse Aldrovandi"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/vaccino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Vaccino [Vaccine]",
-        "Vaiolo [Smallpox]" .
+    crm:P190_has_symbolic_content "Smallpox"@en,
+        "Vaccine"@en,
+        "Vaccino"@it,
+        "Vaiolo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/vaiolo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Vaccino [Vaccine]",
-        "Vaiolo [Smallpox]" .
+    crm:P190_has_symbolic_content "Smallpox"@en,
+        "Vaccine"@en,
+        "Vaccino"@it,
+        "Vaiolo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/vipera/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Medicina [Medicine]",
-        "Vipera [Viper]" .
+    crm:P190_has_symbolic_content "Medicine"@en,
+        "Viper"@en,
+        "Medicina"@it,
+        "Vipera"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/vitello/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Mostro [Monster]",
-        "Vitello [Calf]" .
+    crm:P190_has_symbolic_content "Calf"@en,
+        "Monster"@en,
+        "Mostro"@it,
+        "Vitello"@it .
 
 <https://w3id.org/changes/4/aldrovandi/col/collezione_di_anatomia_comparata/1> a crm:E24_Physical_Human-Made_Thing ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_comparata/1> ;
@@ -28874,9 +29035,12 @@
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/new_york/1> .
 
 <https://w3id.org/changes/4/aldrovandi/apl/antilope/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Antilope [Antelope]",
-        "Cervo [Deer]",
-        "Rinoceronte [Rhinoceros]" .
+    crm:P190_has_symbolic_content "Antelope"@en,
+        "Deer"@en,
+        "Rhinoceros"@en,
+        "Antilope"@it,
+        "Cervo"@it,
+        "Rinoceronte"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/biblioteca_del_dipartimento_di_scienze_biologiche/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Biblioteca Del Dipartimento Di Scienze Biologiche",
@@ -28884,79 +29048,124 @@
         "Geologiche E Ambientali" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/botanica/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Botanica [Botany]",
-        "Erbe [Herbs]",
-        "Medicina [Medicine]" .
+    crm:P190_has_symbolic_content "Botany"@en,
+        "Herbs"@en,
+        "Medicine"@en,
+        "Botanica"@it,
+        "Erbe"@it,
+        "Medicina"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/capra/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Albero [Tree]",
-        "Capra [Goat]",
-        "Castoro [Beaver]" .
+    crm:P190_has_symbolic_content "Beaver"@en,
+        "Goat"@en,
+        "Tree"@en,
+        "Albero"@it,
+        "Capra"@it,
+        "Castoro"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cavallo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Cavallo [Horse]",
-        "Feto [Fetus]",
-        "Testa [Head]" .
+    crm:P190_has_symbolic_content "Fetus"@en,
+        "Head"@en,
+        "Horse"@en,
+        "Cavallo"@it,
+        "Feto"@it,
+        "Testa"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/centrina/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Centrina [Spiny Dogfish]",
-        "Falso [Fake]",
-        "Mostro [Monster]" .
+    crm:P190_has_symbolic_content "Fake"@en,
+        "Monster"@en,
+        "Spiny Dogfish"@en,
+        "Centrina"@it,
+        "Falso"@it,
+        "Mostro"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/ciclope/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ciclope [Cyclops]",
-        "Monocolo [One-eyed]",
-        "Mostro [Monster]" .
+    crm:P190_has_symbolic_content "Cyclops"@en,
+        "Monster"@en,
+        "One-eyed"@en,
+        "Ciclope"@it,
+        "Monocolo"@it,
+        "Mostro"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/coccodrillo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Allegoria [Allegory]",
-        "America [America]",
-        "Coccodrillo [Crocodile]" .
+    crm:P190_has_symbolic_content "Allegory"@en,
+        "America"@en,
+        "Crocodile"@en,
+        "Allegoria"@it,
+        "America"@it,
+        "Coccodrillo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/corna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bovino [Bovine]",
-        "Cervo [Deer]",
-        "Corna [Horns]" .
+    crm:P190_has_symbolic_content "Bovine"@en,
+        "Deer"@en,
+        "Horns"@en,
+        "Bovino"@it,
+        "Cervo"@it,
+        "Corna"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cusco/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "America [America]",
-        "Cusco [Cusco]",
-        "Perù [Peru]" .
+    crm:P190_has_symbolic_content "America"@en,
+        "Cusco"@en,
+        "Peru"@en,
+        "America"@it,
+        "Cusco"@it,
+        "Perù"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/dio/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Dio [God]",
-        "Mercanti [Merchants]",
-        "Yacatecuhtli [Yacatecuhtli]" .
+    crm:P190_has_symbolic_content "God"@en,
+        "Merchants"@en,
+        "Yacatecuhtli"@en,
+        "Dio"@it,
+        "Mercanti"@it,
+        "Yacatecuhtli"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/elefante/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Dente [Tooth]",
-        "Elefante [Elephant]",
-        "Intestino [Intestine]" .
+    crm:P190_has_symbolic_content "Elephant"@en,
+        "Intestine"@en,
+        "Tooth"@en,
+        "Dente"@it,
+        "Elefante"@it,
+        "Intestino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fagiano/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fagiano [Pheasant]",
-        "Pollo [Chicken]",
-        "Uova [Eggs]" .
+    crm:P190_has_symbolic_content "Chicken"@en,
+        "Eggs"@en,
+        "Pheasant"@en,
+        "Fagiano"@it,
+        "Pollo"@it,
+        "Uova"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/falso/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Centrina [Spiny Dogfish]",
-        "Falso [Fake]",
-        "Mostro [Monster]" .
+    crm:P190_has_symbolic_content "Fake"@en,
+        "Monster"@en,
+        "Spiny Dogfish"@en,
+        "Centrina"@it,
+        "Falso"@it,
+        "Mostro"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fauna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "America [America]",
-        "Fauna [Fauna]",
-        "Flora [Flora]" .
+    crm:P190_has_symbolic_content "America"@en,
+        "Fauna"@en,
+        "Flora"@en,
+        "America"@it,
+        "Fauna"@it,
+        "Flora"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/feto/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bovino [Bovine]",
-        "Cavallo [Horse]",
-        "Feto [Fetus]" .
+    crm:P190_has_symbolic_content "Bovine"@en,
+        "Fetus"@en,
+        "Horse"@en,
+        "Bovino"@it,
+        "Cavallo"@it,
+        "Feto"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/flora/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "America [America]",
-        "Fauna [Fauna]",
-        "Flora [Flora]" .
+    crm:P190_has_symbolic_content "America"@en,
+        "Fauna"@en,
+        "Flora"@en,
+        "America"@it,
+        "Fauna"@it,
+        "Flora"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/geologiche_e_ambientali/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Biblioteca Del Dipartimento Di Scienze Biologiche",
@@ -28964,59 +29173,91 @@
         "Geologiche E Ambientali" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/medicina/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Botanica [Botany]",
-        "Medicina [Medicine]",
-        "Vipera [Viper]" .
+    crm:P190_has_symbolic_content "Botany"@en,
+        "Medicine"@en,
+        "Viper"@en,
+        "Botanica"@it,
+        "Medicina"@it,
+        "Vipera"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mercanti/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Dio [God]",
-        "Mercanti [Merchants]",
-        "Yacatecuhtli [Yacatecuhtli]" .
+    crm:P190_has_symbolic_content "God"@en,
+        "Merchants"@en,
+        "Yacatecuhtli"@en,
+        "Dio"@it,
+        "Mercanti"@it,
+        "Yacatecuhtli"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/neonato/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Monocolo [One-eyed]",
-        "Mostro [Monster]",
-        "Neonato [Newborn]" .
+    crm:P190_has_symbolic_content "Monster"@en,
+        "Newborn"@en,
+        "One-eyed"@en,
+        "Monocolo"@it,
+        "Mostro"@it,
+        "Neonato"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/orto_botanico/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bologna [Bologna]",
-        "Orto Botanico [Botanical Garden]",
-        "Padova [Padua]" .
+    crm:P190_has_symbolic_content "Bologna"@en,
+        "Botanical Garden"@en,
+        "Padua"@en,
+        "Bologna"@it,
+        "Orto Botanico"@it,
+        "Padova"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/padova/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Orto Botanico [Botanical Garden]",
-        "Padova",
-        "Padova [Padua]" .
+    crm:P190_has_symbolic_content "Padova",
+        "Botanical Garden"@en,
+        "Padua"@en,
+        "Orto Botanico"@it,
+        "Padova"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/peru/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "America [America]",
-        "Cusco [Cusco]",
-        "Perù [Peru]" .
+    crm:P190_has_symbolic_content "America"@en,
+        "Cusco"@en,
+        "Peru"@en,
+        "America"@it,
+        "Cusco"@it,
+        "Perù"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/religione/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Allegoria [Allegory]",
-        "America [America]",
-        "Religione [Religion]" .
+    crm:P190_has_symbolic_content "Allegory"@en,
+        "America"@en,
+        "Religion"@en,
+        "Allegoria"@it,
+        "America"@it,
+        "Religione"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/rinoceronte/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Antilope [Antelope]",
-        "Cervo [Deer]",
-        "Rinoceronte [Rhinoceros]" .
+    crm:P190_has_symbolic_content "Antelope"@en,
+        "Deer"@en,
+        "Rhinoceros"@en,
+        "Antilope"@it,
+        "Cervo"@it,
+        "Rinoceronte"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/scheletro/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Scheletro [Skeleton]",
-        "Tigre [Tiger]",
-        "Umano [Human]" .
+    crm:P190_has_symbolic_content "Human"@en,
+        "Skeleton"@en,
+        "Tiger"@en,
+        "Scheletro"@it,
+        "Tigre"@it,
+        "Umano"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/testa/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Cavallo [Horse]",
-        "Testa [Head]",
-        "Umano [Human]" .
+    crm:P190_has_symbolic_content "Head"@en,
+        "Horse"@en,
+        "Human"@en,
+        "Cavallo"@it,
+        "Testa"@it,
+        "Umano"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/yacatecuhtli/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Dio [God]",
-        "Mercanti [Merchants]",
-        "Yacatecuhtli [Yacatecuhtli]" .
+    crm:P190_has_symbolic_content "God"@en,
+        "Merchants"@en,
+        "Yacatecuhtli"@en,
+        "Dio"@it,
+        "Mercanti"@it,
+        "Yacatecuhtli"@it .
 
 <https://w3id.org/changes/4/aldrovandi/col/fondo_storico_bertoloni/1> a crm:E24_Physical_Human-Made_Thing ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/fondo_storico_bertoloni/1> ;
@@ -31005,52 +31246,84 @@
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/amsterdam/1> .
 
 <https://w3id.org/changes/4/aldrovandi/apl/anatomia/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Anatomia [Anatomy]",
-        "Cigno [Swan]",
-        "Pollo [Chicken]",
-        "Pulcino [Chick]" .
+    crm:P190_has_symbolic_content "Anatomy"@en,
+        "Chick"@en,
+        "Chicken"@en,
+        "Swan"@en,
+        "Anatomia"@it,
+        "Cigno"@it,
+        "Pollo"@it,
+        "Pulcino"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/bovino/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bovino [Bovine]",
-        "Cervo [Deer]",
-        "Corna [Horns]",
-        "Feto [Fetus]" .
+    crm:P190_has_symbolic_content "Bovine"@en,
+        "Deer"@en,
+        "Fetus"@en,
+        "Horns"@en,
+        "Bovino"@it,
+        "Cervo"@it,
+        "Corna"@it,
+        "Feto"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/dente/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Dente [Tooth]",
-        "Elefante [Elephant]",
-        "Narvalo [Narwhal]",
-        "Pesce [Fish]" .
+    crm:P190_has_symbolic_content "Elephant"@en,
+        "Fish"@en,
+        "Narwhal"@en,
+        "Tooth"@en,
+        "Dente"@it,
+        "Elefante"@it,
+        "Narvalo"@it,
+        "Pesce"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mar_mediterraneo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Africa [Africa]",
-        "Asia [Asia]",
-        "Europa [Europe]",
-        "Mar Mediterraneo [Mediterranean Sea]" .
+    crm:P190_has_symbolic_content "Africa"@en,
+        "Asia"@en,
+        "Europe"@en,
+        "Mediterranean Sea"@en,
+        "Africa"@it,
+        "Asia"@it,
+        "Europa"@it,
+        "Mar Mediterraneo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/monocolo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ciclope [Cyclops]",
-        "Monocolo [One-eyed]",
-        "Mostro [Monster]",
-        "Neonato [Newborn]" .
+    crm:P190_has_symbolic_content "Cyclops"@en,
+        "Monster"@en,
+        "Newborn"@en,
+        "One-eyed"@en,
+        "Ciclope"@it,
+        "Monocolo"@it,
+        "Mostro"@it,
+        "Neonato"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/pollo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Anatomia [Anatomy]",
-        "Fagiano [Pheasant]",
-        "Pollo [Chicken]",
-        "Uova [Eggs]" .
+    crm:P190_has_symbolic_content "Anatomy"@en,
+        "Chicken"@en,
+        "Eggs"@en,
+        "Pheasant"@en,
+        "Anatomia"@it,
+        "Fagiano"@it,
+        "Pollo"@it,
+        "Uova"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/umano/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Bastone [Staff]",
-        "Scheletro [Skeleton]",
-        "Testa [Head]",
-        "Umano [Human]" .
+    crm:P190_has_symbolic_content "Head"@en,
+        "Human"@en,
+        "Skeleton"@en,
+        "Staff"@en,
+        "Bastone"@it,
+        "Scheletro"@it,
+        "Testa"@it,
+        "Umano"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/uova/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fagiano [Pheasant]",
-        "Pollo [Chicken]",
-        "Struzzo [Ostrich]",
-        "Uova [Eggs]" .
+    crm:P190_has_symbolic_content "Chicken"@en,
+        "Eggs"@en,
+        "Ostrich"@en,
+        "Pheasant"@en,
+        "Fagiano"@it,
+        "Pollo"@it,
+        "Struzzo"@it,
+        "Uova"@it .
 
 <https://w3id.org/changes/4/aldrovandi/col/collezione_di_anatomia_degli_animali_domestici/1> a crm:E24_Physical_Human-Made_Thing ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_degli_animali_domestici/1> ;
@@ -31075,53 +31348,88 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/antica_manifattura_robert_brendel_e_figli/1> .
 
 <https://w3id.org/changes/4/aldrovandi/apl/africa/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Africa [Africa]",
-        "America [America]",
-        "Asia [Asia]",
-        "Europa [Europe]",
-        "Mar Mediterraneo [Mediterranean Sea]" .
+    crm:P190_has_symbolic_content "Africa"@en,
+        "America"@en,
+        "Asia"@en,
+        "Europe"@en,
+        "Mediterranean Sea"@en,
+        "Africa"@it,
+        "America"@it,
+        "Asia"@it,
+        "Europa"@it,
+        "Mar Mediterraneo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/armadillo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Allegoria [Allegory]",
-        "America [America]",
-        "Armadillo [Armadillo]",
-        "Nativi [Natives]",
-        "Unicorno [Unicorn]" .
+    crm:P190_has_symbolic_content "Allegory"@en,
+        "America"@en,
+        "Armadillo"@en,
+        "Natives"@en,
+        "Unicorn"@en,
+        "Allegoria"@it,
+        "America"@it,
+        "Armadillo"@it,
+        "Nativi"@it,
+        "Unicorno"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/asia/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Africa [Africa]",
-        "America [America]",
-        "Asia [Asia]",
-        "Europa [Europe]",
-        "Mar Mediterraneo [Mediterranean Sea]" .
+    crm:P190_has_symbolic_content "Africa"@en,
+        "America"@en,
+        "Asia"@en,
+        "Europe"@en,
+        "Mediterranean Sea"@en,
+        "Africa"@it,
+        "America"@it,
+        "Asia"@it,
+        "Europa"@it,
+        "Mar Mediterraneo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/cervo/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Antilope [Antelope]",
-        "Bovino [Bovine]",
-        "Cervo [Deer]",
-        "Corna [Horns]",
-        "Rinoceronte [Rhinoceros]" .
+    crm:P190_has_symbolic_content "Antelope"@en,
+        "Bovine"@en,
+        "Deer"@en,
+        "Horns"@en,
+        "Rhinoceros"@en,
+        "Antilope"@it,
+        "Bovino"@it,
+        "Cervo"@it,
+        "Corna"@it,
+        "Rinoceronte"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/europa/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Africa [Africa]",
-        "America [America]",
-        "Asia [Asia]",
-        "Europa [Europe]",
-        "Mar Mediterraneo [Mediterranean Sea]" .
+    crm:P190_has_symbolic_content "Africa"@en,
+        "America"@en,
+        "Asia"@en,
+        "Europe"@en,
+        "Mediterranean Sea"@en,
+        "Africa"@it,
+        "America"@it,
+        "Asia"@it,
+        "Europa"@it,
+        "Mar Mediterraneo"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/nativi/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Allegoria [Allegory]",
-        "America [America]",
-        "Armadillo [Armadillo]",
-        "Nativi [Natives]",
-        "Unicorno [Unicorn]" .
+    crm:P190_has_symbolic_content "Allegory"@en,
+        "America"@en,
+        "Armadillo"@en,
+        "Natives"@en,
+        "Unicorn"@en,
+        "Allegoria"@it,
+        "America"@it,
+        "Armadillo"@it,
+        "Nativi"@it,
+        "Unicorno"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/unicorno/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Allegoria [Allegory]",
-        "America [America]",
-        "Armadillo [Armadillo]",
-        "Nativi [Natives]",
-        "Unicorno [Unicorn]" .
+    crm:P190_has_symbolic_content "Allegory"@en,
+        "America"@en,
+        "Armadillo"@en,
+        "Natives"@en,
+        "Unicorn"@en,
+        "Allegoria"@it,
+        "America"@it,
+        "Armadillo"@it,
+        "Nativi"@it,
+        "Unicorno"@it .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_2_basso/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_2_basso/ob00/1>,
@@ -31163,17 +31471,25 @@
 <https://w3id.org/changes/4/aldrovandi/apl/bologna/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Biblioteca Del Dipartimento Di Scienze Biologiche",
         "Bologna",
-        "Bologna [Bologna]",
         "Geologiche E Ambientali",
-        "Orto Botanico [Botanical Garden]" .
+        "Bologna"@en,
+        "Botanical Garden"@en,
+        "Bologna"@it,
+        "Orto Botanico"@it .
 
 <https://w3id.org/changes/4/aldrovandi/apl/fiore/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Fior Di Stecco [Mezereon]",
-        "Fiore [Flower]",
-        "Giglio [Lily]",
-        "Giunco [Rush]",
-        "Lino [Flax]",
-        "Primula [Primrose]" .
+    crm:P190_has_symbolic_content "Flax"@en,
+        "Flower"@en,
+        "Lily"@en,
+        "Mezereon"@en,
+        "Primrose"@en,
+        "Rush"@en,
+        "Fior Di Stecco"@it,
+        "Fiore"@it,
+        "Giglio"@it,
+        "Giunco"@it,
+        "Lino"@it,
+        "Primula"@it .
 
 <https://w3id.org/changes/4/aldrovandi/col/collezione_di_geologia_museo_giovanni_capellini/1> a crm:E24_Physical_Human-Made_Thing ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_geologia_museo_giovanni_capellini/1> ;
@@ -31208,13 +31524,20 @@
     crm:P2_has_type aat:300404126 .
 
 <https://w3id.org/changes/4/aldrovandi/apl/allegoria/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Allegoria [Allegory]",
-        "America [America]",
-        "Armadillo [Armadillo]",
-        "Coccodrillo [Crocodile]",
-        "Nativi [Natives]",
-        "Religione [Religion]",
-        "Unicorno [Unicorn]" .
+    crm:P190_has_symbolic_content "Allegory"@en,
+        "America"@en,
+        "Armadillo"@en,
+        "Crocodile"@en,
+        "Natives"@en,
+        "Religion"@en,
+        "Unicorn"@en,
+        "Allegoria"@it,
+        "America"@it,
+        "Armadillo"@it,
+        "Coccodrillo"@it,
+        "Nativi"@it,
+        "Religione"@it,
+        "Unicorno"@it .
 
 <https://w3id.org/changes/4/aldrovandi/col/collezione_delle_cere_anatomiche_luigi_cattaneo/1> a crm:E24_Physical_Human-Made_Thing ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_delle_cere_anatomiche_luigi_cattaneo/1> ;
@@ -31238,14 +31561,22 @@
     crm:P2_has_type aat:300404126 .
 
 <https://w3id.org/changes/4/aldrovandi/apl/mostro/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Basilisco [Basilisk]",
-        "Centrina [Spiny Dogfish]",
-        "Ciclope [Cyclops]",
-        "Falso [Fake]",
-        "Monocolo [One-eyed]",
-        "Mostro [Monster]",
-        "Neonato [Newborn]",
-        "Vitello [Calf]" .
+    crm:P190_has_symbolic_content "Basilisk"@en,
+        "Calf"@en,
+        "Cyclops"@en,
+        "Fake"@en,
+        "Monster"@en,
+        "Newborn"@en,
+        "One-eyed"@en,
+        "Spiny Dogfish"@en,
+        "Basilisco"@it,
+        "Centrina"@it,
+        "Ciclope"@it,
+        "Falso"@it,
+        "Monocolo"@it,
+        "Mostro"@it,
+        "Neonato"@it,
+        "Vitello"@it .
 
 <https://w3id.org/changes/4/aldrovandi/itm/ptb/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/ptb/ob00/1>,
@@ -31325,20 +31656,34 @@
         <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> .
 
 <https://w3id.org/changes/4/aldrovandi/apl/america/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Africa [Africa]",
-        "Allegoria [Allegory]",
-        "America [America]",
-        "Armadillo [Armadillo]",
-        "Asia [Asia]",
-        "Coccodrillo [Crocodile]",
-        "Cusco [Cusco]",
-        "Europa [Europe]",
-        "Fauna [Fauna]",
-        "Flora [Flora]",
-        "Nativi [Natives]",
-        "Perù [Peru]",
-        "Religione [Religion]",
-        "Unicorno [Unicorn]" .
+    crm:P190_has_symbolic_content "Africa"@en,
+        "Allegory"@en,
+        "America"@en,
+        "Armadillo"@en,
+        "Asia"@en,
+        "Crocodile"@en,
+        "Cusco"@en,
+        "Europe"@en,
+        "Fauna"@en,
+        "Flora"@en,
+        "Natives"@en,
+        "Peru"@en,
+        "Religion"@en,
+        "Unicorn"@en,
+        "Africa"@it,
+        "Allegoria"@it,
+        "America"@it,
+        "Armadillo"@it,
+        "Asia"@it,
+        "Coccodrillo"@it,
+        "Cusco"@it,
+        "Europa"@it,
+        "Fauna"@it,
+        "Flora"@it,
+        "Nativi"@it,
+        "Perù"@it,
+        "Religione"@it,
+        "Unicorno"@it .
 
 <https://w3id.org/changes/4/aldrovandi/sub/america/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/africa/1>,

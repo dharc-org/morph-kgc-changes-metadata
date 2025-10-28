@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-27T23:42:15.703106Z",
+  "timestamp": "2025-10-28T14:42:07.687295Z",
   "input_graph": "results/merged_graph_output.ttl",
   "summary": {
     "duplicate_iri_conflicts": 0,
@@ -12,31 +12,6 @@
     "stale_links": [],
     "inconsistent_timespans": [
       {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/50/06/1",
-        "min_begin": "2024-03-26T00:00:00+00:00",
-        "max_end": "2024-03-24T23:59:59+00:00"
-      },
-      {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/vetrina_4_alto_s_1/01/1",
-        "min_begin": "2023-06-23T00:00:00+00:00",
-        "max_end": "2023-03-27T23:59:59+00:00"
-      },
-      {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/vetrina_6_alto_s_2_t/04/1",
-        "min_begin": "2024-04-07T00:00:00+00:00",
-        "max_end": "2024-03-07T23:59:59+00:00"
-      },
-      {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/vetrina_4_alto_n_8/03/1",
-        "min_begin": "2024-06-27T00:00:00+00:00",
-        "max_end": "2024-01-07T23:59:59+00:00"
-      },
-      {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/vetrina_3_alto_n_3/02/1",
-        "min_begin": "2025-03-20T00:00:00+00:00",
-        "max_end": "2025-02-13T23:59:59+00:00"
-      },
-      {
         "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/106/04/1",
         "min_begin": "2024-04-03T00:00:00+00:00",
         "max_end": "2024-03-04T23:59:59+00:00"
@@ -47,39 +22,9 @@
         "max_end": "2024-06-13T23:59:59+00:00"
       },
       {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/63/01/1",
-        "min_begin": "2024-10-03T00:00:00+00:00",
-        "max_end": "2024-03-11T23:59:59+00:00"
-      },
-      {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/99/04/1",
-        "min_begin": "2024-05-15T00:00:00+00:00",
-        "max_end": "2024-04-15T23:59:59+00:00"
-      },
-      {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/74e/02/1",
-        "min_begin": "2024-11-03T00:00:00+00:00",
-        "max_end": "2024-03-26T23:59:59+00:00"
-      },
-      {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/74e/01/1",
-        "min_begin": "2023-10-05T00:00:00+00:00",
-        "max_end": "2023-05-14T23:59:59+00:00"
-      },
-      {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/37/04/1",
-        "min_begin": "2024-02-12T00:00:00+00:00",
-        "max_end": "2024-02-10T23:59:59+00:00"
-      },
-      {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/74d/02/1",
-        "min_begin": "2024-09-23T00:00:00+00:00",
-        "max_end": "2024-09-10T23:59:59+00:00"
-      },
-      {
-        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/74a/03/1",
-        "min_begin": "2024-12-12T00:00:00+00:00",
-        "max_end": "2021-12-18T23:59:59+00:00"
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/vetrina_4_alto_n_8/03/1",
+        "min_begin": "2024-06-27T00:00:00+00:00",
+        "max_end": "2024-01-07T23:59:59+00:00"
       },
       {
         "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/74d/03/1",
@@ -90,6 +35,61 @@
         "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/74d/01/1",
         "min_begin": "2023-12-05T00:00:00+00:00",
         "max_end": "2023-05-17T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/50/06/1",
+        "min_begin": "2024-03-26T00:00:00+00:00",
+        "max_end": "2024-03-24T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/vetrina_4_alto_s_1/01/1",
+        "min_begin": "2023-06-23T00:00:00+00:00",
+        "max_end": "2023-03-27T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/74a/03/1",
+        "min_begin": "2024-12-12T00:00:00+00:00",
+        "max_end": "2021-12-18T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/vetrina_6_alto_s_2_t/04/1",
+        "min_begin": "2024-04-07T00:00:00+00:00",
+        "max_end": "2024-03-07T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/37/04/1",
+        "min_begin": "2024-02-12T00:00:00+00:00",
+        "max_end": "2024-02-10T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/74e/02/1",
+        "min_begin": "2024-11-03T00:00:00+00:00",
+        "max_end": "2024-03-26T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/74d/02/1",
+        "min_begin": "2024-09-23T00:00:00+00:00",
+        "max_end": "2024-09-10T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/74e/01/1",
+        "min_begin": "2023-10-05T00:00:00+00:00",
+        "max_end": "2023-05-14T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/99/04/1",
+        "min_begin": "2024-05-15T00:00:00+00:00",
+        "max_end": "2024-04-15T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/63/01/1",
+        "min_begin": "2024-10-03T00:00:00+00:00",
+        "max_end": "2024-03-11T23:59:59+00:00"
+      },
+      {
+        "timespan": "https://w3id.org/changes/4/aldrovandi/tsp/vetrina_3_alto_n_3/02/1",
+        "min_begin": "2025-03-20T00:00:00+00:00",
+        "max_end": "2025-02-13T23:59:59+00:00"
       }
     ],
     "single_valued_violations": []

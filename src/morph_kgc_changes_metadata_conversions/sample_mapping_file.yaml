@@ -2,7 +2,7 @@ prefixes:
   aat: "http://vocab.getty.edu/aat/"
   ex: "https://w3id.org/dharc/ontology/chad-ap/data/example/"
   crm: "http://www.cidoc-crm.org/cidoc-crm/"
-  crmdig: "http://www.ics.forth.gr/isl/CRMdig/"
+  crmdig: "http://www.cidoc-crm.org/extensions/crmdig/"
   lrmoo: "http://iflastandards.info/ns/lrm/lrmoo/"
   frbroo: "http://iflastandards.info/ns/fr/frbr/frbroo/"
   owl: "http://www.w3.org/2002/07/owl#"
@@ -570,14 +570,37 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+
+      # Lingua originale
       - p: crm:P190_has_symbolic_content
         o:
-          function: idlab-fn:multiple_separator_split_explode
-          parameters:
-            - parameter: idlab-fn:list_param_string_sep
-              value: ";---,--- e ---\n--- + --- - ---\r"
-            - parameter: idlab-fn:valParam
-              value: $(Soggetti)
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valueTranslationContainers
+                value: "[]"
+              - parameter: idlab-fn:valueConsiderTranslation
+                value: "0"
+              - parameter: idlab-fn:valParam
+                value: $(Soggetti)
+            language: it
+
+      # Traduzione
+      - p: crm:P190_has_symbolic_content
+        o:
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---,--- e ---\n--- + --- - ---\r"
+              - parameter: idlab-fn:valueTranslationContainers
+                value: "[]"
+              - parameter: idlab-fn:valueConsiderTranslation
+                value: "1"
+              - parameter: idlab-fn:valParam
+                value: $(Soggetti)
+            language: en
+
 
   manifestation:
     sources:

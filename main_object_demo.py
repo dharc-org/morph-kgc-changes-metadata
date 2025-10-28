@@ -3,12 +3,19 @@ from src.morph_kgc.__init__ import materialize
 import configparser
 from rdflib import Graph, Namespace, URIRef, BNode, Literal
 from src.morph_kgc.fnml.built_in_functions import normalize_str_param
+from src.morph_kgc.fnml.built_in_functions import multi_sep_string_split_explode  # importa la UDF
 import os
 from ruamel.yaml import YAML
 import re
 import datetime
 from perf_monitor import PerfMonitor
+import csv
+import pprint
+import glob
 
+# NOTA : PROVVISORIAMENTE per il post processing si assume che il separatore INTERNO alle celle sia ;
+# c'è anche un'euristica nella pulizia soggetti-oggetti fatti per le traduzioni
+# che assume che se non si riesce a risalire a che tipo di caratteri introducono e chiudono la traduzione, allora "[" "]"
 # --- rdflib: disabilita cast automatico di xsd:dateTime (e opzionalmente xsd:date) ---
 try:
     from rdflib.term import _toPythonMapping
@@ -489,8 +496,8 @@ graph.serialize(destination=output_path, format=serialization)
 g = Graph()
 g.parse(output_path)
 
-# ELIMINAZIONE OGGETTI NON APPAIATI CON SOGGETTI
 
+# ELIMINAZIONE OGGETTI NON APPAIATI CON SOGGETTI
 def pair_subject_object(first_ver_graph: Graph, properties_list: list) -> Graph:
     '''
     1) leggere il grafo,
@@ -501,6 +508,135 @@ def pair_subject_object(first_ver_graph: Graph, properties_list: list) -> Graph:
     4) nel caso a), identificare le <string_variable> di soggetto e oggetto e verificare che siano uguali. Nel caso in cui non fosse così, eliminare la tripla dal grafo. Nel caso b) identificare la <string_variable> del soggetto e verificare se è uguale al valore dell'oggetto stringa, normalizzato con la funzione normalize_str_param(str_param) importata dal file src/morph_kgc/fnml/built_in_functions.py. Se i due valori non sono uguali, eliminare la tripla.
     5) ritornare il grafo corretto
     '''
+
+    # --- Lettura del path ready_input_dir da config.ini ---
+    config_path = os.path.join("src", "morph_kgc_changes_metadata_conversions", "config.ini")
+    config = configparser.ConfigParser()
+    config.read(config_path, encoding="utf-8")
+
+    ready_input_dir = ""
+    if config.has_section("DataSource1") and config.has_option("DataSource1", "ready_input_dir"):
+        ready_input_dir = config.get("DataSource1", "ready_input_dir").strip()
+    # ------------------------------------------------------
+
+    # --- Costruzione iniziale del dizionario normalised_translations ---
+    normalised_translations = {}
+    if ready_input_dir and os.path.isdir(ready_input_dir):
+        csv_paths = glob.glob(os.path.join(ready_input_dir, "**", "*.csv"), recursive=True)
+        for path in csv_paths:
+            try:
+                with open(path, "r", encoding="utf-8", newline="") as f:
+                    reader = csv.DictReader(f)
+                    if not reader.fieldnames:
+                        continue
+                    target_col = next(
+                        (h for h in reader.fieldnames if (h or "").strip().lower() == "soggetti"),
+                        None
+                    )
+                    if not target_col:
+                        continue
+                    for row in reader:
+                        cell = row.get(target_col, "")
+                        if not isinstance(cell, str) or not cell.strip():
+                            continue
+
+                        # Usa multi_sep_string_split_explode per separare solo al ";"
+                        splitted_values = multi_sep_string_split_explode(
+                            string=cell,
+                            separators_list_str=";",
+                            translation_container_chars=None,
+                            consider_translation=False
+                        )
+
+                        # Ogni voce originale resta come chiave, con valore normalizzato
+                        for value in splitted_values:
+                            clean_key = value.strip()
+                            if clean_key:
+                                normalised_translations[clean_key] = {
+                                    "orig": normalize_str_param(clean_key)
+                                }
+
+            except Exception as e:
+                print(f"[WARN] Errore in {path}: {e}")
+                continue
+    # -------------------------------------------------------------------
+
+    # --- Trasformazione in nuovo dizionario {norm_key: {"orig": ..., "tr": ...}} ---
+    def _detect_translation_delims(keys):
+        """
+        Heuristica: >1/3 delle chiavi termina con ']' -> usa '[' ']';
+                    altrimenti >1/3 termina con '>' -> usa '<' '>';
+                    altrimenti >1/3 termina con ')' -> usa '(' ')';
+                    default '[' ']'.
+        """
+        total = len(keys) or 1
+        endings = {']': 0, '>': 0, ')': 0}
+        for k in keys:
+            s = (k or "").strip()
+            if s.endswith(']'):
+                endings[']'] += 1
+            elif s.endswith('>'):
+                endings['>'] += 1
+            elif s.endswith(')'):
+                endings[')'] += 1
+        threshold = total / 3.0
+        if endings[']'] > threshold:
+            return '[', ']'
+        if endings['>'] > threshold:
+            return '<', '>'
+        if endings[')'] > threshold:
+            return '(', ')'
+        return '[', ']'  # default
+
+    def _extract_orig_tr(label: str, open_char: str, close_char: str):
+        """
+        Estrae (orig, tr) da una chiave tipo 'Orig [Tr]','Orig <<<Tr>>>','Orig (((Tr)))'.
+        Supporta ripetizioni del delimitatore. Se assente/inefficace -> (label, None).
+        """
+        if not isinstance(label, str):
+            return label, None
+        s = label.strip()
+        if not s:
+            return s, None
+
+        # conta ripetizioni consecutive del close_char in coda
+        t = 0
+        i = len(s) - 1
+        while i >= 0 and s[i] == close_char:
+            t += 1
+            i -= 1
+        if t == 0:
+            return s, None  # nessuna traduzione rilevata
+
+        close_sep = close_char * t
+        open_sep = open_char * t
+
+        end_inner = len(s) - t
+        start = s.rfind(open_sep, 0, end_inner)
+        if start == -1:
+            return s, None  # apertura non trovata
+
+        inner = s[start + len(open_sep): end_inner].strip()
+        outer = s[:start].strip()
+
+        orig = outer if outer else s
+        tr = inner if inner else None
+        return orig, tr
+
+    open_char, close_char = _detect_translation_delims(list(normalised_translations.keys()))
+
+    new_translations = {}
+    for key, val in normalised_translations.items():
+        norm_key = val.get("orig")
+        if not norm_key:
+            continue
+        orig_label, tr_label = _extract_orig_tr(key, open_char, close_char)
+        new_translations[norm_key] = {"orig": orig_label, "tr": tr_label}
+
+    # Stampa solo il nuovo dizionario
+    print(pprint.pformat(new_translations, width=120))
+    # -------------------------------------------------------------------
+
     triples_to_remove = []
 
     for s, p, o in first_ver_graph:
@@ -529,7 +665,27 @@ def pair_subject_object(first_ver_graph: Graph, properties_list: list) -> Graph:
                 sub_value = sub_match.group(1)
                 normalized_obj_value = normalize_str_param(str(o))
                 if sub_value != normalized_obj_value:
-                    triples_to_remove.append((s, p, o))
+
+                    translations_from_dict = new_translations.get(sub_value)
+                    if not translations_from_dict:
+                        print(sub_value, " not in ", sorted(new_translations.keys()))
+                        # RIMUOVERE DIRETTAMENTE TRIPLA
+                        triples_to_remove.append((s, p, o))
+
+                    else: # tentare di verificare se si tratta di una traduzione
+                        original = translations_from_dict.get("or")
+                        translation = translations_from_dict.get("tr")
+                        normalized_obj_value_TRSL = normalize_str_param(str(translation))
+                        normalized_obj_value_ORIG = normalize_str_param(str(original))
+
+                        if normalized_obj_value != normalized_obj_value_TRSL:
+                            #print(sub_value, "!=", normalized_obj_value, "AND", normalized_obj_value, "!=", normalized_obj_value_TRSL)
+                            # TRIPLA DA RIMUOVERE: NON è Né STESSO SOGGETTO nella stessa lingia Né UNA SUA TRADUZIONE
+                            triples_to_remove.append((s, p, o))
+
+                        else: # normalized_obj_value == normalized_obj_value_TRSL, quindi è una traduzione
+                            print(sub_value, "!=", normalized_obj_value, "!!!!!!  BUT !!!!!!!", normalized_obj_value, "==", normalized_obj_value_TRSL)
+
 
     for triple in triples_to_remove:
         first_ver_graph.remove(triple)

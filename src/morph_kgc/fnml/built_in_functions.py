@@ -756,16 +756,132 @@ def conditional_normalize_and_suffix(str_param, type_param, num_param, relazione
 @udf(
     fun_id="http://example.com/idlab/function/multiple_separator_split_explode",
     string='http://example.com/idlab/function/valParam',
-    separators_list_str='http://example.com/idlab/function/list_param_string_sep'
-    )
+    separators_list_str='http://example.com/idlab/function/list_param_string_sep',
+    translation_container_chars='http://example.com/idlab/function/valueTranslationContainers',
+    consider_translation='http://example.com/idlab/function/valueConsiderTranslation'
+)
+# Ultimi due parametri: attiva il parsing opzionale di traduzioni racchiuse tra delimitatori.
+def multi_sep_string_split_explode(string, separators_list_str, translation_container_chars=None, consider_translation=False):
+    """
+    Divide una stringa usando più separatori; opzionalmente estrae o ignora
+    il testo racchiuso tra delimitatori di traduzione personalizzati.
+    Ritorna una lista di stringhe pulite.
+    """
 
-def multi_sep_string_split_explode(string, separators_list_str):
-    separators_list = separators_list_str.split("---")
-    for s in separators_list:
-        string = string.replace(s, "---")
-    string_list = string.split("---")
-    clean_string_list_exploded = [x.strip() for x in string_list if x]
-    return([el for el in clean_string_list_exploded if el])
+    # Normalizza consider_translation accettando 0/1 anche come stringhe.
+    if consider_translation in (1, "1", True):
+        consider_translation = True
+    elif consider_translation in (0, "0", False):
+        consider_translation = False
+    else:
+        consider_translation = bool(consider_translation)
+
+    # Normalizza input a stringa.
+    s = "" if string is None else str(string)
+
+    # 1) Raccogli i separatori dichiarati separando su '---'.
+    seps = [sep for sep in str(separators_list_str or "").split("---") if sep]
+
+    # 2) Uniforma i separatori sostituendoli con il token '---'.
+    for sep in seps:
+        s = s.replace(sep, "---")
+
+    # 3) Esplodi sulla sentinella unificata.
+    parts = s.split("---")
+
+    # 4) Pulisci: trim + collassa spazi multipli.
+    def _clean(x: str) -> str:
+        return " ".join(x.strip().split())
+
+    exploded = [_clean(x) for x in parts if _clean(x)]
+
+    # 5) Se non sono specificati delimitatori di traduzione, termina.
+    if not translation_container_chars:
+        return [el for el in exploded if el]
+
+    # 6) Identifica i delimitatori di traduzione.
+    #    Regola: esattamente due classi di caratteri distinti (apertura/chiusura), con ripetizioni ammesse.
+    tc = str(translation_container_chars)
+
+    # 6a) Individua l'ordine dei caratteri unici.
+    uniq = []
+    for ch in tc:
+        if ch not in uniq:
+            uniq.append(ch)
+
+    # 6b) Richiedi due soli tipi di carattere.
+    if len(uniq) != 2:
+        return [el for el in exploded if el]
+
+    open_char, close_char = uniq[0], uniq[1]
+
+    # 6c) Conta le ripetizioni iniziali/finali.
+    def _count_prefix(s_: str, ch: str) -> int:
+        n = 0
+        for c in s_:
+            if c == ch:
+                n += 1
+            else:
+                break
+        return n
+
+    def _count_suffix(s_: str, ch: str) -> int:
+        n = 0
+        for c in reversed(s_):
+            if c == ch:
+                n += 1
+            else:
+                break
+        return n
+
+    open_len = _count_prefix(tc, open_char)
+    close_len = _count_suffix(tc, close_char)
+
+    # 6d) Verifica consistenza: almeno 1 ripetizione per lato; solo i due caratteri ammessi.
+    if open_len < 1 or close_len < 1:
+        return [el for el in exploded if el]
+    if any(ch not in {open_char, close_char} for ch in tc):
+        return [el for el in exploded if el]
+
+    # 6e) Costruisci i separatori concreti.
+    open_sep = open_char * open_len
+    close_sep = close_char * close_len
+
+    # 7) Estrai per ciascun elemento: interno (traduzione) o esterno (originale).
+    result = []
+    for x in [el for el in exploded if el]:
+        try:
+            start = x.find(open_sep)
+            if start == -1:
+                # Nessun delimitatore: conserva l’intero.
+                result.append(x)
+                continue
+
+            end = x.find(close_sep, start + len(open_sep))
+            if end == -1:
+                # Chiusura assente: conserva l’intero.
+                result.append(x)
+                continue
+
+            inner = _clean(x[start + len(open_sep): end])
+            outer_left = x[:start]
+            outer_right = x[end + len(close_sep):]
+            outer = _clean((outer_left + " " + outer_right).strip())
+
+            if consider_translation:
+                # Prendere la traduzione interna; fallback all’intero x se vuota.
+                result.append(inner if inner else x)
+            else:
+                # Prendere il testo esterno; fallback all’intero x se vuoto.
+                result.append(outer if outer else x)
+
+        except Exception as e:
+            # Fallback conservativo con log minimale.
+            print(f"[WARN] parsing translation delimiters failed for '{x}': {e}")
+            result.append(x)
+
+    return [el for el in result if _clean(el)]
+
 
 
 @udf(

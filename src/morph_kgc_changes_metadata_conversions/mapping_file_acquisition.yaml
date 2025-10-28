@@ -2,7 +2,7 @@ prefixes:
   aat: "http://vocab.getty.edu/aat/"
   ex: "https://w3id.org/dharc/ontology/chad-ap/data/example/"
   crm: "http://www.cidoc-crm.org/cidoc-crm/"
-  crmdig: "http://www.ics.forth.gr/isl/CRMdig/"
+  crmdig: "http://www.cidoc-crm.org/extensions/crmdig/"
   lrmoo: "http://iflastandards.info/ns/lrm/lrmoo/"
   frbroo: "http://iflastandards.info/ns/fr/frbr/frbroo/"
   owl: "http://www.w3.org/2002/07/owl#"
@@ -1077,7 +1077,7 @@ mappings:
   # 3) DIGITAL OBJECTS (MODELS, one for each phase)
   # ==================================================================================
 
-  # (1) D9 + P1 nello stesso mapping (come fai già)
+  # (1) D9 + P1 nello stesso mapping
   digital_objects_models:
     sources:
       - 'sample_input_file.csv~csv'
@@ -1115,6 +1115,10 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
+
+  # COLLEGAMENTO A LINK ATON SOLO id ultimo PER ULTIMO MODELLO
+  # RIPRENDERE CODICE QUI SOTTO PER AGGIUNGERE ALLO 06 IL SYMBOLIC CONTENT
+  # SE NON FUNZIONE, AGGIUNGERE A TUTTI E TOGLIERE IN POST PROCESSING
 
   # (2) E41 + P190 con UDF (stessa sequential_iris, niente separatori)
   appellation_digital_objects_models:
