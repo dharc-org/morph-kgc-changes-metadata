@@ -901,6 +901,20 @@ mappings:
               value: $(Sala mostra)
           type: iri
 
+
+      - p: crm:P53_has_former_or_current_location
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: ""
+            - parameter: idlab-fn:valueType
+              value: "plc"
+            - parameter: idlab-fn:valueParams
+              value: $(Luogo conservazione)
+          type: iri
+
+
       # CONDITIONAL - Parte di
       - p: crm:P46i_forms_part_of
         o:
@@ -1326,6 +1340,19 @@ mappings:
             - parameter: idlab-fn:valueNum
               value: ""
           type: iri
+
+      - p: crm:P53i_is_former_or_current_location_of
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "ob00"
+            - parameter: idlab-fn:valueType
+              value: "itm"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
 
   appellation_plc_curation:
     sources:

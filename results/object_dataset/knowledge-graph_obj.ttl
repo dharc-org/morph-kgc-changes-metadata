@@ -20085,48 +20085,6 @@
 <https://w3id.org/changes/4/aldrovandi/mnf/vetrina_8_basso_parent/ob00/1> a lrmoo:F3_Manifestation ;
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/vetrina_8_basso_parent/ob00/1> .
 
-<https://w3id.org/changes/4/aldrovandi/plc/amsterdam/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/amsterdam/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/officina_janssonio-waesbergiana/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/rijksmuseum/1> .
-
-<https://w3id.org/changes/4/aldrovandi/plc/bergamo/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/bergamo/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/accademia_carrara/1> .
-
-<https://w3id.org/changes/4/aldrovandi/plc/caserta/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/caserta/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/reggia_di_caserta/1> .
-
-<https://w3id.org/changes/4/aldrovandi/plc/londra/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/londra/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/british_museum/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/john_martyn/1> .
-
-<https://w3id.org/changes/4/aldrovandi/plc/new_york/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/new_york/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/the_metropolitan_museum_of_art/1> .
-
-<https://w3id.org/changes/4/aldrovandi/plc/ozzano_dell'emilia/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/ozzano_dell'emilia/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> .
-
-<https://w3id.org/changes/4/aldrovandi/plc/siena/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/siena/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_dellaccademia_dei_fisiocritici_di_siena/1> .
-
-<https://w3id.org/changes/4/aldrovandi/plc/verona/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/verona/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_di_verona/1> .
-
-<https://w3id.org/changes/4/aldrovandi/plc/vienna/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/vienna/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/kunsthistorisches_museum/1> .
-
-<https://w3id.org/changes/4/aldrovandi/plc/wurzburg/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/wurzburg/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/residenza_del_principe-vescovo_von_greiffenclau/1> .
-
 <https://w3id.org/changes/4/aldrovandi/sub/adonide/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/adonide/1> ;
     crm:P2_has_type aat:300404126 .
@@ -27212,12 +27170,41 @@
     lrmoo:R7i_is_exemplified_by <https://w3id.org/changes/4/aldrovandi/itm/vetrina_8_basso_3/ob00/1> ;
     crm:P2_has_type "aat:300235576" .
 
-<https://w3id.org/changes/4/aldrovandi/plc/roma/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/roma/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/galleria_borghese/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/giacomo_mascardi/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/ippolito_salviani/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_di_roma/1> .
+<https://w3id.org/changes/4/aldrovandi/plc/bergamo/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/bergamo/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/21/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/accademia_carrara/1> .
+
+<https://w3id.org/changes/4/aldrovandi/plc/caserta/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/caserta/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/v2_7/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/reggia_di_caserta/1> .
+
+<https://w3id.org/changes/4/aldrovandi/plc/londra/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/londra/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/v2_4/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/british_museum/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/john_martyn/1> .
+
+<https://w3id.org/changes/4/aldrovandi/plc/siena/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/siena/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/30/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_dellaccademia_dei_fisiocritici_di_siena/1> .
+
+<https://w3id.org/changes/4/aldrovandi/plc/verona/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/verona/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/35/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_di_verona/1> .
+
+<https://w3id.org/changes/4/aldrovandi/plc/vienna/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/vienna/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/v2_5/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/kunsthistorisches_museum/1> .
+
+<https://w3id.org/changes/4/aldrovandi/plc/wurzburg/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/wurzburg/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/v2_3/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/residenza_del_principe-vescovo_von_greiffenclau/1> .
 
 <https://w3id.org/changes/4/aldrovandi/sub/africa/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/africa/1>,
@@ -29263,753 +29250,11 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/fondo_storico_bertoloni/1> ;
     crm:P2_has_type aat:300025976 .
 
-<https://w3id.org/changes/4/aldrovandi/itm/1/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/1/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/1/ob02/1> ;
-    crm:P3_has_note "Carta Nautica Nautical Chart Grazioso Benincasa, Sec. Xv Bub, Rotulo 3"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/10/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/10/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/10/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/10/ob02/1> ;
-    crm:P3_has_note "Josè De Acosta Historia Naturale, E Morale Delle Indie Venezia, Bernardo Basa, 1596 Bub, A.m.rr.i.33"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/100/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/100/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/100/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/100/ob02/1> ;
-    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Sardo Maschio Living Masks, Sardinian Male Lidio Cipriani Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/101/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/101/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/101/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/101/ob02/1> ;
-    crm:P3_has_note "Calco In Gesso Di Capo Tasmaniano (oceania) Plaster Model Of A Tasmanian Chief M. Eydoux Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/102/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/102/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/102/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/102/ob02/1> ;
-    crm:P3_has_note "Calco In Gesso Di Donna Dschagga (kenia) Plaster Model Of A Dschagga Woman (kenia) M. Eydoux Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/103/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/103/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/103/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/103/ob02/1> ;
-    crm:P3_has_note "Tavola Dei Colori Degli Occhi Di R. Martin Eye Colour Chart By R. Martin P. Hermann (zurich) Inizio Sec. Xx Early 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/104/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/104/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/104/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/104/ob02/1> ;
-    crm:P3_has_note "Compasso A Branche Ricurve Con Estremità Arrotondate Curved Branch Compass With Rounded Ends Inizio Sec. Xx Early 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/105/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/105/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/105/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/105/ob02/1> ;
-    crm:P3_has_note "Crani Dalla Collezione Di Luigi Calori Skulls From Luigi Calori’s Collection Bologna, Dipartimento Di Scienze Biomediche E Neuromotorie"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/106/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/106/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/106/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/106/ob02/1> ;
-    crm:P3_has_note "Modello Frenologico In Cera Phrenology Model In Wax Giuseppe Astorri Sec. Xix – 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/107/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/107/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/107/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/107/ob02/1> ;
-    crm:P3_has_note "Studio Sull’encefalo Di Un Africano, Di Luigi Calori (modello In Cera) Study On The Encephalon Of An African, By Luigi Calori (wax Model) Sec. Xix - 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/108/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/108/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/108/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/108/ob02/1> ;
-    crm:P3_has_note "Galeorhinus Cuvieri (agassiz, 1835) Squalo Dal Monte Bolca (verona) Shark From Bolca (verona, Italy) Eocene (48 Ma) Bologna, Collezione Di Geologia \"museo Giovanni Capellini\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/109/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/109/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/109/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/109/ob02/1> ;
-    crm:P3_has_note "Aepyornis Maximus (geoffroy Saint-hilaire, 1851) Uovo Di Uccello Elefante, Madagascar Egg Ratite Bird From Madagascar Quaternario, 1000 D.c.-1000 A.d., Bologna, Collezione Di Geologia \"museo Giovanni Capellini\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/11/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/11/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/11/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/11/ob02/1> ;
-    crm:P3_has_note "Tabacco Tobacco In Nicolas Monardes, Simplicium Medicamentorum Ex Novo Orbe Delatorum, Anversa, Christopher Plantin, 1579 Bub, A.iv.g.ix.5/2"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/110/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/110/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/110/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/110/ob02/1> ;
-    crm:P3_has_note "Arietites Sp. Ammonite, Località Indeterminata Ammonite, Undetermined Locality Giurassico Inferiore – Lower Jurassic (190 Ma) Bologna, Collezione Di Geologia \"museo Giovanni Capellini\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/111/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/111/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/111/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/111/ob02/1> ;
-    crm:P3_has_note "Cambropallas Telesto (geyer, 1993) Trilobite, Impronta E Controimpronta. Regione Di Erfoud (marocco) Trilobite, Two Halves From The Erfoud Region (morocco) Cambriano Inferiore - Lower Cambrian (540 Ma) Bologna, Collezione Di Geologia “museo Giovanni Capellini”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/112/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/112/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/112/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/112/ob02/1> ;
-    crm:P3_has_note "Arctinurus Boltoni (bigsby, 1825) Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia “museo Giovanni Capellini”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/113/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/113/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/113/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/113/ob02/1> ;
-    crm:P3_has_note "Dalmanites Sp. Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia “museo Giovanni Capellini”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/114/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/114/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/114/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/114/ob02/1> ;
-    crm:P3_has_note "Bottiglia Di Leida Leyden Jar Collezione Cowper Sec. Xviii 18th Century Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/115/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/115/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/115/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/115/ob02/1> ;
-    crm:P3_has_note "Macchina Elettrostatica Di Ramsden Ramsden Elctrostatic Machine Collezione Cowper Sec. Xviii 18th Century Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/116/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/116/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/116/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/116/ob02/1> ;
-    crm:P3_has_note "Arco Scaricatore Arc Discharger Sec. Xviii 18th Century Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
 <https://w3id.org/changes/4/aldrovandi/itm/117/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/117/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/117/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/117/ob02/1> ;
     crm:P3_has_note "Attrezzatura Fotografica Del Prof. Fabio Frassetto"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/12/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/12/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/12/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/12/ob02/1> ;
-    crm:P3_has_note "Panthera Onca (linnaeus, 1758) Esemplare Tassidermizzato Di Giaguaro Taxidermized Specimen Of Jaguar Sec. Xxi 21st Century Pisa, Preparatore Naturaliter"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/13/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/13/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/13/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/13/ob02/1> ;
-    crm:P3_has_note "Pharomachrus Mocinno (de La Llave, 1832) Quetzal O Tro[am1] Gone Splendido Quetzal, Trogon Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/14/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/14/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/14/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/14/ob02/1> ;
-    crm:P3_has_note "Limulus Polyphemus (linnaeus, 1758) Limulo O Granchio Ferro Di Cavallo Limulus Bologna, Collezione Di Anatomia Comparata, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/15/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/15/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/15/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/15/ob02/1> ;
-    crm:P3_has_note "Ctenosaura Similis (gray, 1831) Esemplare Tassidermizzato Di Iguana Taxidermized Specimen Of Iguana Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/16/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/16/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/16/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/16/ob02/1> ;
-    crm:P3_has_note "Ara Macao (linnaeus, 1758) Ara Scarlatta Scarlet Macaw Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/17/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/17/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/17/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/17/ob02/1> ;
-    crm:P3_has_note "Ramphastos Toco (statius Müller, 1776) Tucano Toco Toco Toucan Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/18/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/18/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/18/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/18/ob02/1> ;
-    crm:P3_has_note "Meleagris Gallopavo (linneaus, 1758) Esemplare Tassidermizzato Di Tacchino Selvatico Taxidermized Specimen Of Wild Turkey Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/19/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/19/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/19/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/19/ob02/1> ;
-    crm:P3_has_note "Dasypus Novemcinctus (linnaeus, 1757) Armadillo Armadillo Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/2/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/2/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/2/ob02/1> ;
-    crm:P3_has_note "Panthera Leo (linnaeus, 1758) Diorama Con Tre Leoni Tassidermizzati Diorama With Three Taxidermized Lions Manifattura Rowland Ward - Londra, Inizio Sec. Xx – Early 20th Century Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/20/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/20/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/20/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/20/ob02/1> ;
-    crm:P3_has_note "Codice Cospi, Manoscritto Divinatorio Mesoamericano Codex Cospi, Mesoamerican Divination Manuscript Sec. Xv-xvi 15th-16th Century Bub, Ms. 4093[am2]"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/21/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/21/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/21/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/21/ob02/1> ;
-    crm:P3_has_note "Ritratto Di Ulisse Aldrovandi Portrait Of Ulisse Aldrovandi Agostino Carracci, Olio Su Tela/oil On Canvas,[am3] 1582-1585 Bergamo, Accademia Carrara"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/22/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/22/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/22/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/22/ob02/1> ;
-    crm:P3_has_note "Dioscorides Pedanius De Plantis Epitome Utilissima Francoforte Sul Meno, Johann Feyerabend, 1586 Bologna, Biblioteca Del Dipartimento Di Scienze Biologiche, Geologiche E Ambientali, Fondo Storico Bertoloni[am4]"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/24/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/24/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/24/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/24/ob02/1> ;
-    crm:P3_has_note "Mappa Dell’orto Botanico Di Padova Map Of The Botanical Garden In Padua In Giacomo Antonio Cortusi, L’horto De I Semplici Di Padoua Venezia, Girolamo Porro, 1591 Bub, A.v.tab.i.c.i.278/5"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/25/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/25/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/25/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/25/ob02/1> ;
-    crm:P3_has_note "Mappa Dell’orto Botanico Di Bologna Map Of The Botanical Garden In Bologna In Giuseppe Monti, Indices Botanici Et Materiae Medicae Bologna, Lelio Dalla Volpe[am6] , 1753 Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/26/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/26/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/26/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/26/ob02/1> ;
-    crm:P3_has_note "Chrysanthemi Girasole Sunflower Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Piante, Fiori E Frutti Vol. 1, Carta 76"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/27a/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27a/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27a/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27a/ob02/1> ;
-    crm:P3_has_note "Delphinium Staphisagria L. Speronella Stavesacre Erbario Aldrovandi, Vol. 7, Carta 85 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/27b/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27b/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27b/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27b/ob02/1> ;
-    crm:P3_has_note "Adonis Vernalis L. Adonide Gialla Pheasant’s Eye Erbario Aldrovandi, Vol.12, Carta 192 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/27c/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27c/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27c/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27c/ob02/1> ;
-    crm:P3_has_note "Solanum Lycopersicum L. Pomodoro Tomato Erbario Aldrovandi, Vol.1, Carta 368 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/27d/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27d/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27d/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27d/ob02/1> ;
-    crm:P3_has_note "Antennaria Dioica (l.) Gaertner Antennaria Mountain Everlasting Erbario Aldrovandi, Vol.9, Carta 141 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/27e/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27e/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27e/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27e/ob02/1> ;
-    crm:P3_has_note "Tulipa Sylvestris L. Tulipano Dei Campi Wild Tulip Erbario Aldrovandi, Vol.6, Carta 195 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/27f/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27f/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27f/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/27f/ob02/1> ;
-    crm:P3_has_note "Dryas Octopetala L. Camedrio Alpino Mountain Avens Erbario Aldrovandi, Vol.13, Carta 77 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/28/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/28/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/28/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/28/ob02/1> ;
-    crm:P3_has_note "Anatomia Del Pollo Anatomy Of A Chicken In Ulisse Aldrovandi, Ornithologiae Hoc Est De Avibus Historiae Libri Xii, Vol. 2 Bologna, Francesco De Franceschi Senese, 1603 Bub, A.iv.h.iii.8/2"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/29/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/29/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/29/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/29/ob02/1> ;
-    crm:P3_has_note "Pulcino Dentro Il Guscio Chick In An Eggshell Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Animali, Vol. 3, Carta 159"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/3/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/3/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/3/ob02/1> ;
-    crm:P3_has_note "Aristoteles De Historia Animalium Lib. 9 Venezia, Girolamo Scoto, 1545 Bub, A.v.gg.vii.28"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/30/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/30/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/30/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/30/ob02/1> ;
-    crm:P3_has_note "Cygnus Olor (gmelin, 1789) Preparato Tassidermizzato Di Cigno Reale Taxidermized Mount Of A Mute Swan Preparatore Fabrizio Cancelli, 1981, Museo Di Storia Naturale Dell’accademia Dei Fisiocritici Di Siena"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/31/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/31/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/31/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/31/ob02/1> ;
-    crm:P3_has_note "Cigno Sezionato Dissected Swan In Ulisse Aldrovandi,ornithologiae Hoc Est De Avibus Historiae Libri Xii, Vol.3 Bologna, Francesco De Franceschi Senese, 1603 Bub, A.iv.h.iii.8/3"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/32/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/32/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/32/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/32/ob02/1> ;
-    crm:P3_has_note "Essere Umano Ermafrodita Human Hermaphrodite (monstrum Humanum Hermaphroditicum) Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Animali, Vol. 5, Carta 86"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/33/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/33/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/33/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/33/ob02/1> ;
-    crm:P3_has_note "Lodoicea Maldivica (j. F. Gmel.) Pers. Seme Di Coco De Mer Seed Of Sea Coconut Sec. Xvi 16th Century Bologna, Collezione Ulisse Aldrovandi, Museo Di Palazzo Poggi[am7] [smf8] [am9] , Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/34/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/34/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/34/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/34/ob02/1> ;
-    crm:P3_has_note "Chimaera Monstrosa (linnaeus,1758) Centrina Rabbit Fish Sec. Xvi 16th Century Bologna. Collezione Ulisse Aldrovandi, Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/35/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/35/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/35/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/35/ob02/1> ;
-    crm:P3_has_note "Basilisco Basilisk Francesco Calceolarin, Sec. Xvii 17th Century Collezione E. De Betta, Museo Di Storia Naturale Di Verona"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/36/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/36/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/36/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/36/ob02/1> ;
-    crm:P3_has_note "Ciclope Cyclops In Ulisse Aldrovandi, Monstruorum Historia Bologna, Nicolò Tebaldini, 1642 Bub, A.iv.h.iii.11/11"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/37/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/37/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/37/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/37/ob02/1> ;
-    crm:P3_has_note "Tavola [mc10] [am11] Con Monocolo Table With “mono-ocular” Model[am12] Sec. Xviii 18th Century Bologna, Collezione Di Ostetricia, Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/38/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/38/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/38/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/38/ob02/1> ;
-    crm:P3_has_note "Doppia Testa Di Vitello Heads Of A Two-headed Calf (caput Geminum Vituli) Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Animali, Vol. 1, Carta 89"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/39/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/39/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/39/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/39/ob02/1> ;
-    crm:P3_has_note "Bos Taurus (linnaeus, 1758) Preparato Di Giovane Bovino Con Malformazione Teratologica Taxidermy Mount Of A Young Bovine With Teratologic Malformation Ozzano Dell'emilia, Collezione Di Anatomia Patologica E Teratologia Veterinaria “alessandrini - Ercolani”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/4/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/4/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/4/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/4/ob02/1> ;
-    crm:P3_has_note "Theophrastus Peri Phyton (de Historia Plantarum) In Aristoteles, Opera, Vol. 4 Venezia, Aldo Manuzio, 1497 Istc Ia00959000 Bub, A.v.kk.x.6"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/40/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/40/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/40/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/40/ob02/1> ;
-    crm:P3_has_note "Monodon Monoceros (linnaeus, 1758) Dente Di Narvalo Narwhal Tusk Sec. Xvii 17th Century Bologna, Collezione Cospi, Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/41/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/41/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/41/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/41/ob02/1> ;
-    crm:P3_has_note "Orcio Per Teriaca [am13] Vase Used For Theriac 1728. Bologna, Musei Civici D'arte Antica, Museo Medievale[am14]"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/42/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/42/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/42/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/42/ob02/1> ;
-    crm:P3_has_note "Cerastes Serpens E Ammodites Vipera Cornuta E Vipera Del Corno Desert Horned Viper And Vipera Ammodytes Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Animali, Vol. 4, Carta 132"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/43/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/43/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/43/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/43/ob02/1> ;
-    crm:P3_has_note "Hortus Sanitatis Venezia, Bernardino Benali E Giovanni Tacuino, 1511 Bologna, Biblioteca Del Dipartimento Di Scienze Biologiche, Geologiche E Ambientali, Fondo Storico Bertoloni[am1]"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/44/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/44/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/44/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/44/ob02/1> ;
-    crm:P3_has_note "Narcissus Narciso Daffodi Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Piante, Fiori E Frutti, Vol. 7, Carta 115"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/45/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/45/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/45/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/45/ob02/1> ;
-    crm:P3_has_note "Muscolatura Umana E Scheletro Pensante Human Muscolar System And Thinking Skeleton In Andreas Vesalius, De Humani Corporis Fabrica Basilea, Johann Oporinus, 1543 Bub, A.v.ff.i.6"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/46/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/46/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/46/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/46/ob02/1> ;
-    crm:P3_has_note "Ruote Idrauliche Water Wheels In Agricola Georg, De Re Metallica Basilea, Hieronymus Froben E Nicolaus Episcopius, 1556 Bub, A.iv.h.i.53"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/47/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/47/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/47/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/47/ob02/1> ;
-    crm:P3_has_note "Illustrazioni Della Luna Moon Illustrations In Opere Di Galileo Galilei Divise In Quattro Tomi, In Questa Nuova Edizione Accresciuta Di Molte Cose Inedite. Tomo Ii Padova, Stamperia Del Seminario, 1744 Bologna, Biblioteca Di Matematica, Fisica E Informatica. Sezione Di Fisica. Biblioteca Storica \"guido Horn D'arturo\""^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/48/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/48/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/48/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/48/ob02/1> ;
-    crm:P3_has_note "Descrizione Dell'anatomia Microscopica Dell'ape Description Of The Microscopic Anatomy Of A Bee In Persius Flaccus Aulus, Persio Tradotto In Verso Sciolto, Roma, Giacomo Mascardi, 1630 Bub, A.v.y.xi.28"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/49/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/49/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/49/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/49/ob02/1> ;
-    crm:P3_has_note "Maschera Raffigurante Yacatecuhtli, Patrono Dei Mercanti, Cultura Nahua, Ca. 1350-1521 D.c. Mask Depicting Yacatecuhtli, Patron God Of Merchants, Nahua Culture, Ca. 1350-1521 A.d. Roma, Museo Delle Civiltà"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/5/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/5/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/5/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/5/ob02/1> ;
-    crm:P3_has_note "Dioscorides Pedanius De Medica Materia Firenze, Filippo Giunta Eredi, 1523 Bub, A.iv.h.i.27"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/50/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/50/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/50/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/50/ob02/1> ;
-    crm:P3_has_note "Manico Di Coltello Sacrificale In Forma Di Rettile Fantastico Cultura Nahua, Ca. 1350-1521 D.c. Handle Of Sacrificial Knife In The Shape Of A Fantastical Reptile, Nahua Culture Ca. 1350-1521 A.d. Roma, Museo Delle Civiltà"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/51/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/51/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/51/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/51/ob02/1> ;
-    crm:P3_has_note "Manico Di Coltello Sacrificale In Forma Di Figura Umana Cultura Nahua, Ca. 1350-1521 D.c. Human-shaped Handle Of Sacrificial Knife, Nahua Culture Ca. 1350-1521 A.d. Roma, Museo Delle Civiltà"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/52/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/52/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/52/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/52/ob02/1> ;
-    crm:P3_has_note "Maschera Mask In Ulisse Aldrovandi, Musaeum Metallicum Bologna, Marco Antonio Bernia E Giovan Battista Ferroni, 1648 Bub, A.iv.h.iii.11/13"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/53/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/53/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/53/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/53/ob02/1> ;
-    crm:P3_has_note "Pendente Con Testa Di Idolo In Serpentino [am2] Cultura Nahua O Mixteca, Ca. 1350-1521 D.c. Serpentine Pendant In The Shape Of A Human Head, Nahua Or Mixtec Culture Ca. 1350-1521 A.d. Bologna, Museo Civico Medievale"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/54/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/54/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/54/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/54/ob02/1> ;
-    crm:P3_has_note "Idoli Cult Images In Ulisse Aldrovandi, Musaeum Metallicum Bologna, Marco Antonio Bernia E Giovan Battista Ferroni, 1648 Bub, A.iv.h.iii.11/13"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/57/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/57/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/57/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/57/ob02/1> ;
-    crm:P3_has_note "Polpo Octopus In Ippolito Salviani, Aquatilium Animalium Historiae, Roma, Ippolito Salviani, 1554 Bub, A.v.tab.iii.i.i.9"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/6/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/6/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/6/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/6/ob02/1> ;
-    crm:P3_has_note "Plinius Secundus Gaius Naturae Historiarum Venezia, Giorgio Rusconi, 1519 Bub, A.v.r.vi.9"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/62/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/62/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/62/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/62/ob02/1> ;
-    crm:P3_has_note "Isole Della Grecia Greek Islands In Benedetto Bordon, Isolario Venezia, Federico Torresano, 1547 Bub, A.iv.p.i.14/2bis"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/63/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/63/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/63/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/63/ob02/1> ;
-    crm:P3_has_note "Gufo Owl In Pierre Belon, L’histoire De La Nature Des Oiseaux, Parigi, Gilles Corrozet E Benoit Prevost, 1555 Bub, A.iv.h.i.57"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/64/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/64/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/64/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/64/ob02/1> ;
-    crm:P3_has_note "Polifemo Polyphemus In Ovidius Naso Publius, Metamorphoseos Libri Xv, Venezia, Giovanni Tacuino, 1536 Bub, A.v.r.vi.1/1"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/66/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/66/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/66/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/66/ob02/1> ;
-    crm:P3_has_note "Vipera Viper In Baldo Angelo Abati, De Admirabili Viperae Natura, Urbino, Bartolomeo Ragusi, 1589 Bub, A.iv.d.ix.13"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/67/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/67/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/67/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/67/ob02/1> ;
-    crm:P3_has_note "Ricostruzione Del Naso, Metodo Italiano Italian Method For The Reconstruction Of The Nose In Gaspare Tagliacozzi, De Curtorum Chirurgia, Venezia, Gaspare Bindoni, 1597 Bub A.iv.e.ii.23"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/7/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/7/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/7/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/7/ob02/1> ;
-    crm:P3_has_note "Profilo Incompleto Delle Coste Del Continente Americano Incomplete Coastal Profile Of The American Continent In Battista Agnese, Atlante Nautico, Sec. Xvi 16th Century Bub, Ms. 997"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/74a/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/74a/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/74a/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/74a/ob02/1> ;
-    crm:P3_has_note "Linum Usitatissimum L. Modello Di Lino, Manifattura Brendel, Berlino Model Of Flax Brendel Company, Berlin Fine Sec. Xix Late 19th Century. Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/74b/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/74b/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/74b/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/74b/ob02/1> ;
-    crm:P3_has_note "Orchis Morio L. Modello Di Giglio Caprino, Manifattura Brendel, Berlino Model Of Green-winged Orchid, Brendel Company, Berlin Fine Sec. Xix Late 19th Century. Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/74c/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/74c/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/74c/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/74c/ob02/1> ;
-    crm:P3_has_note "Butomus Umbellatus L. Modello Di Giunco Fiorito, Manifattura Brendel, Berlino Model Of Flowering Rushb Rendel Company, Berlin Fine Sec. Xix Late 19th Century. Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/74d/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/74d/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/74d/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/74d/ob02/1> ;
-    crm:P3_has_note "Daphne Mezereum L. Modello Di Fior Di Stecco, Manifattura Brendel, Berlino Model Of Spurge Laurel, Brendel Company, Berlin Fine Sec. Xix Late 19th Century. Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/74e/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/74e/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/74e/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/74e/ob02/1> ;
-    crm:P3_has_note "Primula Veris L. Modello Di Primula Odorosa, Manifattura Brendel, Berlino Model Of Cowslip, Brendel Company, Berlin Fine Sec. Xix Late 19th Century. Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/75/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/75/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/75/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/75/ob02/1> ;
-    crm:P3_has_note "Marcello Malpighi Anatome Plantarum Londra, John Martin, 1675 Bologna, Biblioteca Del Dipartimento Di Scienze Biologiche, Geologiche E Ambientali, Fondo Storico Bertoloni[am1]"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/76/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/76/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/76/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/76/ob02/1> ;
-    crm:P3_has_note "Assitra, Overo Arbore Di S. Tomaso In Jacopo Zanoni, Istoria Botanica Bologna, Giuseppe Longhi, 1675 Bub, A.iv.f.vi.3"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/77/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/77/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/77/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/77/ob02/1> ;
-    crm:P3_has_note "Panthera Tigris (linnaeus, 1758) Preparato A Secco[am2] Di Scheletro Di Tigre Dried Tiger Skeleton Sec. Xxi 21st Century Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/78/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/78/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/78/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/78/ob02/1> ;
-    crm:P3_has_note "Nautilio Gioiellato In Jacopo Tosi, Testacei, Cioè Nicchi Chioccioe E Conchiglie Sec. Xvii Bub, Ms. 4312, Carta 17"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/79/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/79/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/79/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/79/ob02/1> ;
-    crm:P3_has_note "Lophophorus Impejanus (lapham, 1790) Esemplare Tassidermizzato Di Lofoforo Splendido Taxidermized Specimen Of Himalayan Monal Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/8/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/8/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/8/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/8/ob02/1> ;
-    crm:P3_has_note "Mappa Di Cusco Map Of Cusco In Giovanni Battista Ramusio, Delle Navigationi Et Viaggi Venezia, Giunta, 1556 Bub, A.iv.p.i.14/3"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/81/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/81/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/81/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/81/ob02/1> ;
-    crm:P3_has_note "Coccodrillo Americano American Crocodile In Albert Seba, Locupletissimi Rerum Naturalium Thesauri Accurata Descriptio Amsterdam, Janssonius Van Waesberge, Wetstein E Smith, 1734 Bub, A.iv.i.i.6/1"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/82/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/82/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/82/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/82/ob02/1> ;
-    crm:P3_has_note "Cornua Arietis Speciosa Caprone Billy Goat In Luigi Ferdinando Marsili, Danubius Pannonico-mysicus,l’aia, Alberts Rutgert Christoffel, 1726 Bub, A.m.b.i.23/6"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/83/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/83/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/83/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/83/ob02/1> ;
-    crm:P3_has_note "Modello In Legno Policromo Di Balena Della Groenlandia Polychrome Wooden Model Of A Bowhead Whale Sec. Xviii 18th Century Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/84/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/84/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/84/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/84/ob02/1> ;
-    crm:P3_has_note "Preparato A Secco Di Testa, Collo, Torace E Diaframma Di Cavallo Dried Specimen Of Head, Neck, Thorax And Diaphragm 1885 Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/85/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/85/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/85/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/85/ob02/1> ;
-    crm:P3_has_note "Preparato In Liquido Di Feto Di Tre Mesi Di Cavallo Three-months Horse Foetus In Preservative Liquid Ozzano Dell'emilia, Collezione Di Anatomia Patologica E Teratologia Veterinaria, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/86/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/86/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/86/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/86/ob02/1> ;
-    crm:P3_has_note "Teste Di Cavallo Horses’ Heads In Carlo Ruini, De L’anatomia E Dell’infirmità Del Cavallo Bologna, Giovanni Rossi Eredi, 1598 Bub, A.iv.e.ii.12"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/87/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/87/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/87/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/87/ob02/1> ;
-    crm:P3_has_note "Feto Bovino, Intestino Intestine Of A Bovine Foetus Sec. Xix – 19th Century Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/88/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/88/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/88/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/88/ob02/1> ;
-    crm:P3_has_note "Elefante, Intestino Crasso Elephant, Large Intestine Sec. Xix – 19th Century[am3] Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/89/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/89/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/89/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/89/ob02/1> ;
-    crm:P3_has_note "Luigi Galvani Compie Esperimenti Con La Macchina Elettrostatica Alla Presenza Dei Familiari Luigi Galvani Making Experiments With The Electrostatic Machine With His Family Present Antonio Muzzi, 1862 Olio Su Tavola Oil On Panel Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/9/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/9/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/9/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/9/ob02/1> ;
-    crm:P3_has_note "Pietro Martire D’anghiera De Orbo Novo Alcalà De Henares, De Eguia Miguel, 1530 Bub, A.m.c.v.2"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/90/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/90/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/90/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/90/ob02/1> ;
-    crm:P3_has_note "Modello In Cera Di Diverse Rappresentazioni Di Patologie Oculari Wax Model Of Different Eye Pahtologies Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/91/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/91/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/91/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/91/ob02/1> ;
-    crm:P3_has_note "Modello In Cera Raffigurante L’organo Della Vista Wax Model Of The Sensory Organ For Sight Clemente Susini Sec. Xviii – 18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/92/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/92/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/92/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/92/ob02/1> ;
-    crm:P3_has_note "Modello In Cera Di Fasi Della Vaccinazione Contro Il Vaiolo Wax Model Of The Different Stages Of The Smallpox Vaccination Giuseppe Astorri, 1822, Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/93/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/93/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/93/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/93/ob02/1> ;
-    crm:P3_has_note "Busto Di Donna Con La Pellagra Bust Of A Woman With Pellagra Giuseppe Astorri, Sec. Xix – 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/94/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/94/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/94/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/94/ob02/1> ;
-    crm:P3_has_note "Preparazione In Cera Dell’arto Inferiore Wax Model Of Lower Limb Clemente Susini, Sec. Xviii – 18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/95/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/95/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/95/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/95/ob02/1> ;
-    crm:P3_has_note "Braccio Amputato A Seguito Di Un Incidente In Fase Di Dissezione Anatomica Del Primo Direttore Del Museo Di Anatomia Comparata, Professor Antonio Alessandrini Amputated Arm Belonging To The First Director Of The Museum Of Comparate Anatomy, Professor Antonio Alessandrini. The Arm Had To Be Amputed Following An Accident During A Dissection. Bologna, Collezione Di Anatomia Comparata, Sistema Museale Di Ateneo"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/96/ob00/1> a lrmoo:F5_Item ;
@@ -30018,41 +29263,6 @@
         <https://w3id.org/changes/4/aldrovandi/idf/96/ob02/1> ;
     crm:P3_has_note "Microscopio Microscope"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/97/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/97/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/97/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/97/ob02/1> ;
-    crm:P3_has_note "Sezione Anatomica Di Busto Umano Anatomical Section Of Human Torso In Leopoldo Marco Antonio Caldani, Icones Anatomicae Venezia, Giuseppe Picotti, 1801-1814 Bub, A.v.ii.bancone E.i.7"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/98/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/98/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/98/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/98/ob02/1> ;
-    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente. Da Sinistra A Destra: Boscimano Ai-hum Maschio, Boscimano Kung Femmina, Boscimano Ai-hum Femmina Living Masks. From Left To Right: Ai-hum Male, Kung Female, Ai-hum Female Lidio Cipriani Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/99/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/99/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/99/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/99/ob02/1> ;
-    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Cinese Maschio Living Masks, Chinese Male Lidio Cipriani, Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/a_alto_centro/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob02/1> ;
-    crm:P3_has_note "Testamento Di Ulisse Aldrovandi Ulisse Aldrovandi’s Will Carlo Antonio Manzolini, 6/1, Prot. Testamenti 1592-1608, Cc. 81v-90r. Archivio Di Stato Di Bologna, Archivio Notarile"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/a_alto_sinistra_1/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/a_alto_sinistra_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/a_alto_sinistra_1/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/a_alto_sinistra_1/ob02/1> ;
-    crm:P3_has_note "Medaglia In Piombo, Lead Medal Timoteo Refati, Sec. Xvi - 16th Century Bologna, Museo Civico Archeologico[am1]"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/a_alto_sinistra_2/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/a_alto_sinistra_2/ob00/1>,
@@ -30138,62 +29348,6 @@
     crm:P3_has_note "Fanoni Di Balena Baleen"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
-<https://w3id.org/changes/4/aldrovandi/itm/m1/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m1/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m1/ob02/1> ;
-    crm:P3_has_note "Ulisse Aldrovandi Adnotationes Variae Praesertim De Animalibus Sec. Xvi - 16th Century Bub, Ms. Aldrovandi, 21/1, Carte 12v-13r"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/m2/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m2/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m2/ob02/1> ;
-    crm:P3_has_note "Ulisse Aldrovandi Vulgata Proverbia (libro Dei Proverbi) Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 27, Carte 24v-25r"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/m3/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m3/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m3/ob02/1> ;
-    crm:P3_has_note "Ulisse Aldrovandi Pandechion Epistemonicon Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 105, Carte 263v-264r"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/m4/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m4/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m4/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m4/ob02/1> ;
-    crm:P3_has_note "Ulisse Aldrovandi Lexicon Rerum Inanimatarum Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 96/5, Carte 297v-298r"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/m5/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m5/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m5/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m5/ob02/1> ;
-    crm:P3_has_note "Ulisse Aldrovandi Bibliotheca Secundum Nomina Authorum (catalogo Della Biblioteca) Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 147, Carte 152v-153r[am1]"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/m6/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m6/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m6/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m6/ob02/1> ;
-    crm:P3_has_note "Ulisse Aldrovandi Theatrum Biblicum Naturale Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 54/2, Carta 211"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/m7/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m7/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m7/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m7/ob02/1> ;
-    crm:P3_has_note "Libro Dei Visitatori Visitors Book Ulisse Aldrovandi, Catalogus Virorum Qui Visitarunt Museaum Nostrum Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 110, Carta 52r"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/m8/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m8/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m8/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/m8/ob02/1> ;
-    crm:P3_has_note "Discorso Naturale Di Ulisse Aldrovandi Philosopho Et Medico In Ulisse Aldrovandi, De Lucentibus Et Aliis Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 91, C. 503"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
 <https://w3id.org/changes/4/aldrovandi/itm/ptb_1/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/ptb_1/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/idf/ptb_1/ob01/1>,
@@ -30232,76 +29386,6 @@
         <https://w3id.org/changes/4/aldrovandi/idf/s_n/ob02/1> ;
     crm:P3_has_note "Busto Di Ulisse Aldrovandi Bust Of Ulisse Aldrovandi Anonimo/ Anonymous, 1881 Ca. Marmo Bianco / White Marble"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/v2_1/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob02/1> ;
-    crm:P3_has_note "Giovanni Domenico Tiepolo Figura Allegorica Che Rappresenta L’america Allegorical Figure Representing America Sec. Xviii 18th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/v2_10/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_10/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_10/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_10/ob02/1> ;
-    crm:P3_has_note "Jacopo Zucchi La Pesca Del Corallo (o Il Regno Di Anfitrite) Coral Fishing (or The Realm Of Amphitrite) 1580 Ca. Roma, Galleria Borghese Foto Scala, Firenze"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/v2_2/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob02/1> ;
-    crm:P3_has_note "Nicolaes Berchem Allegoria Dell’america Allegory Of America Seconda Metà Sec. Xvii - Second Half 17th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/v2_3/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob02/1> ;
-    crm:P3_has_note "Giambattista Tiepolo America. Dettaglio Dell’allegoria Dei Pianeti E Dei Continenti America. Detail Of Allegory Of The Planets And Continents 1751-1753 Residenza Di Würzburg (germania). Foto Scala, Firenze"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/v2_4/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_4/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_4/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_4/ob02/1> ;
-    crm:P3_has_note "John Stafford America (serie: I Quattro Continenti) America (series: The Four Continents) 1630 Londra, The British Museum. © The Trustees Of The British Museum."^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/v2_5/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_5/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_5/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_5/ob02/1> ;
-    crm:P3_has_note "Ferdinand Van Kessel America 1691 Vienna, Kunsthistorisches Museum. © Khm-museumsverband"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/v2_6/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_6/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_6/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_6/ob02/1> ;
-    crm:P3_has_note "Adriaen Collaert (da Maerten De Vos), America (serie: I Quattro Continenti) America (series: The Four Continents) 1586-1591 Amsterdam, Rijksmuseum"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/v2_7/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob02/1> ;
-    crm:P3_has_note "Luca Giordano Allegoria Dell’america Allegory Of America 1702-1705 Reggia Di Caserta Su Concessione Del Ministero Della Cultura"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/v2_8/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_8/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_8/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_8/ob02/1> ;
-    crm:P3_has_note "Julius Goltzius (da Maerten De Vos), America 1575-1610 Amsterdam, Rijksmuseum"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
-
-<https://w3id.org/changes/4/aldrovandi/itm/v2_9/ob00/1> a lrmoo:F5_Item ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob01/1>,
-        <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob02/1> ;
-    crm:P3_has_note "Jan Caspar Philips Allegoria Dell’america Allegory Of America 1766 Amsterdam, Rijksmuseum"^^rdfs:Literal ;
-    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_1_alto_n_1/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_1_alto_n_1/ob00/1>,
@@ -31138,6 +30222,12 @@
     crm:P3_has_note "Preparati Zoologici, Squalo Martello Zoological Samples, Hammerhead Shark"^^rdfs:Literal ;
     crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1> .
 
+<https://w3id.org/changes/4/aldrovandi/plc/new_york/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/new_york/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/v2_1/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/v2_2/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/the_metropolitan_museum_of_art/1> .
+
 <https://w3id.org/changes/4/aldrovandi/sub/balena/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/balena/1> ;
     crm:P2_has_type aat:300404126 .
@@ -31329,9 +30419,1049 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_anatomia_degli_animali_domestici/1> ;
     crm:P2_has_type aat:300025976 .
 
+<https://w3id.org/changes/4/aldrovandi/itm/1/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/1/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/1/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/1/ob02/1> ;
+    crm:P3_has_note "Carta Nautica Nautical Chart Grazioso Benincasa, Sec. Xv Bub, Rotulo 3"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/10/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/10/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/10/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/10/ob02/1> ;
+    crm:P3_has_note "Josè De Acosta Historia Naturale, E Morale Delle Indie Venezia, Bernardo Basa, 1596 Bub, A.m.rr.i.33"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/100/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/100/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/100/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/100/ob02/1> ;
+    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Sardo Maschio Living Masks, Sardinian Male Lidio Cipriani Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/101/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/101/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/101/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/101/ob02/1> ;
+    crm:P3_has_note "Calco In Gesso Di Capo Tasmaniano (oceania) Plaster Model Of A Tasmanian Chief M. Eydoux Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/102/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/102/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/102/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/102/ob02/1> ;
+    crm:P3_has_note "Calco In Gesso Di Donna Dschagga (kenia) Plaster Model Of A Dschagga Woman (kenia) M. Eydoux Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/103/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/103/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/103/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/103/ob02/1> ;
+    crm:P3_has_note "Tavola Dei Colori Degli Occhi Di R. Martin Eye Colour Chart By R. Martin P. Hermann (zurich) Inizio Sec. Xx Early 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/104/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/104/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/104/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/104/ob02/1> ;
+    crm:P3_has_note "Compasso A Branche Ricurve Con Estremità Arrotondate Curved Branch Compass With Rounded Ends Inizio Sec. Xx Early 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/105/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/105/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/105/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/105/ob02/1> ;
+    crm:P3_has_note "Crani Dalla Collezione Di Luigi Calori Skulls From Luigi Calori’s Collection Bologna, Dipartimento Di Scienze Biomediche E Neuromotorie"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/106/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/106/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/106/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/106/ob02/1> ;
+    crm:P3_has_note "Modello Frenologico In Cera Phrenology Model In Wax Giuseppe Astorri Sec. Xix – 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/107/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/107/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/107/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/107/ob02/1> ;
+    crm:P3_has_note "Studio Sull’encefalo Di Un Africano, Di Luigi Calori (modello In Cera) Study On The Encephalon Of An African, By Luigi Calori (wax Model) Sec. Xix - 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/108/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/108/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/108/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/108/ob02/1> ;
+    crm:P3_has_note "Galeorhinus Cuvieri (agassiz, 1835) Squalo Dal Monte Bolca (verona) Shark From Bolca (verona, Italy) Eocene (48 Ma) Bologna, Collezione Di Geologia \"museo Giovanni Capellini\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/109/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/109/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/109/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/109/ob02/1> ;
+    crm:P3_has_note "Aepyornis Maximus (geoffroy Saint-hilaire, 1851) Uovo Di Uccello Elefante, Madagascar Egg Ratite Bird From Madagascar Quaternario, 1000 D.c.-1000 A.d., Bologna, Collezione Di Geologia \"museo Giovanni Capellini\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/11/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/11/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/11/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/11/ob02/1> ;
+    crm:P3_has_note "Tabacco Tobacco In Nicolas Monardes, Simplicium Medicamentorum Ex Novo Orbe Delatorum, Anversa, Christopher Plantin, 1579 Bub, A.iv.g.ix.5/2"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/110/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/110/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/110/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/110/ob02/1> ;
+    crm:P3_has_note "Arietites Sp. Ammonite, Località Indeterminata Ammonite, Undetermined Locality Giurassico Inferiore – Lower Jurassic (190 Ma) Bologna, Collezione Di Geologia \"museo Giovanni Capellini\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/111/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/111/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/111/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/111/ob02/1> ;
+    crm:P3_has_note "Cambropallas Telesto (geyer, 1993) Trilobite, Impronta E Controimpronta. Regione Di Erfoud (marocco) Trilobite, Two Halves From The Erfoud Region (morocco) Cambriano Inferiore - Lower Cambrian (540 Ma) Bologna, Collezione Di Geologia “museo Giovanni Capellini”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/112/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/112/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/112/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/112/ob02/1> ;
+    crm:P3_has_note "Arctinurus Boltoni (bigsby, 1825) Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia “museo Giovanni Capellini”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/113/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/113/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/113/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/113/ob02/1> ;
+    crm:P3_has_note "Dalmanites Sp. Trilobite, Raccolta Da G. Capellini Nel 1863 A Lockport (new York, Usa) Trilobite, Collected By G. Capellini In 1863 At Lockport (new York, Usa) Siluriano - Silurian (420 Ma) Bologna, Collezione Di Geologia “museo Giovanni Capellini”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/114/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/114/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/114/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/114/ob02/1> ;
+    crm:P3_has_note "Bottiglia Di Leida Leyden Jar Collezione Cowper Sec. Xviii 18th Century Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/115/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/115/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/115/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/115/ob02/1> ;
+    crm:P3_has_note "Macchina Elettrostatica Di Ramsden Ramsden Elctrostatic Machine Collezione Cowper Sec. Xviii 18th Century Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/116/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/116/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/116/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/116/ob02/1> ;
+    crm:P3_has_note "Arco Scaricatore Arc Discharger Sec. Xviii 18th Century Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/12/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/12/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/12/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/12/ob02/1> ;
+    crm:P3_has_note "Panthera Onca (linnaeus, 1758) Esemplare Tassidermizzato Di Giaguaro Taxidermized Specimen Of Jaguar Sec. Xxi 21st Century Pisa, Preparatore Naturaliter"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/13/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/13/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/13/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/13/ob02/1> ;
+    crm:P3_has_note "Pharomachrus Mocinno (de La Llave, 1832) Quetzal O Tro[am1] Gone Splendido Quetzal, Trogon Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/14/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/14/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/14/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/14/ob02/1> ;
+    crm:P3_has_note "Limulus Polyphemus (linnaeus, 1758) Limulo O Granchio Ferro Di Cavallo Limulus Bologna, Collezione Di Anatomia Comparata, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/15/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/15/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/15/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/15/ob02/1> ;
+    crm:P3_has_note "Ctenosaura Similis (gray, 1831) Esemplare Tassidermizzato Di Iguana Taxidermized Specimen Of Iguana Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/16/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/16/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/16/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/16/ob02/1> ;
+    crm:P3_has_note "Ara Macao (linnaeus, 1758) Ara Scarlatta Scarlet Macaw Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/17/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/17/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/17/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/17/ob02/1> ;
+    crm:P3_has_note "Ramphastos Toco (statius Müller, 1776) Tucano Toco Toco Toucan Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/18/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/18/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/18/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/18/ob02/1> ;
+    crm:P3_has_note "Meleagris Gallopavo (linneaus, 1758) Esemplare Tassidermizzato Di Tacchino Selvatico Taxidermized Specimen Of Wild Turkey Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/19/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/19/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/19/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/19/ob02/1> ;
+    crm:P3_has_note "Dasypus Novemcinctus (linnaeus, 1757) Armadillo Armadillo Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/2/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/2/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/2/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/2/ob02/1> ;
+    crm:P3_has_note "Panthera Leo (linnaeus, 1758) Diorama Con Tre Leoni Tassidermizzati Diorama With Three Taxidermized Lions Manifattura Rowland Ward - Londra, Inizio Sec. Xx – Early 20th Century Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/20/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/20/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/20/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/20/ob02/1> ;
+    crm:P3_has_note "Codice Cospi, Manoscritto Divinatorio Mesoamericano Codex Cospi, Mesoamerican Divination Manuscript Sec. Xv-xvi 15th-16th Century Bub, Ms. 4093[am2]"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/21/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/21/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/21/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/21/ob02/1> ;
+    crm:P3_has_note "Ritratto Di Ulisse Aldrovandi Portrait Of Ulisse Aldrovandi Agostino Carracci, Olio Su Tela/oil On Canvas,[am3] 1582-1585 Bergamo, Accademia Carrara"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bergamo/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/22/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/22/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/22/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/22/ob02/1> ;
+    crm:P3_has_note "Dioscorides Pedanius De Plantis Epitome Utilissima Francoforte Sul Meno, Johann Feyerabend, 1586 Bologna, Biblioteca Del Dipartimento Di Scienze Biologiche, Geologiche E Ambientali, Fondo Storico Bertoloni[am4]"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/24/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/24/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/24/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/24/ob02/1> ;
+    crm:P3_has_note "Mappa Dell’orto Botanico Di Padova Map Of The Botanical Garden In Padua In Giacomo Antonio Cortusi, L’horto De I Semplici Di Padoua Venezia, Girolamo Porro, 1591 Bub, A.v.tab.i.c.i.278/5"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/25/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/25/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/25/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/25/ob02/1> ;
+    crm:P3_has_note "Mappa Dell’orto Botanico Di Bologna Map Of The Botanical Garden In Bologna In Giuseppe Monti, Indices Botanici Et Materiae Medicae Bologna, Lelio Dalla Volpe[am6] , 1753 Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/26/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/26/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/26/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/26/ob02/1> ;
+    crm:P3_has_note "Chrysanthemi Girasole Sunflower Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Piante, Fiori E Frutti Vol. 1, Carta 76"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/27a/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27a/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27a/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27a/ob02/1> ;
+    crm:P3_has_note "Delphinium Staphisagria L. Speronella Stavesacre Erbario Aldrovandi, Vol. 7, Carta 85 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/27b/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27b/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27b/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27b/ob02/1> ;
+    crm:P3_has_note "Adonis Vernalis L. Adonide Gialla Pheasant’s Eye Erbario Aldrovandi, Vol.12, Carta 192 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/27c/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27c/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27c/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27c/ob02/1> ;
+    crm:P3_has_note "Solanum Lycopersicum L. Pomodoro Tomato Erbario Aldrovandi, Vol.1, Carta 368 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/27d/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27d/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27d/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27d/ob02/1> ;
+    crm:P3_has_note "Antennaria Dioica (l.) Gaertner Antennaria Mountain Everlasting Erbario Aldrovandi, Vol.9, Carta 141 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/27e/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27e/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27e/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27e/ob02/1> ;
+    crm:P3_has_note "Tulipa Sylvestris L. Tulipano Dei Campi Wild Tulip Erbario Aldrovandi, Vol.6, Carta 195 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/27f/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/27f/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27f/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/27f/ob02/1> ;
+    crm:P3_has_note "Dryas Octopetala L. Camedrio Alpino Mountain Avens Erbario Aldrovandi, Vol.13, Carta 77 Sec. Xvi 16th Century Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/28/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/28/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/28/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/28/ob02/1> ;
+    crm:P3_has_note "Anatomia Del Pollo Anatomy Of A Chicken In Ulisse Aldrovandi, Ornithologiae Hoc Est De Avibus Historiae Libri Xii, Vol. 2 Bologna, Francesco De Franceschi Senese, 1603 Bub, A.iv.h.iii.8/2"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/29/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/29/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/29/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/29/ob02/1> ;
+    crm:P3_has_note "Pulcino Dentro Il Guscio Chick In An Eggshell Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Animali, Vol. 3, Carta 159"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/3/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/3/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/3/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/3/ob02/1> ;
+    crm:P3_has_note "Aristoteles De Historia Animalium Lib. 9 Venezia, Girolamo Scoto, 1545 Bub, A.v.gg.vii.28"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/30/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/30/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/30/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/30/ob02/1> ;
+    crm:P3_has_note "Cygnus Olor (gmelin, 1789) Preparato Tassidermizzato Di Cigno Reale Taxidermized Mount Of A Mute Swan Preparatore Fabrizio Cancelli, 1981, Museo Di Storia Naturale Dell’accademia Dei Fisiocritici Di Siena"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/siena/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/31/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/31/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/31/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/31/ob02/1> ;
+    crm:P3_has_note "Cigno Sezionato Dissected Swan In Ulisse Aldrovandi,ornithologiae Hoc Est De Avibus Historiae Libri Xii, Vol.3 Bologna, Francesco De Franceschi Senese, 1603 Bub, A.iv.h.iii.8/3"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/32/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/32/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/32/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/32/ob02/1> ;
+    crm:P3_has_note "Essere Umano Ermafrodita Human Hermaphrodite (monstrum Humanum Hermaphroditicum) Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Animali, Vol. 5, Carta 86"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/33/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/33/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/33/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/33/ob02/1> ;
+    crm:P3_has_note "Lodoicea Maldivica (j. F. Gmel.) Pers. Seme Di Coco De Mer Seed Of Sea Coconut Sec. Xvi 16th Century Bologna, Collezione Ulisse Aldrovandi, Museo Di Palazzo Poggi[am7] [smf8] [am9] , Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/34/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/34/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/34/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/34/ob02/1> ;
+    crm:P3_has_note "Chimaera Monstrosa (linnaeus,1758) Centrina Rabbit Fish Sec. Xvi 16th Century Bologna. Collezione Ulisse Aldrovandi, Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/35/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/35/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/35/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/35/ob02/1> ;
+    crm:P3_has_note "Basilisco Basilisk Francesco Calceolarin, Sec. Xvii 17th Century Collezione E. De Betta, Museo Di Storia Naturale Di Verona"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/verona/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/36/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/36/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/36/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/36/ob02/1> ;
+    crm:P3_has_note "Ciclope Cyclops In Ulisse Aldrovandi, Monstruorum Historia Bologna, Nicolò Tebaldini, 1642 Bub, A.iv.h.iii.11/11"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/37/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/37/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/37/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/37/ob02/1> ;
+    crm:P3_has_note "Tavola [mc10] [am11] Con Monocolo Table With “mono-ocular” Model[am12] Sec. Xviii 18th Century Bologna, Collezione Di Ostetricia, Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/38/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/38/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/38/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/38/ob02/1> ;
+    crm:P3_has_note "Doppia Testa Di Vitello Heads Of A Two-headed Calf (caput Geminum Vituli) Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Animali, Vol. 1, Carta 89"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/39/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/39/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/39/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/39/ob02/1> ;
+    crm:P3_has_note "Bos Taurus (linnaeus, 1758) Preparato Di Giovane Bovino Con Malformazione Teratologica Taxidermy Mount Of A Young Bovine With Teratologic Malformation Ozzano Dell'emilia, Collezione Di Anatomia Patologica E Teratologia Veterinaria “alessandrini - Ercolani”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/ozzano_dell'emilia/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/4/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/4/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/4/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/4/ob02/1> ;
+    crm:P3_has_note "Theophrastus Peri Phyton (de Historia Plantarum) In Aristoteles, Opera, Vol. 4 Venezia, Aldo Manuzio, 1497 Istc Ia00959000 Bub, A.v.kk.x.6"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/40/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/40/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/40/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/40/ob02/1> ;
+    crm:P3_has_note "Monodon Monoceros (linnaeus, 1758) Dente Di Narvalo Narwhal Tusk Sec. Xvii 17th Century Bologna, Collezione Cospi, Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/41/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/41/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/41/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/41/ob02/1> ;
+    crm:P3_has_note "Orcio Per Teriaca [am13] Vase Used For Theriac 1728. Bologna, Musei Civici D'arte Antica, Museo Medievale[am14]"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/42/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/42/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/42/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/42/ob02/1> ;
+    crm:P3_has_note "Cerastes Serpens E Ammodites Vipera Cornuta E Vipera Del Corno Desert Horned Viper And Vipera Ammodytes Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Animali, Vol. 4, Carta 132"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/2/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/43/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/43/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/43/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/43/ob02/1> ;
+    crm:P3_has_note "Hortus Sanitatis Venezia, Bernardino Benali E Giovanni Tacuino, 1511 Bologna, Biblioteca Del Dipartimento Di Scienze Biologiche, Geologiche E Ambientali, Fondo Storico Bertoloni[am1]"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/44/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/44/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/44/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/44/ob02/1> ;
+    crm:P3_has_note "Narcissus Narciso Daffodi Sec. Xvi 16th Century Bub, Ms. Aldrovandi, Tavole Di Piante, Fiori E Frutti, Vol. 7, Carta 115"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/45/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/45/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/45/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/45/ob02/1> ;
+    crm:P3_has_note "Muscolatura Umana E Scheletro Pensante Human Muscolar System And Thinking Skeleton In Andreas Vesalius, De Humani Corporis Fabrica Basilea, Johann Oporinus, 1543 Bub, A.v.ff.i.6"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/46/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/46/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/46/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/46/ob02/1> ;
+    crm:P3_has_note "Ruote Idrauliche Water Wheels In Agricola Georg, De Re Metallica Basilea, Hieronymus Froben E Nicolaus Episcopius, 1556 Bub, A.iv.h.i.53"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/47/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/47/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/47/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/47/ob02/1> ;
+    crm:P3_has_note "Illustrazioni Della Luna Moon Illustrations In Opere Di Galileo Galilei Divise In Quattro Tomi, In Questa Nuova Edizione Accresciuta Di Molte Cose Inedite. Tomo Ii Padova, Stamperia Del Seminario, 1744 Bologna, Biblioteca Di Matematica, Fisica E Informatica. Sezione Di Fisica. Biblioteca Storica \"guido Horn D'arturo\""^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/48/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/48/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/48/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/48/ob02/1> ;
+    crm:P3_has_note "Descrizione Dell'anatomia Microscopica Dell'ape Description Of The Microscopic Anatomy Of A Bee In Persius Flaccus Aulus, Persio Tradotto In Verso Sciolto, Roma, Giacomo Mascardi, 1630 Bub, A.v.y.xi.28"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/3/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/49/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/49/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/49/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/49/ob02/1> ;
+    crm:P3_has_note "Maschera Raffigurante Yacatecuhtli, Patrono Dei Mercanti, Cultura Nahua, Ca. 1350-1521 D.c. Mask Depicting Yacatecuhtli, Patron God Of Merchants, Nahua Culture, Ca. 1350-1521 A.d. Roma, Museo Delle Civiltà"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/roma/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/5/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/5/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/5/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/5/ob02/1> ;
+    crm:P3_has_note "Dioscorides Pedanius De Medica Materia Firenze, Filippo Giunta Eredi, 1523 Bub, A.iv.h.i.27"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/50/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/50/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/50/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/50/ob02/1> ;
+    crm:P3_has_note "Manico Di Coltello Sacrificale In Forma Di Rettile Fantastico Cultura Nahua, Ca. 1350-1521 D.c. Handle Of Sacrificial Knife In The Shape Of A Fantastical Reptile, Nahua Culture Ca. 1350-1521 A.d. Roma, Museo Delle Civiltà"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/roma/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/51/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/51/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/51/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/51/ob02/1> ;
+    crm:P3_has_note "Manico Di Coltello Sacrificale In Forma Di Figura Umana Cultura Nahua, Ca. 1350-1521 D.c. Human-shaped Handle Of Sacrificial Knife, Nahua Culture Ca. 1350-1521 A.d. Roma, Museo Delle Civiltà"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/roma/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/52/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/52/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/52/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/52/ob02/1> ;
+    crm:P3_has_note "Maschera Mask In Ulisse Aldrovandi, Musaeum Metallicum Bologna, Marco Antonio Bernia E Giovan Battista Ferroni, 1648 Bub, A.iv.h.iii.11/13"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/53/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/53/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/53/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/53/ob02/1> ;
+    crm:P3_has_note "Pendente Con Testa Di Idolo In Serpentino [am2] Cultura Nahua O Mixteca, Ca. 1350-1521 D.c. Serpentine Pendant In The Shape Of A Human Head, Nahua Or Mixtec Culture Ca. 1350-1521 A.d. Bologna, Museo Civico Medievale"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/54/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/54/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/54/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/54/ob02/1> ;
+    crm:P3_has_note "Idoli Cult Images In Ulisse Aldrovandi, Musaeum Metallicum Bologna, Marco Antonio Bernia E Giovan Battista Ferroni, 1648 Bub, A.iv.h.iii.11/13"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/4/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/57/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/57/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/57/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/57/ob02/1> ;
+    crm:P3_has_note "Polpo Octopus In Ippolito Salviani, Aquatilium Animalium Historiae, Roma, Ippolito Salviani, 1554 Bub, A.v.tab.iii.i.i.9"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/6/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/6/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/6/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/6/ob02/1> ;
+    crm:P3_has_note "Plinius Secundus Gaius Naturae Historiarum Venezia, Giorgio Rusconi, 1519 Bub, A.v.r.vi.9"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/62/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/62/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/62/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/62/ob02/1> ;
+    crm:P3_has_note "Isole Della Grecia Greek Islands In Benedetto Bordon, Isolario Venezia, Federico Torresano, 1547 Bub, A.iv.p.i.14/2bis"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/63/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/63/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/63/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/63/ob02/1> ;
+    crm:P3_has_note "Gufo Owl In Pierre Belon, L’histoire De La Nature Des Oiseaux, Parigi, Gilles Corrozet E Benoit Prevost, 1555 Bub, A.iv.h.i.57"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/64/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/64/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/64/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/64/ob02/1> ;
+    crm:P3_has_note "Polifemo Polyphemus In Ovidius Naso Publius, Metamorphoseos Libri Xv, Venezia, Giovanni Tacuino, 1536 Bub, A.v.r.vi.1/1"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/66/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/66/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/66/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/66/ob02/1> ;
+    crm:P3_has_note "Vipera Viper In Baldo Angelo Abati, De Admirabili Viperae Natura, Urbino, Bartolomeo Ragusi, 1589 Bub, A.iv.d.ix.13"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/67/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/67/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/67/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/67/ob02/1> ;
+    crm:P3_has_note "Ricostruzione Del Naso, Metodo Italiano Italian Method For The Reconstruction Of The Nose In Gaspare Tagliacozzi, De Curtorum Chirurgia, Venezia, Gaspare Bindoni, 1597 Bub A.iv.e.ii.23"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/7/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/7/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/7/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/7/ob02/1> ;
+    crm:P3_has_note "Profilo Incompleto Delle Coste Del Continente Americano Incomplete Coastal Profile Of The American Continent In Battista Agnese, Atlante Nautico, Sec. Xvi 16th Century Bub, Ms. 997"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/74a/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/74a/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/74a/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/74a/ob02/1> ;
+    crm:P3_has_note "Linum Usitatissimum L. Modello Di Lino, Manifattura Brendel, Berlino Model Of Flax Brendel Company, Berlin Fine Sec. Xix Late 19th Century. Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/74b/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/74b/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/74b/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/74b/ob02/1> ;
+    crm:P3_has_note "Orchis Morio L. Modello Di Giglio Caprino, Manifattura Brendel, Berlino Model Of Green-winged Orchid, Brendel Company, Berlin Fine Sec. Xix Late 19th Century. Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/74c/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/74c/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/74c/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/74c/ob02/1> ;
+    crm:P3_has_note "Butomus Umbellatus L. Modello Di Giunco Fiorito, Manifattura Brendel, Berlino Model Of Flowering Rushb Rendel Company, Berlin Fine Sec. Xix Late 19th Century. Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/74d/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/74d/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/74d/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/74d/ob02/1> ;
+    crm:P3_has_note "Daphne Mezereum L. Modello Di Fior Di Stecco, Manifattura Brendel, Berlino Model Of Spurge Laurel, Brendel Company, Berlin Fine Sec. Xix Late 19th Century. Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/74e/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/74e/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/74e/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/74e/ob02/1> ;
+    crm:P3_has_note "Primula Veris L. Modello Di Primula Odorosa, Manifattura Brendel, Berlino Model Of Cowslip, Brendel Company, Berlin Fine Sec. Xix Late 19th Century. Bologna, Orto Botanico Ed Erbario, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/75/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/75/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/75/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/75/ob02/1> ;
+    crm:P3_has_note "Marcello Malpighi Anatome Plantarum Londra, John Martin, 1675 Bologna, Biblioteca Del Dipartimento Di Scienze Biologiche, Geologiche E Ambientali, Fondo Storico Bertoloni[am1]"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/76/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/76/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/76/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/76/ob02/1> ;
+    crm:P3_has_note "Assitra, Overo Arbore Di S. Tomaso In Jacopo Zanoni, Istoria Botanica Bologna, Giuseppe Longhi, 1675 Bub, A.iv.f.vi.3"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/77/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/77/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/77/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/77/ob02/1> ;
+    crm:P3_has_note "Panthera Tigris (linnaeus, 1758) Preparato A Secco[am2] Di Scheletro Di Tigre Dried Tiger Skeleton Sec. Xxi 21st Century Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/ozzano_dell'emilia/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/78/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/78/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/78/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/78/ob02/1> ;
+    crm:P3_has_note "Nautilio Gioiellato In Jacopo Tosi, Testacei, Cioè Nicchi Chioccioe E Conchiglie Sec. Xvii Bub, Ms. 4312, Carta 17"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/79/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/79/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/79/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/79/ob02/1> ;
+    crm:P3_has_note "Lophophorus Impejanus (lapham, 1790) Esemplare Tassidermizzato Di Lofoforo Splendido Taxidermized Specimen Of Himalayan Monal Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/8/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/8/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/8/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/8/ob02/1> ;
+    crm:P3_has_note "Mappa Di Cusco Map Of Cusco In Giovanni Battista Ramusio, Delle Navigationi Et Viaggi Venezia, Giunta, 1556 Bub, A.iv.p.i.14/3"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/81/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/81/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/81/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/81/ob02/1> ;
+    crm:P3_has_note "Coccodrillo Americano American Crocodile In Albert Seba, Locupletissimi Rerum Naturalium Thesauri Accurata Descriptio Amsterdam, Janssonius Van Waesberge, Wetstein E Smith, 1734 Bub, A.iv.i.i.6/1"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/82/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/82/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/82/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/82/ob02/1> ;
+    crm:P3_has_note "Cornua Arietis Speciosa Caprone Billy Goat In Luigi Ferdinando Marsili, Danubius Pannonico-mysicus,l’aia, Alberts Rutgert Christoffel, 1726 Bub, A.m.b.i.23/6"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/83/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/83/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/83/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/83/ob02/1> ;
+    crm:P3_has_note "Modello In Legno Policromo Di Balena Della Groenlandia Polychrome Wooden Model Of A Bowhead Whale Sec. Xviii 18th Century Bologna, Collezione Di Zoologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/84/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/84/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/84/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/84/ob02/1> ;
+    crm:P3_has_note "Preparato A Secco Di Testa, Collo, Torace E Diaframma Di Cavallo Dried Specimen Of Head, Neck, Thorax And Diaphragm 1885 Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/ozzano_dell'emilia/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/85/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/85/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/85/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/85/ob02/1> ;
+    crm:P3_has_note "Preparato In Liquido Di Feto Di Tre Mesi Di Cavallo Three-months Horse Foetus In Preservative Liquid Ozzano Dell'emilia, Collezione Di Anatomia Patologica E Teratologia Veterinaria, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/ozzano_dell'emilia/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/86/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/86/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/86/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/86/ob02/1> ;
+    crm:P3_has_note "Teste Di Cavallo Horses’ Heads In Carlo Ruini, De L’anatomia E Dell’infirmità Del Cavallo Bologna, Giovanni Rossi Eredi, 1598 Bub, A.iv.e.ii.12"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/87/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/87/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/87/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/87/ob02/1> ;
+    crm:P3_has_note "Feto Bovino, Intestino Intestine Of A Bovine Foetus Sec. Xix – 19th Century Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/ozzano_dell'emilia/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/88/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/88/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/88/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/88/ob02/1> ;
+    crm:P3_has_note "Elefante, Intestino Crasso Elephant, Large Intestine Sec. Xix – 19th Century[am3] Ozzano Dell'emilia, Collezione Di Anatomia Degli Animali Domestici, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/ozzano_dell'emilia/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/89/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/89/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/89/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/89/ob02/1> ;
+    crm:P3_has_note "Luigi Galvani Compie Esperimenti Con La Macchina Elettrostatica Alla Presenza Dei Familiari Luigi Galvani Making Experiments With The Electrostatic Machine With His Family Present Antonio Muzzi, 1862 Olio Su Tavola Oil On Panel Museo Di Palazzo Poggi, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/9/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/9/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/9/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/9/ob02/1> ;
+    crm:P3_has_note "Pietro Martire D’anghiera De Orbo Novo Alcalà De Henares, De Eguia Miguel, 1530 Bub, A.m.c.v.2"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/90/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/90/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/90/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/90/ob02/1> ;
+    crm:P3_has_note "Modello In Cera Di Diverse Rappresentazioni Di Patologie Oculari Wax Model Of Different Eye Pahtologies Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo”, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/91/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/91/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/91/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/91/ob02/1> ;
+    crm:P3_has_note "Modello In Cera Raffigurante L’organo Della Vista Wax Model Of The Sensory Organ For Sight Clemente Susini Sec. Xviii – 18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/92/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/92/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/92/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/92/ob02/1> ;
+    crm:P3_has_note "Modello In Cera Di Fasi Della Vaccinazione Contro Il Vaiolo Wax Model Of The Different Stages Of The Smallpox Vaccination Giuseppe Astorri, 1822, Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/93/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/93/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/93/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/93/ob02/1> ;
+    crm:P3_has_note "Busto Di Donna Con La Pellagra Bust Of A Woman With Pellagra Giuseppe Astorri, Sec. Xix – 19th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/94/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/94/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/94/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/94/ob02/1> ;
+    crm:P3_has_note "Preparazione In Cera Dell’arto Inferiore Wax Model Of Lower Limb Clemente Susini, Sec. Xviii – 18th Century Bologna, Collezione Delle Cere Anatomiche \"luigi Cattaneo\", Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/95/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/95/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/95/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/95/ob02/1> ;
+    crm:P3_has_note "Braccio Amputato A Seguito Di Un Incidente In Fase Di Dissezione Anatomica Del Primo Direttore Del Museo Di Anatomia Comparata, Professor Antonio Alessandrini Amputated Arm Belonging To The First Director Of The Museum Of Comparate Anatomy, Professor Antonio Alessandrini. The Arm Had To Be Amputed Following An Accident During A Dissection. Bologna, Collezione Di Anatomia Comparata, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/97/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/97/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/97/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/97/ob02/1> ;
+    crm:P3_has_note "Sezione Anatomica Di Busto Umano Anatomical Section Of Human Torso In Leopoldo Marco Antonio Caldani, Icones Anatomicae Venezia, Giuseppe Picotti, 1801-1814 Bub, A.v.ii.bancone E.i.7"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/98/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/98/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/98/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/98/ob02/1> ;
+    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente. Da Sinistra A Destra: Boscimano Ai-hum Maschio, Boscimano Kung Femmina, Boscimano Ai-hum Femmina Living Masks. From Left To Right: Ai-hum Male, Kung Female, Ai-hum Female Lidio Cipriani Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/99/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/99/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/99/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/99/ob02/1> ;
+    crm:P3_has_note "Ricostruzioni Plastiche Sul Vivente, Cinese Maschio Living Masks, Chinese Male Lidio Cipriani, Sec. Xx – 20th Century Bologna, Collezione Di Antropologia, Sistema Museale Di Ateneo"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/6/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/a_alto_centro/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/a_alto_centro/ob02/1> ;
+    crm:P3_has_note "Testamento Di Ulisse Aldrovandi Ulisse Aldrovandi’s Will Carlo Antonio Manzolini, 6/1, Prot. Testamenti 1592-1608, Cc. 81v-90r. Archivio Di Stato Di Bologna, Archivio Notarile"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/a_alto_sinistra_1/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/a_alto_sinistra_1/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/a_alto_sinistra_1/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/a_alto_sinistra_1/ob02/1> ;
+    crm:P3_has_note "Medaglia In Piombo, Lead Medal Timoteo Refati, Sec. Xvi - 16th Century Bologna, Museo Civico Archeologico[am1]"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/m1/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m1/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m1/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m1/ob02/1> ;
+    crm:P3_has_note "Ulisse Aldrovandi Adnotationes Variae Praesertim De Animalibus Sec. Xvi - 16th Century Bub, Ms. Aldrovandi, 21/1, Carte 12v-13r"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/m2/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m2/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m2/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m2/ob02/1> ;
+    crm:P3_has_note "Ulisse Aldrovandi Vulgata Proverbia (libro Dei Proverbi) Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 27, Carte 24v-25r"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/m3/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m3/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m3/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m3/ob02/1> ;
+    crm:P3_has_note "Ulisse Aldrovandi Pandechion Epistemonicon Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 105, Carte 263v-264r"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/m4/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m4/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m4/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m4/ob02/1> ;
+    crm:P3_has_note "Ulisse Aldrovandi Lexicon Rerum Inanimatarum Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 96/5, Carte 297v-298r"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/m5/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m5/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m5/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m5/ob02/1> ;
+    crm:P3_has_note "Ulisse Aldrovandi Bibliotheca Secundum Nomina Authorum (catalogo Della Biblioteca) Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 147, Carte 152v-153r[am1]"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/m6/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m6/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m6/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m6/ob02/1> ;
+    crm:P3_has_note "Ulisse Aldrovandi Theatrum Biblicum Naturale Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 54/2, Carta 211"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/m7/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m7/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m7/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m7/ob02/1> ;
+    crm:P3_has_note "Libro Dei Visitatori Visitors Book Ulisse Aldrovandi, Catalogus Virorum Qui Visitarunt Museaum Nostrum Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 110, Carta 52r"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/m8/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/m8/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m8/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/m8/ob02/1> ;
+    crm:P3_has_note "Discorso Naturale Di Ulisse Aldrovandi Philosopho Et Medico In Ulisse Aldrovandi, De Lucentibus Et Aliis Sec. Xvi - 16th Century Bub, Ms. Aldrovandi 91, C. 503"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/5/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/v2_1/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_1/ob02/1> ;
+    crm:P3_has_note "Giovanni Domenico Tiepolo Figura Allegorica Che Rappresenta L’america Allegorical Figure Representing America Sec. Xviii 18th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/new_york/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/v2_10/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_10/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_10/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_10/ob02/1> ;
+    crm:P3_has_note "Jacopo Zucchi La Pesca Del Corallo (o Il Regno Di Anfitrite) Coral Fishing (or The Realm Of Amphitrite) 1580 Ca. Roma, Galleria Borghese Foto Scala, Firenze"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/roma/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/v2_2/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_2/ob02/1> ;
+    crm:P3_has_note "Nicolaes Berchem Allegoria Dell’america Allegory Of America Seconda Metà Sec. Xvii - Second Half 17th Century New York, The Metropolitan Museum Of Art."^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/new_york/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/v2_3/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_3/ob02/1> ;
+    crm:P3_has_note "Giambattista Tiepolo America. Dettaglio Dell’allegoria Dei Pianeti E Dei Continenti America. Detail Of Allegory Of The Planets And Continents 1751-1753 Residenza Di Würzburg (germania). Foto Scala, Firenze"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/wurzburg/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/v2_4/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_4/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_4/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_4/ob02/1> ;
+    crm:P3_has_note "John Stafford America (serie: I Quattro Continenti) America (series: The Four Continents) 1630 Londra, The British Museum. © The Trustees Of The British Museum."^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/londra/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/v2_5/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_5/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_5/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_5/ob02/1> ;
+    crm:P3_has_note "Ferdinand Van Kessel America 1691 Vienna, Kunsthistorisches Museum. © Khm-museumsverband"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/vienna/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/v2_6/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_6/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_6/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_6/ob02/1> ;
+    crm:P3_has_note "Adriaen Collaert (da Maerten De Vos), America (serie: I Quattro Continenti) America (series: The Four Continents) 1586-1591 Amsterdam, Rijksmuseum"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/amsterdam/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/v2_7/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_7/ob02/1> ;
+    crm:P3_has_note "Luca Giordano Allegoria Dell’america Allegory Of America 1702-1705 Reggia Di Caserta Su Concessione Del Ministero Della Cultura"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/caserta/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/v2_8/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_8/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_8/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_8/ob02/1> ;
+    crm:P3_has_note "Julius Goltzius (da Maerten De Vos), America 1575-1610 Amsterdam, Rijksmuseum"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/amsterdam/1> .
+
+<https://w3id.org/changes/4/aldrovandi/itm/v2_9/ob00/1> a lrmoo:F5_Item ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob01/1>,
+        <https://w3id.org/changes/4/aldrovandi/idf/v2_9/ob02/1> ;
+    crm:P3_has_note "Jan Caspar Philips Allegoria Dell’america Allegory Of America 1766 Amsterdam, Rijksmuseum"^^rdfs:Literal ;
+    crm:P53_has_former_or_current_location <https://w3id.org/changes/4/aldrovandi/plc/1/1>,
+        <https://w3id.org/changes/4/aldrovandi/plc/amsterdam/1> .
+
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_8_basso_-_2/ob00/1> a lrmoo:F5_Item ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/idf/vetrina_8_basso_-_2/ob00/1> ;
     crm:P62i_is_depicted_by <https://w3id.org/changes/4/aldrovandi/itm/vetrina_8_basso_-_2/ob00/1> .
+
+<https://w3id.org/changes/4/aldrovandi/plc/amsterdam/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/amsterdam/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/v2_6/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/v2_8/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/v2_9/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/officina_janssonio-waesbergiana/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/rijksmuseum/1> .
 
 <https://w3id.org/changes/4/aldrovandi/sub/anatomia/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/anatomia/1>,
@@ -31512,6 +31642,17 @@
         <https://w3id.org/changes/4/aldrovandi/itm/53/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/itm/54/ob00/1> .
 
+<https://w3id.org/changes/4/aldrovandi/plc/roma/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/roma/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/49/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/50/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/51/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/v2_10/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/galleria_borghese/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/giacomo_mascardi/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/ippolito_salviani/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_di_roma/1> .
+
 <https://w3id.org/changes/4/aldrovandi/sub/mostro/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/basilisco/1>,
         <https://w3id.org/changes/4/aldrovandi/apl/centrina/1>,
@@ -31546,6 +31687,16 @@
 <https://w3id.org/changes/4/aldrovandi/col/collezione_di_antropologia/1> a crm:E24_Physical_Human-Made_Thing ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/collezione_di_antropologia/1> ;
     crm:P2_has_type aat:300025976 .
+
+<https://w3id.org/changes/4/aldrovandi/plc/ozzano_dell'emilia/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/ozzano_dell'emilia/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/39/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/77/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/84/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/85/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/87/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/88/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> .
 
 <https://w3id.org/changes/4/aldrovandi/sub/botroidi/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/botroidi/1> ;
@@ -31632,28 +31783,6 @@
 <https://w3id.org/changes/4/aldrovandi/acr/orto_botanico_ed_erbario_di_bologna/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/orto_botanico_ed_erbario_di_bologna/1> ;
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
-
-<https://w3id.org/changes/4/aldrovandi/plc/bologna/1> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/bologna/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/archivio_di_stato_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_di_matematica/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/bub/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_scienze_biomediche_e_neuromotorie_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/fisica_e_informatica_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/geologiche_e_ambientali/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/giovanni_battista_ferroni/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/giovanni_rossi_eredi/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/giuseppe_longhi/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/lelio_dalla_volpe/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/marco_antonio_bernia/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/museo_civico_archeologico_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/museo_civico_medievale_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/museo_di_palazzo_poggi/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/nicolo_tebaldini/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/orto_botanico_ed_erbario_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> .
 
 <https://w3id.org/changes/4/aldrovandi/apl/america/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Africa"@en,
@@ -31831,6 +31960,135 @@
         <https://w3id.org/changes/4/aldrovandi/itm/97/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/itm/98/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/itm/99/ob00/1> .
+
+<https://w3id.org/changes/4/aldrovandi/plc/bologna/1> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/bologna/1> ;
+    crm:P53i_is_former_or_current_location_of <https://w3id.org/changes/4/aldrovandi/itm/1/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/10/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/100/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/101/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/102/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/103/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/104/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/105/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/106/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/107/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/108/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/109/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/11/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/110/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/111/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/112/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/113/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/114/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/115/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/116/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/12/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/13/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/14/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/15/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/16/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/17/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/18/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/19/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/2/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/20/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/22/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/24/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/25/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/26/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/27a/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/27b/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/27c/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/27d/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/27e/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/27f/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/28/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/29/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/3/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/31/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/32/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/33/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/34/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/36/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/37/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/38/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/4/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/40/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/41/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/42/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/43/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/44/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/45/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/46/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/47/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/48/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/5/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/52/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/53/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/54/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/57/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/6/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/62/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/63/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/64/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/66/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/67/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/7/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/74a/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/74b/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/74c/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/74d/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/74e/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/75/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/76/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/78/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/79/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/8/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/81/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/82/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/83/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/86/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/89/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/9/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/90/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/91/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/92/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/93/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/94/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/95/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/97/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/98/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/99/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/a_alto_centro/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/a_alto_sinistra_1/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/m1/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/m2/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/m3/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/m4/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/m5/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/m6/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/m7/ob00/1>,
+        <https://w3id.org/changes/4/aldrovandi/itm/m8/ob00/1> ;
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/archivio_di_stato_di_bologna/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_di_matematica/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/bologna/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/bub/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_scienze_biomediche_e_neuromotorie_di_bologna/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/fisica_e_informatica_di_bologna/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/geologiche_e_ambientali/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/giovanni_battista_ferroni/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/giovanni_rossi_eredi/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/giuseppe_longhi/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/lelio_dalla_volpe/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/marco_antonio_bernia/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/museo_civico_archeologico_di_bologna/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/museo_civico_medievale_di_bologna/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/museo_di_palazzo_poggi/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/nicolo_tebaldini/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/orto_botanico_ed_erbario_di_bologna/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> .
 
 <https://w3id.org/changes/4/aldrovandi/plc/5/1> a crm:E53_Place ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/5/1> ;
