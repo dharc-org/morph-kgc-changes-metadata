@@ -7,6 +7,8 @@ from ruamel.yaml import YAML
 import re
 import datetime
 from perf_monitor import PerfMonitor
+from rdflib.namespace import XSD
+
 
 # --- rdflib: disabilita cast automatico di xsd:dateTime (e opzionalmente xsd:date) ---
 try:
@@ -506,6 +508,7 @@ def pair_subject_object(graph, properties=None):
     APL_MDL_RE      = re.compile(r".*/apl/(?P<nr>[^/]+)/(?P<idx>\d{2})/\d+$")
     LIC_SUBJ_RE     = re.compile(r".*/lic/(?P<nr>[^/]+)/(?P<idx>\d{2})/\d+$")
     APL_LIC_MDL_RE  = re.compile(r".*/apl-lic/(?P<nr>[^/]+)/(?P<idx>\d{2})/\d+$")
+    IDF_MDL_RE = re.compile(r".*/idf/(?P<nr>[^/]+)/mdl/(?P<idx>\d{2})/\d+$")
 
     MDL_LIT_RE      = re.compile(
         r"^\s*Modello\s+Digitale\s+(?P<idx>\d{2})\s+oggetto\s+(?P<nr>.+?)\s*$",
@@ -513,6 +516,7 @@ def pair_subject_object(graph, properties=None):
     )
 
     triples_to_remove = []
+    triples_to_add = []
 
     for s, p, o in graph.triples((None, None, None)):
         pred = str(p)
@@ -544,74 +548,113 @@ def pair_subject_object(graph, properties=None):
             m_obj_apl_mdl = APL_MDL_RE.match(str(o)) or APL_LIC_MDL_RE.match(str(o))
             if m_sub_mdl and m_obj_apl_mdl:
                 if (m_sub_mdl.group("nr") != m_obj_apl_mdl.group("nr") or
-                    m_sub_mdl.group("idx") != m_obj_apl_mdl.group("idx")):
+                        m_sub_mdl.group("idx") != m_obj_apl_mdl.group("idx")):
                     triples_to_remove.append((s, p, o))
                 continue
 
-            # Licenze (lic ↔ apl-lic)
+            # BLOCCO x IDF dell'ultimo
+            m_obj_idf_mdl = IDF_MDL_RE.match(str(o))
+            if m_sub_mdl and m_obj_idf_mdl:
+                if (m_sub_mdl.group("nr") != m_obj_idf_mdl.group("nr") or
+                        m_sub_mdl.group("idx") != m_obj_idf_mdl.group("idx")):
+                    triples_to_remove.append((s, p, o))
+                continue
+
+            # Licenze (lic  apl-lic)
             m_sub_lic = LIC_SUBJ_RE.match(subj_str)
             m_obj_apl_lic = APL_LIC_MDL_RE.match(str(o))
             if m_sub_lic and m_obj_apl_lic:
                 if (m_sub_lic.group("nr") != m_obj_apl_lic.group("nr") or
-                    m_sub_lic.group("idx") != m_obj_apl_lic.group("idx")):
+                        m_sub_lic.group("idx") != m_obj_apl_lic.group("idx")):
                     triples_to_remove.append((s, p, o))
                 continue
 
+            # default: rimuovi
             triples_to_remove.append((s, p, o))
             continue
 
         # ===== P190_has_symbolic_content =====
         if pred == "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content":
-            if not isinstance(o, Literal):
-                triples_to_remove.append((s, p, o))
-                continue
+            # NORMALIZZAZIONE: no <> e verifica che sia Literal
+            if isinstance(o, Literal):
+                raw = str(o)
+                cleaned = raw.strip().strip('<>')
+                if cleaned != raw:
+                    new_o = Literal(cleaned, datatype=o.datatype or XSD.string, lang=o.language)
+                    triples_to_remove.append((s, p, o))
+                    triples_to_add.append((s, p, new_o))
+                    o = new_o
+            else:
+                o_str = str(o).strip()
+                if re.match(r'^\s*https?://', o_str, flags=re.IGNORECASE):
+                    cleaned = o_str.strip('<>')
+                    new_o = Literal(cleaned, datatype=XSD.string)
+                    triples_to_remove.append((s, p, o))
+                    triples_to_add.append((s, p, new_o))
+                    o = new_o
+                else:
+                    triples_to_remove.append((s, p, o))
+                    continue
 
-            lit_norm = norm_text(str(o))
+            # su literal pulito
+            lit_raw = str(o)
+            lit_clean = lit_raw.strip().strip('<>')
+            lit_norm = norm_text(lit_clean)
 
             # Modelli con apl/<nr>/<idx>/<n>
             m_apl_mdl = APL_MDL_RE.match(subj_str)
             if m_apl_mdl:
-                if (lit_norm.startswith("by nc") or
-                    lit_norm.startswith("by nc sa") or
-                    lit_norm.startswith("cc by")):
-                    continue  # tieni la tripla di licenza
-
-                m_lit = MDL_LIT_RE.match(str(o))
+                if (lit_norm.startswith("by nc")
+                        or lit_norm.startswith("by nc sa")
+                        or lit_norm.startswith("cc by")):
+                    continue
+                m_lit = MDL_LIT_RE.match(lit_clean)
                 if not m_lit:
                     triples_to_remove.append((s, p, o))
                 else:
-                    if (m_lit.group("nr").strip() != m_apl_mdl.group("nr") or
-                        f"{int(m_lit.group('idx')):02d}" != m_apl_mdl.group("idx")):
+                    if (m_lit.group("nr").strip() != m_apl_mdl.group("nr")
+                            or f"{int(m_lit.group('idx')):02d}" != m_apl_mdl.group("idx")):
                         triples_to_remove.append((s, p, o))
                 continue
 
-            # Modelli con apl-lic/<nr>/<idx>/<n> (solo licenze)
+            # Modelli con apl-lic/<nr>/<idx>/<n>
             m_apl_lic_mdl = APL_LIC_MDL_RE.match(subj_str)
             if m_apl_lic_mdl:
-                if (lit_norm.startswith("by nc") or
-                    lit_norm.startswith("by nc sa") or
-                    lit_norm.startswith("cc by")):
-                    continue  # tieni la tripla di licenza
+                if (lit_norm.startswith("by nc")
+                        or lit_norm.startswith("by nc sa")
+                        or lit_norm.startswith("cc by")):
+                    continue
                 triples_to_remove.append((s, p, o))
                 continue
 
-            # Appellation "generiche" apl/<val>/<n>
+            # IDF del modello: accetta link http/https (ATON, ecc.)
+            m_idf_mdl = IDF_MDL_RE.match(subj_str)
+            if m_idf_mdl:
+                if not re.match(r'^\s*https?://', lit_clean, flags=re.IGNORECASE):
+                    triples_to_remove.append((s, p, o))
+                continue
+
+            # Appellation generiche apl/<val>/<n>
             m_apl_val = APL_VAL_RE.match(subj_str)
             if m_apl_val:
                 iri_val_norm = norm_text(m_apl_val.group(1))
-                if (lit_norm.startswith("by nc") or
-                    lit_norm.startswith("by nc sa") or
-                    lit_norm.startswith("cc by")):
+                if (lit_norm.startswith("by nc")
+                        or lit_norm.startswith("by nc sa")
+                        or lit_norm.startswith("cc by")):
                     continue
                 if lit_norm != iri_val_norm:
                     triples_to_remove.append((s, p, o))
                 continue
 
+            # default
             triples_to_remove.append((s, p, o))
             continue
 
-    for triple in triples_to_remove:
-        graph.remove(triple)
+    # applicazione delle modifiche fuori dal loop
+    for t in triples_to_remove:
+        graph.remove(t)
+    for t in triples_to_add:
+        graph.add(t)
 
     return graph
 
@@ -728,8 +771,11 @@ def process_rdf_data(data, extract_prefixes, supl_dict, csv_input):
         processed_data = "\n".join(supl_lines + lines)
 
     def enclose_bare_urls(text):
-        pattern = re.compile(r'(?<!<)(https?://[^\s<>"]+)(?!>)', re.IGNORECASE)
-        return pattern.sub(r'<\1>', text)
+        # lavora solo fuori dalle stringhe: splitta per virgolette e opera sulle sole sezioni pari (fuori literal)
+        parts = re.split(r'(".*?")', text, flags=re.DOTALL)
+        for i in range(0, len(parts), 2):  # solo fuori dalle virgolette
+            parts[i] = re.sub(r'(?<!<)(https?://[^\s<>"]+)(?!>)', r'<\1>', parts[i], flags=re.IGNORECASE)
+        return ''.join(parts)
 
     processed_data = enclose_bare_urls(processed_data)
 

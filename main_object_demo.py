@@ -633,8 +633,8 @@ def pair_subject_object(first_ver_graph: Graph, properties_list: list) -> Graph:
         orig_label, tr_label = _extract_orig_tr(key, open_char, close_char)
         new_translations[norm_key] = {"orig": orig_label, "tr": tr_label}
 
-    # Stampa solo il nuovo dizionario
-    print(pprint.pformat(new_translations, width=120))
+    # Stampa il nuovo dizionario
+    # print(pprint.pformat(new_translations, width=120))
     # -------------------------------------------------------------------
 
     triples_to_remove = []
@@ -668,7 +668,7 @@ def pair_subject_object(first_ver_graph: Graph, properties_list: list) -> Graph:
 
                     translations_from_dict = new_translations.get(sub_value)
                     if not translations_from_dict:
-                        print(sub_value, " not in ", sorted(new_translations.keys()))
+                        # print(sub_value, " not in ", sorted(new_translations.keys()))
                         # RIMUOVERE DIRETTAMENTE TRIPLA
                         triples_to_remove.append((s, p, o))
 
@@ -683,9 +683,8 @@ def pair_subject_object(first_ver_graph: Graph, properties_list: list) -> Graph:
                             # TRIPLA DA RIMUOVERE: NON è Né STESSO SOGGETTO nella stessa lingia Né UNA SUA TRADUZIONE
                             triples_to_remove.append((s, p, o))
 
-                        else: # normalized_obj_value == normalized_obj_value_TRSL, quindi è una traduzione
-                            print(sub_value, "!=", normalized_obj_value, "!!!!!!  BUT !!!!!!!", normalized_obj_value, "==", normalized_obj_value_TRSL)
-
+                        # else: # normalized_obj_value == normalized_obj_value_TRSL, quindi è una traduzione
+                        #     print(sub_value, "!=", normalized_obj_value, "!!!!!!  BUT !!!!!!!", normalized_obj_value, "==", normalized_obj_value_TRSL)
 
     for triple in triples_to_remove:
         first_ver_graph.remove(triple)

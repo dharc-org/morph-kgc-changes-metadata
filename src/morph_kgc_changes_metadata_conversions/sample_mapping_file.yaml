@@ -901,7 +901,6 @@ mappings:
               value: $(Sala mostra)
           type: iri
 
-
       - p: crm:P53_has_former_or_current_location
         o:
           function: idlab-fn:normalize_and_convert_to_iri
@@ -913,6 +912,17 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(Luogo conservazione)
           type: iri
+
+      - p: crm:P138i_has_representation
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "06"
+            - parameter: idlab-fn:valueType
+              value: "mdl"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
 
 
       # CONDITIONAL - Parte di

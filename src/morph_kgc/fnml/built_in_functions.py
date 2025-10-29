@@ -916,6 +916,20 @@ def digital_model_label(idx, nr):
     s_nr = str(nr).strip()
     return f"Modello Digitale {s_idx} oggetto {s_nr}"
 
+
+@udf(
+    fun_id="http://example.com/idlab/function/link_string",
+    input_string="http://example.com/idlab/function/inputString"
+)
+def digital_model_label(input_string):
+    """
+    Ritorna la stringa testuale dell'url normalizzata.
+    """
+    result_string = str(input_string).lower().strip().strip('<>')
+
+    return result_string
+
+
 @udf(
     fun_id="http://example.com/idlab/function/extract_and_derivate_sub_str",
     string='http://example.com/idlab/function/valParamStr_inputBase',

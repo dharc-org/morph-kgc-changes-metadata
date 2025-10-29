@@ -1077,12 +1077,12 @@ mappings:
   # 3) DIGITAL OBJECTS (MODELS, one for each phase)
   # ==================================================================================
 
-  # (1) D9 + P1 nello stesso mapping
+  # (1) D9 + P1 nello stesso mapping DAL PRIMO AL PENULTIMO
   digital_objects_models:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: creare un iri normalizzato per ognuno dei 7 digital object models
+      # Passaggio 2: creare un iri normalizzato per ognuno dei PRIMI 6 digital object models
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueNum
@@ -1091,7 +1091,7 @@ mappings:
             function: idlab-fn:sequential_iris
             parameters:
               - parameter: idlab-fn:number_of_iris
-                value: "7"
+                value: "6"
         - parameter: idlab-fn:valueType
           value: "mdl"
         - parameter: idlab-fn:valueParams
@@ -1109,12 +1109,84 @@ mappings:
                 function: idlab-fn:sequential_iris
                 parameters:
                   - parameter: idlab-fn:number_of_iris
-                    value: "7"
+                    value: "6"
             - parameter: idlab-fn:valueType
               value: "apl"
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
+
+  # LINK TRA ID DEL MODELLO 06 - ULTIMO E IL LINK AD ATON
+  identifier_last_model:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "mdl/06"
+        - parameter: idlab-fn:valueType
+          value: "idf"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - [ a, "crm:E42_Identifier" ]
+      - [ crm:P2_has_type, "aat:300404630" ]
+      - p: crm:P190_has_symbolic_content
+        o:
+          function: idlab-fn:link_string
+          parameters:
+            - parameter: idlab-fn:inputString
+              value: $(LINK)
+          datatype: xsd:string
+          type: literal
+
+
+  digital_objects_model_06:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      # creare un iri normalizzato per l'ultimo modello
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueNum
+          value: "06"
+        - parameter: idlab-fn:valueType
+          value: "mdl"
+        - parameter: idlab-fn:valueParams
+          value: $(NR)
+      type: iri
+    po:
+      - [ a, "crmdig:D9_Data_Object" ]
+      - p: crm:P1_is_identified_by
+        o:
+          # IRI dell'appellation corrispondente
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "06"
+            - parameter: idlab-fn:valueType
+              value: "apl"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
+      - p: crm:P1_is_identified_by
+        o:
+          function: idlab-fn:normalize_and_convert_to_iri
+          parameters:
+            - parameter: idlab-fn:valueNum
+              value: "mdl/06"
+            - parameter: idlab-fn:valueType
+              value: "idf"
+            - parameter: idlab-fn:valueParams
+              value: $(NR)
+          type: iri
+
+
+
+
 
   # COLLEGAMENTO A LINK ATON SOLO id ultimo PER ULTIMO MODELLO
   # RIPRENDERE CODICE QUI SOTTO PER AGGIUNGERE ALLO 06 IL SYMBOLIC CONTENT
