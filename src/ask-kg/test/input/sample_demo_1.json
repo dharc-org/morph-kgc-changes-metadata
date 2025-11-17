@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "Response_ID":2,
+      "Date_submitted":"1980-01-01 00:00:00",
+      "Last_page":1,
+      "Start_language":"it",
+      "Seed":"1939725423",
+      "What's_the_field_name?":"ACQUISIZIONE_Strumentazione_di_acquisizione",
+      "Can_this_field_contain_multiple_values?_[yes]":"Yes",
+      "Can_this_field_contain_multiple_values?_[no]":"No",
+      "Which_separator_character(s)_is\/are_used_to_divide_the_values?":"; & ",
+      "What_does_the_value_of_this_field_represent?_[Electronic_Device]":"Yes",
+      "What_does_the_value_of_this_field_represent?_[Responsible_Agent_(person)\u00a0]":"No",
+      "What_does_the_value_of_this_field_represent?_[Human-readable_Label_(except_for_license's_appellation)]":"No",
+      "What_does_the_value_of_this_field_represent?_[Human-readable_Label_(only_for_license's_appellation)]":"No",
+      "What_does_the_value_of_this_field_represent?_[Digital_Model]":"No",
+      "What_does_the_value_of_this_field_represent?_[Item]":"No",
+      "What_does_the_value_of_this_field_represent?_[Software]":"No",
+      "What_does_the_value_of_this_field_represent?_[Date_or_Timespan]":"No",
+      "What_does_the_value_of_this_field_represent?_[Action_or_procedural_step]":"No",
+      "What_does_the_value_of_this_field_represent?_[Identifier]":"No",
+      "What_does_the_value_of_this_field_represent?_[Work]":"No",
+      "What_does_the_value_of_this_field_represent?_[Expression]":"No",
+      "What_does_the_value_of_this_field_represent?_[Title]":"No",
+      "What_does_the_value_of_this_field_represent?_[Manifestation]":"No",
+      "What_does_the_value_of_this_field_represent?_[Subject_(depicted_or_represented_in\/by_the_resource)]":"No",
+      "What_does_the_value_of_this_field_represent?_[Place]":"No",
+      "What_does_the_value_of_this_field_represent?_[Collection]":"No"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+prefixes:
+  aat: "http://vocab.getty.edu/aat/"
+  ex: "https://w3id.org/dharc/ontology/chad-ap/data/example/"
+  crm: "http://www.cidoc-crm.org/cidoc-crm/"
+  crmdig: "http://www.cidoc-crm.org/extensions/crmdig/"
+  lrmoo: "http://iflastandards.info/ns/lrm/lrmoo/"
+  frbroo: "http://iflastandards.info/ns/fr/frbr/frbroo/"
+  owl: "http://www.w3.org/2002/07/owl#"
+  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xml: "http://www.w3.org/XML/1998/namespace"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  rml: "http://w3id.org/rml/"
+  morph-kgc: "https://github.com/morph-kgc/morph-kgc/function/built-in.ttl#"
+  grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
+  idlab-fn: "http://example.com/idlab/function/"
+  idlab-fn-m: "https://w3id.org/imec/idlab/function-mapping#"
+
+mappings:
+  acquisition_tools:
+    sources:
+      - 'sample_input_file.csv~csv'
+    s:
+      # step 2: normalise and convert IRIs concerning instruments used for *
+      function: idlab-fn:normalize_and_convert_to_iri
+      parameters:
+        - parameter: idlab-fn:valueParams
+          value:
+            # step 1: separate tools
+            function: idlab-fn:multiple_separator_split_explode
+            parameters:
+              - parameter: idlab-fn:list_param_string_sep
+                value: ";---&"
+              - parameter: idlab-fn:valParam
+                value: $(ACQUISIZIONE_Strumentazione_di_acquisizione)
+        - parameter: idlab-fn:valueType
+          value: "dev"
+        - parameter: idlab-fn:valueNum
+          value: ""
+      type: iri

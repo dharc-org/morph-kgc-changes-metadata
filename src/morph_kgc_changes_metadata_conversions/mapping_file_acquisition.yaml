@@ -1960,12 +1960,12 @@ mappings:
     sources:
       - 'sample_input_file.csv~csv'
     s:
-      # Passaggio 2: Normalizzare e convertire in IRI ogni Strumentazione_di_*
+      # step 2: normalise and convert IRIs concerning instruments used for *
       function: idlab-fn:normalize_and_convert_to_iri
       parameters:
         - parameter: idlab-fn:valueParams
           value:
-            # Passaggio 1: Esplodere gruppi responsabili
+            # step 1: separate tools
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
