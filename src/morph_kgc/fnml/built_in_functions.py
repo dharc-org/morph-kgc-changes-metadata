@@ -699,6 +699,7 @@ def normalize_str_param(str_param):
     str_param = str_param.replace(' ', '_')
     str_param = str_param.replace('"', '')
     str_param = str_param.replace('.', '_')
+    str_param = str_param.replace(',', '_')
     str_param = str_param.strip('_')
     str_param = re.sub(r"_+", "_", str_param)
     return str_param
