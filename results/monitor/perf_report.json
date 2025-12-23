@@ -1,15 +1,15 @@
 {
   "created_at": "2025-10-26T22:01:30+01:00",
-  "updated_at": "2025-12-23T15:36:22+01:00",
+  "updated_at": "2025-12-23T15:51:18+01:00",
   "runs": {
     "objects": {
-      "elapsed_time_s": 4.323977416031994,
-      "peak_rss_mb": 202.625,
+      "elapsed_time_s": 4.32757733296603,
+      "peak_rss_mb": 201.6875,
       "rows_processed": 267,
       "iri_generated": 7153,
-      "materialisation_time_per_1000_rows_s": 16.19467197015728,
-      "iri_rate_per_s": 1654.2639592609457,
-      "timestamp": "2025-12-23T15:34:36+01:00",
+      "materialisation_time_per_1000_rows_s": 16.208154805116216,
+      "iri_rate_per_s": 1652.8878514800533,
+      "timestamp": "2025-12-23T15:51:18+01:00",
       "config_used": "src/morph_kgc_changes_metadata_conversions/config_tmp.ini",
       "ready_input": "input/ready_to_convert/cleaned_aldrovandi_obj.csv",
       "output_dir": "results",
