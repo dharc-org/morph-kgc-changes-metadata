@@ -119,6 +119,36 @@ def normalize_time_literals(g: Graph) -> int:
         g.add((s, p, new))
     return len(to_fix)
 
+def normalize_newlines_in_ttl(src_ttl: str, dst_ttl: str) -> None:
+    """
+    Crea una copia del file Turtle:
+      1) sostituisce la sequenza letterale \\n (cioè backslash-backslash-n nel file)
+         con un newline reale
+      2) converte i literal che contengono newline in long literals
+         (necessario perché newline dentro "..." è illegale in Turtle)
+    Operazione puramente testuale.
+    """
+    with open(src_ttl, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    # 1) \\n (testuale nel TTL) -> newline reale
+    #    NB: qui cerchiamo DUE backslash + 'n' nel file
+    content = content.replace("\\\\n", "\n")
+
+    # 2) Qualunque literal "..." che ora contiene un newline va trasformato in """..."""
+    #    (regex non greedy, DOTALL per includere \n)
+    def _to_long_literal(m: re.Match) -> str:
+        inner = m.group(1)
+        return f'"""{inner}"""'
+
+    content = re.sub(r'"([^"]*?\n[^"]*?)"', _to_long_literal, content, flags=re.DOTALL)
+
+    os.makedirs(os.path.dirname(dst_ttl) or ".", exist_ok=True)
+    with open(dst_ttl, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"[orchestrator] Grafo con newline normalizzati scritto in: {dst_ttl}")
+
 def read_paths_from_config(cfg_path: str):
     cfg = configparser.ConfigParser()
     with open(cfg_path, "r", encoding="utf-8") as f:
@@ -196,6 +226,13 @@ def main():
     ap.add_argument("--object-script", default="main_object_demo.py", help="Script di materializzazione oggetti")
     ap.add_argument("--process-script", default="main_process_demo.py", help="Script di materializzazione processo")
     ap.add_argument("--quality-script", default="run_quality_threat_model.py", help="Script di quality threat model")
+
+    ap.add_argument(
+        "--new_line_normaliser",
+        action="store_true",
+        help="Genera una copia del grafo finale con normalizzazione \\n -> newline reale"
+    )
+
     args = ap.parse_args()
 
     # Lettura configurazioni e costruzione dei path deterministici
@@ -213,6 +250,12 @@ def main():
     merged_out = args.merged_out or os.path.join(out_dir, "merged_graph_output.ttl")
     merge_graphs(ttl1, ttl2, merged_out, fmt_in="turtle", fmt_out="turtle")
 
+    # --- newline normaliser (opzionale) ---
+    if args.new_line_normaliser:
+        base, ext = os.path.splitext(merged_out)
+        norm_out = f"{base}_new_line_norm{ext}"
+        normalize_newlines_in_ttl(merged_out, norm_out)
+
     print(f"[orchestrator] Avvio quality threat model su: {merged_out}")
     res = subprocess.run(
         [sys.executable, args.quality_script, "--config", args.config],
@@ -223,7 +266,6 @@ def main():
         print(f"[orchestrator] Quality threat model ha segnalato anomalie (exit {res.returncode}).", file=sys.stderr)
     else:
         print("[orchestrator] Quality threat model completato.")
-
 
     # riepilogo complessivo
     print(f"[orchestrator] Aggiornamento riepilogo complessivo in: {report_path}")

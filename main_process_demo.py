@@ -244,6 +244,7 @@ RUN_KEY = "process"
 csv_file_path = config["DataSource2"]["file_path"]
 coupled_csv_file_path = config["DataSource1"]["file_path"]
 ready_input_dir =  config["DataSource1"]["ready_input_dir"]
+os.makedirs(ready_input_dir, exist_ok=True)
 
 columns_with_no_values = []
 missing_ids = []
@@ -499,6 +500,21 @@ def pair_subject_object(graph, properties=None):
         s = re.sub(r"\s+", " ", s)
         return s.strip().lower()
 
+    def is_cc_license_text(lit_norm: str) -> bool:
+        # Copre sia nomi estesi ("cc by-nc 4.0 attribution-noncommercial ...")
+        # sia forme brevi legacy ("by-nc 4.0", "by nc sa", ecc.)
+        return (
+                lit_norm.startswith("cc0")
+                or lit_norm.startswith("cc by")
+                or lit_norm.startswith("cc by sa")
+                or lit_norm.startswith("cc by nc")
+                or lit_norm.startswith("cc by nc sa")
+                or lit_norm.startswith("cc by nd")
+                or lit_norm.startswith("cc by nc nd")
+                # fallback legacy senza "cc"
+                or lit_norm.startswith("by")
+        )
+
     ACTOR_SUBJ_RE   = re.compile(r".*/(sub|acr|col)/([^/]+)/\d+$")
     DEV_SUBJ_RE     = re.compile(r".*/dev/([^/]+)/\d+$")
     SFW_SUBJ_RE     = re.compile(r".*/sfw/([^/]+)/\d+$")
@@ -604,10 +620,9 @@ def pair_subject_object(graph, properties=None):
             # Modelli con apl/<nr>/<idx>/<n>
             m_apl_mdl = APL_MDL_RE.match(subj_str)
             if m_apl_mdl:
-                if (lit_norm.startswith("by nc")
-                        or lit_norm.startswith("by nc sa")
-                        or lit_norm.startswith("cc by")):
+                if is_cc_license_text(lit_norm):
                     continue
+
                 m_lit = MDL_LIT_RE.match(lit_clean)
                 if not m_lit:
                     triples_to_remove.append((s, p, o))
@@ -620,10 +635,9 @@ def pair_subject_object(graph, properties=None):
             # Modelli con apl-lic/<nr>/<idx>/<n>
             m_apl_lic_mdl = APL_LIC_MDL_RE.match(subj_str)
             if m_apl_lic_mdl:
-                if (lit_norm.startswith("by nc")
-                        or lit_norm.startswith("by nc sa")
-                        or lit_norm.startswith("cc by")):
+                if is_cc_license_text(lit_norm):
                     continue
+
                 triples_to_remove.append((s, p, o))
                 continue
 
@@ -638,10 +652,9 @@ def pair_subject_object(graph, properties=None):
             m_apl_val = APL_VAL_RE.match(subj_str)
             if m_apl_val:
                 iri_val_norm = norm_text(m_apl_val.group(1))
-                if (lit_norm.startswith("by nc")
-                        or lit_norm.startswith("by nc sa")
-                        or lit_norm.startswith("cc by")):
+                if is_cc_license_text(lit_norm):
                     continue
+
                 if lit_norm != iri_val_norm:
                     triples_to_remove.append((s, p, o))
                 continue

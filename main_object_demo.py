@@ -299,6 +299,7 @@ RUN_KEY = "objects"
 csv_file_path = config["DataSource1"]["file_path"]
 coupled_csv_file_path = config["DataSource2"]["file_path"]
 ready_input_dir =  config["DataSource1"]["ready_input_dir"]
+os.makedirs(ready_input_dir, exist_ok=True)
 
 columns_with_no_values = []
 missing_ids = []

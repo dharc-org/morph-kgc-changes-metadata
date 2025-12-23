@@ -1227,137 +1227,165 @@ mappings:
             - parameter: idlab-fn:nr
               value: $(NR)
 
-  # ==================================================================================
-  # 4) licenses for the DIGITAL OBJECTS, same one for each phase
-  # ==================================================================================
-
-# LICENZA MODELLO 00
-  digital_objects_models_license_00:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "00"
-        - parameter: idlab-fn:valueType
-          value: "lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E73_Information_Object" ]
-      - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
-      - p: crm:P67_refers_to
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "00"
-            - parameter: idlab-fn:valueType
-              value: "mdl"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-      - p: crm:P1_is_identified_by
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "00"
-            - parameter: idlab-fn:valueType
-              value: "apl-lic"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-
-  # APPELLATION LICENZA MODELLO 00
-  appellation_digital_objects_models_license_00:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "00"
-        - parameter: idlab-fn:valueType
-          value: "apl-lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E41_Appellation" ]
-      - p: crm:P190_has_symbolic_content
-        o:
-          value: "by-nc 4.0"
-          datatype: rdfs:Literal
-
-
-  # LICENZA MODELLO 01
-  digital_objects_models_license_01:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "01"
-        - parameter: idlab-fn:valueType
-          value: "lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E73_Information_Object" ]
-      - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
-      - p: crm:P67_refers_to
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "01"
-            - parameter: idlab-fn:valueType
-              value: "mdl"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-      - p: crm:P1_is_identified_by
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "01"
-            - parameter: idlab-fn:valueType
-              value: "apl-lic"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-
-  # APPELLATION LICENZA MODELLO 01
-  appellation_digital_objects_models_license_01:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "01"
-        - parameter: idlab-fn:valueType
-          value: "apl-lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E41_Appellation" ]
-      - p: crm:P190_has_symbolic_content
-        o:
-          value: "by-nc 4.0"
-          datatype: rdfs:Literal
-
-
-  # LICENZA MODELLO 02
+#  # ==================================================================================
+#  # 4) licenses for the DIGITAL OBJECTS
+#  # ==================================================================================
+#
+#  # LICENZA MODELLO 00 (ACQUISIZIONE)
+#  digital_objects_models_license_00:
+#    sources:
+#      - 'sample_input_file.csv~csv'
+#    s:
+#      function: idlab-fn:normalize_and_convert_to_iri
+#      parameters:
+#        - parameter: idlab-fn:valueNum
+#          value: "00"
+#        - parameter: idlab-fn:valueType
+#          value: "lic"
+#        - parameter: idlab-fn:valueParams
+#          value: $(NR)
+#      type: iri
+#    po:
+#      - [ a, "crm:E73_Information_Object" ]
+#      - [ "crm:P2_has_type", "aat:300435434" ]
+#
+#      - p: crm:P70i_is_documented_in
+#        o:
+#          function: idlab-fn:cc_license_extract
+#          parameters:
+#            - parameter: idlab-fn:param_string_e
+#              value: $(ACQUISIZIONE_Licenza)
+#            - parameter: idlab-fn:param_to_be_extracted
+#              value: "license_url"
+#          type: iri
+#
+#      - p: crm:P67_refers_to
+#        o:
+#          function: idlab-fn:normalize_and_convert_to_iri
+#          parameters:
+#            - parameter: idlab-fn:valueNum
+#              value: "00"
+#            - parameter: idlab-fn:valueType
+#              value: "mdl"
+#            - parameter: idlab-fn:valueParams
+#              value: $(NR)
+#          type: iri
+#
+#      - p: crm:P1_is_identified_by
+#        o:
+#          function: idlab-fn:normalize_and_convert_to_iri
+#          parameters:
+#            - parameter: idlab-fn:valueNum
+#              value: "00"
+#            - parameter: idlab-fn:valueType
+#              value: "apl-lic"
+#            - parameter: idlab-fn:valueParams
+#              value: $(NR)
+#          type: iri
+#
+#  # APPELLATION LICENZA MODELLO 00
+#  appellation_digital_objects_models_license_00:
+#    sources:
+#      - 'sample_input_file.csv~csv'
+#    s:
+#      function: idlab-fn:normalize_and_convert_to_iri
+#      parameters:
+#        - parameter: idlab-fn:valueNum
+#          value: "00"
+#        - parameter: idlab-fn:valueType
+#          value: "apl-lic"
+#        - parameter: idlab-fn:valueParams
+#          value: $(NR)
+#      type: iri
+#    po:
+#      - [ a, "crm:E41_Appellation" ]
+#      - p: crm:P190_has_symbolic_content
+#        o:
+#          function: idlab-fn:cc_license_extract
+#          parameters:
+#            - parameter: idlab-fn:param_string_e
+#              value: $(ACQUISIZIONE_Licenza)
+#            - parameter: idlab-fn:param_to_be_extracted
+#              value: "license_apl"
+#
+#  # LICENZA MODELLO 01 (PROCESSAMENTO)
+#  digital_objects_models_license_01:
+#    sources:
+#      - 'sample_input_file.csv~csv'
+#    s:
+#      function: idlab-fn:normalize_and_convert_to_iri
+#      parameters:
+#        - parameter: idlab-fn:valueNum
+#          value: "01"
+#        - parameter: idlab-fn:valueType
+#          value: "lic"
+#        - parameter: idlab-fn:valueParams
+#          value: $(NR)
+#      type: iri
+#    po:
+#      - [ a, "crm:E73_Information_Object" ]
+#      - [ "crm:P2_has_type", "aat:300435434" ]
+#
+#      - p: crm:P70i_is_documented_in
+#        o:
+#          function: idlab-fn:cc_license_extract
+#          parameters:
+#            - parameter: idlab-fn:param_string_e
+#              value: $(PROCESSAMENTO_Licenza)
+#            - parameter: idlab-fn:param_to_be_extracted
+#              value: "license_url"
+#          type: iri
+#
+#      - p: crm:P67_refers_to
+#        o:
+#          function: idlab-fn:normalize_and_convert_to_iri
+#          parameters:
+#            - parameter: idlab-fn:valueNum
+#              value: "01"
+#            - parameter: idlab-fn:valueType
+#              value: "mdl"
+#            - parameter: idlab-fn:valueParams
+#              value: $(NR)
+#          type: iri
+#
+#      - p: crm:P1_is_identified_by
+#        o:
+#          function: idlab-fn:normalize_and_convert_to_iri
+#          parameters:
+#            - parameter: idlab-fn:valueNum
+#              value: "01"
+#            - parameter: idlab-fn:valueType
+#              value: "apl-lic"
+#            - parameter: idlab-fn:valueParams
+#              value: $(NR)
+#          type: iri
+#
+#  # APPELLATION LICENZA MODELLO 01
+#  appellation_digital_objects_models_license_01:
+#    sources:
+#      - 'sample_input_file.csv~csv'
+#    s:
+#      function: idlab-fn:normalize_and_convert_to_iri
+#      parameters:
+#        - parameter: idlab-fn:valueNum
+#          value: "01"
+#        - parameter: idlab-fn:valueType
+#          value: "apl-lic"
+#        - parameter: idlab-fn:valueParams
+#          value: $(NR)
+#      type: iri
+#    po:
+#      - [ a, "crm:E41_Appellation" ]
+#      - p: crm:P190_has_symbolic_content
+#        o:
+#          function: idlab-fn:cc_license_extract
+#          parameters:
+#            - parameter: idlab-fn:param_string_e
+#              value: $(PROCESSAMENTO_Licenza)
+#            - parameter: idlab-fn:param_to_be_extracted
+#              value: "license_apl"
+#
+  # LICENZA MODELLO 02 (MODELLAZIONE)
   digital_objects_models_license_02:
     sources:
       - 'sample_input_file.csv~csv'
@@ -1374,7 +1402,17 @@ mappings:
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
+
+      - p: crm:P70i_is_documented_in
+        o:
+          function: idlab-fn:cc_license_extract
+          parameters:
+            - parameter: idlab-fn:param_string_e
+              value: $(MODELLAZIONE_Licenza)
+            - parameter: idlab-fn:param_to_be_extracted
+              value: "license_url"
+          type: iri
+
       - p: crm:P67_refers_to
         o:
           function: idlab-fn:normalize_and_convert_to_iri
@@ -1386,6 +1424,7 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
+
       - p: crm:P1_is_identified_by
         o:
           function: idlab-fn:normalize_and_convert_to_iri
@@ -1416,10 +1455,14 @@ mappings:
       - [ a, "crm:E41_Appellation" ]
       - p: crm:P190_has_symbolic_content
         o:
-          value: "by-nc 4.0"
-          datatype: rdfs:Literal
+          function: idlab-fn:cc_license_extract
+          parameters:
+            - parameter: idlab-fn:param_string_e
+              value: $(MODELLAZIONE_Licenza)
+            - parameter: idlab-fn:param_to_be_extracted
+              value: "license_apl"
 
-  # LICENZA MODELLO 03
+  # LICENZA MODELLO 03 (OTTIMIZZAZIONE)
   digital_objects_models_license_03:
     sources:
       - 'sample_input_file.csv~csv'
@@ -1436,7 +1479,18 @@ mappings:
     po:
       - [ a, "crm:E73_Information_Object" ]
       - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
+
+      - p: crm:P70i_is_documented_in
+        o:
+          function: idlab-fn:cc_license_extract
+          parameters:
+            - parameter: idlab-fn:param_string_e
+              value: $(OTTIMIZZAZIONE_Licenza)
+            - parameter: idlab-fn:param_to_be_extracted
+              value: "license_url"
+          # è un IRI (url CC)
+          type: iri
+
       - p: crm:P67_refers_to
         o:
           function: idlab-fn:normalize_and_convert_to_iri
@@ -1448,6 +1502,7 @@ mappings:
             - parameter: idlab-fn:valueParams
               value: $(NR)
           type: iri
+
       - p: crm:P1_is_identified_by
         o:
           function: idlab-fn:normalize_and_convert_to_iri
@@ -1478,203 +1533,20 @@ mappings:
       - [ a, "crm:E41_Appellation" ]
       - p: crm:P190_has_symbolic_content
         o:
-          value: "by-nc 4.0"
-          datatype: rdfs:Literal
-
-
-  # LICENZA MODELLO 04
-  digital_objects_models_license_04:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "04"
-        - parameter: idlab-fn:valueType
-          value: "lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E73_Information_Object" ]
-      - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
-      - p: crm:P67_refers_to
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
+          function: idlab-fn:cc_license_extract
           parameters:
-            - parameter: idlab-fn:valueNum
-              value: "04"
-            - parameter: idlab-fn:valueType
-              value: "mdl"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-      - p: crm:P1_is_identified_by
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "04"
-            - parameter: idlab-fn:valueType
-              value: "apl-lic"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
+            - parameter: idlab-fn:param_string_e
+              value: $(OTTIMIZZAZIONE_Licenza)
+            - parameter: idlab-fn:param_to_be_extracted
+              value: "license_apl"
+          #datatype: rdfs:Literal
 
-  # APPELLATION LICENZA MODELLO 04
-  appellation_digital_objects_models_license_04:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "04"
-        - parameter: idlab-fn:valueType
-          value: "apl-lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E41_Appellation" ]
-      - p: crm:P190_has_symbolic_content
-        o:
-          value: "by-nc 4.0"
-          datatype: rdfs:Literal
-
-  # LICENZA MODELLO 05
-  digital_objects_models_license_05:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "05"
-        - parameter: idlab-fn:valueType
-          value: "lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E73_Information_Object" ]
-      - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
-      - p: crm:P67_refers_to
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "05"
-            - parameter: idlab-fn:valueType
-              value: "mdl"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-      - p: crm:P1_is_identified_by
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "05"
-            - parameter: idlab-fn:valueType
-              value: "apl-lic"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-
-  # APPELLATION LICENZA MODELLO 05
-  appellation_digital_objects_models_license_05:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "05"
-        - parameter: idlab-fn:valueType
-          value: "apl-lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E41_Appellation" ]
-      - p: crm:P190_has_symbolic_content
-        o:
-          value: "by-nc 4.0"
-          datatype: rdfs:Literal
-
-
-  # LICENZA MODELLO 06
-  digital_objects_models_license_06:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "06"
-        - parameter: idlab-fn:valueType
-          value: "lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E73_Information_Object" ]
-      - [ "crm:P2_has_type", "aat:300435434" ]
-      - [ "crm:P70i_is_documented_in", "<https://creativecommons.org/licenses/by-nc/4.0/>" ]
-      - p: crm:P67_refers_to
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "06"
-            - parameter: idlab-fn:valueType
-              value: "mdl"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-      - p: crm:P1_is_identified_by
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "06"
-            - parameter: idlab-fn:valueType
-              value: "apl-lic"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-
-  # APPELLATION LICENZA MODELLO 06
-  appellation_digital_objects_models_license_06:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "06"
-        - parameter: idlab-fn:valueType
-          value: "apl-lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E41_Appellation" ]
-      - p: crm:P190_has_symbolic_content
-        o:
-          value: "by-nc 4.0"
-          datatype: rdfs:Literal
-
-
-    # ====================
-  # 5 : Tempi : nota, non abbiamo usato la funzione date_to_date (built in) perché restituisce una stringa normalizzata della data e non il literal della data.
-    # differisce anche dalla gestione delle date nell'altro dataset perché sono molto meno recenti e strutturate diversamente
-    # obiettivo: uniformare e generalizzare
-  # ===================
+#    # ====================
+#  # 5 : Tempi : nota, non abbiamo usato la funzione date_to_date (built in) perché restituisce una stringa normalizzata della data e non il literal della data.
+#    # differisce anche dalla gestione delle date nell'altro dataset perché sono molto meno recenti e strutturate diversamente
+#    # obiettivo: uniformare e generalizzare
+#  # ===================
+#
 
   # 5.1 ACQUISIZIONE
   acquisition_timespan_mapping:

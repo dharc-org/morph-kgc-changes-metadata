@@ -340,23 +340,73 @@ import re, unicodedata
 @udf(
     fun_id="http://example.com/idlab/function/split_year_range_to_dates",
     string="http://example.com/idlab/function/param_string_e",
-    position="http://example.com/idlab/function/param_position_e"
+    position="http://example.com/idlab/function/param_position_e",
+    separators_list_str="http://example.com/idlab/function/list_param_string_sep"
 )
-def split_year_range_to_dates(string, position):
+def split_year_range_to_dates(string, position, separators_list_str=None):
+    """
+    Come l'originale, ma consente di indicare più separatori per gli intervalli.
+    Se `separators_list_str` non è specificato (None) o non produce separatori validi,
+    si usa di default il trattino semplice "-".
+    """
     if not string:
         return None
 
+    # --- util: estrai i separatori definiti dall'utente ----------------------
+    def _extract_separators(raw: str):
+        if raw is None:
+            return None  # segnala "non specificato"
+        cleaned = unicodedata.normalize("NFKC", str(raw))
+        # normalizza i trattini Unicode a "-"
+        cleaned = re.sub(r"[\u2010-\u2015\u2212]+", "-", cleaned)
+        # tutte le RUN di non-parola e non-spazio (es.: '---', ';', ',', '+', '–')
+        runs = re.findall(r"[^\w\s]+", cleaned)
+
+        seps = set()
+        for r in runs:
+            if re.fullmatch(r"-+", r):
+                seps.add("-")  # normalizza a singolo "-"
+            else:
+                seps.add(r)
+        return list(seps)
+
+    extracted = _extract_separators(separators_list_str)
+    if extracted is None or len(extracted) == 0:
+        seps = ["-"]  # default esplicito quando non specificato o vuoto
+    else:
+        seps = extracted
+
+    # Costruisci regex di separazione (ordina per lunghezza desc)
+    seps_sorted = sorted(seps, key=len, reverse=True)
+    seps_alt = "|".join(re.escape(s) for s in seps_sorted)
+    sep_regex = r"(?:%s)" % seps_alt
+
+    # --- normalizza input ----------------------------------------------------
     s = unicodedata.normalize("NFKC", str(string)).strip()
-    s = re.sub(r"[\u2010-\u2015\u2212]+", "-", s)         # unifica i trattini
-    shared = s.lstrip().startswith("-")                   # "-" davanti?
+    # Unifica trattini Unicode nel testo a "-"
+    s = re.sub(r"[\u2010-\u2015\u2212]+", "-", s)
+
+    # Gestione segno "condiviso" in testa (anno negativo)
+    shared = s.lstrip().startswith("-")
     core = s.lstrip()[1:].strip() if shared else s
-    core = re.sub(r"\s*-\s*", "-", core)
+
+    # compattazione degli spazi intorno ai separatori custom
+    if core:
+        core = re.sub(r"\s*(%s)\s*" % sep_regex, r"\1", core)
+
     if not core:
         return None
 
-    # prendi 1 o 2 numeri
-    if "-" in core:
-        a_str, b_str = core.split("-", 1)
+    # --- parsing dei due estremi --------------------------------------------
+    a_str = b_str = None
+    if re.search(sep_regex, core):
+        # sostituisci il primo separatore con token unico e split una sola volta
+        token = "::SEP::"
+        core_norm = re.sub(sep_regex, token, core, count=1)
+        parts = core_norm.split(token, 1)
+        if len(parts) != 2:
+            return None
+        a_str, b_str = parts[0], parts[1]
         try:
             a, b = int(a_str), int(b_str)
         except ValueError:
@@ -365,6 +415,7 @@ def split_year_range_to_dates(string, position):
             a, b = -a, -b
         start, end = (a, b) if a <= b else (b, a)
     else:
+        # nessun separatore trovato → singolo anno
         try:
             y = int(core)
         except ValueError:
@@ -372,9 +423,9 @@ def split_year_range_to_dates(string, position):
         y = -y if shared else y
         start = end = y
 
-    # formatter per ciascun estremo (indipendente)
+    # --- formatter identico all'originale -----------------------------------
     def fmt(y: int, m: int, d: int, is_start: bool) -> str:
-        # 1..9999 → ISO xsd:dateTime; 0 o |y|>9999 o y<0 → EDTF long-year "Y±N-MM-DD"
+        # 1..9999 → xsd:dateTime; 0 o |y|>9999 o y<0 → EDTF long-year "Y±N-MM-DD"
         if 1 <= y <= 9999:
             t = "00:00:00Z" if is_start else "23:59:59Z"
             return f"{y:04d}-{m:02d}-{d:02d}T{t}"
@@ -965,7 +1016,124 @@ def extract_and_derivate_strings(string, string_nd, mode, use_prefix=False, suff
 
 
 
-# https://w3id.org/changes/4/aldrovandi/%3Cnr%3E/---/00
+
+@udf(
+    fun_id="http://example.com/idlab/function/cc_license_extract",
+    string="http://example.com/idlab/function/param_string_e",
+    to_be_extracted="http://example.com/idlab/function/param_to_be_extracted"
+)
+def cc_license_extract(string, to_be_extracted):
+    """
+    Input:  "CC0 [https://creativecommons.org/publicdomain/zero/1.0/]"
+            "cc by 4.0"
+            "BY-NC 4.0 [https://creativecommons.org/licenses/by-nc/4.0/]"
+            "by-nc 4.0"
+    Output:
+      - to_be_extracted == "license_url" -> url (se in [..], altrimenti dedotto dal codice)
+      - to_be_extracted == "license_apl" -> nome esteso (mappatura CC)
+    Ritorna None se input vuoto o non riconosciuto.
+    """
+
+    if string is None:
+        return None
+
+    raw = unicodedata.normalize("NFKC", str(string)).strip()
+    if not raw:
+        return None
+
+    # --- 1) estrai URL tra parentesi quadre, se presente ---------------------
+    m = re.search(r"\[([^\]]+)\]", raw)
+    url_in_brackets = m.group(1).strip() if m else None
+
+    # --- 2) estrai la "parte codice" (prima delle parentesi, o tutta la stringa)
+    code_part = raw.split("[", 1)[0].strip()
+
+    # normalizzazioni
+    c = code_part.lower()
+    c = c.replace("_", " ")
+    c = c.replace("—", "-").replace("–", "-").replace("−", "-")
+    c = re.sub(r"\s+", " ", c).strip()
+
+    # se arriva "by-nc 4.0" ecc., aggiungi "cc " davanti
+    if c.startswith(("by", "nc", "sa", "nd")):
+        c = "cc " + c
+
+    # uniforma "cc-by" -> "cc by"
+    c = re.sub(r"^cc[-\s]+", "cc ", c)
+
+    # rimuovi versioni e parole accessorie
+    c = re.sub(r"\b(1\.0|4\.0)\b", "", c).strip()
+    c = re.sub(r"\b(international|universal)\b", "", c).strip()
+
+    # normalizza trattini e spazi
+    c = re.sub(r"\s*-\s*", "-", c)
+    c = re.sub(r"\s+", " ", c).strip()
+
+    # --- 3) canonizzazione chiave -------------------------------------------
+    if c == "cc0" or c.startswith("cc0"):
+        key = "cc0"
+    else:
+        c2 = c.replace("cc ", "")
+        c2 = c2.replace("by nc nd", "by-nc-nd")
+        c2 = c2.replace("by nc sa", "by-nc-sa")
+        c2 = c2.replace("by nc", "by-nc")
+        c2 = c2.replace("by sa", "by-sa")
+        c2 = c2.replace("by nd", "by-nd")
+        c2 = re.sub(r"\s+", " ", c2).strip()
+
+        if c2.startswith("by"):
+            key = "cc " + c2
+        else:
+            key = c
+
+    # --- 4) dizionario CC ---------------------------------------------------
+    LICENSES = {
+        "cc0": {
+            "name": "CC0 1.0 Universal (Public Domain Dedication)",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        "cc by": {
+            "name": "CC BY 4.0 (Attribution 4.0 International)",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "cc by-sa": {
+            "name": "CC BY-SA 4.0 (Attribution-ShareAlike 4.0 International)",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "cc by-nc": {
+            "name": "CC BY-NC 4.0 (Attribution-NonCommercial 4.0 International)",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+        },
+        "cc by-nc-sa": {
+            "name": "CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike 4.0 International)",
+            "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+        },
+        "cc by-nd": {
+            "name": "CC BY-ND 4.0 (Attribution-NoDerivatives 4.0 International)",
+            "url": "https://creativecommons.org/licenses/by-nd/4.0/"
+        },
+        "cc by-nc-nd": {
+            "name": "CC BY-NC-ND 4.0 (Attribution-NonCommercial-NoDerivatives 4.0 International)",
+            "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+    }
+
+    if key not in LICENSES and key in {
+        "by", "by-sa", "by-nc", "by-nc-sa", "by-nd", "by-nc-nd"
+    }:
+        key = "cc " + key
+
+    info = LICENSES.get(key)
+    if info is None:
+        return None
+
+    t = (to_be_extracted or "").strip().lower()
+    if t == "license_url":
+        return url_in_brackets if url_in_brackets else info["url"]
+    elif t == "license_apl":
+        return info["name"]
+    else:
+        raise ValueError("Expected 'license_apl' or 'license_url'")
 
 
 

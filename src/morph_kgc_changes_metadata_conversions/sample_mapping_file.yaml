@@ -642,68 +642,70 @@ mappings:
           value: $(Riproduzione digitale)
           type: iri
 
-  manifestation_license_mapping:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "ob00"
-        - parameter: idlab-fn:valueType
-          value: "lic"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
+# NO LICENSE FOR PHYSICAL MANIFESTATION (FOR NOW AT LEAST)
 
-    po:
-      - [ a, "crm:E73_Information_Object" ]
-      - [ crm:P2_has_type, "aat:300435434" ]
-      - p: crm:P1_is_identified_by
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "ob00"
-            - parameter: idlab-fn:valueType
-              value: "lic/apl"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-
-      - p: crm:P67_refers_to
-        o:
-          function: idlab-fn:normalize_and_convert_to_iri
-          parameters:
-            - parameter: idlab-fn:valueNum
-              value: "ob00"
-            - parameter: idlab-fn:valueType
-              value: "mnf"
-            - parameter: idlab-fn:valueParams
-              value: $(NR)
-          type: iri
-      - p: crm:P70i_is_documented_in
-        o:
-          value: "http://rightsstatements.org/vocab/InC/1.0/"
-          type: iri
-
-  appellation_lic:
-    sources:
-      - 'sample_input_file.csv~csv'
-    s:
-      function: idlab-fn:normalize_and_convert_to_iri
-      parameters:
-        - parameter: idlab-fn:valueNum
-          value: "ob00"
-        - parameter: idlab-fn:valueType
-          value: "lic/apl"
-        - parameter: idlab-fn:valueParams
-          value: $(NR)
-      type: iri
-    po:
-      - [ a, "crm:E41_Appellation" ]
-      - p: crm:P190_has_symbolic_content
-        o: "rightsstatements.org/vocab/InC/1.0/"
+#  manifestation_license_mapping:
+#    sources:
+#      - 'sample_input_file.csv~csv'
+#    s:
+#      function: idlab-fn:normalize_and_convert_to_iri
+#      parameters:
+#        - parameter: idlab-fn:valueNum
+#          value: "ob00"
+#        - parameter: idlab-fn:valueType
+#          value: "lic"
+#        - parameter: idlab-fn:valueParams
+#          value: $(NR)
+#      type: iri
+#
+#    po:
+#      - [ a, "crm:E73_Information_Object" ]
+#      - [ crm:P2_has_type, "aat:300435434" ]
+#      - p: crm:P1_is_identified_by
+#        o:
+#          function: idlab-fn:normalize_and_convert_to_iri
+#          parameters:
+#            - parameter: idlab-fn:valueNum
+#              value: "ob00"
+#            - parameter: idlab-fn:valueType
+#              value: "lic/apl"
+#            - parameter: idlab-fn:valueParams
+#              value: $(NR)
+#          type: iri
+#
+#      - p: crm:P67_refers_to
+#        o:
+#          function: idlab-fn:normalize_and_convert_to_iri
+#          parameters:
+#            - parameter: idlab-fn:valueNum
+#              value: "ob00"
+#            - parameter: idlab-fn:valueType
+#              value: "mnf"
+#            - parameter: idlab-fn:valueParams
+#              value: $(NR)
+#          type: iri
+#      - p: crm:P70i_is_documented_in
+#        o:
+#          value: "http://rightsstatements.org/vocab/InC/1.0/"
+#          type: iri
+#
+#  appellation_lic:
+#    sources:
+#      - 'sample_input_file.csv~csv'
+#    s:
+#      function: idlab-fn:normalize_and_convert_to_iri
+#      parameters:
+#        - parameter: idlab-fn:valueNum
+#          value: "ob00"
+#        - parameter: idlab-fn:valueType
+#          value: "lic/apl"
+#        - parameter: idlab-fn:valueParams
+#          value: $(NR)
+#      type: iri
+#    po:
+#      - [ a, "crm:E41_Appellation" ]
+#      - p: crm:P190_has_symbolic_content
+#        o: "rightsstatements.org/vocab/InC/1.0/"
 
   parent_work:
     sources:
@@ -887,7 +889,7 @@ mappings:
       - p: crm:P3_has_note
         o:
           value: $(Didascalia)
-          datatype: rdfs:Literal
+          # datatype: rdfs:Literal
 
       - p: crm:P53_has_former_or_current_location
         o:
@@ -1040,7 +1042,7 @@ mappings:
       - p: crm:P190_has_symbolic_content
         o:
           value: $(NR)
-          datatype: rdfs:Literal
+          # datatype: rdfs:Literal
 
   identifier_2:
     sources:
@@ -1061,7 +1063,7 @@ mappings:
       - p: crm:P190_has_symbolic_content
         o:
           value: $(Volume)
-          datatype: rdfs:Literal
+          # datatype: rdfs:Literal
 
   identifier_3:
     sources:
@@ -1081,7 +1083,7 @@ mappings:
       - [ crm:P2_has_type, "aat:300404704" ]
       - p: crm:P190_has_symbolic_content
         o: $(Collocazione)
-        datatype: rdfs:Literal
+        # datatype: rdfs:Literal
 
   identifier_1_related:
     sources:
@@ -1102,7 +1104,7 @@ mappings:
       - p: crm:P190_has_symbolic_content
         o:
           value: $(NR collegato)
-          datatype: rdfs:Literal
+          # datatype: rdfs:Literal
 
 
   # CURATION
