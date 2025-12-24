@@ -121,31 +121,19 @@ def normalize_time_literals(g: Graph) -> int:
 
 def normalize_newlines_in_ttl(src_ttl: str, dst_ttl: str) -> None:
     """
-    Crea una copia del file Turtle:
-      1) sostituisce la sequenza letterale \\n (cioè backslash-backslash-n nel file)
-         con un newline reale
-      2) converte i literal che contengono newline in long literals
-         (necessario perché newline dentro "..." è illegale in Turtle)
-    Operazione puramente testuale.
+    Crea una copia del file Turtle sostituendo la sequenza letterale \\n
+    (backslash-backslash-n nel file) con \n (backslash-n).
+    NON introduce newline reali e NON riscrive i literal: Turtle resta valido.
     """
     with open(src_ttl, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # 1) \\n (testuale nel TTL) -> newline reale
-    #    NB: qui cerchiamo DUE backslash + 'n' nel file
-    content = content.replace("\\\\n", "\n")
-
-    # 2) Qualunque literal "..." che ora contiene un newline va trasformato in """..."""
-    #    (regex non greedy, DOTALL per includere \n)
-    def _to_long_literal(m: re.Match) -> str:
-        inner = m.group(1)
-        return f'"""{inner}"""'
-
-    content = re.sub(r'"([^"]*?\n[^"]*?)"', _to_long_literal, content, flags=re.DOTALL)
+    # Nel testo del file: \\n -> \n
+    normalized = content.replace("\\\\n", "\\n")
 
     os.makedirs(os.path.dirname(dst_ttl) or ".", exist_ok=True)
     with open(dst_ttl, "w", encoding="utf-8") as f:
-        f.write(content)
+        f.write(normalized)
 
     print(f"[orchestrator] Grafo con newline normalizzati scritto in: {dst_ttl}")
 

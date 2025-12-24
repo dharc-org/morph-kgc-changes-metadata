@@ -195,7 +195,7 @@ mappings:
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
-                    value: ";---,--- e ---\n--- + --- - ---\r"
+                    value: ";---,---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(Autore)
             - parameter: idlab-fn:valueType
@@ -216,7 +216,7 @@ mappings:
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
-                value: ";---,--- e ---\n--- + --- - ---\r"
+                value: ";---,---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(Autore)
         - parameter: idlab-fn:valueType
@@ -244,7 +244,7 @@ mappings:
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
-                    value: ";---,--- e ---\n--- + --- - ---\r"
+                    value: ";---,---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(Autore)
             - parameter: idlab-fn:valueType
@@ -265,7 +265,7 @@ mappings:
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
-                value: ";---,--- e ---\n--- + --- - ---\r"
+                value: ";---,---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 value: $(Autore)
         - parameter: idlab-fn:valueType
@@ -280,7 +280,7 @@ mappings:
           function: idlab-fn:multiple_separator_split_explode
           parameters:
             - parameter: idlab-fn:list_param_string_sep
-              value: ";---,--- e ---\n--- + --- - ---\r"
+              value: ";---,---\n--- + --- - ---\r"
             - parameter: idlab-fn:valParam
               value: $(Autore)
 

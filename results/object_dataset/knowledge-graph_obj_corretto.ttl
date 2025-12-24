@@ -7793,8 +7793,7 @@
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74a/ob01/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/figli/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel_e_figli/1> ;
     crm:P2_has_type aat:300404387 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74a/ob02/1> a crm:E7_Activity ;
@@ -7817,8 +7816,7 @@
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74b/ob01/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/figli/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel_e_figli/1> ;
     crm:P2_has_type aat:300404387 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74b/ob02/1> a crm:E7_Activity ;
@@ -7841,8 +7839,7 @@
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74c/ob01/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/figli/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel_e_figli/1> ;
     crm:P2_has_type aat:300404387 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74c/ob02/1> a crm:E7_Activity ;
@@ -7865,8 +7862,7 @@
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74d/ob01/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/figli/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel_e_figli/1> ;
     crm:P2_has_type aat:300404387 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74d/ob02/1> a crm:E7_Activity ;
@@ -7889,8 +7885,7 @@
     crm:P2_has_type aat:300404386 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74e/ob01/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/figli/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel_e_figli/1> ;
     crm:P2_has_type aat:300404387 .
 
 <https://w3id.org/changes/4/aldrovandi/act/74e/ob02/1> a crm:E7_Activity ;
@@ -11893,8 +11888,8 @@
     crm:P190_has_symbolic_content "pussytoes"@en,
         "antennaria"@it .
 
-<https://w3id.org/changes/4/aldrovandi/apl/antica_manifattura_robert_brendel/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Antica Manifattura Robert Brendel" .
+<https://w3id.org/changes/4/aldrovandi/apl/antica_manifattura_robert_brendel_e_figli/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Antica Manifattura Robert Brendel e Figli" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/antilope/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "antelope"@en,
@@ -12234,9 +12229,6 @@
 <https://w3id.org/changes/4/aldrovandi/apl/feto/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "fetus"@en,
         "feto"@it .
-
-<https://w3id.org/changes/4/aldrovandi/apl/figli/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Figli" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/filippo_giunta/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Filippo Giunta (viaf:79080779)" .
@@ -28979,11 +28971,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/anatomia/1> ;
     crm:P2_has_type aat:300404126 .
 
-<https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/antica_manifattura_robert_brendel/1> .
-
-<https://w3id.org/changes/4/aldrovandi/acr/figli/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/figli/1> .
+<https://w3id.org/changes/4/aldrovandi/acr/antica_manifattura_robert_brendel_e_figli/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/antica_manifattura_robert_brendel_e_figli/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/vetrina_2_basso/ob00/1> a lrmoo:F5_Item ;
     crm:P138i_has_representation <https://w3id.org/changes/4/aldrovandi/mdl/vetrina_2_basso/06/1> ;
