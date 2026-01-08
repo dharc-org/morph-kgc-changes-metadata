@@ -143,8 +143,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/act/105/ob08/1> a crm:E7_Activity ;
     crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/collezione_di_luigi_calori/1> ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_scienze_biomediche/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/neuromotorie_di_bologna/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_scienze_biomediche_e_neuromotorie_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/105/ob00/1> ;
     crm:P2_has_type aat:300054277 .
 
@@ -601,8 +600,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/act/22/ob08/1> a crm:E7_Activity ;
     crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/fondo_storico_bertoloni/1> ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/ambientali_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche_e_ambientali_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/22/ob00/1> ;
     crm:P2_has_type aat:300054277 .
 
@@ -1095,8 +1093,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/act/43/ob08/1> a crm:E7_Activity ;
     crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/fondo_storico_bertoloni/1> ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/ambientali_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche_e_ambientali_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/43/ob00/1> ;
     crm:P2_has_type aat:300054277 .
 
@@ -1168,8 +1165,7 @@
         <https://w3id.org/changes/4/aldrovandi/act/47/ob07/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/47/ob08/1> a crm:E7_Activity ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_di_matematica_fisica/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/informatica_di_bologna/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_di_matematica_fisica_e_informatica_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/47/ob00/1> ;
     crm:P2_has_type aat:300054277 .
 
@@ -1566,8 +1562,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/act/75/ob08/1> a crm:E7_Activity ;
     crm:P12_occurred_in_the_presence_of <https://w3id.org/changes/4/aldrovandi/col/fondo_storico_bertoloni/1> ;
-    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/ambientali_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche/1> ;
+    crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche_e_ambientali_di_bologna/1> ;
     crm:P16_used_specific_object <https://w3id.org/changes/4/aldrovandi/itm/75/ob00/1> ;
     crm:P2_has_type aat:300054277 .
 
@@ -11864,9 +11859,6 @@
     crm:P190_has_symbolic_content "allegory"@en,
         "allegoria"@it .
 
-<https://w3id.org/changes/4/aldrovandi/apl/ambientali_di_bologna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Ambientali di Bologna" .
-
 <https://w3id.org/changes/4/aldrovandi/apl/america/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "America"@en,
         "America"@it .
@@ -11968,11 +11960,11 @@
 <https://w3id.org/changes/4/aldrovandi/apl/bernardo_basa/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Bernardo Basa (viaf:29690263)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Biblioteca del Dipartimento di Scienze Biologiche, Geologiche" .
+<https://w3id.org/changes/4/aldrovandi/apl/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche_e_ambientali_di_bologna/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Biblioteca del Dipartimento di Scienze Biologiche, Geologiche e Ambientali di Bologna" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/biblioteca_di_matematica_fisica/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Biblioteca di Matematica, Fisica" .
+<https://w3id.org/changes/4/aldrovandi/apl/biblioteca_di_matematica_fisica_e_informatica_di_bologna/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Biblioteca di Matematica, Fisica e Informatica di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/biblioteca_universitaria_di_bologna/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Biblioteca Universitaria di Bologna" .
@@ -12160,8 +12152,8 @@
 <https://w3id.org/changes/4/aldrovandi/apl/dioscorides_pedanius/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Dioscorides Pedanius (viaf:78822798)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/dipartimento_di_scienze_biomediche/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Dipartimento di Scienze Biomediche" .
+<https://w3id.org/changes/4/aldrovandi/apl/dipartimento_di_scienze_biomediche_e_neuromotorie_di_bologna/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Dipartimento di Scienze Biomediche e Neuromotorie di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/divinazione/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "divination"@en,
@@ -12396,9 +12388,6 @@
 <https://w3id.org/changes/4/aldrovandi/apl/iguana/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "iguana"@en,
         "iguana"@it .
-
-<https://w3id.org/changes/4/aldrovandi/apl/informatica_di_bologna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Informatica di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/intestino/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "intestine"@en,
@@ -12638,9 +12627,6 @@
 <https://w3id.org/changes/4/aldrovandi/apl/neonato/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "newborn"@en,
         "neonato"@it .
-
-<https://w3id.org/changes/4/aldrovandi/apl/neuromotorie_di_bologna/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Neuromotorie di Bologna" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/new_york/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "New York" .
@@ -23424,8 +23410,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/bernardo_basa/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/29690263> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/biblioteca_di_matematica_fisica/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/biblioteca_di_matematica_fisica/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/biblioteca_di_matematica_fisica_e_informatica_di_bologna/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/biblioteca_di_matematica_fisica_e_informatica_di_bologna/1> ;
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/british_museum/1> a crm:E39_Actor ;
@@ -23444,8 +23430,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/dioscorides_pedanius/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/78822798> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_scienze_biomediche/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/dipartimento_di_scienze_biomediche/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_scienze_biomediche_e_neuromotorie_di_bologna/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/dipartimento_di_scienze_biomediche_e_neuromotorie_di_bologna/1> ;
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/federico_torresano/1> a crm:E39_Actor ;
@@ -23503,10 +23489,6 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/hieronymus_froben/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/32319505> .
 
-<https://w3id.org/changes/4/aldrovandi/acr/informatica_di_bologna/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/informatica_di_bologna/1> ;
-    crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
-
 <https://w3id.org/changes/4/aldrovandi/acr/johann_feyrabend/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/johann_feyrabend/1> ;
     crm:P70i_is_documented_in <http://viaf.org/viaf/2399145857094322922033> .
@@ -23549,10 +23531,6 @@
 <https://w3id.org/changes/4/aldrovandi/acr/museo_di_storia_naturale_di_verona/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/museo_di_storia_naturale_di_verona/1> ;
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/verona/1> .
-
-<https://w3id.org/changes/4/aldrovandi/acr/neuromotorie_di_bologna/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/neuromotorie_di_bologna/1> ;
-    crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/nicolaus_episcopius/1> a crm:E39_Actor ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/nicolaus_episcopius/1> ;
@@ -27774,12 +27752,8 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/vipera/1> ;
     crm:P2_has_type aat:300404126 .
 
-<https://w3id.org/changes/4/aldrovandi/acr/ambientali_di_bologna/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/ambientali_di_bologna/1> ;
-    crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
-
-<https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche/1> a crm:E39_Actor ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche/1> ;
+<https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche_e_ambientali_di_bologna/1> a crm:E39_Actor ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche_e_ambientali_di_bologna/1> ;
     crm:P74_has_current_or_former_residence <https://w3id.org/changes/4/aldrovandi/plc/bologna/1> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/museo_delle_civilta_di_roma/1> a crm:E39_Actor ;
@@ -29361,22 +29335,19 @@
         <https://w3id.org/changes/4/aldrovandi/itm/m6/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/itm/m7/ob00/1>,
         <https://w3id.org/changes/4/aldrovandi/itm/m8/ob00/1> ;
-    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/ambientali_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/archivio_di_stato_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_di_matematica_fisica/1>,
+    crm:P74i_is_current_or_former_residence_of <https://w3id.org/changes/4/aldrovandi/acr/archivio_di_stato_di_bologna/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_del_dipartimento_di_scienze_biologiche_geologiche_e_ambientali_di_bologna/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_di_matematica_fisica_e_informatica_di_bologna/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/biblioteca_universitaria_di_bologna/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_scienze_biomediche/1>,
+        <https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_scienze_biomediche_e_neuromotorie_di_bologna/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/giovanni_battista_ferroni/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/giovanni_rossi_eredi/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/giuseppe_longhi/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/informatica_di_bologna/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/lelio_dalla_volpe/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/marco_antonio_bernia/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/museo_civico_archeologico_di_bologna/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/museo_civico_medievale_di_bologna/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/museo_di_palazzo_poggi/1>,
-        <https://w3id.org/changes/4/aldrovandi/acr/neuromotorie_di_bologna/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/nicolo_tebaldini/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/orto_botanico_ed_erbario_di_bologna/1>,
         <https://w3id.org/changes/4/aldrovandi/acr/sistema_museale_di_ateneo_di_bologna/1> .

@@ -1151,7 +1151,7 @@ mappings:
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
                     # eliminata la virgola perché è sempre uno solo e introduce errori
-                    value: ";--- e ---\n--- + --- - ---\r"
+                    value: ";---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     value: $(Ente conservatore)
             - parameter: idlab-fn:valueType
@@ -1230,7 +1230,7 @@ mappings:
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
-                value: ";--- e ---\n--- + --- - ---\r"
+                value: ";---\n--- + --- - ---\r"
                 # eliminata la virgola perché è sempre uno solo e introduce errori
               - parameter: idlab-fn:valParam
                 value: $(Ente conservatore)
@@ -1263,7 +1263,7 @@ mappings:
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
-                    value: ";--- e ---\n--- + --- - ---\r"
+                    value: ";---\n--- + --- - ---\r"
                     # eliminata la virgola perché è sempre uno solo e introduce errori
                   - parameter: idlab-fn:valParam
                     value: $(Ente conservatore)
@@ -1285,7 +1285,7 @@ mappings:
             function: idlab-fn:multiple_separator_split_explode
             parameters:
               - parameter: idlab-fn:list_param_string_sep
-                value: ";--- e ---\n--- + --- - ---\r"
+                value: ";---\n--- + --- - ---\r"
               - parameter: idlab-fn:valParam
                 # eliminata la virgola perché è sempre uno solo e introduce errori
                 value: $(Ente conservatore)
@@ -1301,7 +1301,7 @@ mappings:
           function: idlab-fn:multiple_separator_split_explode
           parameters:
             - parameter: idlab-fn:list_param_string_sep
-              value: ";--- e ---\n--- + --- - ---\r"
+              value: ";---\n--- + --- - ---\r"
               # eliminata la virgola perché è sempre uno solo e introduce errori
             - parameter: idlab-fn:valParam
               value: $(Ente conservatore)
@@ -1349,7 +1349,7 @@ mappings:
                 function: idlab-fn:multiple_separator_split_explode
                 parameters:
                   - parameter: idlab-fn:list_param_string_sep
-                    value: ";--- e ---\n--- + --- - ---\r"
+                    value: ";---\n--- + --- - ---\r"
                   - parameter: idlab-fn:valParam
                     # eliminata la virgola perché è sempre uno solo e introduce errori
                     value: $(Ente conservatore)
