@@ -1946,7 +1946,8 @@
 
 <https://w3id.org/changes/4/aldrovandi/act/15/02/1> a crmdig:D10_Software_Execution ;
     crm:P2_has_type aat:300391447 ;
-    crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/15/02/1> .
+    crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/15/02/1> ;
+    crmdig:L11_had_output <https://w3id.org/changes/4/aldrovandi/mdl/15/02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/15/03/1> a crmdig:D10_Software_Execution ;
     crm:P11_had_participant <https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_filologia_classica/1>,
@@ -1955,6 +1956,7 @@
     crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/alice_bordignon/1> ;
     crm:P2_has_type aat:300386427 ;
     crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/15/03/1> ;
+    crmdig:L10_had_input <https://w3id.org/changes/4/aldrovandi/mdl/15/02/1> ;
     crmdig:L11_had_output <https://w3id.org/changes/4/aldrovandi/mdl/15/03/1> ;
     crmdig:L23_used_software_or_firmware <https://w3id.org/changes/4/aldrovandi/sfw/blender/1> .
 
@@ -2007,7 +2009,8 @@
 
 <https://w3id.org/changes/4/aldrovandi/act/16/02/1> a crmdig:D10_Software_Execution ;
     crm:P2_has_type aat:300391447 ;
-    crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/16/02/1> .
+    crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/16/02/1> ;
+    crmdig:L11_had_output <https://w3id.org/changes/4/aldrovandi/mdl/16/02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/16/03/1> a crmdig:D10_Software_Execution ;
     crm:P11_had_participant <https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_filologia_classica/1>,
@@ -2016,6 +2019,7 @@
     crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/alice_bordignon/1> ;
     crm:P2_has_type aat:300386427 ;
     crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/16/03/1> ;
+    crmdig:L10_had_input <https://w3id.org/changes/4/aldrovandi/mdl/16/02/1> ;
     crmdig:L11_had_output <https://w3id.org/changes/4/aldrovandi/mdl/16/03/1> ;
     crmdig:L23_used_software_or_firmware <https://w3id.org/changes/4/aldrovandi/sfw/blender/1> .
 
@@ -2068,7 +2072,8 @@
 
 <https://w3id.org/changes/4/aldrovandi/act/17/02/1> a crmdig:D10_Software_Execution ;
     crm:P2_has_type aat:300391447 ;
-    crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/17/02/1> .
+    crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/17/02/1> ;
+    crmdig:L11_had_output <https://w3id.org/changes/4/aldrovandi/mdl/17/02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/17/03/1> a crmdig:D10_Software_Execution ;
     crm:P11_had_participant <https://w3id.org/changes/4/aldrovandi/acr/dipartimento_di_filologia_classica/1>,
@@ -2077,6 +2082,7 @@
     crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/alice_bordignon/1> ;
     crm:P2_has_type aat:300386427 ;
     crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/17/03/1> ;
+    crmdig:L10_had_input <https://w3id.org/changes/4/aldrovandi/mdl/17/02/1> ;
     crmdig:L11_had_output <https://w3id.org/changes/4/aldrovandi/mdl/17/03/1> ;
     crmdig:L23_used_software_or_firmware <https://w3id.org/changes/4/aldrovandi/sfw/blender/1> .
 
@@ -6989,7 +6995,8 @@
 
 <https://w3id.org/changes/4/aldrovandi/act/77/02/1> a crmdig:D10_Software_Execution ;
     crm:P2_has_type aat:300391447 ;
-    crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/77/02/1> .
+    crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/77/02/1> ;
+    crmdig:L11_had_output <https://w3id.org/changes/4/aldrovandi/mdl/77/02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/act/77/03/1> a crmdig:D10_Software_Execution ;
     crm:P11_had_participant <https://w3id.org/changes/4/aldrovandi/acr/consiglio_nazionale_delle_ricerche/1>,
@@ -6997,6 +7004,7 @@
     crm:P14_carried_out_by <https://w3id.org/changes/4/aldrovandi/acr/maria_felicia_rega/1> ;
     crm:P2_has_type aat:300386427 ;
     crm:P4_has_time-span <https://w3id.org/changes/4/aldrovandi/tsp/77/03/1> ;
+    crmdig:L10_had_input <https://w3id.org/changes/4/aldrovandi/mdl/77/02/1> ;
     crmdig:L11_had_output <https://w3id.org/changes/4/aldrovandi/mdl/77/03/1> ;
     crmdig:L23_used_software_or_firmware <https://w3id.org/changes/4/aldrovandi/sfw/blender/1> .
 
@@ -20599,22 +20607,11 @@
     crmdig:L23_used_software_or_firmware <https://w3id.org/changes/4/aldrovandi/sfw/aton/1>,
         <https://w3id.org/changes/4/aldrovandi/sfw/nextcloud/1> .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/15/02/1> a crm:E41_Appellation .
-
-<https://w3id.org/changes/4/aldrovandi/apl-lic/16/02/1> a crm:E41_Appellation .
-
-<https://w3id.org/changes/4/aldrovandi/apl-lic/17/02/1> a crm:E41_Appellation .
-
-<https://w3id.org/changes/4/aldrovandi/apl-lic/77/02/1> a crm:E41_Appellation .
-
 <https://w3id.org/changes/4/aldrovandi/apl/15/00/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 00 oggetto 15" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/15/01/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 01 oggetto 15" .
-
-<https://w3id.org/changes/4/aldrovandi/apl/15/02/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Modello Digitale 02 oggetto 15" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/16/00/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 00 oggetto 16" .
@@ -20622,17 +20619,11 @@
 <https://w3id.org/changes/4/aldrovandi/apl/16/01/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 01 oggetto 16" .
 
-<https://w3id.org/changes/4/aldrovandi/apl/16/02/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Modello Digitale 02 oggetto 16" .
-
 <https://w3id.org/changes/4/aldrovandi/apl/17/00/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 00 oggetto 17" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/17/01/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 01 oggetto 17" .
-
-<https://w3id.org/changes/4/aldrovandi/apl/17/02/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Modello Digitale 02 oggetto 17" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/20/00/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 00 oggetto 20" .
@@ -20645,9 +20636,6 @@
 
 <https://w3id.org/changes/4/aldrovandi/apl/77/01/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 01 oggetto 77" .
-
-<https://w3id.org/changes/4/aldrovandi/apl/77/02/1> a crm:E41_Appellation ;
-    crm:P190_has_symbolic_content "Modello Digitale 02 oggetto 77" .
 
 <https://w3id.org/changes/4/aldrovandi/lic/1/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/1/02/1> ;
@@ -20936,15 +20924,33 @@
     crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/14/03/1> ;
     crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
+<https://w3id.org/changes/4/aldrovandi/lic/15/02/1> a crm:E73_Information_Object ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/15/02/1> ;
+    crm:P2_has_type aat:300435434 ;
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/15/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
+
 <https://w3id.org/changes/4/aldrovandi/lic/15/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/15/03/1> ;
     crm:P2_has_type aat:300435434 ;
     crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/15/03/1> .
 
+<https://w3id.org/changes/4/aldrovandi/lic/16/02/1> a crm:E73_Information_Object ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/16/02/1> ;
+    crm:P2_has_type aat:300435434 ;
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/16/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
+
 <https://w3id.org/changes/4/aldrovandi/lic/16/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/16/03/1> ;
     crm:P2_has_type aat:300435434 ;
     crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/16/03/1> .
+
+<https://w3id.org/changes/4/aldrovandi/lic/17/02/1> a crm:E73_Information_Object ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/17/02/1> ;
+    crm:P2_has_type aat:300435434 ;
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/17/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/17/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/17/03/1> ;
@@ -20990,7 +20996,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/20/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/20/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/20/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/20/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/20/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/20/03/1> ;
@@ -21396,7 +21403,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/49/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/49/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/49/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/49/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/49/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/49/03/1> ;
@@ -21419,7 +21427,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/50/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/50/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/50/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/50/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/50/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/50/03/1> ;
@@ -21430,7 +21439,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/51/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/51/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/51/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/51/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/51/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/51/03/1> ;
@@ -21652,6 +21662,12 @@
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/76/03/1> ;
     crm:P2_has_type aat:300435434 ;
     crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/76/03/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://w3id.org/changes/4/aldrovandi/lic/77/02/1> a crm:E73_Information_Object ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/77/02/1> ;
+    crm:P2_has_type aat:300435434 ;
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/77/02/1> ;
     crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/77/03/1> a crm:E73_Information_Object ;
@@ -23800,9 +23816,18 @@
 <https://w3id.org/changes/4/aldrovandi/apl-lic/14/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
+<https://w3id.org/changes/4/aldrovandi/apl-lic/15/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
+
 <https://w3id.org/changes/4/aldrovandi/apl-lic/15/03/1> a crm:E41_Appellation .
 
+<https://w3id.org/changes/4/aldrovandi/apl-lic/16/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
+
 <https://w3id.org/changes/4/aldrovandi/apl-lic/16/03/1> a crm:E41_Appellation .
+
+<https://w3id.org/changes/4/aldrovandi/apl-lic/17/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/17/03/1> a crm:E41_Appellation .
 
@@ -23824,7 +23849,8 @@
 <https://w3id.org/changes/4/aldrovandi/apl-lic/2/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/20/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/20/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/20/03/1> a crm:E41_Appellation .
 
@@ -24026,7 +24052,8 @@
 <https://w3id.org/changes/4/aldrovandi/apl-lic/48/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/49/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/49/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/49/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
@@ -24037,12 +24064,14 @@
 <https://w3id.org/changes/4/aldrovandi/apl-lic/5/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/50/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/50/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/50/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/51/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/51/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/51/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
@@ -24153,6 +24182,9 @@
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/76/03/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
+
+<https://w3id.org/changes/4/aldrovandi/apl-lic/77/02/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/77/03/1> a crm:E41_Appellation .
@@ -25642,6 +25674,9 @@
 <https://w3id.org/changes/4/aldrovandi/apl/14/06/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 06 oggetto 14" .
 
+<https://w3id.org/changes/4/aldrovandi/apl/15/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Modello Digitale 02 oggetto 15" .
+
 <https://w3id.org/changes/4/aldrovandi/apl/15/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 03 oggetto 15" .
 
@@ -25654,6 +25689,9 @@
 <https://w3id.org/changes/4/aldrovandi/apl/15/06/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 06 oggetto 15" .
 
+<https://w3id.org/changes/4/aldrovandi/apl/16/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Modello Digitale 02 oggetto 16" .
+
 <https://w3id.org/changes/4/aldrovandi/apl/16/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 03 oggetto 16" .
 
@@ -25665,6 +25703,9 @@
 
 <https://w3id.org/changes/4/aldrovandi/apl/16/06/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 06 oggetto 16" .
+
+<https://w3id.org/changes/4/aldrovandi/apl/17/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Modello Digitale 02 oggetto 17" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/17/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 03 oggetto 17" .
@@ -26913,6 +26954,9 @@
 
 <https://w3id.org/changes/4/aldrovandi/apl/76/06/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 06 oggetto 76" .
+
+<https://w3id.org/changes/4/aldrovandi/apl/77/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Modello Digitale 02 oggetto 77" .
 
 <https://w3id.org/changes/4/aldrovandi/apl/77/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Modello Digitale 03 oggetto 77" .
@@ -31769,13 +31813,13 @@
     crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/14/00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/15/ob00/1> a lrmoo:F5_Item ;
-    crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/15/03/1> .
+    crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/15/02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/16/ob00/1> a lrmoo:F5_Item ;
-    crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/16/03/1> .
+    crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/16/02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/17/ob00/1> a lrmoo:F5_Item ;
-    crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/17/03/1> .
+    crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/17/02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/18/ob00/1> a lrmoo:F5_Item ;
     crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/18/00/1> .
@@ -31955,7 +31999,7 @@
     crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/76/00/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/77/ob00/1> a lrmoo:F5_Item ;
-    crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/77/03/1> .
+    crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/77/02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/itm/78/ob00/1> a lrmoo:F5_Item ;
     crm:P130i_features_are_also_found_on <https://w3id.org/changes/4/aldrovandi/mdl/78/00/1> .
@@ -42898,6 +42942,15 @@
 <https://w3id.org/changes/4/aldrovandi/mdl/14/03/1> a crmdig:D9_Data_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/14/03/1> .
 
+<https://w3id.org/changes/4/aldrovandi/mdl/15/03/1> a crmdig:D9_Data_Object ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/15/03/1> .
+
+<https://w3id.org/changes/4/aldrovandi/mdl/16/03/1> a crmdig:D9_Data_Object ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/16/03/1> .
+
+<https://w3id.org/changes/4/aldrovandi/mdl/17/03/1> a crmdig:D9_Data_Object ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/17/03/1> .
+
 <https://w3id.org/changes/4/aldrovandi/mdl/18/00/1> a crmdig:D9_Data_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/18/00/1> .
 
@@ -43422,6 +43475,9 @@
 
 <https://w3id.org/changes/4/aldrovandi/mdl/76/03/1> a crmdig:D9_Data_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/76/03/1> .
+
+<https://w3id.org/changes/4/aldrovandi/mdl/77/03/1> a crmdig:D9_Data_Object ;
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/77/03/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mdl/78/00/1> a crmdig:D9_Data_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/78/00/1> .
@@ -44935,25 +44991,25 @@
 <https://w3id.org/changes/4/aldrovandi/mdl/vetrina_8_basso_2_t3/03/1> a crmdig:D9_Data_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/vetrina_8_basso_2_t3/03/1> .
 
-<https://w3id.org/changes/4/aldrovandi/mdl/15/03/1> a crmdig:D9_Data_Object ;
+<https://w3id.org/changes/4/aldrovandi/mdl/15/02/1> a crmdig:D9_Data_Object ;
     crm:P130_shows_features_of <https://sketchfab.com/3d-models/green-iguana-217da036aae14762904ef4630023978b> ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/15/03/1> .
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/15/02/1> .
 
-<https://w3id.org/changes/4/aldrovandi/mdl/16/03/1> a crmdig:D9_Data_Object ;
+<https://w3id.org/changes/4/aldrovandi/mdl/16/02/1> a crmdig:D9_Data_Object ;
     crm:P130_shows_features_of <https://sketchfab.com/3d-models/cuban-macaw-nhmw-zoo-vs-50796-52348a29605a4136a0e807942d3c12a7> ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/16/03/1> .
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/16/02/1> .
 
-<https://w3id.org/changes/4/aldrovandi/mdl/17/03/1> a crmdig:D9_Data_Object ;
+<https://w3id.org/changes/4/aldrovandi/mdl/17/02/1> a crmdig:D9_Data_Object ;
     crm:P130_shows_features_of <https://sketchfab.com/3d-models/jungle-day-22-of-sculptjanuary2019-a313530e34bc4b5ab152df14775e58aa> ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/17/03/1> .
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/17/02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/mdl/20/02/1> a crmdig:D9_Data_Object ;
     crm:P130_shows_features_of <https://bub.unibo.it/it/bub-digitale/il-codice-cospi/bub_ms4093_cospi?view=imageview&manifest=https%3a%2f%2fbub.unibo.it%2fiiif%2f2%2fmanifest%2fbub%2fmanoscritti%2fbub_ms4093_cospi.json&canvas=https%3a%2f%2fbub.unibo.it%2fiiif%2f2%2fcanvas%2fbub%40manoscritti%40bub_ms4093_cospi%4049ed0574103095c4af1add7e9513620fb22744eb-bub_ms4093_000001-recto_piatto_anteriore.jp2.json> ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/20/02/1> .
 
-<https://w3id.org/changes/4/aldrovandi/mdl/77/03/1> a crmdig:D9_Data_Object ;
+<https://w3id.org/changes/4/aldrovandi/mdl/77/02/1> a crmdig:D9_Data_Object ;
     crm:P130_shows_features_of <https://sketchfab.com/3d-models/mountain-lion-r-996-7fa93e512aad4344ab2d90484e454d56> ;
-    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/77/03/1> .
+    crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/77/02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/luca_cipriani/1> a crm:E21_Person ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl/luca_cipriani/1> .

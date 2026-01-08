@@ -20917,7 +20917,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/15/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/15/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/15/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/15/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/15/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/15/03/1> ;
@@ -20927,7 +20928,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/16/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/16/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/16/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/16/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/16/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/16/03/1> ;
@@ -20937,7 +20939,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/17/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/17/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/17/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/17/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/17/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/17/03/1> ;
@@ -20983,7 +20986,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/20/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/20/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/20/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/20/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/20/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/20/03/1> ;
@@ -21389,7 +21393,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/49/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/49/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/49/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/49/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/49/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/49/03/1> ;
@@ -21412,7 +21417,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/50/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/50/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/50/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/50/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/50/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/50/03/1> ;
@@ -21423,7 +21429,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/51/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/51/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/51/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/51/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/51/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/51/03/1> ;
@@ -21650,7 +21657,8 @@
 <https://w3id.org/changes/4/aldrovandi/lic/77/02/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/77/02/1> ;
     crm:P2_has_type aat:300435434 ;
-    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/77/02/1> .
+    crm:P67_refers_to <https://w3id.org/changes/4/aldrovandi/mdl/77/02/1> ;
+    crm:P70i_is_documented_in <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://w3id.org/changes/4/aldrovandi/lic/77/03/1> a crm:E73_Information_Object ;
     crm:P1_is_identified_by <https://w3id.org/changes/4/aldrovandi/apl-lic/77/03/1> ;
@@ -23799,15 +23807,18 @@
 <https://w3id.org/changes/4/aldrovandi/apl-lic/14/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/15/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/15/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/15/03/1> a crm:E41_Appellation .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/16/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/16/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/16/03/1> a crm:E41_Appellation .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/17/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/17/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/17/03/1> a crm:E41_Appellation .
 
@@ -23829,7 +23840,8 @@
 <https://w3id.org/changes/4/aldrovandi/apl-lic/2/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/20/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/20/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/20/03/1> a crm:E41_Appellation .
 
@@ -24031,7 +24043,8 @@
 <https://w3id.org/changes/4/aldrovandi/apl-lic/48/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/49/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/49/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/49/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
@@ -24042,12 +24055,14 @@
 <https://w3id.org/changes/4/aldrovandi/apl-lic/5/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/50/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/50/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/50/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/51/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/51/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/51/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
@@ -24160,7 +24175,8 @@
 <https://w3id.org/changes/4/aldrovandi/apl-lic/76/03/1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
-<https://w3id.org/changes/4/aldrovandi/apl-lic/77/02/1> a crm:E41_Appellation .
+<https://w3id.org/changes/4/aldrovandi/apl-lic/77/02/1> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "CC0 1.0 Universal (Public Domain Dedication)" .
 
 <https://w3id.org/changes/4/aldrovandi/apl-lic/77/03/1> a crm:E41_Appellation .
 
