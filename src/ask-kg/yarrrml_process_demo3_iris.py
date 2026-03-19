@@ -1,0 +1,1 @@
+#the demo file was migrated to src/ask-kg/demo/yarrrml_process_demo3_iris.py

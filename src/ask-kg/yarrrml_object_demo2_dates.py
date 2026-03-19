@@ -1,0 +1,1 @@
+#the demo file was migrated to src/ask-kg/demo/yarrrml_object_demo2_dates.py
