@@ -8,7 +8,9 @@ import re
 import datetime
 from perf_monitor import PerfMonitor
 from rdflib.namespace import XSD
-
+from fix_hollow_identifiers import remove_hollow_identifiers
+from fix_hollow_timespans import remove_hollow_timespans
+from fix_missing_l10 import add_missing_l10_for_first_phase, add_missing_l10_from_graph
 
 # --- rdflib: disabilita cast automatico di xsd:dateTime (e opzionalmente xsd:date) ---
 try:
@@ -802,7 +804,7 @@ def process_rdf_data(data, extract_prefixes, supl_dict, csv_input):
     # print("First phase dictionary:", first_phase_dict)
 
     # Pattern per riconoscere IRIs con struttura: https://w3id.org/changes/4/aldrovandi/(itm|lic|mdl)/{NR}/{phase}/{version}
-    pattern_phase = re.compile(r"^https://w3id.org/changes/4/aldrovandi/(?:itm|lic|mdl)/([^/]+)/(\d{2})/([^/]+)$")
+    pattern_phase = re.compile(r"^https://w3id.org/changes/4/aldrovandi/(?:itm|lic|mdl|act|tsp)/([^/]+)/(\d{2})/([^/]+)$")
 
     for triple in list(g.triples((None, None, None))):
         s, p, o = triple
@@ -908,6 +910,16 @@ def process_rdf_data(data, extract_prefixes, supl_dict, csv_input):
     ]
 
     g = pair_subject_object(g, properties_in_triples_to_clean)
+
+    # Rimuovi E42_Identifier senza P190_has_symbolic_content
+    g, n_removed = remove_hollow_identifiers(g)
+    print(f"[fix] E42_Identifier cavi rimossi (process): {n_removed}")
+    
+    g, n_tsp = remove_hollow_timespans(g)
+    print(f"[fix] E52_Time-Span cavi rimossi: {n_tsp}")
+    
+    g, n_rem, n_add = add_missing_l10_for_first_phase(g, first_phase_dict, csv_input)
+    g, n_add2 = add_missing_l10_from_graph(g)
 
     processed_data = g.serialize(format="turtle")
     return processed_data

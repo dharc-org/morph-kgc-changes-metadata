@@ -12,6 +12,9 @@ from perf_monitor import PerfMonitor
 import csv
 import pprint
 import glob
+from fix_hollow_identifiers import remove_hollow_identifiers
+from fix_hollow_timespans import remove_hollow_timespans
+
 
 # NOTA : PROVVISORIAMENTE per il post processing si assume che il separatore INTERNO alle celle sia ;
 # c'è anche un'euristica nella pulizia soggetti-oggetti fatti per le traduzioni
@@ -700,6 +703,12 @@ properties_in_triples_to_clean = [
 
 # Applica la pulizia sul grafo
 g_clean = pair_subject_object(g, properties_in_triples_to_clean)
+
+# Rimuovi E42_Identifier senza P190_has_symbolic_content
+g_clean, n_removed = remove_hollow_identifiers(g_clean)
+print(f"[fix] E42_Identifier cavi rimossi: {n_removed}")
+g_clean, n_tsp = remove_hollow_timespans(g_clean)
+print(f"[fix] E52_Time-Span cavi rimossi (object): {n_tsp}")
 
 # Scrivi su file il grafo corretto in TTL
 output_file_path = output_path.split(".")[0] + "_corretto.ttl"
