@@ -16,11 +16,12 @@ from rdflib import Graph, URIRef, RDF
 CRM = "http://www.cidoc-crm.org/cidoc-crm/"
 E42_IDENTIFIER      = URIRef(CRM + "E42_Identifier")
 E41_APPELLATION     = URIRef(CRM + "E41_Appellation")
+E35_TITLE           = URIRef(CRM + "E35_Title")
 P190_SYMBOLIC       = URIRef(CRM + "P190_has_symbolic_content")
 P1_IS_IDENTIFIED_BY = URIRef(CRM + "P1_is_identified_by")
 
 # Tipi considerati "cavi" se privi di P190_has_symbolic_content
-HOLLOW_TYPES = {E42_IDENTIFIER, E41_APPELLATION}
+HOLLOW_TYPES = {E42_IDENTIFIER, E41_APPELLATION, E35_TITLE}
 
 
 def remove_hollow_identifiers(g: Graph) -> tuple[Graph, int]:
@@ -44,10 +45,10 @@ def remove_hollow_identifiers(g: Graph) -> tuple[Graph, int]:
     hollow = all_identifiers - identifiers_with_content
 
     if not hollow:
-        print("[fix] Nessun nodo E42_Identifier/E41_Appellation cavo trovato.")
+        print("[fix] Nessun nodo E42_Identifier/E41_Appellation/E35_Title cavo trovato.")
         return g, 0
 
-    print(f"[fix] Trovati {len(hollow)} nodi E42_Identifier/E41_Appellation senza P190_has_symbolic_content → rimossi.")
+    print(f"[fix] Trovati {len(hollow)} nodi E42_Identifier/E41_Appellation/E35_Title senza P190_has_symbolic_content → rimossi.")
 
     triples_removed = 0
     for node in hollow:

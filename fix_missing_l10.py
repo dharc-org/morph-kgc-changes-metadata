@@ -157,3 +157,46 @@ def add_missing_l10_from_graph(g: Graph) -> tuple[Graph, int]:
 
     print(f"[fix_l10_graph] L10 aggiunti da scansione grafo: {n_added}")
     return g, n_added
+
+
+def remove_hollow_act_nodes(g: Graph) -> tuple[Graph, int]:
+    """
+    Scansiona il grafo cercando nodi act con fase numerica che non hanno
+    dati reali (nessuna proprietà significativa come P14, P4, L23...).
+    Li rimuove insieme a tutte le triple collegate.
+
+    Copre i casi non catturati da first_phase_dict: oggetti senza
+    OGGETTO_ESISTENTE ma la cui prima fase reale non è l'acquisizione
+    (es. NR 85 che parte dalla modellazione).
+    """
+    act_phase_re = re.compile(
+        r"^https://w3id\.org/changes/4/aldrovandi/act/([^/]+)/(\d{2})/(\d+)$"
+    )
+
+    D2  = URIRef(CRMDIG + "D2_Digitization_Process")
+    D10 = URIRef(CRMDIG + "D10_Software_Execution")
+    HOLLOW_TYPES = {D2, D10}
+
+    n_removed = 0
+
+    for act_type in HOLLOW_TYPES:
+        for act_iri in list(g.subjects(RDF.type, act_type)):
+            m = act_phase_re.match(str(act_iri))
+            if not m:
+                continue
+
+            # Ha dati reali?
+            if _has_real_data(g, act_iri):
+                continue
+
+            # È un guscio vuoto: rimuovi nodo e tutte le triple collegate
+            triples = (list(g.triples((act_iri, None, None))) +
+                       list(g.triples((None, None, act_iri))))
+            for t in triples:
+                g.remove(t)
+            n_removed += 1
+            nr, phase, ver = m.group(1), m.group(2), m.group(3)
+            print(f"[fix_hollow_act] Rimosso act guscio: act/{nr}/{phase}/{ver}")
+
+    print(f"[fix_hollow_act] Totale act guscio rimossi: {n_removed}")
+    return g, n_removed

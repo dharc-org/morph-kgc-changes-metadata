@@ -10,7 +10,7 @@ from perf_monitor import PerfMonitor
 from rdflib.namespace import XSD
 from fix_hollow_identifiers import remove_hollow_identifiers
 from fix_hollow_timespans import remove_hollow_timespans
-from fix_missing_l10 import add_missing_l10_for_first_phase, add_missing_l10_from_graph
+from fix_missing_l10 import add_missing_l10_for_first_phase, add_missing_l10_from_graph, remove_hollow_act_nodes
 
 # --- rdflib: disabilita cast automatico di xsd:dateTime (e opzionalmente xsd:date) ---
 try:
@@ -920,6 +920,7 @@ def process_rdf_data(data, extract_prefixes, supl_dict, csv_input):
     
     g, n_rem, n_add = add_missing_l10_for_first_phase(g, first_phase_dict, csv_input)
     g, n_add2 = add_missing_l10_from_graph(g)
+    g, n_hollow_act = remove_hollow_act_nodes(g)
 
     processed_data = g.serialize(format="turtle")
     return processed_data

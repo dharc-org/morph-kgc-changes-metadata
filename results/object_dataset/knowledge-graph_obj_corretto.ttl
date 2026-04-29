@@ -17981,9 +17981,6 @@
     crm:P190_has_symbolic_content "Eye colour chart by R. Martin"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/104/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/104/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Compasso a branche ricurve con estremità arrotondate"@it ;
     crm:P2_has_type aat:300417207 .
@@ -17991,9 +17988,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/104/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Curved branch compass with rounded ends"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/105/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/105/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Crani dalla Collezione di Luigi Calori"@it ;
@@ -18027,9 +18021,6 @@
     crm:P190_has_symbolic_content "Study on the encephalon of an African"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/108/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/108/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Galeorhinus cuvieri (Agassiz, 1835)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18037,9 +18028,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/108/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Shark from Bolca"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/109/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/109/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Aepyornis maximus"@it ;
@@ -18061,9 +18049,6 @@
     crm:P190_has_symbolic_content "Tobacco"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/110/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/110/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Ammonite (Arietites sp.)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18071,9 +18056,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/110/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Ammonite (within the genus Arietites)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/111/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/111/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Trilobite (Dalmanites sp.)"@it ;
@@ -18083,9 +18065,6 @@
     crm:P190_has_symbolic_content "Trilobite (within the genus Dalmanites)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/112/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/112/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Arctinurus boltoni (Bigsby, 1825)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18093,9 +18072,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/112/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Trilobite"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/113/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/113/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Cambropallas telesto (Geyer, 1993)"@it ;
@@ -18105,9 +18081,6 @@
     crm:P190_has_symbolic_content "Trilobite, two halves from the Erfoud region"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/114/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/114/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Bottiglia di Leida"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18115,9 +18088,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/114/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Leyden jar"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/115/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/115/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Macchina elettrostatica di Ramsden"@it ;
@@ -18127,9 +18097,6 @@
     crm:P190_has_symbolic_content "Ramsden electrostatic machine"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/116/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/116/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Arco scaricatore"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18137,9 +18104,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/116/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Arc discharger"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/117/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/117/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Attrezzatura fotografica del prof. Fabio Frassetto"@it ;
@@ -18149,9 +18113,6 @@
     crm:P190_has_symbolic_content "Photographic equipment of prof. Fabio Frassetto"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/12/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/12/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Panthera onca (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18159,9 +18120,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/12/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Jaguar (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/13/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/13/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Pharomachrus mocinno (De La Llave, 1832)"@it ;
@@ -18171,9 +18129,6 @@
     crm:P190_has_symbolic_content "Resplendent quetzal (De La Llave, 1832)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/14/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/14/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Limulus polyphemus (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18181,9 +18136,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/14/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Atlantic horseshoe crab (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/15/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/15/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Ctenosaura similis (Gray, 1831)"@it ;
@@ -18193,9 +18145,6 @@
     crm:P190_has_symbolic_content "Black spiny-tailed iguana (Gray, 1831)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/16/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/16/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Ara macao (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18203,9 +18152,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/16/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Scarlet macaw (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/17/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/17/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Ramphastos toco (Statius Müller, 1776)"@it ;
@@ -18215,9 +18161,6 @@
     crm:P190_has_symbolic_content "Toco toucan (Statius Müller, 1776)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/18/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/18/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Meleagris gallopavo (Linneaus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18226,9 +18169,6 @@
     crm:P190_has_symbolic_content "Wild turkey (Linneaus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/19/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/19/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Dasypus novemcinctus (Linnaeus, 1757)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18236,9 +18176,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/19/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Armadillo (Linnaeus, 1757)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Panthera leo (Linnaeus, 1758)"@it ;
@@ -18308,9 +18245,6 @@
     crm:P190_has_symbolic_content "Map of the Botanical Garden in Bologna"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/26/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/26/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Chrysanthemi"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18318,9 +18252,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/26/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Sunflower"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/27a/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/27a/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Delphinium staphisagria L."@it ;
@@ -18330,9 +18261,6 @@
     crm:P190_has_symbolic_content "Stavesacre"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/27b/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/27b/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Adonis vernalis L."@it ;
     crm:P2_has_type aat:300417207 .
@@ -18340,9 +18268,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/27b/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Pheasant’s eye"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/27c/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/27c/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Solanum lycopersicum L."@it ;
@@ -18352,9 +18277,6 @@
     crm:P190_has_symbolic_content "Tomato"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/27d/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/27d/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Antennaria dioica (L.)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18363,9 +18285,6 @@
     crm:P190_has_symbolic_content "Mountain everlasting"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/27e/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/27e/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tulipa sylvestris L."@it ;
     crm:P2_has_type aat:300417207 .
@@ -18373,9 +18292,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/27e/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Wild tulip"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/27f/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/27f/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Dryas octopetala L."@it ;
@@ -18421,9 +18337,6 @@
     crm:P190_has_symbolic_content "The history of animals"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/30/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/30/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Cygnus olor (Gmelin, 1789)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18456,9 +18369,6 @@
     crm:P190_has_symbolic_content "Human hermaphrodite"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/33/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/33/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lodoicea maldivica"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18466,9 +18376,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/33/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Sea coconut"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/34/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/34/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Chimaera monstrosa (Linnaeus, 1758)"@it ;
@@ -18526,9 +18433,6 @@
     crm:P190_has_symbolic_content "Heads of a two-headed calf"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/39/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/39/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Bos taurus (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18549,9 +18453,6 @@
     crm:P190_has_symbolic_content "The history of plants"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/40/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/40/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Monodon monoceros (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18559,9 +18460,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/40/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Narwhal (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/41/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/41/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Orcio per teriaca"@it ;
@@ -18655,9 +18553,6 @@
     crm:P190_has_symbolic_content "Description of the microscopic anatomy of a bee"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/49/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/49/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Maschera raffigurante Yacatecuhtli, patrono dei mercanti"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18678,9 +18573,6 @@
     crm:P190_has_symbolic_content "On medical material"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/50/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/50/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Manico di coltello sacrificale in forma di rettile fantastico"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18688,9 +18580,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/50/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Handle of sacrificial knife in the shape of a fantastical reptile"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/51/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/51/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Manico di coltello sacrificale in forma di figura umana"@it ;
@@ -18711,9 +18600,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/52/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Mask"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/53/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/53/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Pendente con testa di idolo in serpentino"@it ;
@@ -18915,9 +18801,6 @@
     crm:P190_has_symbolic_content "Assitra, also known as St. Thomas tree"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/77/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/77/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Panthera tigris (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -18937,9 +18820,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/78/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Bejeweled nautilus"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/79/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/79/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lophophorus impejanus (Lapham, 1790)"@it ;
@@ -18997,9 +18877,6 @@
     crm:P190_has_symbolic_content "Polychrome wooden model of a bowhead whale"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/84/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/84/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparato a secco di testa, collo, torace e diaframma di cavallo"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19007,9 +18884,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/84/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Dried specimen of head, neck, thorax and diaphragm"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/85/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/85/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparato in liquido di feto di tre mesi di cavallo"@it ;
@@ -19031,9 +18905,6 @@
     crm:P190_has_symbolic_content "Horses’ heads"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/87/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/87/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Feto bovino, intestino"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19041,9 +18912,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/87/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Intestine of a bovine foetus"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/88/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/88/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Elefante, intestino crasso"@it ;
@@ -19137,9 +19005,6 @@
     crm:P190_has_symbolic_content "Wax model of lower limb"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/95/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/95/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Braccio amputato a seguito di un incidente in fase di dissezione anatomica del primo direttore del Museo di Anatomia Comparata, professor Antonio Alessandrini"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19147,9 +19012,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/95/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Amputated arm belonging to the first director of the Museum of Comparate Anatomy, professor Antonio Alessandrini. The arm had to be amputed following an accident during a dissection"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/96/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/96/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Microscopio"@it ;
@@ -19195,9 +19057,6 @@
     crm:P190_has_symbolic_content "Living masks, Chinese male"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/a_alto_centro/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_centro/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Testamento di Ulisse Aldrovandi"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19205,9 +19064,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_centro/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Ulisse Aldrovandi’s will"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Medaglia in piombo"@it ;
@@ -19217,9 +19073,6 @@
     crm:P190_has_symbolic_content "Lead medal"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Medaglia commemorativa delle onoranze del 1907"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19227,9 +19080,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Commemorative medal from the 1907 celebrations"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Calchi in gesso di medaglie coniate con Aldrovandi vivente"@it ;
@@ -19239,9 +19089,6 @@
     crm:P190_has_symbolic_content "Plaster casts of 16th century medals"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Harpactocarcinus punctulatus"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19249,9 +19096,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_1/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Speckled crab"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Harpactocarcinus sp."@it ;
@@ -19261,9 +19105,6 @@
     crm:P190_has_symbolic_content "Species within the genus Harpactocarcinus"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lophoranina Aldrovandi"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19271,9 +19112,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Aldrovandi's moorhen"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Mammuthus sp."@it ;
@@ -19283,9 +19121,6 @@
     crm:P190_has_symbolic_content "Species within the genus Mammuthus"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Mammuthus sp."@it ;
     crm:P2_has_type aat:300417207 .
@@ -19293,9 +19128,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Species within the genus Mammuthus"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Hippopotamus amphibius"@it ;
@@ -19305,9 +19137,6 @@
     crm:P190_has_symbolic_content "Hippopotamus"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Palaeoniscum freieslebeni"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19315,9 +19144,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_1/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Palaeoniscum freieslebeni"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Charcharodon megalodon"@it ;
@@ -19327,9 +19153,6 @@
     crm:P190_has_symbolic_content "Charcharodon megalodon"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Denti di pesci (Coelodus sp. e Lepidotes gigas)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19337,9 +19160,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Fish teeth (species within the genus Coelodus and Lepidotes gigas)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/b_basso/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/b_basso/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Fanoni di balena"@it ;
@@ -19445,9 +19265,6 @@
     crm:P190_has_symbolic_content "Discourse on nature of Ulisse Aldrovandi, philosopher and medician"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/ptb/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/ptb/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Parete con matrici xilografiche"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19455,9 +19272,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/ptb/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Wall with xilographic matrices"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/ptb_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/ptb_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Matrice xilografica fiore"@it ;
@@ -19467,9 +19281,6 @@
     crm:P190_has_symbolic_content "Xilographic matrix of a flower"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/ptb_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/ptb_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Matrice xilografica pianta"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19478,9 +19289,6 @@
     crm:P190_has_symbolic_content "Xilographic matrix of a plant"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/ptb_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/ptb_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Matrice xilografica serpente"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19488,9 +19296,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/ptb_3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Xilographic matrix of a snake"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/ptb_4/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/ptb_4/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Matrice xilografica egizia"@it ;
@@ -19512,9 +19317,6 @@
     crm:P190_has_symbolic_content "Bust of Ulisse Aldrovandi"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Collana di semi mesoamericana"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19522,9 +19324,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_1/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Mesoamerican seed necklace"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Bambù lavorato"@it ;
@@ -19534,9 +19333,6 @@
     crm:P190_has_symbolic_content "Hand-carved bamboo"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con bambù"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19544,9 +19340,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Bamboo tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Sonaglio con semi di Thevetia peruviana"@it ;
@@ -19556,9 +19349,6 @@
     crm:P190_has_symbolic_content "Rattle with Thevetia peruviana seeds"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con sonaglio"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19566,9 +19356,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Rattle tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Statuetta ushabti in faïence"@it ;
@@ -19578,9 +19365,6 @@
     crm:P190_has_symbolic_content "Ushabti statuette in faïence"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_10/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_10/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gemma in diaspro giallo con cinocefalo e iscrizione"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19588,9 +19372,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_10/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Yellow jasper gem with a cynocephalon and inscription"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_11/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_11/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gemma in diaspro con scorpione"@it ;
@@ -19600,9 +19381,6 @@
     crm:P190_has_symbolic_content "Jasper gem with a scorpion"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_12/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_12/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gemma in diaspro nero con iscrizione araba"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19610,9 +19388,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_12/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Black jasper gem with arabic inscription"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_13/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_13/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Sferule di avorio e calcare"@it ;
@@ -19622,9 +19397,6 @@
     crm:P190_has_symbolic_content "Limestone and ivory spheres"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_14/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_14/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Punta di freccia del Neolitico"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19632,9 +19404,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_14/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Neolitic arrow point"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_15/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_15/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Corno lavorato"@it ;
@@ -19644,9 +19413,6 @@
     crm:P190_has_symbolic_content "Carved horn"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_16/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_16/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Ascia di giadeite"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19654,9 +19420,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_16/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Jade axe"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lucerna fittile a volute con spalla decorata"@it ;
@@ -19666,9 +19429,6 @@
     crm:P190_has_symbolic_content "Clay lamp with scrolls and decorated side"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Scarabeo in stile egizio in pietra dura bianca"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19676,9 +19436,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Egyptian style scarab in hard white stone"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_4/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_4/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gemma in agata con capra presso albero"@it ;
@@ -19688,9 +19445,6 @@
     crm:P190_has_symbolic_content "Agate gem with a goat next to a tree"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gemma in agata con maschera della commedia dell’arte"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19698,9 +19452,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Agate gem with comedy of art mask"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_6/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_6/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gemma in agata con Serapide in trono"@it ;
@@ -19710,9 +19461,6 @@
     crm:P190_has_symbolic_content "Agate gem with Serapis enthroned"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_7/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_7/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gemma in agata con uccello"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19720,9 +19468,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_7/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Agate gem with a bird"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_8/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_8/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gemma in agata con Mercurio e Fortuna"@it ;
@@ -19732,9 +19477,6 @@
     crm:P190_has_symbolic_content "Agate gem with Mercury and Fortuna"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_9/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_9/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gemma in pasta vitrea stratificata con figura appoggiata a un bastone"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19742,9 +19484,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_9/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gem in laminated vitreous paste with a figure resting on a stick"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_basso/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_basso/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Carapaci di tartarughe"@it ;
@@ -19754,9 +19493,6 @@
     crm:P190_has_symbolic_content "Turtle shells"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Calcoli"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19764,9 +19500,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Kidney stone"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con calcolo"@it ;
@@ -19776,9 +19509,6 @@
     crm:P190_has_symbolic_content "Kidney stone tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con calcolo"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19786,9 +19516,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Kidney stone tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Bezoar di gazzella"@it ;
@@ -19798,9 +19525,6 @@
     crm:P190_has_symbolic_content "Gazzelle bezoar"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Sezioni di denti di elefante"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19808,9 +19532,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Elephant teeth"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con elefante"@it ;
@@ -19820,9 +19541,6 @@
     crm:P190_has_symbolic_content "Elephant tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Zanne di elefante"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19830,9 +19548,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Elephant tusks"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con elefante"@it ;
@@ -19842,9 +19557,6 @@
     crm:P190_has_symbolic_content "Elephant tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Corna di bovidi e cervidi"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19852,9 +19564,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Bull and deer horns"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con cervo"@it ;
@@ -19864,9 +19573,6 @@
     crm:P190_has_symbolic_content "Deer tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Ghiandole di castoro e capra"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19874,9 +19580,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Beaver and goat glands"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparati zoologici: cervo, rinoceronte e antilope"@it ;
@@ -19886,9 +19589,6 @@
     crm:P190_has_symbolic_content "Zoological samples: deer, rhinoceros and antelope"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con rinoceronte"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19896,9 +19596,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Rhino tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Uova di struzzo"@it ;
@@ -19908,9 +19605,6 @@
     crm:P190_has_symbolic_content "Ostrich eggs"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Uova mostruose di pollo e fagiano"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19918,9 +19612,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Chicken and pheasant monster eggs"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Graminacea subfossile"@it ;
@@ -19930,9 +19621,6 @@
     crm:P190_has_symbolic_content "Subfossil grass plant"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_4/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_4/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Apice vegetativo di palma"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19940,9 +19628,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_4/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Palm tree leaf"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Baccello con seme"@it ;
@@ -19952,9 +19637,6 @@
     crm:P190_has_symbolic_content "Pod with seed"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con bacelli"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19962,9 +19644,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Pods tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparati vegetali"@it ;
@@ -19974,9 +19653,6 @@
     crm:P190_has_symbolic_content "Botanical samples"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con nido"@it ;
     crm:P2_has_type aat:300417207 .
@@ -19984,9 +19660,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Nest tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparati vegetali"@it ;
@@ -19996,9 +19669,6 @@
     crm:P190_has_symbolic_content "Botanical samples"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_4/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_4/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Nidi di pendolino"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20006,9 +19676,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_4/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Penduline nests"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_5/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_5/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Nido indet. dal Brasile"@it ;
@@ -20018,9 +19685,6 @@
     crm:P190_has_symbolic_content "Unknown nest from Brazil"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_basso/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_basso/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparati di terre e terre sigillate"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20028,9 +19692,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_basso/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Soil samples"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Conoclypeus conoideus (Leske, 1778)"@it ;
@@ -20040,9 +19701,6 @@
     crm:P190_has_symbolic_content "Cone shell mollusk (Leske, 1778)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_10/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_10/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Scutellina nummularia (Agassiz, 1841)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20050,9 +19708,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_10/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Eyelash fungus (Agassiz, 1841)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_11/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_11/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Glypticus hieroglyphicus (Goldfuss, 1829)"@it ;
@@ -20062,9 +19717,6 @@
     crm:P190_has_symbolic_content "Glypticus hieroglyphicus (Goldfuss, 1829)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Dollaro di mare"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20072,9 +19724,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Sand dollar"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Clypeaster marginatus (Lamark, 1816)"@it ;
@@ -20084,9 +19733,6 @@
     crm:P190_has_symbolic_content "Green sea urchin (Lamark, 1816)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_4/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_4/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Mazettia pareti (Manzoni, 1879)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20094,9 +19740,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_4/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Mazettia pareti (Manzoni, 1879)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_5/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_5/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Discoidea sp."@it ;
@@ -20106,9 +19749,6 @@
     crm:P190_has_symbolic_content "Species within the superfamily Discoidea"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_6/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_6/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Macropneustes sp."@it ;
     crm:P2_has_type aat:300417207 .
@@ -20116,9 +19756,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_6/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Species within the genus Macropneustes"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_7/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_7/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Stirechinus sp."@it ;
@@ -20128,9 +19765,6 @@
     crm:P190_has_symbolic_content "Species within the genus Stirechinus"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_8/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_8/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Spine di echinoidi"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20138,9 +19772,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_8/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Echinoid spines"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_9/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_9/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Echinoide indet."@it ;
@@ -20150,9 +19781,6 @@
     crm:P190_has_symbolic_content "Undetermined echinoid"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Calcare a coralli lavorati"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20160,9 +19788,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_1/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Polished coral limestone"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_10/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_10/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Productus geinitzianus (De Koninck, 1847)"@it ;
@@ -20172,9 +19797,6 @@
     crm:P190_has_symbolic_content "Productus geinitzianus (De Koninck, 1847)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_11/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_11/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Stephanoceras bayleanus (Foresti, 1887)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20182,9 +19804,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_11/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Bayle's stephanoceras (Foresti, 1887)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_12/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_12/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tellina planata (Linnaeus, 1758)"@it ;
@@ -20194,9 +19813,6 @@
     crm:P190_has_symbolic_content "Smooth tellin (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_13/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_13/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Glossus humanus (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20204,9 +19820,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_13/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Oxheart clam (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Coralli"@it ;
@@ -20216,9 +19829,6 @@
     crm:P190_has_symbolic_content "Corals"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lumachella a helicidi"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20226,9 +19836,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Helicidi limestone"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_4/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_4/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Calcare a lumachella"@it ;
@@ -20238,9 +19845,6 @@
     crm:P190_has_symbolic_content "Lumachella limestone"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_5/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_5/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Dentalium elephantinum (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20248,9 +19852,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_5/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Elephant tusk shell (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_6/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_6/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Glycymeris glycymeris (Linnaeus, 1758)"@it ;
@@ -20260,9 +19861,6 @@
     crm:P190_has_symbolic_content "European bittersweet (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_7/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_7/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Bivalvi indet."@it ;
     crm:P2_has_type aat:300417207 .
@@ -20270,9 +19868,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_7/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Undetermined bivalves"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_8/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_8/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lytoceras sp."@it ;
@@ -20282,9 +19877,6 @@
     crm:P190_has_symbolic_content "Species within the genus Lytoceras"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_9/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_9/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Megalodon sp."@it ;
     crm:P2_has_type aat:300417207 .
@@ -20292,9 +19884,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_9/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Species within the genus Megalodon"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_basso/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_basso/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Campioni di rocce levigate"@it ;
@@ -20304,9 +19893,6 @@
     crm:P190_has_symbolic_content "Polished rock samples"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Botroidi"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20314,9 +19900,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Botroids"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con botroidi"@it ;
@@ -20326,9 +19909,6 @@
     crm:P190_has_symbolic_content "Botroids tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Melopoponites"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20336,9 +19916,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_1/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Yellow melon"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Triorchites"@it ;
@@ -20348,9 +19925,6 @@
     crm:P190_has_symbolic_content "Triorchites"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con botroidi"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20358,9 +19932,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Botroids tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Botroidi"@it ;
@@ -20370,9 +19941,6 @@
     crm:P190_has_symbolic_content "Botroids"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con botroide"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20380,9 +19948,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Botroid tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Rospo (Bufo sp.)"@it ;
@@ -20392,9 +19957,6 @@
     crm:P190_has_symbolic_content "True toad (within the genus Bufo)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con bufo"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20402,9 +19964,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "True toad tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lucertola (Cordylus sp.)"@it ;
@@ -20414,9 +19973,6 @@
     crm:P190_has_symbolic_content "Girdled lizards (within the genus Cordylus)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con lucertola"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20424,9 +19980,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lizard tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Chamaeleo chamaeleon (Linnaeus, 1758)"@it ;
@@ -20436,9 +19989,6 @@
     crm:P190_has_symbolic_content "European cameleon (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Pesce delle sabbie (Scincus sp.)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20446,9 +19996,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Sandfish (within the genus Scincus)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con pesce"@it ;
@@ -20458,9 +20005,6 @@
     crm:P190_has_symbolic_content "Fish tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Drago volante (Draco sp.)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20468,9 +20012,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lined flying dragon (within the genus Draco)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparati zoologici, scapola di balena"@it ;
@@ -20480,9 +20021,6 @@
     crm:P190_has_symbolic_content "Zoological samples, whale shoulder blade"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparati zoologici, scheletro di delfino"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20490,9 +20028,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Zoological samples, incomplete dolphin skeleton"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con delfino"@it ;
@@ -20502,9 +20037,6 @@
     crm:P190_has_symbolic_content "Dolphin tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Peristedion cataphractum (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20512,9 +20044,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Gurnards (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con pesce forca"@it ;
@@ -20524,9 +20053,6 @@
     crm:P190_has_symbolic_content "Seal tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lactoria cornuta (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20534,9 +20060,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Horned boxfish (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Pesci spada (Xiphias sp.)"@it ;
@@ -20546,9 +20069,6 @@
     crm:P190_has_symbolic_content "Swordfish (within the genus Xiphias)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con pesce spada"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20556,9 +20076,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Swordfish tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Agonus cataphractus (Linnaeus, 1758)"@it ;
@@ -20568,9 +20085,6 @@
     crm:P190_has_symbolic_content "Hooknose (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Dactylopterus volitans (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20578,9 +20092,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Flying fish (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con pesce volante"@it ;
@@ -20590,9 +20101,6 @@
     crm:P190_has_symbolic_content "Flying fish tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparati zoologici, pesci palla"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20600,9 +20108,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Zoological samples, puffers"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con pesce palla irsuto"@it ;
@@ -20612,9 +20117,6 @@
     crm:P190_has_symbolic_content "Puffer tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con pesce palla liscio"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20622,9 +20124,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Puffer tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Taurulus bubalis (Euphrasen, 1758)"@it ;
@@ -20634,9 +20133,6 @@
     crm:P190_has_symbolic_content "Long-spined bullhead (Euphrasen, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lophius piscatorius (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20644,9 +20140,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Monkfish (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Apparato dentale di pesce cartilagineo (Elasmobronchii)"@it ;
@@ -20656,9 +20149,6 @@
     crm:P190_has_symbolic_content "Dental apparatus of a cartilaginous fish (Elasmobranchii)"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con bocca vista dall'alto"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20666,9 +20156,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Mouth tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con bocca vista lateralmente"@it ;
@@ -20678,9 +20165,6 @@
     crm:P190_has_symbolic_content "Mouth tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Rhinobatos rhinobatos (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20688,9 +20172,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Guitarfish (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con pesce chitarra"@it ;
@@ -20700,9 +20181,6 @@
     crm:P190_has_symbolic_content "Guitarfish tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lamna nasus (Bonnaterre, 1788)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20710,9 +20188,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Porbeagle (Bonnaterre, 1788)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con smeriglio"@it ;
@@ -20722,9 +20197,6 @@
     crm:P190_has_symbolic_content "Mackerel tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Lophius piscatorius (Linnaeus, 1758)"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20732,9 +20204,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Monkfish (Linnaeus, 1758)"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3_t/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3_t/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con rana pescatrice"@it ;
@@ -20744,9 +20213,6 @@
     crm:P190_has_symbolic_content "Monkfish tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparati zoologici, pescecane"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20754,9 +20220,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Zoological samples, shark"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparati zoologici, pesce sega"@it ;
@@ -20766,9 +20229,6 @@
     crm:P190_has_symbolic_content "Zoological samples, swordfish"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t1/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t1/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con pesce sega"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20776,9 +20236,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t1/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Swordfish tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t2/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t2/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con pesce sega"@it ;
@@ -20788,9 +20245,6 @@
     crm:P190_has_symbolic_content "Swordfish tablet"@en ;
     crm:P2_has_type aat:300417207 .
 
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
-
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Tavoletta con squalo martello"@it ;
     crm:P2_has_type aat:300417207 .
@@ -20798,9 +20252,6 @@
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t3/ob02/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Hammerhead shark tablet"@en ;
     crm:P2_has_type aat:300417207 .
-
-<https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_3/ob00/1> a crm:E35_Title ;
-    crm:P2_has_type aat:300417204 .
 
 <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_3/ob01/1> a crm:E35_Title ;
     crm:P190_has_symbolic_content "Preparati zoologici, squalo martello"@it ;
@@ -22197,14 +21648,12 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/104/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/104/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/104/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/104/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/104/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/104/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/105/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/105/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/105/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/105/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/105/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/105/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/106/ob00/1> a lrmoo:F1_Work ;
@@ -22221,14 +21670,12 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/108/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/108/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/108/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/108/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/108/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/108/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/109/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/109/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/109/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/109/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/109/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/109/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/11/ob00/1> a lrmoo:F1_Work ;
@@ -22239,104 +21686,87 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/110/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/110/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/110/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/110/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/110/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/110/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/111/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/111/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/111/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/111/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/111/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/111/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/112/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/112/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/112/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/112/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/112/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/112/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/113/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/113/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/113/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/113/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/113/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/113/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/114/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/114/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/114/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/114/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/114/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/114/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/115/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/115/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/115/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/115/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/115/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/115/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/116/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/116/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/116/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/116/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/116/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/116/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/117/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/117/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/117/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/117/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/117/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/117/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/12/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/12/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/12/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/12/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/12/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/12/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/13/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/13/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/13/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/13/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/13/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/13/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/14/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/14/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/14/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/14/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/14/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/14/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/15/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/15/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/15/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/15/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/15/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/15/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/16/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/16/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/16/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/16/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/16/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/16/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/17/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/17/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/17/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/17/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/17/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/17/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/18/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/18/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/18/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/18/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/18/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/18/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/19/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/19/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/19/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/19/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/19/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/19/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/20/ob00/1> a lrmoo:F1_Work ;
@@ -22371,44 +21801,37 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/26/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/26/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/26/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/26/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/26/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/26/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/27a/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/27a/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27a/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/27a/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27a/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/27a/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/27b/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/27b/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27b/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/27b/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27b/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/27b/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/27c/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/27c/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27c/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/27c/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27c/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/27c/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/27d/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/27d/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27d/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/27d/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27d/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/27d/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/27e/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/27e/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27e/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/27e/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27e/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/27e/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/27f/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/27f/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27f/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/27f/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/27f/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/27f/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/28/ob00/1> a lrmoo:F1_Work ;
@@ -22431,8 +21854,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/30/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/30/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/30/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/30/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/30/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/30/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/31/ob00/1> a lrmoo:F1_Work ;
@@ -22449,14 +21871,12 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/33/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/33/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/33/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/33/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/33/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/33/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/34/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/34/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/34/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/34/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/34/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/34/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/35/ob00/1> a lrmoo:F1_Work ;
@@ -22485,8 +21905,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/39/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/39/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/39/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/39/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/39/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/39/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/4/ob00/1> a lrmoo:F1_Work ;
@@ -22497,14 +21916,12 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/40/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/40/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/40/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/40/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/40/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/40/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/41/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/41/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/41/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/41/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/41/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/41/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/42/ob00/1> a lrmoo:F1_Work ;
@@ -22551,8 +21968,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/49/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/49/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/49/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/49/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/49/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/49/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/5/ob00/1> a lrmoo:F1_Work ;
@@ -22563,14 +21979,12 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/50/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/50/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/50/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/50/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/50/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/50/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/51/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/51/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/51/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/51/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/51/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/51/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/52/ob00/1> a lrmoo:F1_Work ;
@@ -22581,8 +21995,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/53/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/53/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/53/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/53/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/53/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/53/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/54/ob00/1> a lrmoo:F1_Work ;
@@ -22683,8 +22096,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/77/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/77/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/77/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/77/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/77/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/77/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/78/ob00/1> a lrmoo:F1_Work ;
@@ -22695,8 +22107,7 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/79/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/79/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/79/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/79/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/79/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/79/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/8/ob00/1> a lrmoo:F1_Work ;
@@ -22725,14 +22136,12 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/84/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/84/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/84/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/84/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/84/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/84/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/85/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/85/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/85/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/85/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/85/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/85/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/86/ob00/1> a lrmoo:F1_Work ;
@@ -22743,14 +22152,12 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/87/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/87/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/87/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/87/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/87/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/87/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/88/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/88/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/88/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/88/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/88/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/88/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/89/ob00/1> a lrmoo:F1_Work ;
@@ -22797,14 +22204,12 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/95/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/95/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/95/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/95/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/95/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/95/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/96/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/96/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/96/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/96/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/96/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/96/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/97/ob00/1> a lrmoo:F1_Work ;
@@ -22827,86 +22232,72 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/a_alto_centro/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/a_alto_centro/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_centro/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_centro/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_centro/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_centro/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/a_alto_sinistra_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/a_alto_sinistra_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/a_alto_sinistra_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/a_alto_sinistra_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/a_alto_sinistra_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/a_alto_sinistra_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/a_alto_sinistra_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/b_alto_centro_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/b_alto_centro_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/b_alto_centro_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/b_alto_centro_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/b_alto_centro_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/b_alto_centro_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_centro_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/b_alto_destra_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/b_alto_destra_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/b_alto_destra_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/b_alto_destra_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/b_alto_destra_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/b_alto_destra_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_destra_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/b_alto_sinistra_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/b_alto_sinistra_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/b_alto_sinistra_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/b_alto_sinistra_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/b_alto_sinistra_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/b_alto_sinistra_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/b_alto_sinistra_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/b_basso/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/b_basso/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_basso/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/b_basso/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/b_basso/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/b_basso/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/m1/ob00/1> a lrmoo:F1_Work ;
@@ -22959,32 +22350,27 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/ptb/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/ptb/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/ptb/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/ptb/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/ptb/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/ptb/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/ptb_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/ptb_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/ptb_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/ptb_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/ptb_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/ptb_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/ptb_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/ptb_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/ptb_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/ptb_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/ptb_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/ptb_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/ptb_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/ptb_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/ptb_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/ptb_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/ptb_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/ptb_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/ptb_4/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/ptb_4/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/ptb_4/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/ptb_4/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/ptb_4/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/ptb_4/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/s_n/ob00/1> a lrmoo:F1_Work ;
@@ -22995,710 +22381,592 @@
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_n_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_n_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_n_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_n_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_n_2_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_n_2_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_2_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_n_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_n_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_n_3_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_n_3_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_n_3_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_10/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_10/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_10/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_10/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_10/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_10/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_11/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_11/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_11/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_11/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_11/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_11/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_12/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_12/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_12/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_12/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_12/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_12/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_13/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_13/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_13/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_13/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_13/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_13/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_14/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_14/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_14/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_14/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_14/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_14/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_15/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_15/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_15/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_15/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_15/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_15/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_16/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_16/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_16/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_16/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_16/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_16/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_4/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_4/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_4/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_4/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_4/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_4/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_5/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_5/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_5/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_6/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_6/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_6/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_6/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_6/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_6/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_7/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_7/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_7/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_7/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_7/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_7/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_8/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_8/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_8/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_8/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_8/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_8/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_alto_s_9/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_alto_s_9/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_9/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_9/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_9/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_alto_s_9/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_1_basso/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_1_basso/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_basso/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_basso/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_basso/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_1_basso/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_n_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_n_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_n_1_t1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_n_1_t1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_n_1_t2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_n_1_t2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_1_t2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_n_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_n_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_n_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_n_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_n_3_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_n_3_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_n_3_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_s_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_s_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_s_1_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_s_1_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_1_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_s_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_s_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_s_2_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_s_2_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_2_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_alto_s_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_alto_s_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_alto_s_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_basso/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_basso/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_2_basso_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_2_basso_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_2_basso_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_n_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_n_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_n_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_n_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_n_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_n_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_n_4/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_n_4/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_4/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_4/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_4/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_n_4/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_s_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_s_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_s_1_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_s_1_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_1_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_s_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_s_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_s_2_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_s_2_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_2_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_s_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_s_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_s_4/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_s_4/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_4/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_4/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_4/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_4/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_alto_s_5/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_alto_s_5/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_5/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_5/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_5/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_alto_s_5/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_3_basso/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_3_basso/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_basso/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_basso/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_basso/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_3_basso/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_10/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_10/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_10/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_10/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_10/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_10/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_11/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_11/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_11/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_11/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_11/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_11/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_4/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_4/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_4/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_4/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_4/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_4/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_5/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_5/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_5/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_5/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_5/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_5/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_6/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_6/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_6/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_6/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_6/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_6/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_7/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_7/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_7/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_7/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_7/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_7/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_8/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_8/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_8/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_8/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_8/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_8/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_n_9/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_n_9/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_9/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_9/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_9/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_n_9/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_10/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_10/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_10/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_10/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_10/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_10/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_11/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_11/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_11/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_11/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_11/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_11/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_12/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_12/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_12/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_12/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_12/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_12/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_13/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_13/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_13/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_13/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_13/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_13/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_4/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_4/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_4/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_4/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_4/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_4/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_5/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_5/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_5/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_5/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_5/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_5/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_6/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_6/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_6/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_6/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_6/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_6/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_7/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_7/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_7/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_7/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_7/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_7/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_8/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_8/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_8/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_8/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_8/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_8/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_alto_s_9/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_alto_s_9/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_9/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_9/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_9/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_alto_s_9/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_4_basso/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_4_basso/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_basso/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_basso/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_basso/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_4_basso/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_5_alto_n/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_5_alto_n/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_5_alto_n_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_5_alto_n_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_n_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_5_alto_s_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_5_alto_s_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_5_alto_s_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_5_alto_s_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_5_alto_s_2_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_5_alto_s_2_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_alto_s_2_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_5_basso/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_5_basso/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_5_basso_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_5_basso_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_5_basso_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_alto_n_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_alto_n_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_alto_n_1_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_alto_n_1_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_1_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_alto_n_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_alto_n_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_alto_n_2_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_alto_n_2_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_n_2_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_alto_s_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_alto_s_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_alto_s_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_alto_s_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_alto_s_2_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_alto_s_2_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_2_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_alto_s_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_alto_s_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_alto_s_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_basso_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_basso_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_basso_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_basso_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_6_basso_2_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_6_basso_2_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_6_basso_2_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_alto_n_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_alto_n_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_alto_n_1_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_alto_n_1_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_1_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_alto_n_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_alto_n_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_n_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_alto_s_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_alto_s_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_alto_s_1_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_alto_s_1_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_1_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_alto_s_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_alto_s_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_alto_s_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_alto_s_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_alto_s_3_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_alto_s_3_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_alto_s_3_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_basso/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_basso/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_basso_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_basso_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_7_basso_t2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_7_basso_t2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_7_basso_t2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_n_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_n_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_n_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_n_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_n_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_n_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_n_3_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_n_3_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_n_3_t2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_n_3_t2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_n_3_t2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_s_1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_s_1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_s_1_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_s_1_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_1_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_s_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_s_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_s_2_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_s_2_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_2_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_s_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_s_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_alto_s_3_t/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_alto_s_3_t/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3_t/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3_t/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3_t/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_alto_s_3_t/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_basso/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_basso/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_basso_2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_basso_2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_basso_2_t1/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_basso_2_t1/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t1/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t1/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t1/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t1/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_basso_2_t2/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_basso_2_t2/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t2/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t2/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t2/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t2/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_basso_2_t3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_basso_2_t3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_2_t3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/wrk/vetrina_8_basso_3/ob00/1> a lrmoo:F1_Work ;
     lrmoo:R3_is_realised_in <https://w3id.org/changes/4/aldrovandi/exp/vetrina_8_basso_3/ob00/1> ;
-    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_3/ob00/1>,
-        <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_3/ob01/1>,
+    crm:P102_has_title <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_3/ob01/1>,
         <https://w3id.org/changes/4/aldrovandi/ttl/vetrina_8_basso_3/ob02/1> .
 
 <https://w3id.org/changes/4/aldrovandi/acr/filippo_giunta/1> a crm:E39_Actor ;

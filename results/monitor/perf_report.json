@@ -1,28 +1,28 @@
 {
   "created_at": "2025-10-26T22:01:30+01:00",
-  "updated_at": "2026-04-28T20:57:33+02:00",
+  "updated_at": "2026-04-29T22:15:47+02:00",
   "runs": {
     "objects": {
-      "elapsed_time_s": 5.144221832975745,
-      "peak_rss_mb": 198.140625,
+      "elapsed_time_s": 5.706990708014928,
+      "peak_rss_mb": 194.03125,
       "rows_processed": 257,
       "iri_generated": 6809,
-      "materialisation_time_per_1000_rows_s": 20.016427365664377,
-      "iri_rate_per_s": 1323.6209909052932,
-      "timestamp": "2026-04-28T20:55:07+02:00",
+      "materialisation_time_per_1000_rows_s": 22.206189525349913,
+      "iri_rate_per_s": 1193.0981402225527,
+      "timestamp": "2026-04-29T22:13:25+02:00",
       "config_used": "src/morph_kgc_changes_metadata_conversions/config_tmp.ini",
       "ready_input": "input/ready_to_convert/cleaned_aldrovandi_obj.csv",
       "output_dir": "results",
       "report_dir": "results/monitor"
     },
     "process": {
-      "elapsed_time_s": 10.546732917020563,
-      "peak_rss_mb": 273.5,
+      "elapsed_time_s": 9.67680608300725,
+      "peak_rss_mb": 269.203125,
       "rows_processed": 272,
       "iri_generated": 9887,
-      "materialisation_time_per_1000_rows_s": 38.77475337139913,
-      "iri_rate_per_s": 937.4467029542512,
-      "timestamp": "2026-04-28T20:55:36+02:00",
+      "materialisation_time_per_1000_rows_s": 35.576492952232535,
+      "iri_rate_per_s": 1021.721414606195,
+      "timestamp": "2026-04-29T22:13:52+02:00",
       "config_used": "src/morph_kgc_changes_metadata_conversions/config_tmp.ini",
       "ready_input": "input/ready_to_convert/cleaned_aldrovandi_pro.csv",
       "output_dir": "results",
@@ -30,13 +30,13 @@
     }
   },
   "overall": {
-    "elapsed_time_s": 15.690954749996308,
-    "peak_rss_mb": 273.5,
+    "elapsed_time_s": 15.383796791022178,
+    "peak_rss_mb": 269.203125,
     "rows_processed": 529,
     "iri_generated": 16696,
-    "materialisation_time_per_1000_rows_s": 29.661540170125345,
-    "iri_rate_per_s": 1064.0525236365193,
-    "timestamp": "2026-04-28T20:57:33+02:00",
+    "materialisation_time_per_1000_rows_s": 29.080901306280108,
+    "iri_rate_per_s": 1085.2977471558654,
+    "timestamp": "2026-04-29T22:15:47+02:00",
     "runs_count": 2
   }
 }
