@@ -92,6 +92,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -167,6 +168,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -241,6 +243,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -315,6 +318,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -390,6 +394,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -464,6 +469,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -539,6 +545,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -618,6 +625,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -692,6 +700,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -766,6 +775,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -841,6 +851,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -915,6 +926,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -989,6 +1001,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -1064,6 +1077,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -1212,6 +1226,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404663" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:digital_model_label
@@ -1299,6 +1314,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300435434" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:cc_license_extract
@@ -1376,6 +1392,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300435434" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:cc_license_extract
@@ -1453,6 +1470,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300435434" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:cc_license_extract
@@ -1531,6 +1549,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300435434" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:cc_license_extract
@@ -1897,6 +1916,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -1969,6 +1989,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -2040,6 +2061,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -2111,6 +2133,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -2182,6 +2205,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -2253,6 +2277,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
@@ -2324,6 +2349,7 @@ mappings:
       type: iri
     po:
       - [ a, "crm:E41_Appellation" ]
+      - [ crm:P2_has_type, "aat:300404670" ]
       - p: crm:P190_has_symbolic_content
         o:
           function: idlab-fn:multiple_separator_split_explode
