@@ -15,6 +15,7 @@ prefixes:
   grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
   idlab-fn: "http://example.com/idlab/function/"
   idlab-fn-m: "https://w3id.org/imec/idlab/function-mapping#"
+  edtf: "http://id.loc.gov/datatypes/edtf/"
 
 
 # NOTE: NON SONO STATI GESTITI GLI ID PER LE PERSONE, DA INTEGRARE PER PROSSIMI DATASET?

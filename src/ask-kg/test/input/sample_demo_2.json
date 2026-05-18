@@ -1,0 +1,14 @@
+{
+    "responses": [
+        {
+            "Response_ID": 1,
+            "Date_submitted": "1980-01-01 00:00:00",
+            "What's_the_field_name?": "year_range",
+            "can this field contain a range? [yes]": "Yes",
+            "can this field contain a range? [no]": "No",
+            "separator other than dash? [yes]": "Yes",
+            "separator other than dash? [no]": "No",
+            "which separator character divide dates": ";"
+        }
+    ]
+}

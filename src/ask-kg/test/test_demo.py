@@ -1,66 +1,61 @@
+# -*- coding: utf-8 -*-
+"""
+Tests for Case 3: acquisition tool IRI YARRRML generation.
+
+Verifies that the generated YAML matches the expected output file,
+ignoring comments (PyYAML strips them on parse).
+"""
+
+import json
+import sys
 import unittest
 from pathlib import Path
+
 import yaml
 
+HERE = Path(__file__).parent
+sys.path.insert(0, str(HERE.parent))
 
-class MyTestCase(unittest.TestCase):
+from yarrrml_generate_pro import generate_yaml
+
+INPUT_JSON    = HERE / "input"            / "sample_demo_1.json"
+EXPECTED_YAML = HERE / "expected_results" / "sample_demo_1_pro.yaml"
+OUTPUT_YAML   = HERE / "output"           / "mapping_generated.yaml"
+
+
+class TestCaseStudy3(unittest.TestCase):
+
+    def setUp(self):
+        data     = json.loads(INPUT_JSON.read_text(encoding="utf-8"))
+        row      = data["responses"][0]
+        yaml_str = generate_yaml(row)
+        OUTPUT_YAML.parent.mkdir(parents=True, exist_ok=True)
+        OUTPUT_YAML.write_text(yaml_str, encoding="utf-8")
+
     def test_case_study_3(self):
-        """Test that two YAML files are equal, ignoring comments."""
+        """Generated YAML must equal the expected file (comments excluded)."""
+        self.assertTrue(OUTPUT_YAML.exists(),   f"Output file not found: {OUTPUT_YAML}")
+        self.assertTrue(EXPECTED_YAML.exists(), f"Expected file not found: {EXPECTED_YAML}")
 
-        # Define file paths
-        output_file = Path("src/ask-kg/test/output/mapping_generated.yaml")
-        expected_file = Path("src/ask-kg/test/expected_results/sample_demo_1_pro.yaml")
+        with OUTPUT_YAML.open(encoding="utf-8") as f:
+            output = yaml.safe_load(f)
+        with EXPECTED_YAML.open(encoding="utf-8") as f:
+            expected = yaml.safe_load(f)
 
-        # Check that both files exist
-        self.assertTrue(output_file.exists(), f"Output file not found: {output_file}")
-        self.assertTrue(expected_file.exists(), f"Expected file not found: {expected_file}")
-
-        # Load YAML files (yaml.safe_load automatically ignores comments)
-        with open(output_file, 'r', encoding='utf-8') as f:
-            output_data = yaml.safe_load(f)
-
-        with open(expected_file, 'r', encoding='utf-8') as f:
-            expected_data = yaml.safe_load(f)
-
-        # Compare the loaded data structures
-        self.assertEqual(
-            output_data,
-            expected_data,
-            msg="YAML files differ in content (excluding comments)"
-        )
+        self.assertEqual(output, expected)
 
     def test_case_study_3_with_detailed_diff(self):
-        """Test YAML equality with detailed difference reporting."""
+        """Same check with assertDictEqual for clearer failure messages."""
+        with OUTPUT_YAML.open(encoding="utf-8") as f:
+            output = yaml.safe_load(f)
+        with EXPECTED_YAML.open(encoding="utf-8") as f:
+            expected = yaml.safe_load(f)
 
-        output_file = Path("src/ask-kg/test/output/mapping_generated.yaml")
-        expected_file = Path("src/ask-kg/test/expected_results/sample_demo_1_pro.yaml")
-
-        # Check files exist
-        self.assertTrue(output_file.exists(), f"Output file not found: {output_file}")
-        self.assertTrue(expected_file.exists(), f"Expected file not found: {expected_file}")
-
-        # Load YAML files
-        with open(output_file, 'r', encoding='utf-8') as f:
-            output_data = yaml.safe_load(f)
-
-        with open(expected_file, 'r', encoding='utf-8') as f:
-            expected_data = yaml.safe_load(f)
-
-        # Use assertDictEqual for better error messages (if root is a dict)
-        if isinstance(output_data, dict) and isinstance(expected_data, dict):
-            self.assertDictEqual(
-                output_data,
-                expected_data,
-                msg="YAML files contain different data"
-            )
+        if isinstance(output, dict) and isinstance(expected, dict):
+            self.assertDictEqual(output, expected)
         else:
-            # Fallback for lists or other types
-            self.assertEqual(
-                output_data,
-                expected_data,
-                msg="YAML files contain different data"
-            )
+            self.assertEqual(output, expected)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

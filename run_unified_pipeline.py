@@ -57,7 +57,7 @@ YEAR0_RE   = re.compile(r"^0000-\d{2}-\d{2}(?:T.*)?$")
 
 CRM_P82A = URIRef("http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin")
 CRM_P82B = URIRef("http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end")
-EDTF_DT  = URIRef("http://id.loc.gov/datatypes/edtf/EDTF")
+EDTF_DT  = URIRef("http://id.loc.gov/datatypes/edtf/")
 
 def _needs_edtf(lex: str) -> bool:
     """True se la stringa rappresenta un long/negative/anno 0 → serve EDTF."""

@@ -1,0 +1,14 @@
+{
+    "responses": [
+        {
+            "Response_ID": 1,
+            "Date_submitted": "1980-01-01 00:00:00",
+            "input dataset csv path": "input/test_objects.csv",
+            "mapping file path": "mappings/test_mapping.yaml",
+            "output file generated": "output/test_graph.ttl",
+            "rdf serialisation": "turtle",
+            "version dataset": "2",
+            "base path iri": "https://example.org/test/"
+        }
+    ]
+}
