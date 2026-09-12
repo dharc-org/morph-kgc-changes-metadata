@@ -1,12 +1,12 @@
 
-# ASK-KG
+# CHAD-ASK
 ## A morph-kgc plug-in 
-Ask-KG automatically generates YARRRML mapping rules from answers to a Limesurvey questionnaire, exported as JSON file
+CHAD-ASK automatically generates YARRRML mapping rules from answers to a Limesurvey questionnaire, exported as JSON file
 
 input: Answers exported in JSON
 output: YARRRML mapping file + ini configuration file
 
-Once ASK-KG output is generated, the two files can be used in the Morph-KGC (in particular, the CHANGES extension) conversion process as mapping and configuration files. 
+Once CHAD-ASK output is generated, the two files can be used in the Morph-KGC (in particular, the CHANGES extension) conversion process as mapping and configuration files. 
 
 **The four sections of the questionnaire have the following purposes:**
 1) To set up a configuration file
