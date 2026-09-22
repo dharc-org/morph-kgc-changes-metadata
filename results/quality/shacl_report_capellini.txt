@@ -1,0 +1,751 @@
+Validation Report
+Conforms: False
+Results (54):
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699751/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699764/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699729/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699783/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699723/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699693/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699750/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699777/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699759/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699717/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699710/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/6e/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699730/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699741/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699746/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699696/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699766/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699722/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699749/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699748/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699761/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/21/00/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Less than 1 values on <https://w3id.org/changes/4/aldrovandi/act/21/00/1>-><http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699765/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699725/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699771/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699736/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699757/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699747/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699753/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699711/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699752/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699704/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699745/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699782/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699703/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699718/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699738/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699737/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699707/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/6g/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699760/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699758/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699781/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699697/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699743/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699780/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699712/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699762/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699773/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699719/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699742/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699763/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/nikon_d750/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:D8_Digital_DeviceShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699721/00/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>
+	Message: Value does not conform to Shape chad_ap_sh:D8_Digital_DeviceShape. See details for more information.
+	Details:
+		Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:node chad_ap_sh:E55_TypeShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+			Message: More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>
+Constraint Violation in NodeConstraintComponent (http://www.w3.org/ns/shacl#NodeConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("0", datatype=xsd:integer) ; sh:node chad_ap_sh:E52_Time-SpanShape ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> ]
+	Focus Node: <https://w3id.org/changes/4/aldrovandi/act/699745/03/1>
+	Value Node: <https://w3id.org/changes/4/aldrovandi/tsp/699745/03/1>
+	Result Path: <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+	Message: Value does not conform to Shape chad_ap_sh:E52_Time-SpanShape. See details for more information.
+	Details:
+		Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+			Severity: sh:Violation
+			Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:dateTime ] [ sh:datatype <http://id.loc.gov/datatypes/edtf/EDTF> ] ) ; sh:path <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> ]
+			Focus Node: <https://w3id.org/changes/4/aldrovandi/tsp/699745/03/1>
+			Result Path: <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin>
+			Message: Less than 1 values on <https://w3id.org/changes/4/aldrovandi/tsp/699745/03/1>-><http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin>

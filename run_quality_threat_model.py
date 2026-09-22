@@ -60,12 +60,22 @@ try:
 except Exception as e:
     print(f"[WARN] rdflib datetime cast patch skipped: {e}")
 
-def read_cfg(cfg_path: str) -> Tuple[str, str, dict]:
+def dataset_slug_from_config(cfg: configparser.ConfigParser) -> str:
+    """Nome del dataset (es. "aldrovandi", "capellini") derivato da
+    project_iri_base, usato per non ambiguare i nomi dei file di output
+    generati per config diverse (vedi la stessa funzione in run_unified_pipeline.py)."""
+    iri_base = cfg.get("CONFIGURATION", "project_iri_base", fallback="").strip()
+    segments = [s for s in iri_base.rstrip("/").split("/") if s]
+    return segments[-1] if segments else "dataset"
+
+
+def read_cfg(cfg_path: str) -> Tuple[str, str, dict, str]:
     """
     Read configuration from config.ini:
       - output_dir & quality_report location
       - QUALITY parameters: sampling, timeouts, link namespaces, disjoint buckets,
         single-valued predicates, and begin/end properties.
+      - dataset slug (da project_iri_base), per i nomi di output di default
     """
     cfg = configparser.ConfigParser()
     with open(cfg_path, "r", encoding="utf-8") as f:
@@ -73,6 +83,7 @@ def read_cfg(cfg_path: str) -> Tuple[str, str, dict]:
 
     out_dir = cfg.get("CONFIGURATION", "output_dir", fallback="results").strip()
     quality_dir = cfg.get("CONFIGURATION", "quality_report", fallback="results/quality").strip()
+    dataset_slug = dataset_slug_from_config(cfg)
 
     q = {}
     q["http_timeout"] = cfg.getint("QUALITY", "http_timeout", fallback=5)
@@ -99,7 +110,7 @@ def read_cfg(cfg_path: str) -> Tuple[str, str, dict]:
     q["begin_props"] = [u.strip() for u in cfg.get("QUALITY", "begin_props", fallback="").split(",") if u.strip()]
     q["end_props"] = [u.strip() for u in cfg.get("QUALITY", "end_props", fallback="").split(",") if u.strip()]
 
-    return out_dir, quality_dir, q
+    return out_dir, quality_dir, q, dataset_slug
 
 
 def load_graph(path: str) -> Graph:
@@ -239,6 +250,12 @@ def find_multi_valued_props(g: Graph, props: List[str], sample_limit: int = 50) 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", required=True, help="Path to config.ini")
+    ap.add_argument(
+        "--data-source",
+        default=None,
+        help="Percorso del grafo unificato da analizzare (default: <output_dir>/merged_graph_output_<dataset>.ttl, "
+             "coerente col default di run_unified_pipeline.py)",
+    )
     args = ap.parse_args()
 
     # =========================================================================
@@ -249,15 +266,15 @@ def main():
     # - Resolve merged graph path and ensure it exists
     # - Prepare quality report output path
     # =========================================================================
-    out_dir, quality_dir, q = read_cfg(args.config)
-    merged_path = os.path.join(out_dir, "merged_graph_output.ttl")
+    out_dir, quality_dir, q, dataset_slug = read_cfg(args.config)
+    merged_path = args.data_source or os.path.join(out_dir, f"merged_graph_output_{dataset_slug}.ttl")
 
     if not os.path.exists(merged_path):
         print(f"[quality] Unified TTL not found: {merged_path}", file=sys.stderr)
         sys.exit(2)
 
     os.makedirs(quality_dir, exist_ok=True)
-    report_path = os.path.join(quality_dir, "quality_report.json")
+    report_path = os.path.join(quality_dir, f"quality_report_{dataset_slug}.json")
 
     g = load_graph(merged_path)
 

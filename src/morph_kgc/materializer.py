@@ -150,6 +150,14 @@ def _materialize_template(results_df, template, expression_type, config, positio
 def _materialize_fnml_execution(results_df, fnml_execution, fnml_df, config, position, termtype=RML_LITERAL, datatype=''):
     results_df = execute_fnml(results_df, fnml_df, fnml_execution, config)
 
+    if results_df.empty:
+        # con zero righe non c'e' nulla da concatenare/avvolgere: creare comunque
+        # la colonna 'position' (vuota, ma con dtype object) evita sia il crash
+        # da dtype float64 assegnato da pandas a una Series vuota derivata da
+        # .apply(), sia un successivo KeyError su quella colonna a valle
+        results_df[position] = pd.Series(dtype=object, index=results_df.index)
+        return results_df
+
     if config.only_write_printable_characters():
         results_df[fnml_execution] = results_df[fnml_execution].apply(lambda x: remove_non_printable_characters(x))
 

@@ -34,17 +34,19 @@ def remove_whitespace(text):
     return text.replace(' ', '_')
 
 
-def read_and_clean_csv(filepath):
+def read_and_clean_csv(filepath, encoding='ISO-8859-1'):
     pp = PrettyPrinter(indent=4)
 
     # Leggi il CSV senza considerare le prime righe come intestazioni
-    df = pd.read_csv(filepath, encoding='ISO-8859-1', header=None)
+    df = pd.read_csv(filepath, encoding=encoding, header=None, dtype=str)
 
     # Sostituire i valori nulli (NaN) con una stringa vuota
     df.fillna('', inplace=True)
 
     # Rimuovere i caratteri di nuova linea (\n) da tutte le celle del DataFrame
-    df = df.applymap(remove_newlines)
+    # Series.map esiste in ogni versione di pandas (a differenza di DataFrame.map,
+    # introdotto solo in pandas 2.1, o di DataFrame.applymap, rimosso in pandas 3.0)
+    df = df.apply(lambda col: col.map(remove_newlines))
 
     titles_lists = []
     for i in range(3):  # Itera sulle prime 3 righe
@@ -148,7 +150,7 @@ def reorganize_table_cells(structure_tree, ordered_first_level_titles, number_of
         print("discrepanza nel numero di celle", len(new_list_of_cells), number_of_columns)
 
 
-def process_and_save_csv_files(input_folder, new_headers, output_folder):
+def process_and_save_csv_files(input_folder, new_headers, output_folder, encoding='ISO-8859-1'):
     new_headers = [remove_whitespace(x) for x in new_headers]
     # Assicurati che la cartella di output esista
     if not os.path.exists(output_folder):
@@ -162,7 +164,7 @@ def process_and_save_csv_files(input_folder, new_headers, output_folder):
             output_file_path = os.path.join(output_folder, filename)
 
             # Leggi il CSV senza intestazioni
-            df = pd.read_csv(file_path, encoding='ISO-8859-1', header=None)
+            df = pd.read_csv(file_path, encoding=encoding, header=None, dtype=str)
 
             # Sostituire i valori nulli (NaN) con una stringa vuota
             df.fillna('', inplace=True)
@@ -180,7 +182,7 @@ def process_and_save_csv_files(input_folder, new_headers, output_folder):
                 df.columns = new_headers
 
                 # Salva il CSV modificato nel folder di output
-                df.to_csv(output_file_path, index=False, encoding='ISO-8859-1')
+                df.to_csv(output_file_path, index=False, encoding=encoding)
 
                 print(f'File {filename} è stato processato e salvato in {output_folder}')
             else:
@@ -605,7 +607,7 @@ if __name__ == '__main__':
     # Chiama la funzione per processare i file
     process_and_save_csv_files(input_folder, new_cells_names, output_folder)
 
-    # NON NECESSARIO PER CAPPELLINI!!!
+    # NON NECESSARIO PER CAPELLINI!!!
     dates_post_process("src/morph_kgc_changes_metadata_conversions/output_dir/acquisizione_aldrovandi_clean")
 
     # pulizia finale

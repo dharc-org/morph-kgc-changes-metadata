@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-09-22T09:34:31.255728Z",
+  "input_graph": "results/merged_graph_output_aldrovandi.ttl",
+  "summary": {
+    "duplicate_iri_conflicts": 0,
+    "stale_links": 0,
+    "inconsistent_timespans": 0,
+    "single_valued_violations": 0
+  },
+  "details": {
+    "duplicate_iri_conflicts": [],
+    "stale_links": [],
+    "inconsistent_timespans": [],
+    "single_valued_violations": []
+  },
+  "params": {
+    "http_timeout": 5,
+    "max_links": 200,
+    "sample_size": 25,
+    "link_namespaces": [
+      "vocab.getty.edu",
+      "viaf.org"
+    ],
+    "begin_props": [
+      "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin"
+    ],
+    "end_props": [
+      "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end"
+    ],
+    "disjoint_buckets": {
+      "person": [
+        "http://www.cidoc-crm.org/cidoc-crm/E21_Person"
+      ],
+      "group": [
+        "http://www.cidoc-crm.org/cidoc-crm/E74_Group"
+      ],
+      "appellation": [
+        "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"
+      ],
+      "item": [
+        "http://iflastandards.info/ns/lrm/lrmoo/F5_Item"
+      ],
+      "data_object": [
+        "http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object"
+      ],
+      "device": [
+        "http://www.ics.forth.gr/isl/CRMdig/D8_Digital_Device"
+      ],
+      "software": [
+        "http://www.ics.forth.gr/isl/CRMdig/D14_Software"
+      ],
+      "activity": [
+        "http://www.ics.forth.gr/isl/CRMdig/D10_Software_Execution",
+        "http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process"
+      ],
+      "timespan": [
+        "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"
+      ]
+    }
+  }
+}

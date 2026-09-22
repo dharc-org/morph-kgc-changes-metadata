@@ -1,3 +1,4 @@
+import sys
 import pandas as pd
 from src.morph_kgc.__init__ import materialize
 import configparser
@@ -167,10 +168,15 @@ def create_ready_csv(csv_filepath, columns_with_no_values, col_name, missing_ids
     # Carica il dataset
     df = read_csv_safely(csv_filepath)
 
-    # Funzione di supporto per convertire il formato data (DD/MM/YYYY -> YYYY-MM-DD)
+    # Funzione di supporto per convertire il formato data (DD/MM/YYYY -> YYYY-MM-DD).
+    # Volutamente piu' semplice della omonima in main_process_demo.py: qui "Data"
+    # e' la data storica/di rinvenimento del reperto (spesso un anno o un'epoca
+    # geologica, non un giorno preciso), mentre in main_process_demo.py sono le
+    # date recenti del workflow di digitalizzazione (dove si osservano formati
+    # con anno a 2 cifre e refusi tipografici da correggere).
     def convert_date(val):
         if isinstance(val, str):
-            match = re.fullmatch(r"(\d{2})/(\d{2})/(\d{4})", val)
+            match = re.fullmatch(r"(\d{1,2})/(\d{1,2})/(\d{4})", val)
             if match:
                 day, month, year = match.groups()
                 try:
@@ -282,8 +288,9 @@ def get_all_values(subdata):
 
 
 
-# Percorso del file di configurazione
-config_path = "src/morph_kgc_changes_metadata_conversions/config.ini"
+# Percorso del file di configurazione (default: Aldrovandi; passare un path
+# alternativo come primo argomento, es. config_capellini.ini, per un altro dataset)
+config_path = sys.argv[1] if len(sys.argv) > 1 else "src/morph_kgc_changes_metadata_conversions/config.ini"
 
 # Creazione di un oggetto ConfigParser
 config = configparser.ConfigParser()
@@ -513,14 +520,9 @@ def pair_subject_object(first_ver_graph: Graph, properties_list: list) -> Graph:
     5) ritornare il grafo corretto
     '''
 
-    # --- Lettura del path ready_input_dir da config.ini ---
-    config_path = os.path.join("src", "morph_kgc_changes_metadata_conversions", "config.ini")
-    config = configparser.ConfigParser()
-    config.read(config_path, encoding="utf-8")
-
-    ready_input_dir = ""
-    if config.has_section("DataSource1") and config.has_option("DataSource1", "ready_input_dir"):
-        ready_input_dir = config.get("DataSource1", "ready_input_dir").strip()
+    # --- ready_input_dir: riusa la config gia' letta a livello di modulo
+    # (rispetta il config_path passato da linea di comando, es. per Capellini) ---
+    ready_input_dir = config.get("DataSource1", "ready_input_dir", fallback="").strip()
     # ------------------------------------------------------
 
     # --- Costruzione iniziale del dizionario normalised_translations ---

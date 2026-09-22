@@ -1,0 +1,10 @@
+{
+  "conforms": false,
+  "text_report": "results/quality/shacl_report_capellini.txt",
+  "rdf_report": null,
+  "top_level_result_count": 54,
+  "leaf_result_count": 54,
+  "independent_issue_count": 3,
+  "independent_issues_json": "results/quality/shacl_independent_issues_capellini.json",
+  "independent_issues_text": "results/quality/shacl_independent_issues_capellini.txt"
+}

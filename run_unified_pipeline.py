@@ -20,7 +20,11 @@ Esecuzione (esempio):
   python run_unified_pipeline.py \
       --config src/morph_kgc_changes_metadata_conversions/config.ini \
       --report results/monitor/perf_report.json \
-      --merged-out results/merged_graph_output.ttl
+      --merged-out results/merged_graph_output_aldrovandi.ttl
+
+  Se --merged-out e' omesso, il nome di default e'
+  <output_dir>/merged_graph_output_<dataset>.ttl, dove <dataset> e' l'ultimo
+  segmento di project_iri_base nel config (es. "aldrovandi", "capellini").
 """
 
 from __future__ import annotations
@@ -48,7 +52,7 @@ except Exception as e:
 
 DEFAULT_CONFIG = "src/morph_kgc_changes_metadata_conversions/config.ini"
 DEFAULT_REPORT = None  # se None, usa monitor_report/perf_report.json da config.ini
-DEFAULT_MERGED_OUT = None  # se None, usa <output_dir>/merged_graph_output.ttl da config.ini
+DEFAULT_MERGED_OUT = None  # se None, usa <output_dir>/merged_graph_output_<dataset>.ttl (dataset da project_iri_base in config.ini)
 
 YEAR4_RE   = re.compile(r"^(?P<y>\d{4})-(?P<m>\d{2})-(?P<d>\d{2})(?:T.*)?$")
 LONG_RE    = re.compile(r"^(?P<y>-?\d{5,})-(?P<m>\d{2})-(?P<d>\d{2})(?:T.*)?$")
@@ -57,7 +61,11 @@ YEAR0_RE   = re.compile(r"^0000-\d{2}-\d{2}(?:T.*)?$")
 
 CRM_P82A = URIRef("http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin")
 CRM_P82B = URIRef("http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end")
-EDTF_DT  = URIRef("http://id.loc.gov/datatypes/edtf/")
+# Datatype EDTF (Library of Congress) come dichiarato in CHAD-AP:
+# "crm:P82a_begin_of_the_begin -[1]-> edtf:EDTF" con prefisso edtf =
+# http://id.loc.gov/datatypes/edtf/ (vedi sample_mapping_file.yaml) — l'IRI del
+# datatype e' il prefisso + il nome locale "EDTF", non solo il namespace nudo.
+EDTF_DT  = URIRef("http://id.loc.gov/datatypes/edtf/EDTF")
 
 def _needs_edtf(lex: str) -> bool:
     """True se la stringa rappresenta un long/negative/anno 0 → serve EDTF."""
@@ -137,6 +145,16 @@ def normalize_newlines_in_ttl(src_ttl: str, dst_ttl: str) -> None:
 
     print(f"[orchestrator] Grafo con newline normalizzati scritto in: {dst_ttl}")
 
+def dataset_slug_from_config(cfg: configparser.ConfigParser) -> str:
+    """Nome del dataset (es. "aldrovandi", "capellini") derivato da
+    project_iri_base (es. "https://w3id.org/changes/4/aldrovandi/"), cosi' il
+    nome del grafo unificato di output non e' mai ambiguo su quale dataset
+    rappresenta, senza dover passare --merged-out a mano ogni volta."""
+    iri_base = cfg.get("CONFIGURATION", "project_iri_base", fallback="").strip()
+    segments = [s for s in iri_base.rstrip("/").split("/") if s]
+    return segments[-1] if segments else "dataset"
+
+
 def read_paths_from_config(cfg_path: str):
     cfg = configparser.ConfigParser()
     with open(cfg_path, "r", encoding="utf-8") as f:
@@ -145,6 +163,7 @@ def read_paths_from_config(cfg_path: str):
     out_dir = cfg.get("CONFIGURATION", "output_dir", fallback=None)
     monitor_report = cfg.get("CONFIGURATION", "monitor_report", fallback="results/monitor")
     ser = cfg.get("CONFIGURATION", "output_serialization", fallback="turtle").strip().lower()
+    dataset_slug = dataset_slug_from_config(cfg)
 
     ds1_out = cfg.get("DataSource1", "output_file", fallback=None)
     ds2_out = cfg.get("DataSource2", "output_file", fallback=None)
@@ -165,12 +184,13 @@ def read_paths_from_config(cfg_path: str):
     ttl2 = os.path.join(pro_dir, corrected(ds2_out))  # es. results/process_dataset/knowledge-graph_pro_corretto.ttl
 
     fmt = "turtle" if ser == "turtle" else "turtle"
-    return ttl1, ttl2, fmt, out_dir, monitor_report
+    return ttl1, ttl2, fmt, out_dir, monitor_report, dataset_slug
 
-def run_script(path: str) -> None:
-    """Esegue uno script figlio in un processo separato."""
-    print(f"[orchestrator] Avvio: {path}")
-    result = subprocess.run([sys.executable, path], stdout=sys.stdout, stderr=sys.stderr)
+def run_script(path: str, config_path: str = None) -> None:
+    """Esegue uno script figlio in un processo separato, passandogli il config.ini da usare."""
+    cmd = [sys.executable, path] + ([config_path] if config_path is not None else [])
+    print(f"[orchestrator] Avvio: {' '.join(cmd)}")
+    result = subprocess.run(cmd, stdout=sys.stdout, stderr=sys.stderr)
     if result.returncode != 0:
         raise RuntimeError(f"Script {path} terminato con exit code {result.returncode}")
     print(f"[orchestrator] Completato: {path}")
@@ -215,38 +235,31 @@ def main():
     ap.add_argument("--process-script", default="main_process_demo.py", help="Script di materializzazione processo")
     ap.add_argument("--quality-script", default="run_quality_threat_model.py", help="Script di quality threat model")
 
-    ap.add_argument(
-        "--new_line_normaliser",
-        action="store_true",
-        help="Genera una copia del grafo finale con normalizzazione \\n -> newline reale"
-    )
-
     args = ap.parse_args()
 
     # Lettura configurazioni e costruzione dei path deterministici
-    ttl1, ttl2, fmt, out_dir, monitor_report = read_paths_from_config(args.config)
+    ttl1, ttl2, fmt, out_dir, monitor_report, dataset_slug = read_paths_from_config(args.config)
 
     # Percorso del report
     report_path = args.report or os.path.join(monitor_report, "perf_report.json")
     os.makedirs(os.path.dirname(report_path), exist_ok=True)
 
     # Esecuzione dei sottoprocessi
-    run_script(args.object_script)
-    run_script(args.process_script)
+    run_script(args.object_script, args.config)
+    run_script(args.process_script, args.config)
 
-    # Output del merge
-    merged_out = args.merged_out or os.path.join(out_dir, "merged_graph_output.ttl")
+    # Output del merge: il nome del dataset (da project_iri_base) e' sempre nel
+    # nome del file, cosi' non e' mai ambiguo a quale dataset appartiene.
+    merged_out = args.merged_out or os.path.join(out_dir, f"merged_graph_output_{dataset_slug}.ttl")
     merge_graphs(ttl1, ttl2, merged_out, fmt_in="turtle", fmt_out="turtle")
 
-    # --- newline normaliser (opzionale) ---
-    if args.new_line_normaliser:
-        base, ext = os.path.splitext(merged_out)
-        norm_out = f"{base}_new_line_norm{ext}"
-        normalize_newlines_in_ttl(merged_out, norm_out)
+    # Normalizzazione newline (\\n -> \n nei literal): sempre applicata, e' quella
+    # la versione corretta/valida del grafo, non un'opzione a parte.
+    normalize_newlines_in_ttl(merged_out, merged_out)
 
     print(f"[orchestrator] Avvio quality threat model su: {merged_out}")
     res = subprocess.run(
-        [sys.executable, args.quality_script, "--config", args.config],
+        [sys.executable, args.quality_script, "--config", args.config, "--data-source", merged_out],
         stdout=sys.stdout,
         stderr=sys.stderr
     )

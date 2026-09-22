@@ -14,7 +14,7 @@ except Exception as e:
 
 
 class TestGraphQuality(unittest.TestCase):
-    unified_graph_path = "results/merged_graph_output.ttl"
+    unified_graph_path = "results/merged_graph_output_aldrovandi.ttl"
 
     @classmethod
     def setUpClass(cls):

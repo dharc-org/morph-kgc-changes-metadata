@@ -1,3 +1,4 @@
+import sys
 import pandas as pd
 from src.morph_kgc.__init__ import materialize
 import configparser
@@ -101,20 +102,34 @@ def create_ready_csv(csv_filepath, columns_with_no_values, col_name, missing_ids
     def convert_date(val):
         if not isinstance(val, str):
             return val
-        s = val.strip()
-        if not s:
-            return s
+        original = val.strip()
+        if not original:
+            return original
 
         # già ISO YYYY-MM-DD ?
-        m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", s)
-        if m:
-            return s
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", original):
+            return original
 
-        # DD/MM/YYYY o MM/DD/YYYY
-        m = re.fullmatch(r"(\d{2})/(\d{2})/(\d{4})", s)
+        s = original
+
+        # refuso isolato osservato nei dati: apostrofo spurio nell'anno, es.
+        # "16/07/2'24" invece di "16/07/24". Si riconosce solo questo pattern
+        # specifico (cifra/e + apostrofo + 2 cifre) e si usano le 2 cifre dopo
+        # l'apostrofo come anno; il resto della stringa (es. nomi propri come
+        # "D'Annunzio" in altre colonne) non viene toccato.
+        m_typo = re.fullmatch(r"(\d{1,2})/(\d{1,2})/\d?'(\d{2})", s)
+        if m_typo:
+            s = f"{m_typo.group(1)}/{m_typo.group(2)}/{m_typo.group(3)}"
+
+        # DD/MM/YYYY o MM/DD/YYYY (giorno/mese anche a una cifra, senza zero iniziale;
+        # anno anche a due cifre, con pivot standard 00-49 -> 20xx, 50-99 -> 19xx)
+        m = re.fullmatch(r"(\d{1,2})/(\d{1,2})/(\d{2}|\d{4})", s)
         if m:
-            a, b, year = m.groups()
+            a, b, year_str = m.groups()
             d1, d2 = int(a), int(b)
+            year = int(year_str)
+            if len(year_str) == 2:
+                year += 2000 if year < 50 else 1900
             if d1 > 12 and d2 <= 12:
                 day, month = d1, d2  # DD/MM/YYYY
             elif d2 > 12 and d1 <= 12:
@@ -122,9 +137,9 @@ def create_ready_csv(csv_filepath, columns_with_no_values, col_name, missing_ids
             else:
                 day, month = d1, d2  # default: DD/MM/YYYY
             try:
-                return datetime.date(int(year), int(month), int(day)).isoformat()
+                return datetime.date(year, month, day).isoformat()
             except ValueError:
-                return s
+                return original
 
         for fmt in ("%d-%m-%Y", "%m-%d-%Y", "%Y/%m/%d"):
             try:
@@ -132,7 +147,7 @@ def create_ready_csv(csv_filepath, columns_with_no_values, col_name, missing_ids
             except Exception:
                 pass
 
-        return s
+        return original
 
     # Applicazioni
     df = df.apply(lambda col: col.map(convert_date))
@@ -226,8 +241,9 @@ def get_all_values(subdata):
 
 
 
-# Percorso del file di configurazione
-config_path = "src/morph_kgc_changes_metadata_conversions/config.ini"
+# Percorso del file di configurazione (default: Aldrovandi; passare un path
+# alternativo come primo argomento, es. config_capellini.ini, per un altro dataset)
+config_path = sys.argv[1] if len(sys.argv) > 1 else "src/morph_kgc_changes_metadata_conversions/config.ini"
 
 # Creazione di un oggetto ConfigParser
 config = configparser.ConfigParser()

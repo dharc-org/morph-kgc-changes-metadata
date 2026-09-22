@@ -1,0 +1,10 @@
+{
+  "conforms": true,
+  "text_report": "results/quality/shacl_report_aldrovandi.txt",
+  "rdf_report": null,
+  "top_level_result_count": 0,
+  "leaf_result_count": 0,
+  "independent_issue_count": 0,
+  "independent_issues_json": "results/quality/shacl_independent_issues_aldrovandi.json",
+  "independent_issues_text": "results/quality/shacl_independent_issues_aldrovandi.txt"
+}

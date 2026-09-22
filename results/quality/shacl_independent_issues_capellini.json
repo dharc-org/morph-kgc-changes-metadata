@@ -1,0 +1,62 @@
+{
+  "conforms": false,
+  "top_level_result_count": 54,
+  "leaf_result_count": 54,
+  "independent_issue_count": 3,
+  "issues": [
+    {
+      "issue_id": "b3b2bfbb12be295b",
+      "count": 52,
+      "result_path": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+      "source_shape": null,
+      "source_constraint_component": "http://www.w3.org/ns/shacl#MaxCountConstraintComponent",
+      "result_message": "Too many values",
+      "result_severity": "http://www.w3.org/ns/shacl#Violation",
+      "example": {
+        "focus_node": "https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1",
+        "value_node": null,
+        "result_path": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+        "source_shape": "Na178935e282f4d28839c11d827d2c3db",
+        "source_constraint_component": "http://www.w3.org/ns/shacl#MaxCountConstraintComponent",
+        "result_message": "More than 1 values on <https://w3id.org/changes/4/aldrovandi/dev/artec_spider/1>-><http://www.cidoc-crm.org/cidoc-crm/P2_has_type>",
+        "result_severity": "http://www.w3.org/ns/shacl#Violation"
+      }
+    },
+    {
+      "issue_id": "fa1e0557cf3d6546",
+      "count": 1,
+      "result_path": "http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object",
+      "source_shape": null,
+      "source_constraint_component": "http://www.w3.org/ns/shacl#MinCountConstraintComponent",
+      "result_message": "Missing required value",
+      "result_severity": "http://www.w3.org/ns/shacl#Violation",
+      "example": {
+        "focus_node": "https://w3id.org/changes/4/aldrovandi/act/21/00/1",
+        "value_node": null,
+        "result_path": "http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object",
+        "source_shape": "N5855631e18cf434bab743a14f75d874c",
+        "source_constraint_component": "http://www.w3.org/ns/shacl#MinCountConstraintComponent",
+        "result_message": "Less than 1 values on <https://w3id.org/changes/4/aldrovandi/act/21/00/1>-><http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object>",
+        "result_severity": "http://www.w3.org/ns/shacl#Violation"
+      }
+    },
+    {
+      "issue_id": "2e70bd7d690deeb5",
+      "count": 1,
+      "result_path": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+      "source_shape": null,
+      "source_constraint_component": "http://www.w3.org/ns/shacl#MinCountConstraintComponent",
+      "result_message": "Missing required value",
+      "result_severity": "http://www.w3.org/ns/shacl#Violation",
+      "example": {
+        "focus_node": "https://w3id.org/changes/4/aldrovandi/tsp/699745/03/1",
+        "value_node": null,
+        "result_path": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+        "source_shape": "Nc343a4c3c99b4bcb86bca27245da6416",
+        "source_constraint_component": "http://www.w3.org/ns/shacl#MinCountConstraintComponent",
+        "result_message": "Less than 1 values on <https://w3id.org/changes/4/aldrovandi/tsp/699745/03/1>-><http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin>",
+        "result_severity": "http://www.w3.org/ns/shacl#Violation"
+      }
+    }
+  ]
+}
